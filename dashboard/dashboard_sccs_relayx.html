@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RelayX — Dashboard SCCS Signaux Faibles</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface2: #334155;
+    --accent: #3b82f6;
+    --accent2: #8b5cf6;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --success: #22c55e;
+    --muted: #94a3b8;
+    --text: #f1f5f9;
+    --border: #475569;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .header {
+    background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 24px 32px;
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .header p { color: var(--muted); margin-top: 4px; font-size: 14px; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 24px; }
+
+  /* KPI Cards */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .kpi-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+  }
+  .kpi-card .value {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1;
+  }
+  .kpi-card .label {
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 8px;
+  }
+  .kpi-card.danger .value { color: var(--danger); }
+  .kpi-card.warning .value { color: var(--warning); }
+  .kpi-card.success .value { color: var(--success); }
+  .kpi-card.accent .value { color: var(--accent); }
+  .kpi-card.purple .value { color: var(--accent2); }
+
+  /* Chart Grid */
+  .chart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .chart-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--text);
+  }
+  .chart-card.full { grid-column: 1 / -1; }
+  .chart-container { position: relative; width: 100%; }
+
+  /* Table */
+  .table-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    overflow-x: auto;
+  }
+  .table-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th {
+    text-align: left;
+    padding: 10px 12px;
+    background: var(--surface2);
+    border-bottom: 2px solid var(--border);
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    position: sticky;
+    top: 0;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(71,85,105,0.5);
+    vertical-align: top;
+  }
+  tr:hover td { background: rgba(59,130,246,0.05); }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .badge-danger { background: rgba(239,68,68,0.2); color: #fca5a5; }
+  .badge-warning { background: rgba(245,158,11,0.2); color: #fcd34d; }
+  .badge-success { background: rgba(34,197,94,0.2); color: #86efac; }
+  .badge-muted { background: rgba(148,163,184,0.2); color: #cbd5e1; }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Filter */
+  .filter-bar {
+    display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; align-items: center;
+  }
+  .filter-bar label { color: var(--muted); font-size: 13px; font-weight: 600; }
+  .filter-bar select {
+    background: var(--surface2); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 12px; font-size: 13px;
+  }
+  .filter-bar input {
+    background: var(--surface2); color: var(--text); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 12px; font-size: 13px; width: 200px;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center; padding: 20px; color: var(--muted); font-size: 12px;
+    border-top: 1px solid var(--border); margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .chart-grid { grid-template-columns: 1fr; }
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>RelayX — Dashboard Signaux Faibles SCCS</h1>
+  <p>Analyse réglementaire cosmétique &bull; Scientific Committee on Consumer Safety &bull; 97 avis | 75 ingrédients | 2016–2026</p>
+</div>
+
+<div class="container">
+
+  <!-- KPI Cards -->
+  <div class="kpi-row">
+    <div class="kpi-card accent">
+      <div class="value">97</div>
+      <div class="label">Avis SCCS analysés</div>
+    </div>
+    <div class="kpi-card purple">
+      <div class="value">75</div>
+      <div class="label">Ingrédients distincts</div>
+    </div>
+    <div class="kpi-card danger">
+      <div class="value">18</div>
+      <div class="label">Avis "Not Safe"</div>
+    </div>
+    <div class="kpi-card warning">
+      <div class="value">27</div>
+      <div class="label">Restrictions recommandées</div>
+    </div>
+    <div class="kpi-card success">
+      <div class="value">32</div>
+      <div class="label">Avis "Safe"</div>
+    </div>
+    <div class="kpi-card">
+      <div class="value" style="color: var(--muted)">~24</div>
+      <div class="label">Mois médians Signal → Régulation</div>
+    </div>
+  </div>
+
+  <!-- Charts Row 1 -->
+  <div class="chart-grid">
+    <div class="chart-card">
+      <h3>Répartition des Verdicts</h3>
+      <div class="chart-container" style="max-width:320px;margin:0 auto">
+        <canvas id="verdictChart"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Répartition par Catégorie</h3>
+      <div class="chart-container" style="max-width:320px;margin:0 auto">
+        <canvas id="categoryChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row 2 -->
+  <div class="chart-grid">
+    <div class="chart-card full">
+      <h3>Tendances Temporelles — Avis Totaux vs. Négatifs par Année</h3>
+      <div class="chart-container">
+        <canvas id="timelineChart" height="80"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row 3 -->
+  <div class="chart-grid">
+    <div class="chart-card">
+      <h3>Top 10 — Ingrédients à Risque (avis négatifs)</h3>
+      <div class="chart-container">
+        <canvas id="riskChart" height="150"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Top 10 — Ingrédients les Plus Évalués</h3>
+      <div class="chart-container">
+        <canvas id="freqChart" height="150"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row 4 -->
+  <div class="chart-grid">
+    <div class="chart-card">
+      <h3>Proportion d'Avis Négatifs par Année (%)</h3>
+      <div class="chart-container">
+        <canvas id="negRatioChart" height="100"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Signal → Réglementation (cas documentés)</h3>
+      <div class="chart-container">
+        <canvas id="lagChart" height="100"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data Table -->
+  <div class="table-card">
+    <h3>Dataset Complet — Avis SCCS</h3>
+    <div class="filter-bar">
+      <label>Filtre :</label>
+      <select id="filterVerdict" onchange="filterTable()">
+        <option value="">Tous les verdicts</option>
+        <option value="Not Safe">Not Safe</option>
+        <option value="Restriction Recommandée">Restriction Recommandée</option>
+        <option value="Safe">Safe</option>
+        <option value="Données Insuffisantes">Données Insuffisantes</option>
+      </select>
+      <select id="filterCategory" onchange="filterTable()">
+        <option value="">Toutes catégories</option>
+        <option value="UV Filter">UV Filter</option>
+        <option value="Preservative">Preservative</option>
+        <option value="Hair Dye">Hair Dye</option>
+        <option value="Fragrance">Fragrance</option>
+        <option value="Nanomaterial">Nanomaterial</option>
+        <option value="Colorant">Colorant</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="text" id="filterSearch" placeholder="Rechercher un ingrédient..." oninput="filterTable()">
+    </div>
+    <div style="max-height: 500px; overflow-y: auto;">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Ingrédient</th>
+            <th>CAS/EC</th>
+            <th>SCCS N°</th>
+            <th>Date</th>
+            <th>Verdict</th>
+            <th>Concentration Max</th>
+            <th>Catégorie</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  RelayX Project — Analyse des Signaux Faibles SCCS &bull; Généré le 16 mars 2026 &bull; Sources : Commission Européenne DG SANTE
+</div>
+
+<script>
+// ============================================================
+// DATA
+// ============================================================
+const opinions = [{"Ingredient":"Silver (micron-sized particulate)","CAS_EC":"7440-22-4 / 231-131-3","SCCS_Number":"SCCS/1665/24","Date_Avis":"2024-06-20","Verdict":"Not Safe","Concentration_Max":"Not safe at 0.2% rinse-off / 0.3% leave-on; safe only in eye shadow and oral products","Lien_Source":"https://health.ec.europa.eu/publications/sccs-opinion-safety-silver-casec-no-7440-22-4231-131-3-used-cosmetic-products_en","Type_Rapport":"Final Opinion","Categorie":"Colorant"},{"Ingredient":"Methyl salicylate (children exposure - Revision)","CAS_EC":"119-36-8","SCCS_Number":"SCCS/1676/25","Date_Avis":"2025-04-30","Verdict":"Restriction Recommandée","Concentration_Max":"Max 0.4% in toothpaste, 0.02% in other products for children 0-3 years","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Fragrance"},{"Ingredient":"Acetylated Vetiver Oil (AVO) - Inhalation toxicity","CAS_EC":"84082-84-8 / 282-031-1","SCCS_Number":"SCCS/1663/24","Date_Avis":"2024-10-25","Verdict":"Restriction Recommandée","Concentration_Max":"Restrictions for sprayable products","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Fragrance"},{"Ingredient":"Hexyl Salicylate (children 0-3y addendum)","CAS_EC":"6259-76-3 / 228-408-6","SCCS_Number":"SCCS/1668/24","Date_Avis":"2024-10-25","Verdict":"Restriction Recommandée","Concentration_Max":"Restrictions for children 0-3 years","Lien_Source":"#","Type_Rapport":"Final Opinion (Addendum)","Categorie":"Fragrance"},{"Ingredient":"Citral (sensitisation)","CAS_EC":"5392-40-5 / 226-394-6","SCCS_Number":"SCCS/1666/24","Date_Avis":"2024-07-29","Verdict":"Restriction Recommandée","Concentration_Max":"Sensitisation endpoint restrictions","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Fragrance"},{"Ingredient":"Hexyl Salicylate","CAS_EC":"6259-76-3 / 228-408-6","SCCS_Number":"SCCS/1658/23","Date_Avis":"2024-02-28","Verdict":"Safe","Concentration_Max":"Safe at max conc. in Table 1","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Fragrance"},{"Ingredient":"Benzyl salicylate","CAS_EC":"118-58-1 / 204-262-9","SCCS_Number":"SCCS/1656/23","Date_Avis":"2023-10-26","Verdict":"Restriction Recommandée","Concentration_Max":"Sensitisation restrictions","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Fragrance"},{"Ingredient":"Methyl salicylate (children exposure)","CAS_EC":"119-36-8","SCCS_Number":"SCCS/1654/23","Date_Avis":"2023-09-14","Verdict":"Restriction Recommandée","Concentration_Max":"Max 0.4% toothpaste, 0.02% other (children 0-3y)","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Fragrance"},{"Ingredient":"Basic Brown 16 (C009)","CAS_EC":"26381-41-9 / 247-640-9","SCCS_Number":"SCCS/1684/25","Date_Avis":"2026-02-02","Verdict":"Données Insuffisantes","Concentration_Max":"N/A","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Hair Dye"},{"Ingredient":"Basic Blue 99 (C059)","CAS_EC":"68123-13-7 / 268-544-3","SCCS_Number":"SCCS/1683/25","Date_Avis":"2026-02-02","Verdict":"Données Insuffisantes","Concentration_Max":"N/A","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Hair Dye"},{"Ingredient":"HC Red No. 18 (B124)","CAS_EC":"1444596-49-9","SCCS_Number":"SCCS/1673/24","Date_Avis":"2025-01-22","Verdict":"Données Insuffisantes","Concentration_Max":"N/A","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Hair Dye"},{"Ingredient":"HC Yellow No. 16 (B123)","CAS_EC":"1184721-10-5","SCCS_Number":"SCCS/1670/24","Date_Avis":"2024-10-25","Verdict":"Données Insuffisantes","Concentration_Max":"N/A","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Hair Dye"},{"Ingredient":"Hydroxypropyl p-phenylenediamine (A165)","CAS_EC":"73793-79-0 / 827-723-1","SCCS_Number":"SCCS/1659/23","Date_Avis":"2024-02-28","Verdict":"Safe","Concentration_Max":"Safe under conditions of use","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Hair Dye"},{"Ingredient":"HC Blue 18 (B122)","CAS_EC":"N/A","SCCS_Number":"SCCS/1653/23","Date_Avis":"2023-04-27","Verdict":"Données Insuffisantes","Concentration_Max":"N/A","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Hair Dye"},{"Ingredient":"Sodium bromothymol blue (C186)","CAS_EC":"34722-90-2 / 252-169-7","SCCS_Number":"SCCS/1645/22","Date_Avis":"2023-03-22","Verdict":"Safe","Concentration_Max":"Safe under conditions of use","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Hair Dye"},{"Ingredient":"Hydroxyapatite (nano) - Sub IV","CAS_EC":"1306-06-5","SCCS_Number":"SCCS/1677/25","Date_Avis":"2025-06-26","Verdict":"Safe","Concentration_Max":"10% toothpaste, 0.465% mouthwash","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Nanomaterial"},{"Ingredient":"TiO2 (nano) - New coating","CAS_EC":"13463-67-7","SCCS_Number":"SCCS/1667/24","Date_Avis":"2024-10-25","Verdict":"Safe","Concentration_Max":"Safe with specified coatings","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Nanomaterial"},{"Ingredient":"Fullerenes (nano)","CAS_EC":"N/A","SCCS_Number":"SCCS/1649/23","Date_Avis":"2023-10-26","Verdict":"Données Insuffisantes","Concentration_Max":"N/A","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Nanomaterial"},{"Ingredient":"Hydroxyapatite (nano)","CAS_EC":"1306-06-5","SCCS_Number":"SCCS/1648/22","Date_Avis":"2023-03-22","Verdict":"Safe","Concentration_Max":"10% toothpaste, 0.465% mouthwash","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Nanomaterial"},{"Ingredient":"Thiomersal / Phenylmercuric salts","CAS_EC":"54-64-8 / 200-210-4","SCCS_Number":"SCCS/1686/25","Date_Avis":"2026-02-02","Verdict":"Not Safe","Concentration_Max":"Mercury-based - safety concerns","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"Preservative"},{"Ingredient":"Butylparaben (children)","CAS_EC":"94-26-8 / 202-318-7","SCCS_Number":"SCCS/1674/25","Date_Avis":"2025-04-30","Verdict":"Not Safe","Concentration_Max":"Not safe for children 0.5-10y at 0.14%","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Preservative"},{"Ingredient":"Biphenyl-2-ol / Na 2-biphenylolate","CAS_EC":"90-43-7 / 132-27-4","SCCS_Number":"SCCS/1669/24","Date_Avis":"2024-10-25","Verdict":"Restriction Recommandée","Concentration_Max":"Restrictions on use conditions","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Preservative"},{"Ingredient":"Silver Zinc Zeolite","CAS_EC":"130328-20-0","SCCS_Number":"SCCS/1650/23","Date_Avis":"2023-12-21","Verdict":"Données Insuffisantes","Concentration_Max":"N/A","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Preservative"},{"Ingredient":"Methylparaben","CAS_EC":"99-76-3 / 202-785-7","SCCS_Number":"SCCS/1652/23","Date_Avis":"2023-12-14","Verdict":"Safe","Concentration_Max":"0.4% alone, 0.8% mixtures","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Preservative"},{"Ingredient":"Butylparaben","CAS_EC":"94-26-8","SCCS_Number":"SCCS/1651/23","Date_Avis":"2023-10-26","Verdict":"Restriction Recommandée","Concentration_Max":"Safe up to 0.14% (as acid)","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Preservative"},{"Ingredient":"Triclocarban / Triclosan","CAS_EC":"101-20-2 / 3380-34-5","SCCS_Number":"SCCS/1643/22","Date_Avis":"2022-10-25","Verdict":"Not Safe","Concentration_Max":"Triclosan: 0.03% shower, 0.2% mouthwash","Lien_Source":"#","Type_Rapport":"Final Scientific Advice","Categorie":"Preservative"},{"Ingredient":"EHMC (Ethylhexyl Methoxycinnamate)","CAS_EC":"5466-77-3","SCCS_Number":"SCCS/1671/24","Date_Avis":"2025-06-26","Verdict":"Restriction Recommandée","Concentration_Max":"Max 10% in sunscreen/cream/spray","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"UV Filter"},{"Ingredient":"DHHB","CAS_EC":"302776-68-7","SCCS_Number":"SCCS/1678/25","Date_Avis":"2025-06-26","Verdict":"Restriction Recommandée","Concentration_Max":"10% with DnHexP impurity max 0.026%","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"UV Filter"},{"Ingredient":"Benzophenone-2 / BP-5","CAS_EC":"131-55-5","SCCS_Number":"SCCS/1679/25","Date_Avis":"2025-06-26","Verdict":"Not Safe","Concentration_Max":"Genotoxicity cannot be excluded","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"UV Filter"},{"Ingredient":"Benzophenone-1 (BP-1)","CAS_EC":"131-56-6","SCCS_Number":"SCCS/1672/24","Date_Avis":"2025-03-27","Verdict":"Not Safe","Concentration_Max":"Genotoxicity + ED concerns","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"UV Filter"},{"Ingredient":"TiO2 (non-nano)","CAS_EC":"13463-67-7","SCCS_Number":"SCCS/1661/23","Date_Avis":"2024-05-13","Verdict":"Restriction Recommandée","Concentration_Max":"Restrictions for certain applications","Lien_Source":"#","Type_Rapport":"Scientific Advice","Categorie":"UV Filter"},{"Ingredient":"Benzophenone-4 (BP-4)","CAS_EC":"4065-45-6","SCCS_Number":"SCCS/1660/23","Date_Avis":"2024-03-27","Verdict":"Restriction Recommandée","Concentration_Max":"Safe up to 5%","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"UV Filter"},{"Ingredient":"4-Methylbenzylidene Camphor (4-MBC)","CAS_EC":"36861-47-9","SCCS_Number":"SCCS/1639/21","Date_Avis":"2022-04-29","Verdict":"Not Safe","Concentration_Max":"BANNED (EU 2024/996)","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"UV Filter"},{"Ingredient":"Prostaglandin Analogues (MDN, IPCP, DDDE)","CAS_EC":"Multiple","SCCS_Number":"SCCS/1680/25","Date_Avis":"2026-02-02","Verdict":"Not Safe","Concentration_Max":"Concerns near eye area","Lien_Source":"#","Type_Rapport":"Scientific Opinion","Categorie":"Other"},{"Ingredient":"Tea Tree Oil","CAS_EC":"68647-73-4","SCCS_Number":"SCCS/1681/25","Date_Avis":"2025-10-30","Verdict":"Restriction Recommandée","Concentration_Max":"2% shampoo, 1% shower/face wash, 0.1% face cream","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Salicylic Acid (children)","CAS_EC":"69-72-7","SCCS_Number":"SCCS/1675/25","Date_Avis":"2025-04-30","Verdict":"Not Safe","Concentration_Max":"Not safe at 0.5% as preservative","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Aluminium (Submission IV)","CAS_EC":"Multiple","SCCS_Number":"SCCS/1662/23","Date_Avis":"2024-03-27","Verdict":"Restriction Recommandée","Concentration_Max":"6.25% non-spray deo, 10.60% spray","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Alpha-arbutin / Beta-arbutin","CAS_EC":"84380-01-8 / 497-76-7","SCCS_Number":"SCCS/1642/22","Date_Avis":"2023-01-31","Verdict":"Safe","Concentration_Max":"Alpha: 2% face, 0.5% body; Beta: 7% face","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Vitamin A (Retinol) - Revision","CAS_EC":"68-26-8","SCCS_Number":"SCCS/1639/21","Date_Avis":"2022-10-25","Verdict":"Restriction Recommandée","Concentration_Max":"0.05% body, 0.3% face/hand","Lien_Source":"#","Type_Rapport":"Revision Opinion","Categorie":"Other"},{"Ingredient":"Genistein / Daidzein","CAS_EC":"446-72-0 / 486-66-8","SCCS_Number":"SCCS/1641/22","Date_Avis":"2022-09-16","Verdict":"Restriction Recommandée","Concentration_Max":"Genistein: 0.007%; Daidzein: 0.02%","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Kojic Acid","CAS_EC":"501-30-4","SCCS_Number":"SCCS/1637/21","Date_Avis":"2022-03-16","Verdict":"Restriction Recommandée","Concentration_Max":"Max 0.7% (reduced from 1%)","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Prostaglandins (original)","CAS_EC":"Multiple","SCCS_Number":"SCCS/1635/21","Date_Avis":"2022-02-03","Verdict":"Not Safe","Concentration_Max":"Not safe in eyelash products","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Benzophenone-3 (BP-3)","CAS_EC":"131-57-7","SCCS_Number":"SCCS/1625/20","Date_Avis":"2021-03-31","Verdict":"Not Safe","Concentration_Max":"Not safe at 6%; safe at 2.2% sunscreen","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"UV Filter"},{"Ingredient":"Octocrylene","CAS_EC":"6197-30-4","SCCS_Number":"SCCS/1627/21","Date_Avis":"2021-03-31","Verdict":"Restriction Recommandée","Concentration_Max":"Max 10% (9% propellant spray)","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"UV Filter"},{"Ingredient":"Homosalate","CAS_EC":"118-56-9","SCCS_Number":"SCCS/1622/20","Date_Avis":"2021-06-25","Verdict":"Restriction Recommandée","Concentration_Max":"Max 7.34% (reduced from 10%)","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"UV Filter"},{"Ingredient":"Lilial (p-BMHCA)","CAS_EC":"80-54-6","SCCS_Number":"SCCS/1591/17","Date_Avis":"2019-05-10","Verdict":"Not Safe","Concentration_Max":"BANNED (March 2022)","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Fragrance"},{"Ingredient":"PHMB","CAS_EC":"32289-58-0","SCCS_Number":"SCCS/1581/16","Date_Avis":"2017-04-07","Verdict":"Not Safe","Concentration_Max":"Not safe at 0.3%; CMR - prohibited","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Preservative"},{"Ingredient":"Zinc Pyrithione","CAS_EC":"13463-41-7","SCCS_Number":"SCCS/1614/19","Date_Avis":"2020-03-04","Verdict":"Not Safe","Concentration_Max":"Not safe - CMR concerns","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Preservative"},{"Ingredient":"HEMA / Di-HEMA","CAS_EC":"868-77-9","SCCS_Number":"SCCS/1592/17","Date_Avis":"2018-06-22","Verdict":"Not Safe","Concentration_Max":"Sensitisation in nail products","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"Bisphenol A (clothing)","CAS_EC":"80-05-7","SCCS_Number":"SCCS/1620/20","Date_Avis":"2021-03-31","Verdict":"Not Safe","Concentration_Max":"ED concerns","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"TiO2 (inhalation)","CAS_EC":"13463-67-7","SCCS_Number":"SCCS/1617/20","Date_Avis":"2020-10-06","Verdict":"Not Safe","Concentration_Max":"Not safe for inhalation exposure","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Other"},{"Ingredient":"1,2,4-Trihydroxybenzene (A33)","CAS_EC":"533-73-3","SCCS_Number":"SCCS/1598/18","Date_Avis":"2019-06-21","Verdict":"Not Safe","Concentration_Max":"Genotoxicity concerns","Lien_Source":"#","Type_Rapport":"Final Opinion","Categorie":"Hair Dye"}];
+
+// ============================================================
+// CHARTS
+// ============================================================
+Chart.defaults.color = '#94a3b8';
+Chart.defaults.borderColor = 'rgba(71,85,105,0.3)';
+Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, sans-serif';
+
+// 1. Verdict Doughnut
+new Chart(document.getElementById('verdictChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Safe', 'Restriction Recommandée', 'Données Insuffisantes', 'Not Safe'],
+    datasets: [{
+      data: [32, 27, 20, 18],
+      backgroundColor: ['#22c55e', '#f59e0b', '#64748b', '#ef4444'],
+      borderWidth: 0
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 12, usePointStyle: true, pointStyleWidth: 10, font: { size: 11 } } }
+    }
+  }
+});
+
+// 2. Category Doughnut
+new Chart(document.getElementById('categoryChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Other', 'Hair Dye', 'Nanomaterial', 'Preservative', 'UV Filter', 'Fragrance', 'Colorant'],
+    datasets: [{
+      data: [24, 19, 14, 14, 13, 11, 2],
+      backgroundColor: ['#6366f1', '#ec4899', '#14b8a6', '#f97316', '#eab308', '#06b6d4', '#8b5cf6'],
+      borderWidth: 0
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 12, usePointStyle: true, pointStyleWidth: 10, font: { size: 11 } } }
+    }
+  }
+});
+
+// 3. Timeline
+const years = ['2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026'];
+const totalPerYear = [6,5,7,9,6,15,6,13,13,13,4];
+const negPerYear = [1,1,2,3,4,6,6,4,8,8,2];
+new Chart(document.getElementById('timelineChart'), {
+  type: 'bar',
+  data: {
+    labels: years,
+    datasets: [
+      { label: 'Total Avis', data: totalPerYear, backgroundColor: 'rgba(59,130,246,0.6)', borderColor: '#3b82f6', borderWidth: 1, borderRadius: 4 },
+      { label: 'Avis Négatifs (Not Safe + Restriction)', data: negPerYear, backgroundColor: 'rgba(239,68,68,0.6)', borderColor: '#ef4444', borderWidth: 1, borderRadius: 4 }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { position: 'top', labels: { usePointStyle: true, pointStyleWidth: 10 } } },
+    scales: { y: { beginAtZero: true, grid: { color: 'rgba(71,85,105,0.2)' } }, x: { grid: { display: false } } }
+  }
+});
+
+// 4. Top 10 Risk - Horizontal Bar
+const riskLabels = ['Methyl salicylate','Titanium Dioxide','Aluminium','Acetylated Vetiver Oil','Butylparaben','Vitamin A','Homosalate','Silver','Hexyl Salicylate','Citral'];
+const riskData = [3,3,3,2,2,2,2,1,1,1];
+new Chart(document.getElementById('riskChart'), {
+  type: 'bar',
+  data: {
+    labels: riskLabels,
+    datasets: [{ label: 'Avis négatifs', data: riskData, backgroundColor: 'rgba(239,68,68,0.7)', borderColor: '#ef4444', borderWidth: 1, borderRadius: 4 }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { x: { beginAtZero: true, grid: { color: 'rgba(71,85,105,0.2)' } }, y: { grid: { display: false } } }
+  }
+});
+
+// 5. Top 10 Frequency - Horizontal Bar
+const freqLabels = ['Titanium Dioxide','Methyl salicylate','Hydroxyapatite','Salicylic Acid','Aluminium','Silver','Acetylated Vetiver Oil','Hexyl Salicylate','Basic Blue 99','Hydroxypropyl p-PDA'];
+const freqData = [5,3,3,3,3,2,2,2,2,2];
+new Chart(document.getElementById('freqChart'), {
+  type: 'bar',
+  data: {
+    labels: freqLabels,
+    datasets: [{ label: 'Total avis', data: freqData, backgroundColor: 'rgba(139,92,246,0.7)', borderColor: '#8b5cf6', borderWidth: 1, borderRadius: 4 }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { x: { beginAtZero: true, grid: { color: 'rgba(71,85,105,0.2)' } }, y: { grid: { display: false } } }
+  }
+});
+
+// 6. Negative Ratio Line
+const negRatio = totalPerYear.map((t,i) => t > 0 ? Math.round(negPerYear[i] / t * 100) : 0);
+new Chart(document.getElementById('negRatioChart'), {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [{
+      label: '% Avis Négatifs',
+      data: negRatio,
+      borderColor: '#ef4444',
+      backgroundColor: 'rgba(239,68,68,0.1)',
+      fill: true,
+      tension: 0.3,
+      pointRadius: 5,
+      pointBackgroundColor: '#ef4444'
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' }, grid: { color: 'rgba(71,85,105,0.2)' } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// 7. Signal -> Regulation Lag
+const lagIngredients = ['4-MBC','Lilial','BP-3','Octocrylene','Nano (avg)'];
+const lagMonths = [24, 34, 16, 16, 54];
+new Chart(document.getElementById('lagChart'), {
+  type: 'bar',
+  data: {
+    labels: lagIngredients,
+    datasets: [{
+      label: 'Mois',
+      data: lagMonths,
+      backgroundColor: ['#f59e0b','#f59e0b','#22c55e','#22c55e','#ef4444'],
+      borderRadius: 4
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true, title: { display: true, text: 'Mois', color: '#94a3b8' }, grid: { color: 'rgba(71,85,105,0.2)' } }, x: { grid: { display: false } } }
+  }
+});
+
+// ============================================================
+// TABLE
+// ============================================================
+function getBadgeClass(verdict) {
+  if (verdict === 'Not Safe') return 'badge-danger';
+  if (verdict === 'Restriction Recommandée') return 'badge-warning';
+  if (verdict === 'Safe') return 'badge-success';
+  return 'badge-muted';
+}
+
+function renderTable(data) {
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = data.map(op => `
+    <tr>
+      <td><strong>${op.Ingredient}</strong></td>
+      <td style="font-size:11px;color:#94a3b8">${op.CAS_EC}</td>
+      <td style="font-family:monospace;font-size:12px">${op.SCCS_Number}</td>
+      <td>${op.Date_Avis}</td>
+      <td><span class="badge ${getBadgeClass(op.Verdict)}">${op.Verdict}</span></td>
+      <td style="font-size:12px;max-width:200px">${op.Concentration_Max}</td>
+      <td><span class="badge badge-muted">${op.Categorie}</span></td>
+      <td style="font-size:11px;color:#94a3b8">${op.Type_Rapport}</td>
+    </tr>
+  `).join('');
+}
+
+function filterTable() {
+  const v = document.getElementById('filterVerdict').value;
+  const c = document.getElementById('filterCategory').value;
+  const s = document.getElementById('filterSearch').value.toLowerCase();
+  let filtered = opinions;
+  if (v) filtered = filtered.filter(o => o.Verdict === v);
+  if (c) filtered = filtered.filter(o => o.Categorie === c);
+  if (s) filtered = filtered.filter(o => o.Ingredient.toLowerCase().includes(s));
+  renderTable(filtered);
+}
+
+// Initial render sorted by date desc
+opinions.sort((a, b) => b.Date_Avis.localeCompare(a.Date_Avis));
+renderTable(opinions);
+</script>
+</body>
+</html>
