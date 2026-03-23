@@ -1,0 +1,62 @@
+[
+  {
+    "Ingredient": "Basic Brown 16",
+    "CAS_EC": "26381-41-9 / 247-640-9",
+    "SCCS_Number": "SCCS/1684/25",
+    "Date_Avis": "2026-02-02",
+    "Verdict": "Not Safe",
+    "Concentration_Max": "2 % in non-oxidative hair dye formulations | 2%",
+    "Lien_Source": "https://health.ec.europa.eu/latest-updates/sccs-scientific-advice-hair-dye-basic-brown-16-c009-submission-v-ter-2026-02-10_en",
+    "Type_Rapport": "Scientific Advice",
+    "Categorie": "Colorant",
+    "_title": "SCCS - Scientific advice on hair dye ‘Basic Brown 16’ (C009) - Submission V ter.",
+    "_pdf_url": "https://health.ec.europa.eu/document/download/189b7e0f-5d91-4bea-ae82-7efdd8bae8d4_en?filename=sccs_o_305.pdf",
+    "_conclusion": "the SCCS considers that a concern for the potential of Basic Brown 16 (including the new batch VW230921A) to induce gene mutations and chromosomal aberrations remains.",
+    "_error": null
+  },
+  {
+    "Ingredient": "Basic blue 99",
+    "CAS_EC": "68123-13-7 / 268-544-3",
+    "SCCS_Number": "SCCS/1683/25",
+    "Date_Avis": "2026-02-02",
+    "Verdict": null,
+    "Concentration_Max": "1 % in non-oxidative hair dye formulations",
+    "Lien_Source": "https://health.ec.europa.eu/latest-updates/sccs-scientific-advice-hair-dye-basic-blue-99-c059-submissions-iv-v-2026-02-10_en",
+    "Type_Rapport": "Scientific Advice",
+    "Categorie": "Colorant",
+    "_title": "SCCS - Scientific advice on hair dye ‘Basic blue 99’ (C059) - Submissions IV & V",
+    "_pdf_url": "https://health.ec.europa.eu/document/download/10e3d810-e66f-4218-8690-8d01bd03cf20_en?filename=sccs_o_304.pdf",
+    "_conclusion": "ABSTRACT The SCCS concludes the following: (1) In light of the data provided, does the SCCS consider Basic Blue 99 safe, when used as an ingredient at 1 % in non-oxidative hair dye formulations?",
+    "_error": null
+  },
+  {
+    "Ingredient": "Thiomersal",
+    "CAS_EC": "54-64-8 / 200-210-4",
+    "SCCS_Number": "SCCS/1686/25",
+    "Date_Avis": "2026-02-02",
+    "Verdict": null,
+    "Concentration_Max": "7 µg/kg",
+    "Lien_Source": "https://health.ec.europa.eu/latest-updates/sccs-scientific-advice-safety-thiomersal-and-phenylmercuric-salts-preservatives-cosmetic-products-2026-02-10_en",
+    "Type_Rapport": "Scientific Advice",
+    "Categorie": "Preservative",
+    "_title": "SCCS - Scientific Advice on the safety of Thiomersal and Phenylmercuric salts as preservatives in cosmetic products",
+    "_pdf_url": "https://health.ec.europa.eu/document/download/a351b6bd-c164-416a-8ad4-1fa18a24780d_en?filename=sccs_o_308.pdf",
+    "_conclusion": "ABSTRACT The SCCS concludes the following: In light of technical and scientific progress and SCCS’ expert judgement and taking under consideration in particular the various health concerns, the SCCS is requested: (1) to identify and justify whether there are specific concerns regarding the current use of ‘Thiomersal’ and ‘Phenylmercuric salts’ as preservatives in cosmetic eye products; Considering that the Margin of Safety based on renal toxicity as the most sensitive endpoint is less than 100, and that genotoxicity evidence is unresolved, the use of ‘Thiomersal’ and ‘Phenylmercuric salts’ as preservatives in cosmetic eye products is not considered safe at the concentration levels currently permitted in cosmetic products.",
+    "_error": null
+  },
+  {
+    "Ingredient": "Silver",
+    "CAS_EC": "7440-22-4 / 231-131-3",
+    "SCCS_Number": "SCCS/1687/25",
+    "Date_Avis": "2025-12-17",
+    "Verdict": "Conditionally Safe",
+    "Concentration_Max": "0.2 %",
+    "Lien_Source": "https://health.ec.europa.eu/latest-updates/sccs-preliminary-opinion-open-comments-silver-used-cosmetic-products-deadline-23-february-2026-2025-12-18_en",
+    "Type_Rapport": "Final Opinion",
+    "Categorie": "Colorant",
+    "_title": "SCCS - Preliminary Opinion open for comments on Silver used in cosmetic products - Deadline: 23 February 2026",
+    "_pdf_url": "https://health.ec.europa.eu/document/download/fee553a1-d946-4ef3-9d8a-e45f325cbc3b_en?filename=sccs_o_309.pdf",
+    "_conclusion": "ABSTRACT 3 4 The SCCS concludes the following: 5 6 7 1.",
+    "_error": null
+  }
+]

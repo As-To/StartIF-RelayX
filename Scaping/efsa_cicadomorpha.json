@@ -1,0 +1,175 @@
+{
+  "ingredient": "Cicadomorpha",
+  "cas": "",
+  "openfoodtox": [],
+  "zenodo": [
+    {
+      "source": "Zenodo",
+      "record_id": "18695599",
+      "ingredient": "Cicadomorpha",
+      "title": "Database for the surveillance of non-EU Cicadomorpha, vectors of Xylella fastidiosa, in the EU",
+      "abstract": "<p>This database was prepared in the context of the EFSA mandate on plant pest surveillance (M-2020-0114), at the request of the European Commission.&nbsp;</p> <p>It provides open access to the available information on life cycle, native range, climate suitability, host plants, spread capacity and detection and identification methods of 48 non-EU Cicadomorpha taxa, known to be vectors of <em>Xylella fastidiosa</em> (Wells et al.), regulated as Union quarantine pests in Commission Implementing Regulation (EU) 2019/2072.&nbsp;</p> <p>This database is intended to be used in conjunction with the E",
+      "date": "2026-03-11",
+      "type": "Dataset",
+      "doi": "10.5281/zenodo.18695599",
+      "url": "https://doi.org/10.5281/zenodo.18695599",
+      "keywords": [
+        "host plants",
+        "surveillance",
+        "detection and delimiting surveys",
+        "target population"
+      ],
+      "authors": [
+        "Sanna, Francesco",
+        "salinari, francesca",
+        "Marini, Lorenzo"
+      ],
+      "files": [
+        {
+          "name": "Database_surveillance_non_EU_Cicadomorpha_v1.xlsx",
+          "size_kb": 382.9
+        }
+      ],
+      "conclusion": "unknown",
+      "relevance": 10
+    },
+    {
+      "source": "Zenodo",
+      "record_id": "830336",
+      "ingredient": "Cicadomorpha",
+      "title": "Scientific opinion on the distribution of hoppers (Hemiptera: cicadomorpha & Fulgoromorpha) on cereal crops and sunflower in Bulgaria – potential vectors of the regulated pathogen Xylella fastidiosa",
+      "abstract": "<p>Information on the species composition and abundance of hoppers (spittlebugs, leafhoppers, plant hoppers) on wheat, barley, triticale, corn and sunflower in three Bulgarian regions (Southwestern, Southeastern and Central Northern) was analyzed. In total, 55 hoppers species of six families were identified, of which 21 were pests on the respective crops. The hopper species established on each crop were classified in two groups - harmful and indifferent; then the group of harmful species was further split into permanent and non-permanent inhabitants. Тhe group of observed harmful hoppers inclu",
+      "date": "2016-01-01",
+      "type": "Report",
+      "doi": "10.5281/zenodo.830336",
+      "url": "https://doi.org/10.5281/zenodo.830336",
+      "keywords": [
+        "Bulgaria",
+        "Opinion",
+        "Hemiptera",
+        "Cicadomorpha",
+        "Fulgoromorpha",
+        "Philaenus spumarius",
+        "vectors",
+        "Xylella fastidiosa"
+      ],
+      "authors": [
+        "Karadjova, О.",
+        "Krusteva, Н."
+      ],
+      "files": [
+        {
+          "name": "Научно_становище_за_разпространението_на_цикадите_по_житните_култури_и_слънчогледа_в_България_и_видовете__потенциални__Olq_Karadjova.pdf",
+          "size_kb": 342.6
+        }
+      ],
+      "conclusion": "concern / risk identified",
+      "relevance": 2
+    },
+    {
+      "source": "Zenodo",
+      "record_id": "4680197",
+      "ingredient": "Cicadomorpha",
+      "title": "Efficiency of different trap types for the monitoring of Philaenus spumarius",
+      "abstract": "<p>The spittlebug <em>Philaenus spumarius</em> (Cicadomorpha: Aphrophoridae) is the principal vector of <em>Xylella fastidiosa</em> in Europe. Surveys on the occurrence and abundance of this and other spittlebug species are necessary for the identification of endangered crops and natural refugia, risk assessment, the development of prevention strategies, or decision support regarding control measures. Common monitoring techniques for insects comprise active sampling by sweep-netting as well as passive capturing using sticky-traps or pan-traps. The objective of this experiment was to compare th",
+      "date": "2021-04-19",
+      "type": "Poster",
+      "doi": "10.5281/zenodo.4680197",
+      "url": "https://doi.org/10.5281/zenodo.4680197",
+      "keywords": [
+        "plant health",
+        "xylella",
+        "spittlebugs",
+        "survey",
+        "vectors"
+      ],
+      "authors": [
+        "Markheiser Anna",
+        "Reinhard Lukas",
+        "Kröhner Dunja",
+        "Kappel Yvonne",
+        "Maixner Michael"
+      ],
+      "files": [
+        {
+          "name": "4680197_markheiser_xylella21.pdf",
+          "size_kb": 867.4
+        }
+      ],
+      "conclusion": "concern / risk identified",
+      "relevance": 2
+    },
+    {
+      "source": "Zenodo",
+      "record_id": "4680648",
+      "ingredient": "Cicadomorpha",
+      "title": "Relative efficacy of different colour sticky traps for the capture of vectors of Xylella fastidiosa",
+      "abstract": "<p><em>Xylella fastidiosa</em> is one of the main quarantine pathogens of the European Union that is transmitted by xylem-feeder insects (i.e. Cicadomorpha). This bacterium affects plant species of great economic importance such as almond, olive , and vine, among others. During 2020 we conducted a trial in Mallorca (Balearic Islands; Spain) to study the efficacy of colour sticky traps to capture spittle bugs (Aphrophoridae) which are considered major vectors of <em>X. fastidiosa</em> in the EU. Samplings were carried out weekly, from June to December 2020 in three plots: one almond orchard, on",
+      "date": "2021-04-19",
+      "type": "Poster",
+      "doi": "10.5281/zenodo.4680648",
+      "url": "https://doi.org/10.5281/zenodo.4680648",
+      "keywords": [
+        "plant health",
+        "xylella"
+      ],
+      "authors": [
+        "Mercadal Pau",
+        "López-Mercadal Júlia",
+        "Miranda Miguel Angel"
+      ],
+      "files": [
+        {
+          "name": "4680648_mercadal_xylella21.pdf",
+          "size_kb": 516.1
+        }
+      ],
+      "conclusion": "unknown",
+      "relevance": 0
+    },
+    {
+      "source": "Zenodo",
+      "record_id": "4679747",
+      "ingredient": "Cicadomorpha",
+      "title": "Identification and monitoring of Xylella fastidiosa potential vectors on modern olive orchard",
+      "abstract": "<p>The knowledge of <em>Xylella&nbsp;fastidiosa</em> potential vectors is important for control the spread of the disease. Until now, in Europe, have been identified, as potential vectors of <em>X. fastidiosa</em>, insects belong to two large families. <em>Philaenus spumarius</em> and <em>Neophilaenus campestris</em> are the main <em>X. fastidiosa</em> vectors from Aphrophoridae family. Both are characterized by the presence of a comb-like pattern along the tibias and posterior tarsus. <em>Cicadella viridis</em> (L.) (Cicadellidae family) was also identified as a <em>X. fastidiosa </em>potenti",
+      "date": "2021-04-19",
+      "type": "Poster",
+      "doi": "10.5281/zenodo.4679747",
+      "url": "https://doi.org/10.5281/zenodo.4679747",
+      "keywords": [
+        "plant health",
+        "xylella",
+        "morphology",
+        "potential vectors"
+      ],
+      "authors": [
+        "Lamarosa Ana Sofia Miguens",
+        "Patanita Maria"
+      ],
+      "files": [
+        {
+          "name": "4679747_lamarosa_xylella21.pdf",
+          "size_kb": 536.6
+        }
+      ],
+      "conclusion": "unknown",
+      "relevance": 0
+    }
+  ],
+  "summary": {
+    "ingredient": "Cicadomorpha",
+    "cas": "",
+    "dominant_conclusion": "concern / risk identified",
+    "latest_date": "2026-03-11",
+    "document_types": [
+      "Report",
+      "Dataset",
+      "Poster"
+    ],
+    "nb_zenodo": 5,
+    "nb_oft_substances": 0,
+    "ref_values": [],
+    "genotox_data": []
+  }
+}
