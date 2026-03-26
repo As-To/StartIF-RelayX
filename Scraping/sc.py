@@ -1,33 +1,3 @@
-"""
-SCCS Bulk Scraper — v8
-=======================
-Corrections majeures vs v6 :
-
-  INGREDIENT
-    - 8 nouveaux patterns titre couvrant les cas sans guillemets / sans mot-clé
-    - Nettoyage post-extraction : suppression des trailers parasites
-    - Fallback PDF : normalisation des tirets longs (–/—/\u2013/\u2014)
-
-  VERDICT
-    - CONCLUSIONS (avec S) ajouté dans SECTION_ANCHORS
-    - Ordre d'évaluation strict : NEG > COND > POS *par phrase*,
-      mais aussi vérification que la phrase est assez longue (> 15 chars)
-      pour éviter les faux positifs sur du boilerplate court
-    - Nouveau pattern négatif : "safety cannot be assured"
-    - Correction du faux positif "safe up to X% but not safe for Y"
-      → la phrase est d'abord testée NEG avant COND
-
-  CONCENTRATION_MAX
-    - Capture nettoyée : stop au premier point/virgule après la valeur
-    - Support multi-produits : extrait *toutes* les occurrences dans
-      une phrase et les concatène (ex: "1% rinse-off, 0.5% leave-on")
-    - Pattern dédié pour "X% when used as/in [product type]"
-    - Déduplication et tri des valeurs trouvées par score
-
-Dépendances :
-  pip install requests playwright pdfplumber beautifulsoup4
-  playwright install chromium
-"""
 
 import re
 import sys
