@@ -24,8 +24,8 @@ SUBSTANCES = [
     "tocopherol"
 ]
 
-# Fichier de sortie
-OUTPUT_FILE = "sccs_results.csv"
+# Fichier de sortie (JSON par défaut)
+OUTPUT_FILE = "cosing_results.json"
 
 # ============================================================================
 # SCRIPT - NE PAS MODIFIER
@@ -108,21 +108,22 @@ if __name__ == "__main__":
     finally:
         scraper.close()
     
-    # Sauvegarder les résultats dans un CSV
-    df = pd.DataFrame(results)
-    df.to_csv(OUTPUT_FILE, index=False, encoding='utf-8-sig')
-    
+    # Sauvegarder les résultats dans un JSON
+    import json
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
     # Résumé
     print()
     print("=" * 80)
     print("RÉSUMÉ")
     print("=" * 80)
-    print(f"✅ Total traité : {len(df)}")
-    print(f"🔗 Avec URL SCCS : {df['Has_SCCS_URL'].sum()}")
-    print(f"⚪ Sans SCCS : {len(df) - df['SCCS_Opinion'].astype(bool).sum()}")
+    print(f"✅ Total traité : {len(results)}")
+    print(f"🔗 Avec URL SCCS : {sum(1 for r in results if r.get('Has_SCCS_URL'))}")
+    print(f"⚪ Sans SCCS : {sum(1 for r in results if not r.get('SCCS_Opinion'))}")
     print(f"💾 Fichier créé : {OUTPUT_FILE}")
     print("=" * 80)
     print()
-    print("💡 Ouvrez le fichier CSV avec Excel pour voir tous les détails")
-    print("💡 Les URLs SCCS sont cliquables directement dans Excel")
+    print("💡 Ouvrez le fichier JSON avec un éditeur ou Excel pour voir tous les détails")
+    print("💡 Les URLs SCCS sont cliquables dans certains outils (ex: Excel, navigateur)")
     print("=" * 80)
