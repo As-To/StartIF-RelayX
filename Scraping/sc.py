@@ -1,3 +1,33 @@
+"""
+SCCS Bulk Scraper — v8
+=======================
+Corrections majeures vs v6 :
+
+  INGREDIENT
+    - 8 nouveaux patterns titre couvrant les cas sans guillemets / sans mot-clé
+    - Nettoyage post-extraction : suppression des trailers parasites
+    - Fallback PDF : normalisation des tirets longs (–/—/\u2013/\u2014)
+
+  VERDICT
+    - CONCLUSIONS (avec S) ajouté dans SECTION_ANCHORS
+    - Ordre d'évaluation strict : NEG > COND > POS *par phrase*,
+      mais aussi vérification que la phrase est assez longue (> 15 chars)
+      pour éviter les faux positifs sur du boilerplate court
+    - Nouveau pattern négatif : "safety cannot be assured"
+    - Correction du faux positif "safe up to X% but not safe for Y"
+      → la phrase est d'abord testée NEG avant COND
+
+  CONCENTRATION_MAX
+    - Capture nettoyée : stop au premier point/virgule après la valeur
+    - Support multi-produits : extrait *toutes* les occurrences dans
+      une phrase et les concatène (ex: "1% rinse-off, 0.5% leave-on")
+    - Pattern dédié pour "X% when used as/in [product type]"
+    - Déduplication et tri des valeurs trouvées par score
+
+Dépendances :
+  pip install requests playwright pdfplumber beautifulsoup4
+  playwright install chromium
+"""
 
 import re
 import sys
@@ -83,13 +113,14 @@ def is_sccs(title, url):
     return False
 
 DOC_TYPES = [
+    ("Request",           re.compile(r"\brequest\s+for\s+(?:a\s+)?scientific\b", re.I)),
     ("Addendum",          re.compile(r"\baddendum\b", re.I)),
     ("Scientific Advice", re.compile(r"\bscientific\s+advice\b", re.I)),
     ("Final Opinion",     re.compile(
         r"\bfinal\s+opinion\b|\bopinion\s+on\b|\bscientific\s+opinion\b"
-        r"|\bpreliminary\s+opinion\b|\brequest\s+for\s+a\s+scientific\b",
-        re.I)),
+        r"|\bpreliminary\s+opinion\b", re.I)),
 ]
+
 
 def detect_doc_type(title, url=""):
     for dtype, pat in DOC_TYPES:
@@ -137,7 +168,7 @@ def collect_articles_playwright(max_pages):
                 if not is_sccs(a["title"], a["url"]):
                     continue
                 dt = detect_doc_type(a["title"], a["url"])
-                if dt:
+                if dt and dt != "Request":
                     a["doc_type"] = dt
                     kept.append(a)
             articles.extend(kept)
@@ -175,27 +206,70 @@ SECTION_ANCHORS = {
     "SUMMARY":     [r"\bSUMMARY\b"],
 }
 
-def pdf_to_text(pdf_bytes):
+# ── Détection des lignes de table des matières ──────────────────────────────
+
+def _is_toc_hit(full: str, match_end: int) -> bool:
+    """
+    Retourne True si l'occurrence matchée est une ligne de table des matières.
+    Heuristiques sur les 150 chars qui suivent le mot-clé :
+      1. Présence de ".....\d"  → motif ToC classique
+      2. Juste un numéro de page isolé (ex: "  4" ou " 12")
+      3. La ligne contient "\.{2,}.*\d{1,3}" (points de suite + numéro)
+    """
+    snippet = full[match_end : match_end + 150]
+    if re.search(r"\.{3,}\s*\d{1,3}", snippet):
+        return True
+    if re.match(r"\s{0,8}\d{1,3}\s", snippet):
+        return True
+    return False
+
+
+def pdf_to_text(pdf_bytes: bytes) -> str:
+    """
+    Extrait le texte page par page.
+    Les pages sont jointes avec \f (form-feed) pour conserver
+    la trace des sauts de page — utile pour _is_toc_hit.
+    """
     pages = []
     with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
         for p in pdf.pages:
             raw = p.extract_text(x_tolerance=2, y_tolerance=3) or ""
             pages.append(clean(raw))
-    return " ".join(pages)
+    return "\f".join(pages)
 
-def extract_sections(full):
+
+def extract_sections(full: str) -> dict:
+    """
+    Découpe le texte PDF en sections nommées.
+
+    Corrections vs v7 :
+      - Ignore toutes les occurrences situées dans la table des matières
+        (détectées par _is_toc_hit).
+      - Fenêtre de contenu élargie à 5 000 chars (au lieu de 2 500).
+      - Nettoyage des marqueurs \f (saut de page) dans le contenu.
+    """
     hits = []
     for name, pats in SECTION_ANCHORS.items():
         for pat in pats:
             for m in re.finditer(pat, full, re.IGNORECASE):
+                if _is_toc_hit(full, m.end()):
+                    continue   # ← saute les lignes de ToC
                 hits.append((m.start(), name, m.end()))
+
     hits.sort(key=lambda x: x[0])
-    sections = {}
+
+    sections: dict = {}
     for idx, (_, name, end) in enumerate(hits):
-        nxt     = hits[idx + 1][0] if idx + 1 < len(hits) else end + 2500
-        content = clean(full[end:min(nxt, end + 2500)])
+        # nxt = hits[idx + 1][0] if idx + 1 < len(hits) else end + 5000
+        # raw = full[end : min(nxt, end + 5000)]
+        nxt = hits[idx + 1][0] if idx + 1 < len(hits) else len(full)
+        raw = full[end : nxt]
+        # Supprime les marqueurs de saut de page et renormalise
+        content = clean(raw.replace("\f", " "))
+        # Garde la version la plus longue si plusieurs hits pour le même nom
         if name not in sections or len(content) > len(sections[name]):
             sections[name] = content
+
     return sections
 
 # ──────────────────────────────────────────────────────────────
@@ -581,13 +655,13 @@ CATEGORY_MAP = [
     (re.compile(r"\bUV\s*filter\b|\bsunscreen\b|\bUV\s*absorber\b",                 re.I), "UV Filter"),
     (re.compile(r"\bfragrance\b|\bparfum\b|\baromatic\b",                            re.I), "Fragrance"),
     (re.compile(r"\bsurfactant\b|\bdetergent\b|\bcleansing\b",                       re.I), "Surfactant"),
-    (re.compile(r"\bemollient\b|\bmoisturi[sz]er\b|\bhumectant\b|\bskin\s*condit",   re.I), "Emollient/Moisturiser"),
+    (re.compile(r"\bemollient\b|\bmoisturi[sz]er\b|\bhumectant\b|\bskin\s*condit",   re.I), "Emollient-Moisturiser"),
     (re.compile(r"\bantioxidant\b|\bfree\s*radical\b",                               re.I), "Antioxidant"),
     (re.compile(r"\bnano\b|\bnanoparticle\b|\bnanomaterial\b",                       re.I), "Nanomaterial"),
     (re.compile(r"\bhair\s*dye\b|\bhair\s*colour\b",                                 re.I), "Hair Dye"),
     (re.compile(r"\bskin\s*lightening\b|\bbleaching\b|\bdepigment",                  re.I), "Skin Lightening"),
     (re.compile(r"\bplant\s*extract\b|\bherbal\b|\bbotanical\b",                     re.I), "Plant Extract"),
-    (re.compile(r"\bvitamin\b|\bretinol\b|\bretinoid\b|\bascorbic\b",                re.I), "Vitamin/Active"),
+    (re.compile(r"\bvitamin\b|\bretinol\b|\bretinoid\b|\bascorbic\b",                re.I), "Vitamin-Active"),
     (re.compile(r"\bessential\s*oil\b|\baromatherapy\b",                             re.I), "Essential Oil"),
 ]
 
@@ -664,15 +738,17 @@ def scrape_article(article_url, doc_type, title=""):
         "Lien_Source":     article_url,
         "Type_Rapport":    doc_type,
         "Categorie":       None,
-        "_title":          title,
+        ##"_title":          title,
         "_pdf_url":        None,
         "_conclusion":     None,
-        "_error":          None,
+        "Conclusion_all_text": None,
+        "Abstract_all_text": None,
+        ##"_error":          None,
     }
     try:
         pdf_url = get_pdf_url(article_url)
         if not pdf_url:
-            row["_error"] = "No PDF found"
+            #row["_error"] = "No PDF found"
             log.warning(f"    ⚠ Pas de PDF : {article_url}")
             return row
         row["_pdf_url"] = pdf_url
@@ -688,13 +764,15 @@ def scrape_article(article_url, doc_type, title=""):
         row["Concentration_Max"] = extract_concentration(sections, full)
         row["Categorie"]         = extract_category(full)
         row["_conclusion"]       = extract_conclusion(sections, full)
+        row["Conclusion_all_text"] = sections.get("CONCLUSION", "")
+        row["Abstract_all_text"]   = sections.get("ABSTRACT", "")
 
         log.info(
             f"    ✓ {row['Ingredient'] or '?'} | "
             f"{row['Verdict'] or '?'} | {row['Concentration_Max'] or '?'}"
         )
     except Exception as e:
-        row["_error"] = str(e)
+        #row["_error"] = str(e)
         log.error(f"    ✗ {article_url} : {e}")
     return row
 
@@ -784,7 +862,7 @@ def main():
     for r in results:
         v = r.get("Verdict") or "Unknown"
         verdicts[v] = verdicts.get(v, 0) + 1
-    log.info(f"  Erreurs  : {sum(1 for r in results if r.get('_error'))}/{len(results)}")
+    #log.info(f"  Erreurs  : {sum(1 for r in results if r.get('_error'))}/{len(results)}")
     log.info(f"  Verdicts : {verdicts}")
 
 
