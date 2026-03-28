@@ -57,15 +57,14 @@ class CosIngScraper:
         """
         if not self.headless:
             print(f"🔍 Recherche de '{name}'...")
-        
         try:
+            # Vider les cookies pour éviter le cache/session
+            self.driver.delete_all_cookies()
             # Aller sur la page principale
             self.driver.get(self.base_url)
             time.sleep(3)  # Attendre le chargement complet du JS
-            
             # Stratégie 1: Trouver n'importe quel champ input de type text
             search_input = None
-            
             # Essayer plusieurs méthodes pour trouver le champ
             strategies = [
                 # Par attributs
@@ -393,51 +392,57 @@ class CosIngScraper:
                     title = soup.find('h2')
                 if title:
                     data['INCI_Name'] = title.get_text(strip=True)
-            
+                # Ajout log debug si rien trouvé
+                print("[DEBUG CosIng] Aucun champ clé trouvé pour cette page. Dump HTML ci-dessous:")
+                print(page_text[:2000])  # Limite à 2000 caractères pour éviter trop de spam
+            print(f"[DEBUG CosIng] Dictionnaire extrait : {data}")
             return data
-            
         except Exception as e:
             print(f"  ⚠️  Erreur extraction: {e}")
             return data
     
-    def get_ingredient_info(self, name: str) -> Dict:
-        """Récupère toutes les infos d'un ingrédient."""
+    def get_ingredient_info(self, name: str, cas: str = None, ec: str = None) -> Dict:
+        """Récupère toutes les infos d'un ingrédient en testant CAS, EC, puis nom (fuzzy si besoin)."""
+        tried = []
+        # 1. Essayer CAS puis EC
+        for label, val in [('CAS', cas), ('EC', ec)]:
+            if val and val not in tried:
+                if not self.headless:
+                    print(f"\nRecherche CosIng par {label}: {val}")
+                found = self.search_ingredient(val)
+                if found:
+                    time.sleep(1)
+                    data = self.extract_detail_table()
+                    data['cosing_search_type'] = label
+                    data['cosing_search_value'] = val
+                    print(f"[DEBUG CosIng] Résultat stocké pour {label}={val} : {data}")
+                    if data.get('INCI_Name') or data.get('CAS'):
+                        if not self.headless:
+                            print(f"  ✅ {data.get('INCI_Name', val)}")
+                        return data
+                tried.append(val)
+        # 2. Si rien trouvé, recherche fuzzy sur le nom
+        import difflib
+        # On tente de récupérer la liste des suggestions CosIng pour le nom
         if not self.headless:
-            print(f"\nIngrédient: {name}")
-        
-        # 1. Rechercher et accéder à la page de détails
+            print(f"\nRecherche CosIng fuzzy pour le nom: {name}")
         found = self.search_ingredient(name)
-        
-        if not found:
-            if not self.headless:
-                print(f"  ❌ Non trouvé")
-            return {'error': f'Ingrédient "{name}" non trouvé dans CosIng'}
-        
-        time.sleep(1)
-        
-        # 2. Extraire les données
-        data = self.extract_detail_table()
-        
-        if not data.get('INCI_Name') and not data.get('CAS'):
-            if not self.headless:
-                print(f"  ❌ Extraction échouée")
-            return {'error': 'Impossible d\'extraire les données'}
-        
+        if found:
+            time.sleep(1)
+            data = self.extract_detail_table()
+            # On compare le nom trouvé au nom SCCS
+            nom_cosing = data.get('INCI_Name', '')
+            ratio = difflib.SequenceMatcher(None, name.lower(), nom_cosing.lower()).ratio() if nom_cosing else 0
+            data['cosing_search_type'] = 'fuzzy_name'
+            data['cosing_search_value'] = nom_cosing
+            data['cosing_name_similarity'] = ratio
+            print(f"[DEBUG CosIng] Résultat fuzzy pour nom={name} : {data}")
+            if nom_cosing:
+                return data
+        # Si rien trouvé du tout
         if not self.headless:
-            print(f"  ✅ {data.get('INCI_Name', name)}")
-            print(f"     INCI: {data.get('INCI_Name', 'N/A')}")
-            print(f"     CAS: {data.get('CAS', 'N/A')}")
-            if data.get('Function'):
-                print(f"     Function: {data.get('Function')[:50]}")
-            if data.get('SCCS_Opinion'):
-                sccs = data.get('SCCS_Opinion')
-                if sccs.startswith('http'):
-                    print(f"     SCCS Opinion: ✅ Lien trouvé")
-                    print(f"     URL: {sccs}")
-                else:
-                    print(f"     SCCS Opinion: {sccs}")
-        
-        return data
+            print(f"  ❌ Non trouvé (CAS/EC/nom)")
+        return {'error': f'Ingrédient "{name}" non trouvé dans CosIng (CAS/EC/nom)'}
     
     def close(self):
         """Ferme le navigateur."""

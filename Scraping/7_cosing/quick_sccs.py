@@ -17,11 +17,12 @@ import time
 
 # Liste des substances à vérifier
 SUBSTANCES = [
-    "retinol",
-    "titanium dioxide", 
-    "zinc oxide",
-    "glycerin",
-    "tocopherol"
+    # "retinol",
+    # "titanium dioxide", 
+    # "zinc oxide",
+    # "glycerin",
+    # "tocopherol", 
+    "Basic Brown 16"
 ]
 
 # Fichier de sortie (JSON par défaut)

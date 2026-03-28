@@ -1,0 +1,50 @@
+{
+  "Basic Brown 16": {
+    "ingredient_query": "Basic Brown 16",
+    "cas_query": "26381-41-9",
+    "ec_query": "247-640-9",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Basic Brown 16\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"26381-41-9\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Basic blue 99": {
+    "ingredient_query": "Basic blue 99",
+    "cas_query": "68123-13-7",
+    "ec_query": "268-544-3",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Basic blue 99\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"68123-13-7\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Thiomersal": {
+    "ingredient_query": "Thiomersal",
+    "cas_query": "54-64-8",
+    "ec_query": "200-210-4",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Thiomersal\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"54-64-8\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Silver": {
+    "ingredient_query": "Silver",
+    "cas_query": "7440-22-4",
+    "ec_query": "231-131-3",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Silver\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"7440-22-4\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  }
+}
