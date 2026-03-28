@@ -46,5 +46,607 @@
     "cosing_raw_result": {
       "error": "Ingrédient \"7440-22-4\" non trouvé dans CosIng (CAS/EC/nom)"
     }
+  },
+  "Genotoxicity Data was provided by the Applicant": {
+    "ingredient_query": "Genotoxicity Data was provided by the Applicant",
+    "cas_query": "26381-41-9",
+    "ec_query": "247-640-9",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Genotoxicity Data was provided by the Applicant\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"26381-41-9\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Scientific advice open for comments on Butylated Hydroxyanisole": {
+    "ingredient_query": "Scientific advice open for comments on Butylated Hydroxyanisole",
+    "cas_query": "25013-16-5",
+    "ec_query": "246-563-8",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Scientific advice open for comments on Butylated Hydroxyanisole\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"25013-16-5\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Basic Blue 99 will require a clear well": {
+    "ingredient_query": "Basic Blue 99 will require a clear well",
+    "cas_query": "68123-13-7",
+    "ec_query": "268-544-3",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Basic Blue 99 will require a clear well\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"68123-13-7\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Hydroxyapatite (nano": {
+    "ingredient_query": "Hydroxyapatite (nano",
+    "cas_query": null,
+    "ec_query": "215-145-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Hydroxyapatite (nano\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"215-145-7\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Final Scientific Advice on Benzophenone": {
+    "ingredient_query": "Final Scientific Advice on Benzophenone",
+    "cas_query": "131-55-5",
+    "ec_query": "205-028-9",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Final Scientific Advice on Benzophenone\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"131-55-5\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Diethylamino Hydroxybenzoyl Hexyl Benzoate": {
+    "ingredient_query": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+    "cas_query": "302776-68-7",
+    "ec_query": "443-860-6",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Diethylamino Hydroxybenzoyl Hexyl Benzoate\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"302776-68-7\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Ethylhexyl Methoxycinnamate (EHMC": {
+    "ingredient_query": "Ethylhexyl Methoxycinnamate (EHMC",
+    "cas_query": "5466-77-3",
+    "ec_query": "226-775-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Ethylhexyl Methoxycinnamate (EHMC\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"5466-77-3\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "the PGAs are given in the section 8": {
+    "ingredient_query": "the PGAs are given in the section 8",
+    "cas_query": "155206-01-2",
+    "ec_query": "682-025-2",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"the PGAs are given in the section 8\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"155206-01-2\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "TTO for the environment": {
+    "ingredient_query": "TTO for the environment",
+    "cas_query": "68647-73-4",
+    "ec_query": "285-377-1",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"TTO for the environment\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"68647-73-4\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Benzophenone": {
+    "ingredient_query": "Benzophenone",
+    "cas_query": "4065-45-6",
+    "ec_query": "223-772-2",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Benzophenone\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"4065-45-6\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on Hydroxyapatite": {
+    "ingredient_query": "Preliminary Opinion open for comments on Hydroxyapatite",
+    "cas_query": null,
+    "ec_query": "215-145-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on Hydroxyapatite\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"215-145-7\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Red No": {
+    "ingredient_query": "Red No",
+    "cas_query": "1444596-49-9",
+    "ec_query": null,
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Red No\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"1444596-49-9\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Methyl Salicylate for the environment": {
+    "ingredient_query": "Methyl Salicylate for the environment",
+    "cas_query": "119-36-8",
+    "ec_query": "204-317-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Methyl Salicylate for the environment\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"119-36-8\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Hexyl Salicylate": {
+    "ingredient_query": "Hexyl Salicylate",
+    "cas_query": "6259-76-3",
+    "ec_query": "228-408-6",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Hexyl Salicylate\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"6259-76-3\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "EHMC for the environment": {
+    "ingredient_query": "EHMC for the environment",
+    "cas_query": "5466-77-3",
+    "ec_query": "226-775-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"EHMC for the environment\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"5466-77-3\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on Benzophenone": {
+    "ingredient_query": "Preliminary Opinion open for comments on Benzophenone",
+    "cas_query": "4065-45-6",
+    "ec_query": "223-772-2",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on Benzophenone\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"4065-45-6\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Citral": {
+    "ingredient_query": "Citral",
+    "cas_query": "5392-40-5",
+    "ec_query": "226-394-6",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Citral\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"5392-40-5\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Scientific Opinion open for comments on Biphenyl": {
+    "ingredient_query": "Scientific Opinion open for comments on Biphenyl",
+    "cas_query": "90-43-7",
+    "ec_query": "201-993-5",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Scientific Opinion open for comments on Biphenyl\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"90-43-7\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Yellow No": {
+    "ingredient_query": "Yellow No",
+    "cas_query": "1184721-10-5",
+    "ec_query": null,
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Yellow No\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"1184721-10-5\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on new coating for Titanium Dioxide": {
+    "ingredient_query": "Preliminary Opinion open for comments on new coating for Titanium Dioxide",
+    "cas_query": "30364-51-3",
+    "ec_query": "250-151-3",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on new coating for Titanium Dioxide\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"30364-51-3\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "aluminium": {
+    "ingredient_query": "aluminium",
+    "cas_query": null,
+    "ec_query": null,
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"aluminium\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"aluminium\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on Citral": {
+    "ingredient_query": "Preliminary Opinion open for comments on Citral",
+    "cas_query": "5392-40-5",
+    "ec_query": "226-394-6",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on Citral\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"5392-40-5\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on Triphenyl phosphate": {
+    "ingredient_query": "Preliminary Opinion open for comments on Triphenyl phosphate",
+    "cas_query": "115-86-6",
+    "ec_query": "204-112-2",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on Triphenyl phosphate\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"115-86-6\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Hydroxypropyl p": {
+    "ingredient_query": "Hydroxypropyl p",
+    "cas_query": "73793-79-0",
+    "ec_query": "827-723-1",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Hydroxypropyl p\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"73793-79-0\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "these values in preference to those by the other authors": {
+    "ingredient_query": "these values in preference to those by the other authors",
+    "cas_query": "84082-84-8",
+    "ec_query": "282-031-1",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"these values in preference to those by the other authors\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"84082-84-8\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Methylparaben": {
+    "ingredient_query": "Methylparaben",
+    "cas_query": "99-76-3",
+    "ec_query": "202-785-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Methylparaben\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"99-76-3\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Hexyl Salicylate for the environment": {
+    "ingredient_query": "Hexyl Salicylate for the environment",
+    "cas_query": "6259-76-3",
+    "ec_query": "228-408-6",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Hexyl Salicylate for the environment\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"6259-76-3\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "these materials for use": {
+    "ingredient_query": "these materials for use",
+    "cas_query": "99685-96-8",
+    "ec_query": "628-630-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"these materials for use\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"99685-96-8\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "water": {
+    "INCI_Name": "WATER",
+    "CAS": "7732-18-5",
+    "EC": "231-791-2",
+    "EINECS": "",
+    "Chemical_Name": "",
+    "INN_Name": "",
+    "Pharmacopeia_Name": "",
+    "Description": "",
+    "Function": "WATER  Fermer  Export file is being prepared and will be automatically downloaded to your computer when ready.  Fermer  Export file has been downloaded to your computer.  PDF INCI Name  WATER  Description   CAS #  7732-18-5  EC #  231-791-2 (I)  Identified INGREDIENTS or substances e.g.  Cosmetics Regulation provisions   Functions ANTIPLAQUESKIN CONDITIONINGSOLVENT SCCS opinions Go backCosIng - Cosmetics Ingredients This site is managed by the Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs  Accessibilité  Commission européenne  Contactez la Commission européenne  Suivre la Commission européenne sur les réseaux sociaux  Ressources pour les partenaires  Politique linguistique  Cookies  Politique de confidentialité  Mentions légales",
+    "Restriction": "",
+    "Status": "",
+    "Update_Date": "",
+    "SCCS_Opinion": "",
+    "Source_URL": "https://ec.europa.eu/growth/tools-databases/cosing/details/92472",
+    "cosing_search_type": "fuzzy_name",
+    "cosing_search_value": "WATER",
+    "cosing_name_similarity": 1.0,
+    "ingredient_query": "water",
+    "cas_query": null,
+    "ec_query": null,
+    "cosing_name_used": "WATER",
+    "warning": "Ingrédient trouvé par similarité de nom (nom CosIng: WATER)",
+    "cosing_raw_result": {
+      "INCI_Name": "WATER",
+      "CAS": "7732-18-5",
+      "EC": "231-791-2",
+      "EINECS": "",
+      "Chemical_Name": "",
+      "INN_Name": "",
+      "Pharmacopeia_Name": "",
+      "Description": "",
+      "Function": "WATER  Fermer  Export file is being prepared and will be automatically downloaded to your computer when ready.  Fermer  Export file has been downloaded to your computer.  PDF INCI Name  WATER  Description   CAS #  7732-18-5  EC #  231-791-2 (I)  Identified INGREDIENTS or substances e.g.  Cosmetics Regulation provisions   Functions ANTIPLAQUESKIN CONDITIONINGSOLVENT SCCS opinions Go backCosIng - Cosmetics Ingredients This site is managed by the Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs  Accessibilité  Commission européenne  Contactez la Commission européenne  Suivre la Commission européenne sur les réseaux sociaux  Ressources pour les partenaires  Politique linguistique  Cookies  Politique de confidentialité  Mentions légales",
+      "Restriction": "",
+      "Status": "",
+      "Update_Date": "",
+      "SCCS_Opinion": "",
+      "Source_URL": "https://ec.europa.eu/growth/tools-databases/cosing/details/92472",
+      "cosing_search_type": "fuzzy_name",
+      "cosing_search_value": "WATER",
+      "cosing_name_similarity": 1.0
+    }
+  },
+  "Preliminary Opinion open for comments on Benzyl salicylate": {
+    "ingredient_query": "Preliminary Opinion open for comments on Benzyl salicylate",
+    "cas_query": "118-58-1",
+    "ec_query": "204-262-9",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on Benzyl salicylate\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"118-58-1\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Salicylic acid": {
+    "ingredient_query": "Salicylic acid",
+    "cas_query": "69-72-7",
+    "ec_query": "200-712-3",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Salicylic acid\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"69-72-7\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on Butylparaben": {
+    "ingredient_query": "Preliminary Opinion open for comments on Butylparaben",
+    "cas_query": "94-26-8",
+    "ec_query": "202-318-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on Butylparaben\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"94-26-8\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on children exposure on Methyl salicylate": {
+    "ingredient_query": "Preliminary Opinion open for comments on children exposure on Methyl salicylate",
+    "cas_query": "119-36-8",
+    "ec_query": "204-317-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on children exposure on Methyl salicylate\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"119-36-8\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "SZZ as a preservative": {
+    "ingredient_query": "SZZ as a preservative",
+    "cas_query": "130328-20-0",
+    "ec_query": "603-404-0",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"SZZ as a preservative\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"130328-20-0\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Sodium bromothymol blue": {
+    "ingredient_query": "Sodium bromothymol blue",
+    "cas_query": "34722-90-2",
+    "ec_query": "252-169-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Sodium bromothymol blue\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"34722-90-2\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "alpha": {
+    "ingredient_query": "alpha",
+    "cas_query": "84380-01-8",
+    "ec_query": "617-561-8",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"alpha\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"84380-01-8\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "triclocarban": {
+    "ingredient_query": "triclocarban",
+    "cas_query": "101-20-2",
+    "ec_query": "202-924-1",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"triclocarban\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"101-20-2\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on Sodium bromothymol blue": {
+    "ingredient_query": "Preliminary Opinion open for comments on Sodium bromothymol blue",
+    "cas_query": "34722-90-2",
+    "ec_query": "252-169-7",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on Sodium bromothymol blue\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"34722-90-2\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "vitamin A": {
+    "INCI_Name": "ADENINE",
+    "CAS": "73-24-5",
+    "EC": "200-796-1",
+    "EINECS": "",
+    "Chemical_Name": "",
+    "INN_Name": "",
+    "Pharmacopeia_Name": "",
+    "Description": "",
+    "Function": "ADENINE  Fermer  Export file is being prepared and will be automatically downloaded to your computer when ready.  Fermer  Export file has been downloaded to your computer.  PDF INCI Name  ADENINE  Description  Vitamin B4  CAS #  73-24-5  EC #  200-796-1  Identified INGREDIENTS or substances e.g.  Cosmetics Regulation provisions   Functions SKIN CONDITIONING SCCS opinions Go backCosIng - Cosmetics Ingredients This site is managed by the Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs  Accessibilité  Commission européenne  Contactez la Commission européenne  Suivre la Commission européenne sur les réseaux sociaux  Ressources pour les partenaires  Politique linguistique  Cookies  Politique de confidentialité  Mentions légales",
+    "Restriction": "",
+    "Status": "",
+    "Update_Date": "",
+    "SCCS_Opinion": "",
+    "Source_URL": "https://ec.europa.eu/growth/tools-databases/cosing/details/54413",
+    "cosing_search_type": "fuzzy_name",
+    "cosing_search_value": "ADENINE",
+    "cosing_name_similarity": 0.375,
+    "ingredient_query": "vitamin A",
+    "cas_query": null,
+    "ec_query": null,
+    "cosing_name_used": "ADENINE",
+    "warning": "Ingrédient trouvé par similarité de nom (nom CosIng: ADENINE)",
+    "cosing_raw_result": {
+      "INCI_Name": "ADENINE",
+      "CAS": "73-24-5",
+      "EC": "200-796-1",
+      "EINECS": "",
+      "Chemical_Name": "",
+      "INN_Name": "",
+      "Pharmacopeia_Name": "",
+      "Description": "",
+      "Function": "ADENINE  Fermer  Export file is being prepared and will be automatically downloaded to your computer when ready.  Fermer  Export file has been downloaded to your computer.  PDF INCI Name  ADENINE  Description  Vitamin B4  CAS #  73-24-5  EC #  200-796-1  Identified INGREDIENTS or substances e.g.  Cosmetics Regulation provisions   Functions SKIN CONDITIONING SCCS opinions Go backCosIng - Cosmetics Ingredients This site is managed by the Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs  Accessibilité  Commission européenne  Contactez la Commission européenne  Suivre la Commission européenne sur les réseaux sociaux  Ressources pour les partenaires  Politique linguistique  Cookies  Politique de confidentialité  Mentions légales",
+      "Restriction": "",
+      "Status": "",
+      "Update_Date": "",
+      "SCCS_Opinion": "",
+      "Source_URL": "https://ec.europa.eu/growth/tools-databases/cosing/details/54413",
+      "cosing_search_type": "fuzzy_name",
+      "cosing_search_value": "ADENINE",
+      "cosing_name_similarity": 0.375
+    }
+  },
+  "Genistein and Daidzein": {
+    "ingredient_query": "Genistein and Daidzein",
+    "cas_query": "446-72-0",
+    "ec_query": "207-174-9",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Genistein and Daidzein\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"446-72-0\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Final Opinion on 4-Methylbenzylidene camphor": {
+    "ingredient_query": "Final Opinion on 4-Methylbenzylidene camphor",
+    "cas_query": "36861-47-9",
+    "ec_query": "253-242-6",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Final Opinion on 4-Methylbenzylidene camphor\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"36861-47-9\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Kojic acid": {
+    "ingredient_query": "Kojic acid",
+    "cas_query": "501-30-4",
+    "ec_query": "207-922-4",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Kojic acid\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"501-30-4\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on 4-Methylbenzylidene camphor": {
+    "ingredient_query": "Preliminary Opinion open for comments on 4-Methylbenzylidene camphor",
+    "cas_query": "36861-47-9",
+    "ec_query": "253-242-6",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on 4-Methylbenzylidene camphor\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"36861-47-9\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Preliminary Opinion open for comments on": {
+    "ingredient_query": "Preliminary Opinion open for comments on",
+    "cas_query": null,
+    "ec_query": null,
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Preliminary Opinion open for comments on\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"Preliminary Opinion open for comments on\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
+  },
+  "Butylated Hydroxytoluene (BHT": {
+    "ingredient_query": "Butylated Hydroxytoluene (BHT",
+    "cas_query": "128-37-0",
+    "ec_query": "204-881-4",
+    "cosing_name_used": null,
+    "cosing_search_type": null,
+    "cosing_name_similarity": null,
+    "error": "Ingrédient \"Butylated Hydroxytoluene (BHT\" non trouvé dans CosIng (CAS/EC/nom)",
+    "cosing_raw_result": {
+      "error": "Ingrédient \"128-37-0\" non trouvé dans CosIng (CAS/EC/nom)"
+    }
   }
 }
