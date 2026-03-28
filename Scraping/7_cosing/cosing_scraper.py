@@ -444,38 +444,38 @@ class CosIngScraper:
         if self.driver:
             self.driver.quit()
     
-    def batch_search(self, names: List[str], output_csv: str = "cosing_results.csv") -> pd.DataFrame:
-        """Recherche plusieurs ingrédients."""
+    def batch_search(self, names: List[str], output_file: str = "cosing_results.csv", export_format: str = "csv"):
+        """Recherche plusieurs ingrédients et exporte en CSV ou JSON."""
+        import json
         results = []
-        
         if not self.headless:
             print(f"\nTraitement de {len(names)} ingrédient(s)...")
-        
         for i, name in enumerate(names, 1):
             if not self.headless:
                 print(f"\n[{i}/{len(names)}]")
-            
             info = self.get_ingredient_info(name)
-            
             if 'error' not in info:
                 results.append(info)
             elif not self.headless:
                 print(f"  ❌ {info['error']}")
-            
-            # Pause entre requêtes
             if i < len(names):
                 time.sleep(2)
-        
-        df = pd.DataFrame(results)
-        
-        if not df.empty:
-            df.to_csv(output_csv, index=False, encoding='utf-8-sig')
+        if export_format == "json":
+            with open(output_file, "w", encoding="utf-8") as f:
+                json.dump(results, f, ensure_ascii=False, indent=2)
             if not self.headless:
-                print(f"\n✅ {len(df)} résultat(s) sauvegardé(s) dans {output_csv}")
-        elif not self.headless:
-            print("\n❌ Aucun résultat trouvé")
-        
-        return df
+                print(f"\n✅ {len(results)} résultat(s) sauvegardé(s) dans {output_file} (JSON)")
+            return results
+        else:
+            import pandas as pd
+            df = pd.DataFrame(results)
+            if not df.empty:
+                df.to_csv(output_file, index=False, encoding='utf-8-sig')
+                if not self.headless:
+                    print(f"\n✅ {len(df)} résultat(s) sauvegardé(s) dans {output_file}")
+            elif not self.headless:
+                print("\n❌ Aucun résultat trouvé")
+            return df
 
 
 # ============================================================================
@@ -515,20 +515,18 @@ if __name__ == "__main__":
         print("\n" + "=" * 70)
         print("EXEMPLE 2 : Recherche multiple")
         print("=" * 70)
-        
-        ingredients = ["tocopherol", "retinol", "niacinamide"]
-        
+        ingredients = ["tocopherol", "retinol", "niacinamide","triclocarban", "genistein"]
         choice = input(f"\nRechercher {len(ingredients)} ingrédients ? (o/n) : ")
-        
         if choice.lower() == 'o':
-            df = scraper.batch_search(ingredients)
-            
-            if not df.empty:
+            export_format = input("Format d'export (csv/json) [défaut: csv] : ").strip().lower() or "csv"
+            output_file = input(f"Nom du fichier de sortie [défaut: cosing_results.{export_format}] : ").strip() or f"cosing_results.{export_format}"
+            results = scraper.batch_search(ingredients, output_file=output_file, export_format=export_format)
+            if export_format == "csv" and hasattr(results, 'empty') and not results.empty:
                 print("\nAperçu des résultats:")
                 cols = ['INCI_Name', 'CAS', 'EC', 'Function']
-                available = [c for c in cols if c in df.columns]
+                available = [c for c in cols if c in results.columns]
                 if available:
-                    print(df[available].to_string(index=False))
+                    print(results[available].to_string(index=False))
     
     except KeyboardInterrupt:
         print("\n\nInterruption utilisateur")

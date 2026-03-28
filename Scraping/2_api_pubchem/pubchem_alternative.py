@@ -372,41 +372,50 @@ class PubChemAPI:
                 return synonym
         return None
     
-    def batch_search(self, names: list, output_csv: str = "pubchem_results.csv", include_extra: bool = True) -> pd.DataFrame:
-        """Recherche plusieurs substances.
-        
-        Args:
-            names: Liste de noms de substances
-            output_csv: Fichier de sortie CSV
-            include_extra: Si True, récupère aussi GHS, usage, sécurité (plus lent)
-        """
+    def _clean_field(self, value):
+        """Nettoie un champ texte pour le CSV (remplace virgules, sauts de ligne, etc.)."""
+        if isinstance(value, str):
+            return value.replace('\n', ' ').replace('\r', ' ').replace(',', ';').replace('"', "'").strip()
+        elif isinstance(value, list):
+            return ' | '.join([self._clean_field(v) for v in value])
+        elif value is None:
+            return ''
+        return str(value)
+
+    def batch_search(self, names: list, output_file: str = "pubchem_results.csv", include_extra: bool = True, export_format: str = "csv") -> pd.DataFrame:
+        """Recherche plusieurs substances et exporte un CSV ou JSON propre."""
+        import csv, json, os
         results = []
-        
         print(f"\n🚀 Recherche de {len(names)} substance(s)")
         print(f"{'📋 Mode complet (avec GHS/Usage/Sécurité)' if include_extra else '⚡ Mode rapide (propriétés de base)'}\n")
-        
         for i, name in enumerate(names, 1):
             print(f"\n[{i}/{len(names)}] {name}")
             info = self.get_full_info(name, include_extra=include_extra)
-            
             if 'error' not in info:
-                results.append(info)
+                clean_info = {k: self._clean_field(v) for k, v in info.items()}
+                results.append(clean_info)
             else:
                 print(f"❌ Échec pour '{name}'")
-            
-            # Pause entre requêtes
             if i < len(names):
                 wait_time = 2 if include_extra else 1
                 time.sleep(wait_time)
-        
-        df = pd.DataFrame(results)
-        
-        if not df.empty:
-            df.to_csv(output_csv, index=False, encoding='utf-8-sig')
-            print(f"\n✅ {len(df)} substance(s) sauvegardée(s) dans {output_csv}")
-            print(f"📊 Colonnes disponibles: {len(df.columns)}")
-        
-        return df
+        if export_format == "json":
+            with open(output_file, "w", encoding="utf-8") as f:
+                json.dump(results, f, ensure_ascii=False, indent=2)
+            print(f"\n✅ {len(results)} substance(s) sauvegardée(s) dans {output_file} (JSON)")
+            return results
+        else:
+            df = pd.DataFrame(results)
+            if not df.empty:
+                columns_order = [
+                    'Name','CID','CAS','EC','Molecular formula','Molecular weight','IUPAC name','InChI','InChIKey','SMILES','XLogP','TPSA','Complexity','H-Bond Donors','H-Bond Acceptors','Rotatable Bonds','Heavy Atoms','Synonyms','GHS_Hazards','GHS_Precautions','Signal_Word','Pictograms','Hazard_Classes','Uses','Manufacturing','Exposure_Routes','Symptoms','First_Aid','Fire_Hazard','Stability'
+                ]
+                cols = [c for c in columns_order if c in df.columns] + [c for c in df.columns if c not in columns_order]
+                df = df[cols]
+                df.to_csv(output_file, index=False, encoding='utf-8-sig', quoting=csv.QUOTE_MINIMAL)
+                print(f"\n✅ {len(df)} substance(s) sauvegardée(s) dans {output_file}")
+                print(f"📊 Colonnes disponibles: {len(df.columns)}")
+            return df
 
 
 # ============================================================================
@@ -423,98 +432,101 @@ if __name__ == "__main__":
     print()
     
     api = PubChemAPI()
-    
-    # Menu de choix
-    print("\n" + "=" * 70)
-    print("CHOISISSEZ LE TYPE DE RECHERCHE")
-    print("=" * 70)
-    print("1. Mode RAPIDE (propriétés chimiques de base - ~2s/substance)")
-    print("2. Mode COMPLET (+ GHS + usages + sécurité - ~5s/substance)")
-    print()
-    
-    mode = input("Votre choix (1 ou 2) [défaut: 2] : ").strip() or "2"
-    include_extra = (mode == "2")
-    
-    # Exemple 1 : Une substance
-    print("\n" + "=" * 70)
-    print("EXEMPLE 1 : Recherche simple")
-    print("=" * 70)
-    
-    test_substance = input("\nNom de la substance [défaut: caffeine] : ").strip() or "caffeine"
-    info = api.get_full_info(test_substance, include_extra=include_extra)
-    
-    if 'error' not in info:
-        print("\n📊 Résultats :")
-        print(f"\n🔬 IDENTIFIANTS:")
-        print(f"  Name: {info.get('Name')}")
-        print(f"  CID: {info.get('CID')}")
-        print(f"  CAS: {info.get('CAS')}")
-        print(f"  EC: {info.get('EC', 'Non trouvé')}")
-        
-        print(f"\n⚗️  PROPRIÉTÉS CHIMIQUES:")
-        print(f"  Formule: {info.get('Molecular formula')}")
-        print(f"  Poids moléculaire: {info.get('Molecular weight')}")
-        print(f"  IUPAC: {info.get('IUPAC name', '')[:80]}...")
-        
-        print(f"\n📐 DESCRIPTEURS:")
-        print(f"  XLogP: {info.get('XLogP')}")
-        print(f"  TPSA: {info.get('TPSA')}")
-        print(f"  Complexity: {info.get('Complexity')}")
-        print(f"  H-Bond Donors: {info.get('H-Bond Donors')}")
-        print(f"  H-Bond Acceptors: {info.get('H-Bond Acceptors')}")
-        
-        if include_extra:
-            print(f"\n⚠️  CLASSIFICATION GHS:")
-            print(f"  Signal Word: {info.get('Signal_Word', 'Non disponible')}")
-            print(f"  Pictogrammes: {info.get('Pictograms', 'Non disponible')}")
-            hazards = info.get('GHS_Hazards', '')
-            if hazards:
-                print(f"  Dangers: {hazards[:150]}...")
-            else:
-                print(f"  Dangers: Non disponible")
-            
-            print(f"\n🏭 USAGE & FABRICATION:")
-            uses = info.get('Uses', '')
-            if uses:
-                print(f"  Usages: {uses[:150]}...")
-            else:
-                print(f"  Usages: Non disponible")
-            
-            manuf = info.get('Manufacturing', '')
-            if manuf:
-                print(f"  Fabrication: {manuf[:100]}...")
-            
-            print(f"\n🚨 SÉCURITÉ:")
-            exposure = info.get('Exposure_Routes', '')
-            if exposure:
-                print(f"  Routes d'exposition: {exposure[:100]}...")
-            
-            first_aid = info.get('First_Aid', '')
-            if first_aid:
-                print(f"  Premiers secours: {first_aid[:100]}...")
-    
-    # Exemple 2 : Plusieurs substances
-    print("\n" + "=" * 70)
-    print("EXEMPLE 2 : Recherche multiple")
-    print("=" * 70)
-    
-    substances = ["aspirin", "ibuprofen", "paracetamol"]
-    
-    choice = input(f"\nRechercher {len(substances)} substances ? (o/n) : ")
-    
-    if choice.lower() == 'o':
-        df = api.batch_search(substances, include_extra=include_extra)
-        
-        if not df.empty:
-            print("\n📊 Aperçu des résultats :")
-            cols_to_show = ['Name', 'CAS', 'EC', 'Molecular formula', 'Molecular weight']
-            available_cols = [c for c in cols_to_show if c in df.columns]
-            print(df[available_cols].to_string(index=False))
-            
-            if include_extra and 'GHS_Hazards' in df.columns:
-                print(f"\n⚠️  Aperçu GHS (première substance):")
-                print(f"  {df.iloc[0]['GHS_Hazards'][:100]}...")
-    
-    print("\n" + "=" * 70)
-    print("✅ Terminé")
-    print("=" * 70)
+    while True:
+        print("\n" + "=" * 70)
+        print("CHOISISSEZ LE TYPE DE RECHERCHE")
+        print("=" * 70)
+        print("1. Mode RAPIDE (propriétés chimiques de base - ~2s/substance)")
+        print("2. Mode COMPLET (+ GHS + usages + sécurité - ~5s/substance)")
+        print("3. Charger un CSV existant pour visualiser")
+        print("4. Exporter en JSON")
+        print("q. Quitter")
+        mode = input("Votre choix (1, 2, 3, 4 ou q) [défaut: 2] : ").strip() or "2"
+        if mode == 'q':
+            break
+        elif mode == '3':
+            import pandas as pd
+            csv_path = input("Chemin du CSV à charger : ").strip()
+            try:
+                df = pd.read_csv(csv_path, encoding='utf-8-sig')
+                print(f"\nAperçu du CSV chargé ({csv_path}):")
+                print(df.head(5).to_string(index=False))
+                print(f"\nColonnes: {list(df.columns)}")
+            except Exception as e:
+                print(f"Erreur lors du chargement du CSV: {e}")
+            continue
+        elif mode == '4':
+            include_extra = input("Inclure les infos GHS/Usage/Sécurité ? (o/n) [défaut: o] : ").strip().lower() != 'n'
+            substances = input("Entrez les substances séparées par une virgule (ex: aspirin,ibuprofen): ").strip()
+            if not substances:
+                substances = "aspirin,ibuprofen,paracetamol"
+            names = [s.strip() for s in substances.split(',') if s.strip()]
+            output_file = input("Nom du fichier JSON de sortie [défaut: pubchem_results.json] : ").strip() or "pubchem_results.json"
+            api.batch_search(names, output_file=output_file, include_extra=include_extra, export_format="json")
+            continue
+        include_extra = (mode == "2")
+        print("\n" + "=" * 70)
+        print("EXEMPLE 1 : Recherche simple")
+        print("=" * 70)
+        test_substance = input("\nNom de la substance [défaut: caffeine] : ").strip() or "caffeine"
+        info = api.get_full_info(test_substance, include_extra=include_extra)
+        if 'error' not in info:
+            print("\n📊 Résultats :")
+            print(f"\n🔬 IDENTIFIANTS:")
+            print(f"  Name: {info.get('Name')}")
+            print(f"  CID: {info.get('CID')}")
+            print(f"  CAS: {info.get('CAS')}")
+            print(f"  EC: {info.get('EC', 'Non trouvé')}")
+            print(f"\n⚗️  PROPRIÉTÉS CHIMIQUES:")
+            print(f"  Formule: {info.get('Molecular formula')}")
+            print(f"  Poids moléculaire: {info.get('Molecular weight')}")
+            print(f"  IUPAC: {info.get('IUPAC name', '')[:80]}...")
+            print(f"\n📐 DESCRIPTEURS:")
+            print(f"  XLogP: {info.get('XLogP')}")
+            print(f"  TPSA: {info.get('TPSA')}")
+            print(f"  Complexity: {info.get('Complexity')}")
+            print(f"  H-Bond Donors: {info.get('H-Bond Donors')}")
+            print(f"  H-Bond Acceptors: {info.get('H-Bond Acceptors')}")
+            if include_extra:
+                print(f"\n⚠️  CLASSIFICATION GHS:")
+                print(f"  Signal Word: {info.get('Signal_Word', 'Non disponible')}")
+                print(f"  Pictogrammes: {info.get('Pictograms', 'Non disponible')}")
+                hazards = info.get('GHS_Hazards', '')
+                if hazards:
+                    print(f"  Dangers: {hazards[:150]}...")
+                else:
+                    print(f"  Dangers: Non disponible")
+                print(f"\n🏭 USAGE & FABRICATION:")
+                uses = info.get('Uses', '')
+                if uses:
+                    print(f"  Usages: {uses[:150]}...")
+                else:
+                    print(f"  Usages: Non disponible")
+                manuf = info.get('Manufacturing', '')
+                if manuf:
+                    print(f"  Fabrication: {manuf[:100]}...")
+                print(f"\n🚨 SÉCURITÉ:")
+                exposure = info.get('Exposure_Routes', '')
+                if exposure:
+                    print(f"  Routes d'exposition: {exposure[:100]}...")
+                first_aid = info.get('First_Aid', '')
+                if first_aid:
+                    print(f"  Premiers secours: {first_aid[:100]}...")
+        print("\n" + "=" * 70)
+        print("EXEMPLE 2 : Recherche multiple")
+        print("=" * 70)
+        substances = ["aspirin", "ibuprofen", "paracetamol"]
+        choice = input(f"\nRechercher {len(substances)} substances ? (o/n) : ")
+        if choice.lower() == 'o':
+            df = api.batch_search(substances, include_extra=include_extra)
+            if not df.empty:
+                print("\n📊 Aperçu des résultats :")
+                cols_to_show = ['Name', 'CAS', 'EC', 'Molecular formula', 'Molecular weight']
+                available_cols = [c for c in cols_to_show if c in df.columns]
+                print(df[available_cols].to_string(index=False))
+                if include_extra and 'GHS_Hazards' in df.columns:
+                    print(f"\n⚠️  Aperçu GHS (première substance):")
+                    print(f"  {df.iloc[0]['GHS_Hazards'][:100]}...")
+        print("\n" + "=" * 70)
+        print("✅ Terminé")
+        print("=" * 70)

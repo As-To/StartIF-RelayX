@@ -142,9 +142,13 @@ class ECHAScraperSelenium:
             self.driver = None
             print("🔒 Navigateur fermé")
     
-    def search_substance(self, query: str) -> List[Dict]:
+    def search_substance(self, query: str, debug: bool = False) -> List[Dict]:
         """
         Recherche une substance sur ECHA avec Selenium.
+        
+        Args:
+            query: Nom de la substance à chercher
+            debug: Si True, affiche des infos détaillées et sauvegarde des captures
         """
         self._init_driver()
         
@@ -153,14 +157,46 @@ class ECHAScraperSelenium:
         try:
             # Aller sur la page de recherche ECHA
             url = f"https://echa.europa.eu/fr/search-for-chemicals?q={query}"
+            
+            if debug:
+                print(f"📍 URL visitée : {url}")
+            
             self.driver.get(url)
             
+            if debug:
+                print(f"📍 URL actuelle : {self.driver.current_url}")
+            
             # Attendre que la page charge
-            time.sleep(3)
+            print("⏳ Attente du chargement de la page (5s)...")
+            time.sleep(5)
+            
+            # DEBUG: Sauvegarder screenshot et HTML
+            if debug:
+                try:
+                    screenshot_path = f"debug_screenshot_{query.replace(' ', '_')}.png"
+                    self.driver.save_screenshot(screenshot_path)
+                    print(f"📸 Capture d'écran sauvegardée : {screenshot_path}")
+                    
+                    html_path = f"debug_html_{query.replace(' ', '_')}.html"
+                    with open(html_path, 'w', encoding='utf-8') as f:
+                        f.write(self.driver.page_source)
+                    print(f"💾 HTML sauvegardé : {html_path}")
+                except Exception as e:
+                    print(f"⚠️  Impossible de sauvegarder debug: {e}")
+            
+            # Vérifier le titre de la page
+            page_title = self.driver.title
+            if debug:
+                print(f"📄 Titre de la page : {page_title}")
             
             # Vérifier si on a une erreur 403
-            if "403" in self.driver.page_source or "Forbidden" in self.driver.page_source:
-                print("❌ Erreur 403 - ECHA bloque toujours l'accès")
+            page_source = self.driver.page_source
+            if "403" in page_source or "Forbidden" in page_source:
+                print("❌ Erreur 403 - ECHA bloque l'accès")
+                return []
+            
+            if "Access Denied" in page_source or "Cloudflare" in page_source:
+                print("❌ Page bloquée par Cloudflare ou WAF")
                 return []
             
             # Chercher les résultats
@@ -172,8 +208,28 @@ class ECHAScraperSelenium:
                     EC.presence_of_element_located((By.TAG_NAME, "body"))
                 )
                 
+                if debug:
+                    print("🔍 Recherche de liens vers les substances...")
+                
                 # Chercher les liens vers les substances
                 links = self.driver.find_elements(By.XPATH, "//a[contains(@href, '/substance-information/')]")
+                
+                if debug:
+                    print(f"🔗 {len(links)} lien(s) trouvé(s) contenant '/substance-information/'")
+                
+                # Alternative : chercher tous les liens et afficher ce qu'on trouve
+                if len(links) == 0 and debug:
+                    all_links = self.driver.find_elements(By.TAG_NAME, "a")
+                    print(f"📊 Total de liens sur la page : {len(all_links)}")
+                    print("📋 Exemples de liens trouvés :")
+                    for i, link in enumerate(all_links[:10]):
+                        try:
+                            href = link.get_attribute('href')
+                            text = link.text.strip()[:50]
+                            if href:
+                                print(f"   {i+1}. {text} -> {href[:80]}")
+                        except:
+                            pass
                 
                 for link in links[:10]:
                     try:
@@ -185,6 +241,8 @@ class ECHAScraperSelenium:
                                 'name': text,
                                 'url': href
                             })
+                            if debug:
+                                print(f"   ✅ Trouvé : {text}")
                     except:
                         continue
                 
@@ -192,6 +250,8 @@ class ECHAScraperSelenium:
                     print(f"✅ {len(results)} résultat(s) trouvé(s)")
                 else:
                     print("⚠️  Aucun résultat trouvé")
+                    if not debug:
+                        print("💡 Relancez avec mode debug pour plus d'infos : scraper.search_substance('formaldehyde', debug=True)")
                 
                 return results
                 
@@ -201,6 +261,9 @@ class ECHAScraperSelenium:
             
         except Exception as e:
             print(f"❌ Erreur: {e}")
+            import traceback
+            if debug:
+                traceback.print_exc()
             return []
     
     def scrape_substance_page(self, url: str) -> Dict:
@@ -264,11 +327,15 @@ class ECHAScraperSelenium:
             print(f"❌ Erreur: {e}")
             return info
     
-    def get_substance_info(self, query: str) -> Optional[Dict]:
+    def get_substance_info(self, query: str, debug: bool = False) -> Optional[Dict]:
         """
         Recherche et récupère les informations complètes d'une substance.
+        
+        Args:
+            query: Nom de la substance
+            debug: Active le mode debug avec captures et logs détaillés
         """
-        results = self.search_substance(query)
+        results = self.search_substance(query, debug=debug)
         
         if not results:
             return None
@@ -320,14 +387,15 @@ if __name__ == "__main__":
     print("=" * 70)
     print()
     
-    scraper = ECHASeleniumScraper(headless=True)
+    scraper = ECHAScraperSelenium(headless=True)
     
     try:
         # Test
         query = "formaldehyde"
         print(f"Test avec : {query}\n")
         
-        info = scraper.get_substance_info(query)
+        # Mode DEBUG activé pour voir ce qui se passe
+        info = scraper.get_substance_info(query, debug=True)
         
         if info and info['name']:
             print("\n✅ Succès !")
