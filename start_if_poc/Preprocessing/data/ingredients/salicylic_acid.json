@@ -1,0 +1,327 @@
+{
+  "ingredient": "Salicylic acid",
+  "cas": "69-72-7",
+  "ec": "200-712-3",
+  "inci_name": "SALICYLIC ACID",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1646/22",
+        "date_avis": "2023-06-07",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "0.5%",
+        "categorie": "Colorant",
+        "conclusion": "In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Salicylic acid, a) does the SCCS consider Salicylic acid safe when used as a preservative in cosmetic products up to a maximum concentration of 0.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Salicylic acid, a) does the SCCS consider Salicylic acid safe when used as a preservative in cosmetic products up to a maximum concentration of 0.5%? Based on the safety assessment carried out in consideration of all available information, including the potential endocrine effects: - the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/fe777089-8fc8-4c02-a339-08690c3c64ff_en?filename=sccs_o_268.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": true,
+    "annex_III_details": {
+      "entry_number": "98",
+      "product_type": "a) Produits à rincer pour les cheveux et la pilosité faciale b) Autres produits",
+      "max_concentration": "a) 3,0 % b) 2,0 %",
+      "max_concentration_pct": 3.0,
+      "conditions": "Ne pas utiliser dans les préparations destinées aux enfants âgés de moins de 3 ans, à l'exception des shampooings À des fins autres qu'inhiber le développement de micro-organismes dans le produit. Cette fin doit ressortir de la présentation du produit",
+      "labelling": "Ne pas utiliser chez les enfants âgés de moins de 3 ans ( 11 )"
+    }
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "38300170",
+        "doi": "10.1016/j.jaad.2023.12.017",
+        "title": "Guidelines of care for the management of acne vulgaris.",
+        "abstract": "BACKGROUND: Acne vulgaris commonly affects adults, adolescents, and preadolescents aged 9 years or older. OBJECTIVE: The objective of this study was to provide evidence-based recommendations for the management of acne. METHODS: A work group conducted a systematic review and applied the Grading of Recommendations, Assessment, Development, and Evaluation approach for assessing the certainty of evidence and formulating and grading recommendations. RESULTS: This guideline presents 18 evidence-based recommendations and 5 good practice statements. Strong recommendations are made for benzoyl peroxide, topical retinoids, topical antibiotics, and oral doxycycline. Oral isotretinoin is strongly recommended for acne that is severe, causing psychosocial burden or scarring, or failing standard oral or topical therapy. Conditional recommendations are made for topical clascoterone, salicylic acid, and azelaic acid, as well as for oral minocycline, sarecycline, combined oral contraceptive pills, and spironolactone. Combining topical therapies with multiple mechanisms of action, limiting systemic antibiotic use, combining systemic antibiotics with topical therapies, and adding intralesional corticosteroid injections for larger acne lesions are recommended as good practice statements. LIMITATIONS: Analysis is based on the best available evidence at the time of the systematic review. CONCLUSIONS: These guidelines provide evidence-based recommendations for the management of acne vulgaris.",
+        "journal": "Journal of the American Academy of Dermatology",
+        "date": "2024-May",
+        "mesh": [
+          "Humans",
+          "Acne Vulgaris",
+          "Administration, Cutaneous",
+          "Administration, Oral",
+          "Adrenal Cortex Hormones",
+          "Anti-Bacterial Agents",
+          "Benzoyl Peroxide",
+          "Contraceptives, Oral, Combined",
+          "Cortodoxone",
+          "Dermatologic Agents"
+        ],
+        "keywords": [
+          "Acne",
+          "Cutibacterium acnes",
+          "acne vulgaris",
+          "adapalene",
+          "antiandrogens",
+          "antibiotics",
+          "azelaic acid",
+          "azithromycin",
+          "benzoyl peroxide",
+          "clascoterone"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "40233838",
+        "doi": "10.1016/j.jaad.2025.04.021",
+        "title": "Skincare ingredients recommended by cosmetic dermatologists: A Delphi consensus study.",
+        "abstract": "BACKGROUND: There is ambiguity regarding the topical cosmetic ingredients preferred for common skin complaints. OBJECTIVE: To determine which topical ingredients are frequently recommended by cosmetic dermatologists for fine lines and wrinkles, acne, redness, dark spots, large pores, dry skin, and oily skin. METHODS: Literature review to develop long list of ingredients. Reduced by expert panel to most salient ingredients. Two rounds of Delphi consensus survey with second expert panel of clinicians and teachers. Comparative literature review to summarize published evidence supporting each consensus ingredient. RESULTS: List of 318 ingredients reduced by a panel of 17 dermatologists to 83. Two Delphi rounds completed by 62 dermatologists at 43 centers. Consensus achieved for 23 ingredients, including the following: azelaic acid (acne, dark spots); benzoyl peroxide (acne, oily skin); glycolic acid (acne, dark spots); mineral sunscreen (fine lines and wrinkles, redness); niacinamide (redness, dark spots); retinoids (fine lines and wrinkles, acne, dark spots, large pores, oily skin); salicylic acid (acne, oily skin); vitamin C (fine lines and wrinkles, dark spots). Most consensus ingredients supported by level 1b or 2b evidence. LIMITATIONS: Some ingredients based on expert opinion. CONCLUSION: Consensus exists among expert cosmetic dermatologists regarding ingredients most useful for common dermatologic concerns.",
+        "journal": "Journal of the American Academy of Dermatology",
+        "date": "2025-Dec",
+        "mesh": [
+          "Humans",
+          "Delphi Technique",
+          "Cosmetics",
+          "Skin Care",
+          "Acne Vulgaris",
+          "Consensus",
+          "Dermatologists",
+          "Skin Aging",
+          "Dermatologic Agents",
+          "Glycolates"
+        ],
+        "keywords": [
+          "Delphi",
+          "consensus",
+          "cosmetic",
+          "dermatologist",
+          "ingredients",
+          "recommended",
+          "skincare",
+          "study"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "33907986",
+        "doi": "10.1021/jp4029694",
+        "title": "Topical delivery of salicylates.",
+        "abstract": "Salicylates have a long history of use for pain relief. Salicylic acid and methyl salicylate are among the widely used topical salicylates namely for keratolytic and anti-inflammatory actions, respectively. The current review summarises both passive and active strategies, including emerging technologies employed to enhance skin permeation of these two salicylate compounds. The formulation design of topical salicylic acid targets the drug retention in and on the skin based on the different indications including keratolytic, antibacterial and photoprotective actions, while the investigations of topical delivery strategies for methyl salicylate are limited. The pharmacokinetics and metabolisms of both salicylate compounds are discussed. The current overview and future perspectives of the topical delivery strategies are also highlighted for translational considerations of formulation designs.",
+        "journal": "Drug delivery and translational research",
+        "date": "2022-May",
+        "mesh": [
+          "Anti-Inflammatory Agents",
+          "Keratolytic Agents",
+          "Salicylic Acid",
+          "Skin"
+        ],
+        "keywords": [
+          "Formulation",
+          "Salicylates",
+          "Skin",
+          "Skin permeation",
+          "Topical"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "33263934",
+        "doi": "10.1111/dth.14621",
+        "title": "Topical treatment for plantar warts: A systematic review.",
+        "abstract": "There are a wide variety of treatments for plantar warts, but none has been shown to be effective in all patients. We aimed to perform a systematic review of the efficacy of different topical treatments on plantar warts. Systematic electronic searches (Pubmed, Cochrane Library, Embase, and Web of Science) were conducted in April 2020. Meta-analyses, systematic reviews, and retrospective or prospective clinical trials of the effects of topical and nonsurgical treatments of plantar warts were included. Two authors performed the study selection and data extraction. Any discrepancies between the two reviewers were discussed with a third reviewer. Forty-four studies were included. The average cure rates of the most frequent treatments were variable across the studies: cryotherapy (45.61%), salicylic acid (13.6%), cantharidin-podophyllin-salicylic acid formulation (97.82%), laser (79.36%), topical antivirals (72.45%), intralesional bleomycin (83.37%), and intralesional immunotherapy (68.14%). Twenty-two studies (50%) had a level of evidence 1b and grade of recommendation A, five studies (11.4%) had a level of evidence 2b and grade of recommendation B, two studies (4.5%) had a level of evidence 3b and grade of recommendation B, and 15 studies (34,1%) with a level of evidence 4 and grade of recommendation C. First-choice treatments for common warts, such as cryotherapy and salicylic acid, have low-cure rates for plantar warts. Other treatments, such as CPA formulation, immunotherapy, and intralesional bleomycin, which have compassionate use, have higher cure rates. This review should stimulate future high-quality research to evaluate these specialized treatments.",
+        "journal": "Dermatologic therapy",
+        "date": "2021-Jan",
+        "mesh": [
+          "Cryotherapy",
+          "Humans",
+          "Prospective Studies",
+          "Retrospective Studies",
+          "Salicylic Acid",
+          "Warts"
+        ],
+        "keywords": [
+          "human papillomavirus",
+          "plantar warts",
+          "topical",
+          "treatment"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "39420562",
+        "doi": "10.1080/14656566.2024.2418986",
+        "title": "An update on the pharmacological management of acne vulgaris: the state of the art.",
+        "abstract": "INTRODUCTION: Acne vulgaris is a chronic inflammatory disease of the pilosebaceous unit that affects approximately 9.4% of the global population. Current treatment strategies aim to target as many pathogenic factors involved in the appearance of acne lesions and are centered on a systematic treatment escalation based on disease severity, extension, and treatment response, starting with topical treatments for mild cases and progressing over to systemic therapies in more severe cases. A literature search, which included clinical guidelines, clinical studies, and review articles on acne treatment and maintenance, was conducted to review the pharmacological approaches currently available to treat this disease. AREAS COVERED: Topical therapies such as topical retinoids, benzoyl peroxide, azelaic acid, salicylic acid, topical antibiotics, and clascoterone, as well as systemic treatments such as oral antibiotics and isotretinoin are discussed in detail. Combined oral contraceptives and spironolactone will not be discussed in this article. EXPERT OPINION: There is a need for a blockbuster acne drug that simultaneously targets the four main pathogenic factors involved in the appearance of acne lesions while presenting with minimal side effects. Until such a drug exists, combination therapy will remain the standard of treatment for most acne patients.",
+        "journal": "Expert opinion on pharmacotherapy",
+        "date": "2024-Nov",
+        "mesh": [
+          "Acne Vulgaris",
+          "Humans",
+          "Dermatologic Agents",
+          "Anti-Bacterial Agents",
+          "Severity of Illness Index",
+          "Administration, Cutaneous",
+          "Animals",
+          "Drug Therapy, Combination"
+        ],
+        "keywords": [
+          "Acne vulgaris",
+          "benzoyl peroxide",
+          "clascoterone",
+          "isotretinoin",
+          "sarecycline",
+          "topical minocycline",
+          "topical retinoids",
+          "trifarotene"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "38453786",
+        "doi": "10.1111/bjd.14053",
+        "title": "Management of Acne in Pregnancy.",
+        "abstract": "Acne is one of the most common dermatological conditions to affect women of childbearing age, so it is important to consider the safety of long-term acne treatments on women who could become pregnant. In this review article, we clarify what management options are available to treat acne during pregnancy. Topical treatments, typically first-line for acne, such as azelaic acid, clindamycin, erythromycin, metronidazole, benzoyl peroxide, salicylic acid, dapsone, and retinoids, were reviewed. Systemic treatments, such as zinc supplements, cephalexin, cefadroxil, amoxicillin, azithromycin, erythromycin, and corticosteroids, typically second-line for acne, were also reviewed. Alternative treatments such as light therapy and cosmetic procedures were also evaluated. Due to recommendation of sunscreen utilization during acne treatments, sunscreen usage during pregnancy was also assessed. Management of acne during unplanned pregnancy was discussed in further detail regarding safety and adverse effects. Through summarized tables and examples of studies demonstrating safety and efficacy of treatments, the following is a resource for providers and patients to utilize for management of acne during pregnancy.",
+        "journal": "American journal of clinical dermatology",
+        "date": "2024-May",
+        "mesh": [
+          "Humans",
+          "Acne Vulgaris",
+          "Pregnancy",
+          "Female",
+          "Dermatologic Agents",
+          "Pregnancy Complications",
+          "Anti-Bacterial Agents",
+          "Sunscreening Agents",
+          "Pregnancy, Unplanned",
+          "Phototherapy"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "29737895",
+        "doi": "10.1080/09546634.2018.1473554",
+        "title": "Treatment of seborrheic dermatitis: a comprehensive review.",
+        "abstract": "Seborrheic dermatitis (SD) is a chronic, recurring inflammatory skin disorder that manifests as erythematous macules or plaques with varying levels of scaling associated with pruritus. The condition typically occurs as an inflammatory response to Malassezia species and tends to occur on seborrheic areas, such as the scalp, face, chest, back, axilla, and groin areas. SD treatment focuses on clearing signs of the disease; ameliorating associated symptoms, such as pruritus; and maintaining remission with long-term therapy. Since the primary underlying pathogenic mechanisms comprise Malassezia proliferation and inflammation, the most commonly used treatment is topical antifungal and anti-inflammatory agents. Other broadly used therapies include lithium gluconate/succinate, coal tar, salicylic acid, selenium sulfide, sodium sulfacetamide, glycerin, benzoyl peroxide, aloe vera, mud treatment, phototherapy, among others. Alternative therapies have also been reported, such as tea tree oil, Quassia amara, and Solanum chrysotrichum. Systemic therapy is reserved only for widespread lesions or in cases that are refractory to topical treatment. Thus, in this comprehensive review, we summarize the current knowledge on SD treatment and attempt to provide appropriate directions for future cases that dermatologists may face.",
+        "journal": "The Journal of dermatological treatment",
+        "date": "2019-Mar",
+        "mesh": [
+          "Antifungal Agents",
+          "Dermatitis, Seborrheic",
+          "Homeopathy",
+          "Humans",
+          "Phototherapy"
+        ],
+        "keywords": [
+          "Malassezia sp",
+          "Seborrheic dermatitis",
+          "treatment"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "32886029",
+        "doi": "10.1080/09546634.2020.1818678",
+        "title": "Treatment of keratosis pilaris and its variants: a systematic review.",
+        "abstract": "INTRODUCTION: Keratosis pilaris (KP) is a common, benign skin condition of follicular hyperkeratosis. Although KP is asymptomatic, the cosmetic appearance of KP can lead to psychosocial distress among patients. New emerging treatments are increasingly being utilized. Yet, there is little to no summative data on the treatments of KP and its subtypes. OBJECTIVE: To summarize existing literature on treatments for KP and its subtypes. METHODS: A comprehensive search was performed using Pubmed/MEDLINE, Embase and Web of Science databases. The search identified 1150 non-duplicated articles, and 47 articles were included in the review. The primary outcomes measured were KP treatment type and the degree of improvement following therapy. FINDINGS: Our findings demonstrate that the most supported form of treatment for KP is laser therapy, particularly the QS:Nd YAG laser. Topical treatments - including Mineral Oil-Hydrophil Petrolat, tacrolimus, azelaic acid, and salicylic acid - are also effective at least for improving the appearance of KP. CONCLUSION: While the measured treatment outcomes varied among studies, laser therapy appears to be the most effective form of treatment. Use of topicals also improved KP lesions.",
+        "journal": "The Journal of dermatological treatment",
+        "date": "2022-May",
+        "mesh": [
+          "Abnormalities, Multiple",
+          "Darier Disease",
+          "Eyebrows",
+          "Humans",
+          "Low-Level Light Therapy"
+        ],
+        "keywords": [
+          "Keratosis pilaris",
+          "keratosis pilaris atrophicans",
+          "laser therapy",
+          "skin of color"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "37977681",
+        "doi": "10.1016/j.det.2023.06.003",
+        "title": "Chemical Peels in Treatment of Melasma.",
+        "abstract": "Superficial chemical peels are one of the most popular skin resurfacing procedures in a dermatologists' clinic today due to quick application process, fast recovery, good patient acceptance, and excellent cosmetic results. The role of various peeling agents like glycolic acid, salicylic acid, trichloroacetic acid, Jessner's solution, retinoic acid, and lactic acid in the management of melasma has been established as that of an additional or maintenance therapy. This article details the current evidence and recommendations for the use of chemical peels in the treatment of melasma, a chronic and recurrent hyperpigmentary disorder.",
+        "journal": "Dermatologic clinics",
+        "date": "2024-Jan",
+        "mesh": [
+          "Humans",
+          "Chemexfoliation",
+          "Salicylic Acid",
+          "Keratolytic Agents",
+          "Trichloroacetic Acid",
+          "Drug Combinations",
+          "Melanosis"
+        ],
+        "keywords": [
+          "Chemical peels",
+          "Glycolic acid",
+          "Jessner's solution",
+          "Lactic acid",
+          "Melasma",
+          "Salicylic acid",
+          "Tretinoin peel",
+          "Trichloroacetic acid"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "37338719",
+        "doi": "10.1177/12034754211037994",
+        "title": "The Role and Benefits of Dermocosmetics in Acne Management in Japan.",
+        "abstract": "In Japan, as in other countries around the world, acne vulgaris is a common disease and a frequent reason for patients to consult dermatologists. For optimal management of acne, it is important to understand how available products to support skin health can be used both with and without prescription products. Dermocosmetics can be defined as skincare agents with dermatologically active ingredients that directly support or care for the symptoms of various skin conditions (distinct from vehicle effects). There are products with active ingredients-including familiar ones such as niacinamide, retinol derivatives, and salicylic acid-that target important aspects of acne pathophysiology. Others, including ceramides, glyercin, thermal spring water, and panthenols, may have positive effects on skin barrier function that are useful in managing acne. This publication will discuss the roles of dermocosmetics in acne either as monotherapy to manage the milder forms of acne and help prevent relapses, or as adjuncts to prescription therapy to increase efficacy or adherence and assist in prevention of local adverse effects. Dermocosmetics may also have active ingredients that positively impact the skin microbiome.",
+        "journal": "Dermatology and therapy",
+        "date": "2023-Jul",
+        "mesh": [],
+        "keywords": [
+          "Acne vulgaris",
+          "Cleansers",
+          "Dermocosmetics",
+          "Japan",
+          "Moisturizers",
+          "Skincare"
+        ],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 338,
+    "molecular_formula": "C7H6O3",
+    "molecular_weight": "138.12",
+    "xlogp": 2.3,
+    "tpsa": 57.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "salicylic acid",
+      "2-Hydroxybenzoic acid",
+      "69-72-7",
+      "o-hydroxybenzoic acid",
+      "2-Carboxyphenol",
+      "o-Carboxyphenol",
+      "Retarder W",
+      "Rutranex",
+      "Salonil",
+      "Keralyt"
+    ]
+  },
+  "cosing": {
+    "inci_name": "SALICYLIC ACID",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

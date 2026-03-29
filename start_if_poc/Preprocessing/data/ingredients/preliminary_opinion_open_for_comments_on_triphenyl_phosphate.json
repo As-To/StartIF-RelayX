@@ -1,0 +1,70 @@
+{
+  "ingredient": "Preliminary Opinion open for comments on Triphenyl phosphate",
+  "cas": "115-86-6",
+  "ec": "204-112-2",
+  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON TRIPHENYL PHOSPHATE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1664/24",
+        "date_avis": "2024-07-25",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "5%",
+        "categorie": "Preservative",
+        "conclusion": "Alternatively, what is according to the SCCS the maximum concentration considered safe for use of Triphenyl Phosphate in nail products?",
+        "abstract": ", the authors state that currently there are no data to evaluate potential risk from exposure to either TPHP or IPP during fetal development. Their short-term perinatal studies in rats aim to provide preliminary toxicity data for TPP and IPP, including information on transfer to fetus/offspring and across the pup blood brain barrier. In separate experiments, TPP or IPP were administered via dosed feed at concentrations 0, 1000, 3000, 10,000, 15,000 or 30,000 ppm to time-mated Hsd:Sprague Dawley® SD® rats from gestation day (GD) 6 through postnatal day (PND) 28; offspring were provided dosed feed at the same concentration as their dam (PND28-PND 56). TPHP and IPP-related toxicity resulted in removal of both 30,000 ppm groups on GD12 and 15,000 ppm IPP group after parturition. Body weight and organ weights were impacted with exposure in remaining dams. Reproductive performance was perturbed at ≥10,000 ppm TPHP and all IPP exposure groups. In offspring, both TPP and IPP-related toxicity was noted in pups at ≥10,000 ppm as well as reduction in bodyweights, delays in pubertal endpoints, and/or reduced cholinesterase enzyme activity starting at 1000 ppm TPHP or IPP. Preliminary internal dose assessment indicated gestational and lactational transfer following exposure to TPHP or IPP. These findings demonstrate that offspring development is sensitive to 1000 ppm TPHP or IPP exposure. According to the authors, dose selection was intended to sufficiently challenge exposed animals and capture dose-response information for maternal and pup toxicity including a high enough top-dose level to be conclusive for hazard classification. The authors state that due to effects observed in all exposure groups, a no observed adverse effect level (NOAEL) could not be determined in the current studies. ___________________________________________________________________________________________ 23 SCCS/1664/24 Final",
+        "pdf_url": "https://health.ec.europa.eu/document/download/28a3e06e-bd0d-4ee1-add7-252dc2964b0b_en?filename=sccs_o_286.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 8289,
+    "molecular_formula": "C18H15O4P",
+    "molecular_weight": "326.3",
+    "xlogp": 4.6,
+    "tpsa": 44.8,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "TRIPHENYL PHOSPHATE",
+      "115-86-6",
+      "Triphenylphosphate",
+      "Phosphoric acid, triphenyl ester",
+      "Disflamoll TP",
+      "Celluflex TPP",
+      "Phosflex TPP",
+      "Triphenoxyphosphine oxide",
+      "Trifenylfosfat",
+      "Phenyl phosphate ((PhO)3PO)"
+    ]
+  },
+  "cosing": {
+    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON TRIPHENYL PHOSPHATE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "ingredient": "triclocarban",
+  "cas": "101-20-2",
+  "ec": "202-924-1",
+  "inci_name": "TRICLOCARBAN",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1643/22",
+        "date_avis": "2022-10-25",
+        "type_rapport": "Scientific Advice",
+        "verdict": null,
+        "concentration_max": "0.2% | 1.5% | 46.4% in the groups treated with",
+        "categorie": "Preservative",
+        "conclusion": "The SCCS concludes the following: In light of the information submitted via the call for data, the currently available scientific literature, relevant in silico tools and SCCS’ expert judgement and taking under consideration in particular the concerns related to potential endocrine disrupting properties, the SCCS is requested: 1.",
+        "abstract": "The SCCS concludes the following: In light of the information submitted via the call for data, the currently available scientific literature, relevant in silico tools and SCCS’ expert judgement and taking under consideration in particular the concerns related to potential endocrine disrupting properties, the SCCS is requested: 1. To identify and justify specific concerns regarding the safe use of triclocarban and triclosan in cosmetic products Based on the safety assessment carried out in consideration of all available information, including the potential endocrine effects, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/b43f36b5-6a19-4b76-88f5-6c1bf8fd8ade_en?filename=sccs_o_265.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": true,
+    "annex_III_details": {
+      "entry_number": "100",
+      "product_type": "Produits à rincer",
+      "max_concentration": "1,5 %",
+      "max_concentration_pct": 1.5,
+      "conditions": "Critères de pureté: 3,3',4,4'-tétrachloroazobenzène ≤ 1 ppm 3,3',4,4'-tétrachloroazoxybenzène ≤ 1 ppm À des fins autres qu'inhiber le développement de micro-organismes dans le produit. Cette fin doit ressortir de la présentation du produit",
+      "labelling": "Ne pas utiliser chez les enfants âgés de moins de 3 ans ( 11 )"
+    }
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "38969453",
+        "doi": "10.1016/j.jes.2023.10.011",
+        "title": "Occurrence and risks of pharmaceuticals, personal care products, and endocrine-disrupting compounds in Chinese surface waters.",
+        "abstract": "The continuous and rapid increase of chemical pollution in surface waters has become a pressing and widely recognized global concern. As emerging contaminants (ECs) in surface waters, pharmaceutical and personal care products (PPCPs), and endocrine-disrupting compounds (EDCs) have attracted considerable attention due to their wide occurrence and potential threat to human health. Therefore, a comprehensive understanding of the occurrence and risks of ECs in Chinese surface waters is urgently required. This study summarizes and assesses the environmental occurrence concentrations and ecological risks of 42 pharmaceuticals, 15 personal care products (PCPs), and 20 EDCs frequently detected in Chinese surface waters. The ECs were primarily detected in China's densely populated and highly industrialized regions. Most detected PPCPs and EDCs had concentrations between ng/L to µg/L, whereas norfloxacin, caffeine, and erythromycin had relatively high contamination levels, even exceeding 2000 ng/L. Risk evaluation based on the risk quotient method revealed that 34 PPCPs and EDCs in Chinese surface waters did not pose a significant risk, whereas 4-nonylphenol, 4-tert-octylphenol, 17α-ethinyl estradiol, 17β-estradiol, and triclocarban did. This review provides a comprehensive summary of the occurrence and associated hazards of typical PPCPs and EDCs in Chinese surface waters over the past decade, and will aid in the regulation and control of these ECs in Chinese surface waters.",
+        "journal": "Journal of environmental sciences (China)",
+        "date": "2024-Dec",
+        "mesh": [
+          "China",
+          "Cosmetics",
+          "Endocrine Disruptors",
+          "Environmental Monitoring",
+          "Pharmaceutical Preparations",
+          "Risk Assessment",
+          "Water Pollutants, Chemical"
+        ],
+        "keywords": [
+          "Endocrine-disrupting compounds (EDCs)",
+          "Occurrence",
+          "Pharmaceuticals and personal care products (PPCPs)",
+          "Prioritization",
+          "Risk assessment",
+          "Surface waters"
+        ],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "39317008",
+        "doi": "10.1016/j.envint.2024.109032",
+        "title": "Exposure and potential risks of thirteen endocrine- disrupting chemicals in pharmaceuticals and personal care products for breastfed infants in China.",
+        "abstract": "Ingestion of breast milk represents the primary exposure pathway for endocrine-disrupting chemicals (EDCs) in newborns. To elucidate the associated risks, it is essential to quantify EDC levels in both breast milk and infant urine. This study measured the concentrations of 13 EDCs, including parabens (methyl paraben (MP), ethyl paraben (EP), propyl paraben (PP), iso-propyl paraben, butyl paraben, and iso-butyl paraben), bisphenols (bisphenol A (BPA), bisphenol F, bisphenol S, bisphenol AF, and bisphenol Z), triclosan (TCS), and triclocarban, in breast milk and infant urine to assess their potential health effects and endocrine disruption risks. In total, 1 014 breast milk samples were collected from 20 cities across China, along with 144 breast milk samples and 134 urine samples from a mother-infant cohort in Hangzhou. The EDCs were detected using ultra-high-performance liquid chromatography-triple quadrupole mass spectrometry. Endocrine-disrupting potency was evaluated using a predictive method based on EDC affinity for 15 hormone receptor proteins. The toxicological priority index (ToxPi), incorporating population exposure data, was employed to assess health risks associated with exposure to multiple EDCs. Among the 13 EDCs, MP, EP, PP, BPA, and TCS were detected in over 50 % of breast milk samples, with the highest median concentrations observed for MP (0.37 ng/mL), EP (0.29 ng/mL), and BPA (0.17 ng/mL). Across the 20 cities, 0 %-40 % of infants had a hazard index (HI) exceeding 1. Based on affinity prediction analysis and estimated exposure, cumulative endocrine disruption risk intensity was ranked as MP > TCS > BPA > EP > PP. This research highlights the extensive exposure of Chinese infants to EDCs, offering a detailed analysis of their varying endocrine disruption potencies and underscoring the significant health risks associated with EDCs in breast milk.",
+        "journal": "Environment international",
+        "date": "2024-Oct",
+        "mesh": [
+          "Humans",
+          "Endocrine Disruptors",
+          "China",
+          "Milk, Human",
+          "Female",
+          "Infant",
+          "Parabens",
+          "Benzhydryl Compounds",
+          "Triclosan",
+          "Infant, Newborn"
+        ],
+        "keywords": [
+          "Bisphenol A (BPA)",
+          "Early life exposure",
+          "Parabens",
+          "Pharmaceuticals and personal-care products (PPCP)",
+          "Risk assessment",
+          "Triclosan (TCS)"
+        ],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "38890543",
+        "doi": "10.1016/j.envres.2022.113239",
+        "title": "Recent use of consumer and personal care products and exposures to select endocrine disrupting chemicals among urban children with asthma.",
+        "abstract": "BACKGROUND: Emerging studies suggest that endocrine disrupting chemicals (EDCs) in personal care and other consumer products are linked with various adverse health effects, including respiratory and reproductive effects. Despite Black persons using more personal care products than other demographic groups and having a high asthma burden, little is known regarding their consumer product use patterns and associated EDC exposures. OBJECTIVE: To examine the association between recent exposure to select EDCs with specific consumer products and behaviors in a cohort of 110 predominantly Black children with asthma, ages 8-17 years, living in Baltimore City, Maryland. METHODS: We quantified concentrations of bisphenol A (BPA), bisphenol S (BPS), bisphenol F, two dichlorophenols, four parabens, triclosan, benzophenone-3, and triclocarban in spot urine samples. Questionnaires were used to capture recent (last 24-h) consumer product use and behaviors. Associations between EDCs and consumer product uses/behaviors were assessed using multivariable linear regression, adjusting for age, gender, race/ethnicity, and caregiver income level. Effect estimates were expressed as geometric mean ratios of biomarker concentrations of product-users vs non-users. RESULTS: Increased concentrations to select EDCs were associated with recent use of air freshener (ratios; BPA: 1.9, 95%CI 1.4-2; BPS 1.7, 95%CI 1-2.97; propyl paraben: 3.0, 95%CI 1.6-5.6), scented candles (methyl paraben: 2.6, 95%CI 1.1-6.1), and scented carpet powder (2,5-dichlorophenol: 2.8, 95%CI 1.2-6.3). Additionally, consuming canned food was associated with some increased biomarker concentrations (ratios: BPA: 1.7, 95%CI 1.2-2.4; BPS: 2.1, 95% CI: 1.2-3.6). SIGNIFICANCE: These findings add to the body of evidence suggesting that recent use of select consumer products in Black children contributes to exposure of chemicals of concern and could potentially inform exposure mitigation interventions. Findings have broad potential health implications for pediatric populations and Black children who may face exposure and health disparities. IMPACT: Little is known about how children's personal care product use and consumer behaviors affect their exposures to endocrine disrupting chemicals (EDCs). This is particularly true for Black children who often experience a disparate exposure burden to many EDCs. This is a significant knowledge gap among children that are uniquely vulnerable to EDCs as they undergo critical windows of growth and development. Our findings show associations between consumer products and EDC exposures in predominantly Black children in low-income settings. Identifying EDC exposure determinants has broad health implications as many of these chemicals have been associated with adverse health risks.",
+        "journal": "Journal of exposure science & environmental epidemiology",
+        "date": "2024-Jul",
+        "mesh": [
+          "Humans",
+          "Child",
+          "Endocrine Disruptors",
+          "Male",
+          "Adolescent",
+          "Female",
+          "Asthma",
+          "Cosmetics",
+          "Phenols",
+          "Baltimore"
+        ],
+        "keywords": [
+          "Children with Asthma",
+          "Endocrine disrupting chemical exposure",
+          "Exposure disparities",
+          "Personal care products"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "31103866",
+        "doi": "10.1016/j.chemosphere.2019.04.145",
+        "title": "Fate of Triclocarban (TCC) in aquatic and terrestrial systems and human exposure.",
+        "abstract": "Triclocarban (TCC) is considered as contaminant of emerging concern (CEC), and ranked in the top 10 CEC occurrence. TCC is a high production volume synthetic chemical used extensively in various personal care products. This chemical will be released into the environment via incomplete wastewater treatment and untreated wastewater discharge. TCC and its transformation products (4,4'-dichlorocarbilide (DCC),1-(3-chlorophenyl)-3-phenylurea (MCC) and carbanilide (NCC),2'OH-TCC, 3'OH-TCC) were detected in the environmental matrices. Sediment organic carbon will influence TCC concentrations in suspended and bed sediments. TCC is an antimicrobial agent and also emerging endocrine disruptor that can cause immune dysfunction and affect human reproductive outcomes. Furthermore, TCC alters the expression of proteins related to binding and metabolism, skeletal muscle development and function, nervous system development and immune response. TCC has potential health risks in wildlife and humans. Several animal studies illustrate that it can cause various adverse effects, which can be monitored by antioxidant biomarkers (CAT, GST and LPO). Accumulation of TCC in organisms depends on the lipophilicity and bioavailability of TCC in sediment and water. TCC was continuously detected in aquatic system. TCC is a lipophilic compound, which can efficiently bind with lipid content. Women are more vulnerable to TCC due to substantially higher frequency and extended exposure to TCC. This review provides basic information of occurrence of TCC and the exposure levels in aquatic organisms. Several literature have shown the higher usage and human exposure levels of TCC, which provides useful information for the chemical management approaches.",
+        "journal": "Chemosphere",
+        "date": "2019-Sep",
+        "mesh": [
+          "Animals",
+          "Anti-Infective Agents",
+          "Antioxidants",
+          "Aquatic Organisms",
+          "Biomarkers",
+          "Carbanilides",
+          "Endocrine Disruptors",
+          "Environmental Exposure",
+          "Female",
+          "Humans"
+        ],
+        "keywords": [
+          "Aquatic system",
+          "Emerging contaminant",
+          "Human",
+          "Terrestrial systems",
+          "Triclocarban"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "36430973",
+        "doi": "10.24327/ijcar.2017.7091.1077",
+        "title": "Cosmetic Preservatives: Hazardous Micropollutants in Need of Greater Attention?",
+        "abstract": "In recent years, personal care products (PCPs) have surfaced as a novel class of pollutants due to their release into wastewater treatment plants (WWTPs) and receiving environments by sewage effluent and biosolid-augmentation soil, which poses potential risks to non-target organisms. Among PCPs, there are preservatives that are added to cosmetics for protection against microbial spoilage. This paper presents a review of the occurrence in different environmental matrices, toxicological effects, and mechanisms of microbial degradation of four selected preservatives (triclocarban, chloroxylenol, methylisothiazolinone, and benzalkonium chloride). Due to the insufficient removal from WWTPs, cosmetic preservatives have been widely detected in aquatic environments and sewage sludge at concentrations mainly below tens of µg L-1. These compounds are toxic to aquatic organisms, such as fish, algae, daphnids, and rotifers, as well as terrestrial organisms. A summary of the mechanisms of preservative biodegradation by micro-organisms and analysis of emerging intermediates is also provided. Formed metabolites are often characterized by lower toxicity compared to the parent compounds. Further studies are needed for an evaluation of environmental concentrations of preservatives in diverse matrices and toxicity to more species of aquatic and terrestrial organisms, and for an understanding of the mechanisms of microbial degradation. The research should focus on chloroxylenol and methylisothiazolinone because these compounds are the least understood.",
+        "journal": "International journal of molecular sciences",
+        "date": "2022-Nov",
+        "mesh": [
+          "Animals",
+          "Sewage",
+          "Preservatives, Pharmaceutical",
+          "Cosmetics",
+          "Thiazoles",
+          "Xylenes"
+        ],
+        "keywords": [
+          "benzalkonium chloride",
+          "chloroxylenol",
+          "ecotoxicity",
+          "methylisothiazolinone",
+          "microbial degradation",
+          "personal care products",
+          "preservatives",
+          "triclocarban"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "34068616",
+        "doi": "10.1208/s12248-016-9888-z",
+        "title": "The Different Facets of Triclocarban: A Review.",
+        "abstract": "In the late 1930s and early 1940s, it was discovered that the substitution on aromatic rings of hydrogen atoms with chlorine yielded a novel chemistry of antimicrobials. However, within a few years, many of these compounds and formulations showed adverse effects, including human toxicity, ecotoxicity, and unwanted environmental persistence and bioaccumulation, quickly leading to regulatory bans and phase-outs. Among these, the triclocarban, a polychlorinated aromatic antimicrobial agent, was employed as a major ingredient of toys, clothing, food packaging materials, food industry floors, medical supplies, and especially of personal care products, such as soaps, toothpaste, and shampoo. Triclocarban has been widely used for over 50 years, but only recently some concerns were raised about its endocrine disruptive properties. In September 2016, the U.S. Food and Drug Administration banned its use in over-the-counter hand and body washes because of its toxicity. The withdrawal of triclocarban has prompted the efforts to search for new antimicrobial compounds and several analogues of triclocarban have also been studied. In this review, an examination of different facets of triclocarban and its analogues will be analyzed.",
+        "journal": "Molecules (Basel, Switzerland)",
+        "date": "2021-May",
+        "mesh": [
+          "Animals",
+          "Anti-Bacterial Agents",
+          "Biotransformation",
+          "Carbanilides",
+          "Ecotoxicology",
+          "Humans",
+          "Triclosan"
+        ],
+        "keywords": [
+          "TCC",
+          "antimicrobials",
+          "bis-arylureas",
+          "diarylureas",
+          "metabolites",
+          "triclocarban",
+          "triclocarban analogues"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "31901847",
+        "doi": "10.1016/j.jhazmat.2019.121944",
+        "title": "Fate, risk and removal of triclocarban: A critical review.",
+        "abstract": "The halogenated antimicrobial triclocarban (TCC) has large production and consumption over last decades. Its extensive utilization in personal care products and insufficient treatment in conventional wastewater treatment plants (WWTPs) has led to its listing as one of emerging organic contaminants (EOCs). Due to the hydrophobicity and chemical stability of TCC, it has been omnipresent detected in terrestrial and aquatic environments, and its prolonged exposure has thrown potential pernicious threat to ecosystem and human health. Considering its recalcitrance, especially under anoxic conditions, both biological and non-biological methods have been exploited for its removal. The efficiency of advanced oxidation processes was optimistic, but complete removal can rarely be realized through a single method. The biodegradation of TCC either with microbial community or pure culture is feasible but efficient bacterial degraders and the molecular mechanism of degradation need to be further explored. This review provides comprehensive information of the occurrence, potential ecological and health effects, and biological and non-biological removal of TCC, and outlines future prospects for the risk evaluation and enhanced bioremediation of TCC in various environments.",
+        "journal": "Journal of hazardous materials",
+        "date": "2020-Apr",
+        "mesh": [
+          "Animals",
+          "Anti-Infective Agents",
+          "Bacteria",
+          "Carbanilides",
+          "Environmental Pollutants",
+          "Environmental Restoration and Remediation",
+          "Humans",
+          "Plants"
+        ],
+        "keywords": [
+          "Environmental risk",
+          "Functional species and genes",
+          "Triclocarban fate",
+          "Triclocarban transformation"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "35183580",
+        "doi": "10.1016/j.chemosphere.2022.134019",
+        "title": "Parabens and antimicrobial compounds in conventional and \"green\" personal care products.",
+        "abstract": "The personal care product (PCP) industry is a worldwide multi-billion-dollar industry. Several synthetic compounds like parabens and antimicrobial agents triclosan (TCS) and triclocarban (TCC) are ingredients in many PCPs. Due to growing public awareness of potential risks associated with parabens and other synthetic compounds, more PCPs are being marketed as \"green,\" \"alternative,\" or \"natural.\" We analyzed 19 green and 34 conventional PCP products obtained from a European store for seven parabens, TCC, and TCS. We found no statistically significant difference in the concentrations between green and conventional products. Only four products mentioned parabens in the list of ingredients; however, parabens were detected in 43 products, and at μg/g levels in seven PCPs. Methylparaben was typically present at the highest concentration, and one mascara exceeded the European legal concentration limit of methylparaben. Low concentrations of isopropyl-, isobutyl-, and benzylparabens, which are banned in the EU, were detected in 70% of PCPs. The cumulative estimated daily intake of parabens is an order of magnitude higher for people using only conventional products than those using green products exclusively. We propose that legislation be developed with more explicit rules on when a product can be advertised as \"green\" to aid consumers' choices.",
+        "journal": "Chemosphere",
+        "date": "2022-Jun",
+        "mesh": [
+          "Anti-Bacterial Agents",
+          "Anti-Infective Agents",
+          "Cosmetics",
+          "Humans",
+          "Parabens",
+          "Triclosan"
+        ],
+        "keywords": [
+          "Cosmetics",
+          "Endocrine disruptors",
+          "Greenwashing",
+          "Human health",
+          "Parabens",
+          "Triclosan"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "37728908",
+        "doi": "10.1016/j.ijheh.2021.113798",
+        "title": "Prenatal Exposure to Nonpersistent Environmental Chemicals and Postpartum Depression.",
+        "abstract": "IMPORTANCE: Postpartum depression (PPD) affects up to 20% of childbearing individuals, and a significant limitation in reducing its morbidity is the difficulty in modifying established risk factors. Exposure to synthetic environmental chemicals found in plastics and personal care products, such as phenols, phthalates, and parabens, are potentially modifiable and plausibly linked to PPD and have yet to be explored. OBJECTIVE: To evaluate associations of prenatal exposure to phenols, phthalates, parabens, and triclocarban with PPD symptoms. DESIGN, SETTING, AND PARTICIPANTS: This was a prospective cohort study from 5 US sites, conducted from 2006 to 2020, and included pooled data from 5 US birth cohorts from the National Institutes of Health Environmental Influences on Child Health Outcomes (ECHO) consortium. Participants were pregnant individuals with data on urinary chemical concentrations (phenols, phthalate metabolites, parabens, or triclocarban) from at least 1 time point in pregnancy and self-reported postnatal depression screening assessment collected between 2 weeks and 12 months after delivery. Data were analyzed from February to May 2022. EXPOSURES: Phenols (bisphenols and triclosan), phthalate metabolites, parabens, and triclocarban measured in prenatal urine samples. MAIN OUTCOMES AND MEASURES: Depression symptom scores were assessed using the Edinburgh Postnatal Depression Scale (EPDS) or the Center for Epidemiologic Studies Depression Scale (CES-D), harmonized to the Patient-Reported Measurement Information System (PROMIS) Depression scale. Measures of dichotomous PPD were created using both sensitive (EPDS scores ≥10 and CES-D scores ≥16) and specific (EPDS scores ≥13 and CES-D scores ≥20) definitions. RESULTS: Among the 2174 pregnant individuals eligible for analysis, nearly all (>99%) had detectable levels of several phthalate metabolites and parabens. PPD was assessed a mean (SD) of 3 (2.5) months after delivery, with 349 individuals (16.1%) and 170 individuals (7.8%) screening positive for PPD using the sensitive and specific definitions, respectively. Linear regression results of continuous PROMIS depression T scores showed no statistically significant associations with any chemical exposures. Models examining LMW and HMW phthalates and di (2-ethylhexyl) phthalate had estimates in the positive direction whereas all others were negative. A 1-unit increase in log-transformed LMW phthalates was associated with a 0.26-unit increase in the PROMIS depression T score (95% CI, -0.01 to 0.53; P = .06). This corresponded to an odds ratio (OR) of 1.08 (95% CI, 0.98-1.19) when modeling PPD as a dichotomous outcome and using the sensitive PPD definition. HMW phthalates were associated with increased odds of PPD (OR, 1.11; 95% CI, 1.00-1.23 and OR, 1.10; 95% CI, 0.96-1.27) for the sensitive and specific PPD definitions, respectively. Sensitivity analyses produced stronger results. CONCLUSIONS AND RELEVANCE: Phthalates, ubiquitous chemicals in the environment, may be associated with PPD and could serve as important modifiable targets for preventive interventions. Future studies are needed to confirm these observations.",
+        "journal": "JAMA psychiatry",
+        "date": "2024-Jan",
+        "mesh": [
+          "Pregnancy",
+          "Child",
+          "Female",
+          "Humans",
+          "Depression, Postpartum",
+          "Prospective Studies",
+          "Prenatal Exposure Delayed Effects",
+          "Parabens",
+          "Phenols",
+          "Diethylhexyl Phthalate"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "35738461",
+        "doi": "10.1016/j.etap.2022.103914",
+        "title": "Pharmaceutical and personal care products as emerging environmental contaminants in Nigeria: A systematic review.",
+        "abstract": "The increasingly broad and massive use of pharmaceuticals (human, veterinary) and personal care products in industrially developing nations makes their uncontrolled environmental and ecological impact a true concern. Focusing on Nigeria, this systematic literature search (databases: PubMed, ScienceDirect, Google Scholar, EMBASE, Scopus, Cochrane library and African Journals Online) aims to increase visibility to the issue. Among 275 articles identified, 7 were included in this systematic review. Studies indicated the presence of 11 personal care products (15.94 %) and 58 pharmaceutical products (84.06 %) in surface and ground water, leachates, runoffs, sludge, and sediments. The 42.86% (3/7) of reviewed studies reported 17 analgesics; 71.42 % (5/7) reported 16 antibiotics; 28.57 % (2/7) reported 5 lipid lowering drugs; 28.57% reported anti-malaria and fungal drugs; 14.29 % (1/7) reported estrogen drugs. Different studies report on sunscreen products, hormone, phytosterol, insect repellent, and β1 receptor. Gemfibrozil (<4-730 ng/L), Triclosan (55.1-297.7 ng/L), Triclocarban (35.6-232.4 ng/L), Trimethoprim (<1-388 ng/L) and Tramadol (<2-883 ng/L) had the highest range of concentrations. Findings confirm the need of i) legislation for environmental monitoring, including biota, ii) toxicological profiling of new market products, and iii) sensitization on appropriate use and disposal of pharmaceuticals and personal care products.",
+        "journal": "Environmental toxicology and pharmacology",
+        "date": "2022-Aug",
+        "mesh": [
+          "Cosmetics",
+          "Environmental Monitoring",
+          "Humans",
+          "Nigeria",
+          "Pharmaceutical Preparations",
+          "Water Pollutants, Chemical"
+        ],
+        "keywords": [
+          "Africa",
+          "Anti-fungi",
+          "Antibiotics",
+          "Antimalarial",
+          "Environmental health",
+          "One health"
+        ],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 7547,
+    "molecular_formula": "C13H9Cl3N2O",
+    "molecular_weight": "315.6",
+    "xlogp": 5.3,
+    "tpsa": 41.1,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Triclocarban",
+      "101-20-2",
+      "1-(4-Chlorophenyl)-3-(3,4-dichlorophenyl)urea",
+      "3,4,4'-TRICHLOROCARBANILIDE",
+      "Cutisan",
+      "Procutene",
+      "Solubacter",
+      "Cusiter",
+      "Genoface",
+      "Trilocarban"
+    ]
+  },
+  "cosing": {
+    "inci_name": "TRICLOCARBAN",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

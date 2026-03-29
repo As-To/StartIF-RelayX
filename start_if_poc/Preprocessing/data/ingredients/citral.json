@@ -1,0 +1,305 @@
+{
+  "ingredient": "Citral",
+  "cas": "5392-40-5",
+  "ec": "226-394-6",
+  "inci_name": "CITRAL",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1666/24",
+        "date_avis": "2024-07-29",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "25% in induction at | 10% in rechallenge test at were observed in in G | 20% in petrolatum",
+        "categorie": "UV Filter",
+        "conclusion": "In light of the data provided and taking under consideration the derived upper safe levels using QRA2 methodology for the sensitisation endpoint, does the SCCS consider Citral safe when used as a fragrance ingredient in cosmetic products up to the maximum concentrations provided in the dossier submission? The SCCS has noted that the QRA2 methodology has indicated that Citral can be considered safe in relation to the induction of sensitisation at the concentrations proposed for use in cosmetic products.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the derived upper safe levels using QRA2 methodology for the sensitisation endpoint, does the SCCS consider Citral safe when used as a fragrance ingredient in cosmetic products up to the maximum concentrations provided in the dossier submission? The SCCS has noted that the QRA2 methodology has indicated that Citral can be considered safe in relation to the induction of sensitisation at the concentrations proposed for use in cosmetic products. However, the SCCS has identified some aspects of the QRA2 methodology that still need clarification and therefore, some refinement is needed before a firm",
+        "pdf_url": "https://health.ec.europa.eu/document/download/1d28405e-f5f9-4ee2-ac1c-465407e3b569_en?filename=sccs_o_287.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": true,
+    "annex_III_details": {
+      "entry_number": "70",
+      "product_type": "b) Autres produits",
+      "max_concentration": "3 % (en chlorure de benzalkonium)",
+      "max_concentration_pct": 3.0,
+      "conditions": "La présence de la substance doit être indiquée dans la liste des ingrédients visés à l'article 19, paragraphe 1, point g), lorsque sa concentration est supérieure: — à 0,001 % dans les produits sans rinçage — à 0,01 % dans les produits à rincer",
+      "labelling": "Éviter tout contact avec les yeux"
+    }
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "35268817",
+        "doi": "10.1016/j.indcrop.2014.06.028",
+        "title": "Toxicity of Selected Monoterpenes and Essential Oils Rich in These Compounds.",
+        "abstract": "Monoterpenes make up the largest group of plant secondary metabolites. They can be found in numerous plants, among others, the Lamiaceae family. The compounds demonstrate antioxidative, antibacterial, sedative and anti-inflammatory activity, hence, they are often employed in medicine and pharmaceuticals. Additionally, their fragrant character is often made use of, notably in the food and cosmetic industries. Nevertheless, long-lasting studies have revealed their toxic properties. This fact has led to a detailed analysis of the compounds towards their side effects on the human organism. Although most are safe for human food and medical applications, there are monoterpene compounds that, in certain amounts or under particular circumstances (e.g., pregnancy), can cause serious disorders. The presented review characterises in vitro and in vivo, the toxic character of selected monoterpenes (α-terpinene, camphor, citral, limonene, pulegone, thujone), as well as that of their original plant sources and their essential oils. The selected monoterpenes reveal various toxic properties among which are embryotoxic, neurotoxic, allergenic and genotoxic. It is also known that the essential oils of popular plants can also reveal toxic characteristics that many people are unaware of.",
+        "journal": "Molecules (Basel, Switzerland)",
+        "date": "2022-Mar",
+        "mesh": [
+          "Camphor",
+          "Female",
+          "Humans",
+          "Lamiaceae",
+          "Limonene",
+          "Monoterpenes",
+          "Oils, Volatile",
+          "Plant Oils",
+          "Pregnancy"
+        ],
+        "keywords": [
+          "abortifacient",
+          "genotoxicity",
+          "monoterpenes",
+          "neurotoxicity",
+          "plant secondary metabolites",
+          "teratogenicity",
+          "toxicity"
+        ],
+        "relevance_score": 8
+      },
+      {
+        "pmid": "33514008",
+        "doi": "10.1002/rcm.6489",
+        "title": "Essential Oils as Natural Sources of Fragrance Compounds for Cosmetics and Cosmeceuticals.",
+        "abstract": "Fragrance is an integral part of cosmetic products and is often regarded as an overriding factor in the selection of cosmetics among consumers. Fragrances also play a considerable role in masking undesirable smells arising from fatty acids, oils and surfactants that are commonly used in cosmetic formulations. Essential oils are vital assets in the cosmetic industry, as along with imparting pleasant aromas in different products, they are able to act as preservatives and active agents and, simultaneously, offer various benefits to the skin. Moreover, the stimulating demand for natural ingredients has contributed massively to a renewed interest in cosmetic and wellness industries in plant derivatives, especially essential oils. This has led popular cosmetic companies to endorse natural fragrances and opt for minimally processed natural ingredients, given the potentially adverse health risks associated with artificial fragrance chemicals, which are major elements of cosmetics. Among the high-valued essential oils used as fragrances are citrus, lavender, eucalyptus, tea tree and other floral oils, among others, while linalool, geraniol, limonene, citronellol, and citral are much-appreciated fragrance components used in different cosmetics. Thus, this review aimed to highlight the enormous versatility of essential oils as significant sources of natural fragrances in cosmetics and cosmeceuticals. Moreover, a special focus will be laid on the different aspects related to essential oils such as their sources, market demand, chemistry, fragrance classification, aroma profile, authenticity and safety.",
+        "journal": "Molecules (Basel, Switzerland)",
+        "date": "2021-Jan",
+        "mesh": [
+          "Animals",
+          "Biological Products",
+          "Cosmeceuticals",
+          "Cosmetics",
+          "Humans",
+          "Odorants",
+          "Oils, Volatile"
+        ],
+        "keywords": [
+          "cosmetics",
+          "essential oils",
+          "natural fragrances"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "35749843",
+        "doi": "10.1016/j.vetpar.2022.109756",
+        "title": "Nanoformulations with synthetic and plant-derived compounds for cattle tick control.",
+        "abstract": "Nanocarriers of acaricidal compounds improve the bioavailability, absorption, and tissue distribution of active ingredients, releasing them in a slow, targeted way and protecting them against premature degradation. Thus, this study aimed to develop formulations from solid lipid nanoparticles (SLN), or nanostructured lipid carriers (NLC) associated with cypermethrin (cip) + chlorpyrifos (chlo) and vegetable compounds (citral, menthol, or limonene). Particles were then characterised, and their efficacy was verified on R. microplus in comparison to nanoformulations without the plant-based compounds. Six different formulations were developed and characterised by dynamic light scattering (DLS) and nanoparticle tracking analysis (NTA). Formulations 1 (SLN+cyp+chlo+citral), 2 (SLN+cyp+chlo+menthol), 3 (SLN+cyp+chlo+limonene), 4 (NLC+cyp+chlo+citral), 5 (NLC+cyp+chlo+menthol) and 6 (NLC+cyp+chlo+limonene) had mean diameters from 286 to 304 nm; polydispersion from 0.16 to 0.18; zeta potential from -15.8 to -20 mV, concentration from 3.37 ± 0.24 × 1013 to 5.44 ± 0.18 × 1013 particles/mL and encapsulation efficiency (EE) > 98.01 % for all active ingredients. All formulations were evaluated for their acaricidal potential by the larval packet test (LPT) and compared with nanoformulations without the plant-based compounds. Formulations were also compared with positive (Colosso® at 512 µg/mL) and negative controls (distilled water and nanoparticles without active ingredients). The SLN (1, 2 and 3) and NLC (4, 5 and 6) formulations, at 7 µg/mL, resulted in 90.4 % , 75.9 % , 93.8 % , 100 % , 95.1 % and 72.7 % mortality. The data demonstrated that the addition of citral, menthol or limonene in the formulations improved their acaricide action against tick larvae. Except for formulation 4, for which it was not possible to determine lethal concentrations (LC). Formulations, 1, 2, 3, 5 and 6 reached LC50 and LC90 values of 3.3 and 7.2, 5.4 and 9.2, 4.0 and 8.1, 2.3 and 5.4 as well as 5.5 and 9.4 µg/mL, respectively. It was possible to encapsulate the active ingredients and characterise the lipid carrier systems. SLN and NLC protected the active ingredients against degradation in solution and increased the overall stability. A stabile solution is necessary for synthesizing commercial acaricidal products. It is hoped that these findings may contribute to new studies focused on the use of nanocarriers in tick formulations. By reducing the amount or concentration of active ingredients within commercial products, the risk of residues presents in food of animal origin or remaining in the environment is reduced. Nanocarriers help prevent these challenges, while still maintaining effective parasitic control. Utilizing a combination of natural and synthetic products can be part of integrated management solutions and can help overcome widespread acaricide resistance in populations of cattle ticks.",
+        "journal": "Veterinary parasitology",
+        "date": "2022-Sep",
+        "mesh": [
+          "Acaricides",
+          "Animals",
+          "Limonene",
+          "Liposomes",
+          "Menthol",
+          "Nanoparticles",
+          "Phytochemicals",
+          "Rhipicephalus",
+          "Tick Control"
+        ],
+        "keywords": [
+          "Cattle tick",
+          "Chlorpyrifos",
+          "Cypermethrin",
+          "Nanostructured lipid carriers",
+          "Plant isolates",
+          "Solid lipid nanoparticles"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "27752443",
+        "doi": "10.1016/j.ijheh.2011.12.009",
+        "title": "Natural personal care products-analysis of ingredient lists and legal situation.",
+        "abstract": "BACKGROUND: Many natural substances are classified as dangerous substances according to the European regulation on classification and labelling. Are they used in natural personal care products today? One hundred ingredient lists were analyzed to find this out. RESULTS: All products with natural substances contained dangerous natural substances or they contained natural substances, for which the information about their classification as dangerous substances is not available. 54 natural substances quoted in the ingredient lists were found to be classified, with 37 substances being classified due to hazardous effects for skin and eyes. However, the most frequently used natural substances are not classified as dangerous. Natural substances are multi-constituent compounds, leading to two main problems in personal care products: the potential interactions of a multitude of substances and the fact that dangerous constituents are not disclosed in the ingredient lists. For example, the fragrance allergens citral, farnesol, limonene, and linalool are frequent components of the natural substances employed. In addition, 82 products listed allergenic fragrance ingredients as single substances in their ingredient lists. Recommendations for sensitive skin in a product's name do not imply that the '26 fragrance allergens' are omitted. Furthermore, 80 products listed 'parfum'/'aroma', and 50 products listed ethanol. CONCLUSIONS: The data show that the loopholes for natural substances and for personal care products in the present European chemical legislation (e.g. the exception for classification and labelling of cosmetic products and the exception for information transfer in the supply chain) are not in line with an adequate consumer and environmental protection.",
+        "journal": "Environmental sciences Europe",
+        "date": "2016",
+        "mesh": [],
+        "keywords": [
+          "Classification and labeling",
+          "Cosmetics",
+          "Hazardous substances",
+          "Natural substances",
+          "Personal care products"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "33505486",
+        "doi": "10.9755/ejfa.v25i10.16408",
+        "title": "The Use of Essential Oils and Their Isolated Compounds for the Treatment of Oral Candidiasis: A Literature Review.",
+        "abstract": "In this literature review, we present the main scientific findings on the antifungal activity of essential oils (EOs) applicable for a new drug formulation to treat oral candidiasis. Seven literature databases were systematically searched for eligible in vitro and clinical trials. Selected articles were screened for biological activity, botanical species, phytochemical composition, study design, and methodological quality. A total of 26 articles were included in the review, of which 21 were in vitro studies and 5 clinical trials. The most promising EOs were obtained from Allium tubeorosum, Cinnamomum cassia, Cinnamomum zeylanicum, and Coriandrum sativum L. Among the phytochemicals, citral and thymol were the most active. Clinical trials indicated that the EOs from Pelargonium graveolens and Zataria multiflora are potentially effective to treat oral candidiasis. Further nonclinical and clinical studies with these EO are warranted to determine their potential use and safety for the treatment of oral candidiasis.",
+        "journal": "Evidence-based complementary and alternative medicine : eCAM",
+        "date": "2021",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "36105217",
+        "doi": "10.1021/jf202266n",
+        "title": "Review of phytomedicine, phytochemistry, ethnopharmacology, toxicology, and pharmacological activities of Cymbopogon genus.",
+        "abstract": "The Cymbopogon genus belongs to the Andropoganeae family of the family Poaceae, which is famous for its high essential oil concentration. Cymbopogon possesses a diverse set of characteristics that supports its applications in cosmetic, pharmaceuticals and phytotherapy. The purpose of this review is to summarize and connect the evidence supporting the use of phytotherapy, phytomedicine, phytochemistry, ethnopharmacology, toxicology, pharmacological activities, and quality control of the Cymbopogon species and their extracts. To ensure the successful completion of this review, data and studies relating to this review were strategically searched and obtained from scientific databases like PubMed, Google Scholar, ResearchGate, ScienceDirect, and Elsevier. Approximately 120 acceptable reviews, original research articles, and other observational studies were included and incorporated for further analysis. Studies showed that the genus Cymbopogon mainly contained flavonoids and phenolic compounds, which were the pivotal pharmacological active ingredients. When combined with the complex β-cyclodextrin, phytochemicals such as citronellal have been shown to have their own mechanism of action in inhibiting the descending pain pathway. Another mechanism of action described in this review is that of geraniol and citral phytochemicals, which have rose and lemon-like scents and can be exploited in soaps, detergents, mouthwash, cosmetics, and other products. Many other pharmacological effects, such as anti-protozoal, anti-bacterial, anti-inflammatory and anti-cancer have been discussed sequentially, along with how and which phytochemicals are responsible for the observed effect. Cymbopogon species have proven to be extremely valuable, with many applications. Its phytotherapy is proven to be due to its rich phytochemicals, obtained from different parts of the plant like leaves, roots, aerial parts, rhizomes, and even its essential oils. For herbs of Cymbopogon genus as a characteristic plant therapy, significant research is required to ensure their efficacy and safety for a variety of ailments.",
+        "journal": "Frontiers in pharmacology",
+        "date": "2022",
+        "mesh": [],
+        "keywords": [
+          "Cymbopogon",
+          "essential oils",
+          "pharmacological activity",
+          "phytochemistry",
+          "phytomedicine"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "31981590",
+        "doi": "10.1016/j.ejphar.2020.172945",
+        "title": "Targets and pathways involved in the antitumor activity of citral and its stereo-isomers.",
+        "abstract": "This review provides a comprehensive analysis of the anticancer potential of the natural product citral (CIT) found in many plants and essential oils, and extensively used in the food and cosmetic industry. CIT is composed of two stereoisomers, the trans-isomer geranial being a more potent anticancer compound than the cis-isomer neral. CIT inhibits cancer cell proliferation and induces cancer cell apoptosis. Its pluri-factorial mechanism of anticancer activity is essentially based on three pillars: (i) a drug-induced accumulation of reactive oxygen species in cancer cells leading to an oxidative burst and DNA damages, (ii) a colchicine-like inhibition of tubulin polymerization and promotion of microtubule depolymerization, associated with an inhibition of the microtubule affinity-regulating kinase MARK4, and (iii) a potent inhibition of the aldehyde dehydrogenase isoform ALDH1A3 which is associated with cancer stem cell proliferation and chemoresistance. This unique combination of targets and pathways confers a significant anticancer potential. However, the intrinsic potency of CIT is limited, mainly because the drug is not very stable and has a low bioavailability and it does not present a high selectivity for cancer cells versus non-tumor cells. Stable formulations of CIT, using cyclodextrins, biodegradable polymers, or various nano-structured particles have been designed to enhance the bioavailability, to increase the effective doses window and to promote the anticancer activity. The lack of tumor cell selectivity is more problematic and limits the use of the drug in cancer therapy. Nevertheless, CIT offers interesting perspectives to design more potent analogues and drug combinations with a reinforced antitumor potential.",
+        "journal": "European journal of pharmacology",
+        "date": "2020-Mar",
+        "mesh": [
+          "Acyclic Monoterpenes",
+          "Aldehyde Oxidoreductases",
+          "Animals",
+          "Antineoplastic Agents",
+          "Humans",
+          "Molecular Targeted Therapy",
+          "Neoplastic Stem Cells",
+          "Stereoisomerism"
+        ],
+        "keywords": [
+          "Cancer therapy",
+          "Citral",
+          "Geranial",
+          "Natural products",
+          "Neral",
+          "Signaling pathway"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "40108208",
+        "doi": "10.1016/j.str.2007.10.007",
+        "title": "Plant essential oil targets TRPV3 for skin renewal and structural mechanism of action.",
+        "abstract": "Our skin safeguards the body homeostasis for health and also provides psychological consolation in social life. Natural essential oils are widely used for skin maintenance, while the molecular target and mechanism of action remain largely unknown. Here, we report that citronellal, a plant-derived acyclic monoterpene commonly used for personal care, stimulates skin renewal by promoting keratinocyte proliferation through the activation of TRPV3. We further present cryo-EM structures of human TRPV3 in complex with acyclic monoterpenes, including citronellal, citral, linalool and isodihydrolavandulal, determined at resolutions of 3.1-3.6 Å. Our structural and functional analysis unmasks consistent yet subtly different binding modes within the TRPV3 vanilloid site. Our results elucidate that essential oil ligands activate TRPV3 channels by competitively displacing endogenous lipids from the vanilloid site. Together, these findings identify TRPV3 as the molecular target of natural acyclic monoterpenes for skin renewal, and delineate the structural basis of action, thus being instrumental for moving forward skin healthcare.",
+        "journal": "Nature communications",
+        "date": "2025-Mar",
+        "mesh": [
+          "TRPV Cation Channels",
+          "Humans",
+          "Oils, Volatile",
+          "Skin",
+          "Keratinocytes",
+          "Cryoelectron Microscopy",
+          "Acyclic Monoterpenes",
+          "Cell Proliferation",
+          "Plant Oils",
+          "HEK293 Cells"
+        ],
+        "keywords": [],
+        "relevance_score": 0
+      },
+      {
+        "pmid": "32439587",
+        "doi": "10.1016/j.fct.2020.111339",
+        "title": "RIFM fragrance ingredient safety assessment, citral, CAS Registry Number 5392-40-5.",
+        "abstract": null,
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "2020-Jul",
+        "mesh": [
+          "Acyclic Monoterpenes",
+          "Animals",
+          "Databases, Chemical",
+          "Humans",
+          "No-Observed-Adverse-Effect Level",
+          "Odorants",
+          "Perfume",
+          "Registries",
+          "Risk Assessment",
+          "Toxicity Tests"
+        ],
+        "keywords": [
+          "Environmental safety",
+          "Genotoxicity",
+          "Local respiratory toxicity",
+          "Phototoxicity/photoallergenicity",
+          "Repeated dose, developmental, and reproductive toxicity",
+          "Skin sensitization"
+        ],
+        "relevance_score": 0
+      },
+      {
+        "pmid": "31622222",
+        "doi": "10.2174/1574884714666191017111218",
+        "title": "Formulation and Evaluation of Polyherbal Cream and Lotion for the Treatment of Psoriasis-Induced Secondary Infections.",
+        "abstract": "BACKGROUND: Psoriasis is one of the most common skin diseases in humans and affects a major population worldwide. The aim of the present study is to evaluate the efficacy of selected polyherbal formulations against psoriasis-induced secondary infections. AIM: Psoriasis is one of the most common skin diseases in humans and affects a major population worldwide. The aim of the present study is to evaluate the efficacy of selected polyherbal formulations against psoriasis-induced secondary infections. METHODS: Samples were collected from the scalp, behind the ears, chest and back of the patients. The microscopic examination of fungal and bacterial growth was carried out with lactophenol cotton blue stain and gram stain, respectively. Volatile constituents of essential oils were identified by GC-MS analysis, in order to investigate the relation between chemical composition and biological activity. Nutrient agar media was used for antibacterial activity whereas Sabourauds dextrose agar media was used for antifungal activity. RESULTS: A total of 24 isolates were obtained from 2 patients of scalp psoriasis. Anti-oxidant activity of the samples was determined using DPPH radical scavenging method. In the present study, EOs showed a good antifungal action against Malassezia pachydermatis and other microbial strains. The GC-MS analysis revealed the presence of eugenol, linalool, citral, neral, limonene, terpenes, eucalyptol and thymol in the essential oils. The formulated retention lotion 1 (L4), 2 (L5), 3 (L6) and Cream 1 (C1) showed DPPH radical scavenging activity by 23.52%, 24.48%, 28% and 5.08%, respectively. CONCLUSION: The present study concluded that most of the formulated lotions and creams showed good antimicrobial activity and may be applied topically against scalp psoriasis.",
+        "journal": "Current reviews in clinical and experimental pharmacology",
+        "date": "2021",
+        "mesh": [
+          "Antifungal Agents",
+          "Coinfection",
+          "Humans",
+          "Microbial Sensitivity Tests",
+          "Oils, Volatile",
+          "Psoriasis"
+        ],
+        "keywords": [
+          "Candida spp. scalp psoriasis",
+          "Malassezia pachydermatis",
+          "amplification.",
+          "essential oil",
+          "eugenol"
+        ],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 638011,
+    "molecular_formula": "C10H16O",
+    "molecular_weight": "152.23",
+    "xlogp": 3,
+    "tpsa": 17.1,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Citral",
+      "5392-40-5",
+      "geranialdehyde",
+      "Lemsyn GB",
+      "3,7-Dimethyl-2,6-octadienal",
+      "2,6-Octadienal, 3,7-dimethyl-",
+      "FEMA Number 2303",
+      "NCI-C56348",
+      "FEMA No. 2303",
+      "3,7-Dimethyl-trans-2,6-octadienal"
+    ]
+  },
+  "cosing": {
+    "inci_name": "CITRAL",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

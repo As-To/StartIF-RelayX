@@ -1,0 +1,309 @@
+{
+  "ingredient": "Butylated Hydroxytoluene (BHT",
+  "cas": "128-37-0",
+  "ec": "204-881-4",
+  "inci_name": "BUTYLATED HYDROXYTOLUENE (BHT",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1636/21",
+        "date_avis": "2021-12-02",
+        "type_rapport": "Final Opinion",
+        "verdict": null,
+        "concentration_max": "0.001% | 0.1%",
+        "categorie": "Colorant",
+        "conclusion": "Alternatively, what is according to the SCCS the maximum concentration considered safe for use of BHT (Butylated hydroxytoluene) in cosmetic products?",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of BHT (Butylated hydroxytoluene), does the SCCS consider BHT safe: (a) when used in mouthwash up to the maximum concentration of 0.001% and in toothpaste up to the maximum concentration of 0.1%? On the basis of a safety assessment, and considering the concerns related to potential endocrine disrupting properties of BHT, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/18a5b1bd-cc01-40ad-bccf-acf5805c6fd3_en?filename=sccs_o_257.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "26812027",
+        "doi": "10.1016/j.tiv.2016.01.012",
+        "title": "Individual and combined in vitro (anti)androgenic effects of certain food additives and cosmetic preservatives.",
+        "abstract": "The individual and combined (binary mixtures) (anti)androgenic effect of butylparaben (BuPB), butylated hydroxyanisole (BHA), butylated hydroxytoluene (BHT) and propyl gallate (PG) was evaluated using the MDA-kb2 cell line. Exposing these cells to AR agonists results in the expression of the reporter gene (encoding for luciferase) and luminescence can be measured in order to monitor the activity of the reporter protein. In case of the evaluation of the anti-androgenic effect, the individual test compounds or binary mixtures were tested in the presence of a fixed concentration of a strong AR agonist (1000 pM 5-alpha-dihydrotestosterone; DHT). Cell viability was assessed using a resazurin based assay. For PG, this is the first report in the literature concerning its (anti)androgenic activity. In case of both individual and mixture testing none of the compounds or binary combinations showed androgenic activity. When tested in the presence of DHT, BuPB, BHA and BHT proved to be weak anti-androgens and this was confirmed during the evaluation of binary mixtures (BuPB+BHA, BuPB+BHT and BHA+BHT). Besides performing the in vitro testing of the binary combinations, two mathematical models (dose addition and response addition) were evaluated in terms of accuracy of prediction of the anti-androgenic effect of the selected binary mixtures. The dose addition model guaranteed a good correlation between the experimental and predicted data. However, no estimation was possible in case of mixtures containing PG, due to the lack of effect of the compound in case of the individual testing.",
+        "journal": "Toxicology in vitro : an international journal published in association with BIBRA",
+        "date": "2016-Apr",
+        "mesh": [
+          "Androgen Antagonists",
+          "Androgens",
+          "Antioxidants",
+          "Butylated Hydroxyanisole",
+          "Butylated Hydroxytoluene",
+          "Cell Line, Tumor",
+          "Cell Survival",
+          "Cosmetics",
+          "Dihydrotestosterone",
+          "Endocrine Disruptors"
+        ],
+        "keywords": [
+          "Anti-androgen",
+          "Endocrine disruptor",
+          "In vitro",
+          "Luciferase",
+          "Mixture"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "40490897",
+        "doi": "10.1111/ics.13079",
+        "title": "Investigating the dual functions of butylated hydroxytoluene, vitamin E and vitamin C as antioxidants and anti-glycation agents in vitro: Implications for skin health.",
+        "abstract": "OBJECTIVES: Antioxidants are vital in skincare for neutralizing reactive oxygen species (ROS), which impact key cellular structures, such as cell nuclei and elastic fibres and can contribute to skin ageing. Oxidative stress, compounded by processes such as glycation, therefore leads to impaired cellular renewal and reduced skin elasticity. The effectiveness of antioxidants depends on their concentrations, making it essential to investigate their dosage-related benefits to optimize skincare formulations. This raises an important question regarding the reciprocal effects of antioxidants on glycation and whether their protective effects against macromolecular damage are dose-dependent. METHODS: This study evaluated the antioxidant and anti-glycation effects of three concentrations of butylated hydroxytoluene (BHT), vitamin E and vitamin C. Using the established quantitative assays and immunofluorescence, total antioxidant capacities, the intracellular ROS production, glycation levels and expression of cellular biomarkers were measured in dermal fibroblasts and three-dimensional skin models cultured with methylglyoxal (MGO). RESULTS: All three antioxidants showed a significant ability to inhibit the formation of intracellular ROS and glycation products induced by MGO. Notably, there were differences in the concentrations required to defend against glycation-induced damage. Whilst the linear dose responses were observed for ROS and glycation inhibition, the protective effect against cellular damage was moderate. The inverse dose-response relationships, particularly in terms of collagen fibre preservation, suggested that higher total antioxidant capacity could have enhanced protective effects. Vitamin C, in particular, exhibited the most pronounced benefits at lower concentrations, suggesting its potential as a key player in combating glycation damage. CONCLUSION: The potentially novel aspect of this research lies in the synergistic relationship between the modulation of oxidative stress and glycation. This relationship significantly depends on the concentration of the molecules involved and their antioxidant properties. These findings may lead to more refined approaches in formulating active ingredients tailored to individual needs in personalized skincare.",
+        "journal": "International journal of cosmetic science",
+        "date": "2025-Dec",
+        "mesh": [
+          "Antioxidants",
+          "Ascorbic Acid",
+          "Humans",
+          "Skin",
+          "Vitamin E",
+          "Butylated Hydroxytoluene",
+          "Reactive Oxygen Species",
+          "Glycosylation",
+          "Fibroblasts",
+          "Antiglycation Agents"
+        ],
+        "keywords": [
+          "antioxidants",
+          "cosmetics",
+          "inverse dose responses",
+          "skin glycation"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "3804121",
+        "doi": "10.1016/0278-6915(86)90307-8",
+        "title": "The toxicological implications of the interaction of butylated hydroxytoluene with other antioxidants and phenolic chemicals.",
+        "abstract": "Butylated hydroxyanisole (BHA) enhanced both the in vitro peroxidase-catalysed covalent binding of butylated hydroxytoluene (BHT) to microsomal protein and the formation of BHT-quinone methide. Eugenol, methylparaben, vanillin, guaiacol, ferulic acid and several other phenolic compounds commonly used in food and cosmetic products also enhanced the metabolic activation of BHT. BHA was the most effective compound tested. Microsomes from lung, bladder, kidney medulla and small intestine of various animal species, including man, were also able to support this interaction of BHA and BHT using either hydrogen peroxide or arachidonic acid as the substrate. These in vitro observations were extended to an in vivo mouse lung model. Subcutaneous injections of BHA significantly enhanced the lung/body weight ratio of mice given intraperitoneal injections of subthreshold doses of BHT. The toxicological implications of the interactions of BHT with other antioxidants and phenolic chemicals and their potential relevance to human risk are discussed.",
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "1986",
+        "mesh": [
+          "Animals",
+          "Antioxidants",
+          "Butylated Hydroxytoluene",
+          "Drug Interactions",
+          "Food Additives",
+          "Lung",
+          "Lung Neoplasms",
+          "Male",
+          "Mice",
+          "Peroxidases"
+        ],
+        "keywords": [],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "34500670",
+        "doi": "10.1002/kin.10041",
+        "title": "Absolute Antioxidant Activity of Five Phenol-Rich Essential Oils.",
+        "abstract": "Essential oils (EOs) have promising antioxidant activities which are gaining interest as natural alternatives to synthetic antioxidants in the food and cosmetic industries. However, quantitative data on chain-breaking activity and on the kinetics of peroxyl radical trapping are missing. Five phenol-rich EOs were analyzed by GC-MS and studied by oxygen-uptake kinetics in inhibited controlled autoxidations of reference substrates (cumene and squalene). Terpene-rich Thymus vulgaris (thymol 4%; carvacrol 33.9%), Origanum vulgare, (thymol 0.4%; carvacrol 66.2%) and Satureja hortensis, (thymol 1.7%; carvacrol 46.6%), had apparent kinh (30 °C, PhCl) of (1.5 ± 0.3) × 104, (1.3 ± 0.1) × 104 and (1.1 ± 0.3) × 104 M-1s-1, respectively, while phenylpropanoid-rich Eugenia caryophyllus (eugenol 80.8%) and Cinnamomum zeylanicum, (eugenol 81.4%) showed apparent kinh (30 °C, PhCl) of (5.0 ± 0.1) × 103 and (4.9 ± 0.3) × 103 M-1s-1, respectively. All EOs already granted good antioxidant protection of cumene at a concentration of 1 ppm (1 mg/L), the duration being proportional to their phenolic content, which dictated their antioxidant behavior. They also afforded excellent protection of squalene after adjusting their concentration (100 mg/L) to account for the much higher oxidizability of this substrate. All investigated EOs had kinh comparable to synthetic butylated hydroxytoluene (BHT) were are eligible to replace it in the protection of food or cosmetic products.",
+        "journal": "Molecules (Basel, Switzerland)",
+        "date": "2021-Aug",
+        "mesh": [
+          "Antioxidants",
+          "Cinnamomum zeylanicum",
+          "Gas Chromatography-Mass Spectrometry",
+          "Oils, Volatile",
+          "Origanum",
+          "Peroxides",
+          "Phenols"
+        ],
+        "keywords": [
+          "GC-MS",
+          "antioxidant",
+          "cinnamon",
+          "clove",
+          "essential oils",
+          "oregano",
+          "peroxyl radicals",
+          "savory",
+          "thyme"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "39092399",
+        "doi": "10.7759/cureus.63631",
+        "title": "Formulation of Neem and Echinacea Gel for Oral Health Along With the Evaluation of Antimicrobial, Cytotoxic, Anti-inflammatory, and Free Radical Scavenging Activity: An In Vitro Study.",
+        "abstract": "Background Herbs have been used in medical practice for centuries and continue to play a significant role in modern complementary and alternative medicine. Phytochemicals in these herbs possess strong antioxidant and anti-inflammatory properties, which are beneficial in targeting oral health issues, such as dental plaque, gingivitis, and oral microbial infections. As research progresses, the challenge remains to translate these natural compounds into safe, effective, and accessible treatments for a wide range of diseases. Aim The aim of this research was to formulate the neem and echinacea gel along with the evaluation of antimicrobial, anti-inflammatory, free-radical scavenging activity, and cytotoxic potential. Materials and methods The neem and echinacea gel was prepared using a concentrated powdered mixture of neem and echinacea (5 grams each) to which 100 ml of distilled water was added, and the mixture was boiled for 30 minutes at 60°C. The 10 ml concentrate was mixed with 20 ml of a carbopol and carboxymethyl cellulose (CMC) mixture and mixed thoroughly, which resulted in neem and echinacea gel. Then, the antimicrobial, anti-inflammatory, cytotoxic potential, and free-radical scavenging activity of the gel were evaluated. The data obtained were statistically analyzed with the help of a paired t-test, where a p-value of less than 0.05 was considered statistically significant. Results The antimicrobial assay showed that neem and echinacea gel at the concentration of 100 micrograms showed a greater zone of inhibition against Staphylococcus aureus (3.15 ± 0.26), Streptococcus mutans (2.48 ± 0.45), Enterococcus faecalis (2.89 ± 0.15), and Candida albicans (4.28 ± 0.87). The cytotoxic test revealed that even at an 80 µg concentration of the extract, more than 70% of the nauplii were vital, which indicated that the gel was not cytotoxic. The highest anti-inflammatory activity (78.39 ± 1.82) of the gel was seen at 50 micrograms when compared with diclofenac sodium (73.16 ± 1.80). The free radical scavenging activity showed that the 2,2-diphenyl-1-picrylhydrazyl (DPPH) absorbance of the neem and echinacea extract was highest at 50 micrograms. Conclusion The combination of neem and echinacea extract-based gel possessed high antimicrobial and anti-inflammatory activity when compared with standard drugs, such as amoxicillin and diclofenac sodium. The antioxidant activity of the gel was equal to butylated hydroxytoluene (BHT), and also the gel has a low cytotoxic potential even at its higher concentrations. Hence, the gel can be used as a natural remedy with minimal side effects, making it a valuable alternative to chemical agents.",
+        "journal": "Cureus",
+        "date": "2024-Jul",
+        "mesh": [],
+        "keywords": [
+          "antimicrobial activity in natural products",
+          "azadirachta indica (neem extract)",
+          "echinacea",
+          "generalized periodontitis",
+          "local drug delivery agents"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "2988845",
+        "doi": "10.1038/clpt.1985.134",
+        "title": "Treatment of recurrent herpes simplex labialis with topical butylated hydroxytoluene.",
+        "abstract": "Butylated hydroxytoluene (BHT) is a hydrophobic compound with in vitro activity against many enveloped viruses, including herpes simplex virus. The effect of topical therapy with 15% BHT in mineral oil on the course of recurrent herpes simplex labialis was examined in 30 patients in a double-blind, placebo-controlled pilot study in which treatment was initiated by the physician. Sixteen patients received BHT and 14 received the placebo mineral oil vehicle. The time from lesion onset to dry crust formation was slightly shorter among BHT recipients than among placebo recipients (2.0 and 2.4 days; P = 0.01). Duration of the vesicle-ulcer stages was likewise shorter (1.2 and 2.0 days; P = 0.09), and lesion virus excretion appeared to be less in the subjects who received BHT than in the controls, but these differences were not significant. There was no clinical or laboratory evidence of toxicity.",
+        "journal": "Clinical pharmacology and therapeutics",
+        "date": "1985-Jul",
+        "mesh": [
+          "Administration, Topical",
+          "Adult",
+          "Aged",
+          "Butylated Hydroxytoluene",
+          "Double-Blind Method",
+          "Drug Evaluation",
+          "Female",
+          "Herpes Labialis",
+          "Humans",
+          "Male"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "2998276",
+        "doi": "10.1016/0166-3542(85)90042-7",
+        "title": "Topical butylated hydroxytoluene treatment of genital herpes simplex virus infections of guinea pigs.",
+        "abstract": "The effect of topical treatment with butylated hydroxytoluene (BHT) was evaluated in primary and recurrent genital herpes simplex virus type 2 (HSV-2) infection of guinea pigs. In the first experiment, treatment with placebo, 5%, 10%, or 15% BHT was initiated 48 h after viral inoculation and continued 4 times daily for 15 days. During primary infection no differences in maximum lesion severity or titers of virus in lesions were observed, however, lesion duration was reduced in BHT-treated animals resulting in a significantly smaller lesion score-day area under the curve. In a second experiment using U.S.P. mineral oil as an additional placebo, BHT placebo and 15% BHT in a double blind trial, similar results were obtained. Treatment of the recurrent infection in either experiment failed to alter the number of recurrent episodes or days with lesions.",
+        "journal": "Antiviral research",
+        "date": "1985-Oct",
+        "mesh": [
+          "Administration, Topical",
+          "Animals",
+          "Butylated Hydroxytoluene",
+          "Disease Models, Animal",
+          "Drug Evaluation, Preclinical",
+          "Female",
+          "Guinea Pigs",
+          "Herpes Genitalis",
+          "Simplexvirus"
+        ],
+        "keywords": [],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "36151056",
+        "doi": "10.1093/chromsci/bmac078",
+        "title": "Simultaneous Determination of Esafoxolaner, Eprinomectin, Praziquantel, BHT and Their Related Substances in a Topical Finished Product by a Single Reversed-Phase High-Performance Liquid Chromatography Method.",
+        "abstract": "The topical product with three active pharmaceutical ingredients (APIs), namely, esafoxolaner, eprinomectin and praziquantel has demonstrated its efficacy in the treatment of cats with mixed infections with ectoparasites and nematodes and cestodes. A reversed-phase high-performance liquid chromatography (RP-HPLC) method has been developed and validated for assay and determination of related substances peaks of three APIs including the assay of antioxidant butylated hydroxytoluene (BHT) in the finished product. Analytes were separated on a short Zorbax SB-C18 column (50 × 4.6 mm I.D., 5 μm particle size, pore size: 80 Å) with gradient elution at 40 °C column temperature. Analytes were detected at 245 nm for praziquantel, esafoxolaner, eprinomectin and their degradation products. BHT and eprinomectin degradation product 8a-oxo-B1a were detected at 280 nm. All analytes of interest were adequately separated within 40 min. The assay for praziquantel, esafoxolaner, eprinomectin and BHT was conducted against their corresponding external reference standards. The related substances peaks of each API were determined by peak area and relative response factor against total peak area of their corresponding API peak in sample solution. This method has been demonstrated to be accurate, robust, specific and stability indicating.",
+        "journal": "Journal of chromatographic science",
+        "date": "2023-Nov",
+        "mesh": [
+          "Praziquantel",
+          "Chromatography, High Pressure Liquid",
+          "Ivermectin",
+          "Pesticides"
+        ],
+        "keywords": [],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "36943693",
+        "doi": "10.1177/09603271231165664",
+        "title": "Protective effects of butylated hydroxytoluene on the initiation of N-nitrosodiethylamine-induced hepatocellular carcinoma in albino rats.",
+        "abstract": "Diethylnitrosamine (DEN), a hepatocarcinogen, is found in a variety of smoked and fried foods and was reported to be hepatotoxic in mice. Butylated hydroxytoluene (BHT) is a potent antioxidant used in cosmetic formulations and as a food additive and preservative. As a result, BHT was studied as a potential inhibitor in the early stages of diethylnitrosamine (DEN)-induced HCC. Male Wistar albino rats (n = 24) were equally subdivided. Group 1 was the negative control; Group 2 and 3 administered BHT and DEN, respectively; Group 4 received BHT followed by DEN. Blood samples and rat livers were taken for biochemical and histological investigation. Hepatotoxicity was assessed by increased liver enzymes and HCC indicators, along with reduced antioxidant and pro-apoptotic factors. AFP, AFPL3, GPC3, GSH, SOD, MDA, CASP3 and BAX expression increased significantly after DEN treatment. DEN also reduced GPx, CAT, and CYP2E1 activity, and BCl-2 expression. Moreover, in the hepatic parenchyma, the DEN caused histological alterations. Pretreatment with BHT enhanced antioxidant status while preventing histopathological and most biochemical alterations. BHT pretreatment suppresses DEN-initiated HCC by decreasing oxidative stress, triggering intrinsic mitotic apoptosis, and preventing histopathological changes in liver tissue.",
+        "journal": "Human & experimental toxicology",
+        "date": "2023",
+        "mesh": [
+          "Rats",
+          "Male",
+          "Animals",
+          "Mice",
+          "Carcinoma, Hepatocellular",
+          "Antioxidants",
+          "Diethylnitrosamine",
+          "Butylated Hydroxytoluene",
+          "Liver Neoplasms",
+          "Rats, Wistar"
+        ],
+        "keywords": [
+          "butylated hydroxytoluene",
+          "diethylnitrosamine",
+          "hepatocellular carcinoma",
+          "initiation stage",
+          "protective"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "37217642",
+        "doi": "10.2754/avb200776030383",
+        "title": "Methionine, cysteine, and butylated hydroxytoluene enhance cryosurvival of ram semen on post-thaw and post-incubation time points.",
+        "abstract": "Despite there have been many experiments conducted about antioxidants, the best sole or combination use of antioxidants to include as a standard ingredient to freezing extenders is yet to be found. This study was designed to investigate the different doses of methionine (2.5 and 5 mM), cysteine (1 and 2 mM), and butylated hydroxytoluene (BHT) (1 and 2 mM) for ram semen cryopreservation on post-thaw and post-incubation (6 h) time points over spermatological parameters. Semen samples were collected from Kivircik rams via electro-ejaculator in breeding season. After essential spermatological evaluations, appropriate samples were pooled then split into 7 equal aliquots to create study groups (antioxidant free control, 2.5 mM methionine, 5 mM methionine, 1 mM cysteine, 2 mM cysteine, 1 mM BHT, and 2 mM BHT). Semen samples were put into French straws (0.25 mL), and freezing procedure (two-step) was conducted via a programmable gamete freezer. At both time points, motility, HOST, PSA-FITC, and TUNEL assays were made to discover the impacts of cryopreservation and incubation process over sperm cells. Antioxidant supplemented groups yielded better results compared to the control groups in terms of various spermatological parameters not only at post-thaw time point but after incubation for 6 h of time. The study demonstrated that supplementing sperm freezing extenders with previous antioxidants may create new approaches to cryopreservation procedures, and through increasing success rate of freezing, fertility results may increase to better results in near future.",
+        "journal": "Tropical animal health and production",
+        "date": "2023-May",
+        "mesh": [
+          "Male",
+          "Sheep",
+          "Animals",
+          "Semen",
+          "Butylated Hydroxytoluene",
+          "Cysteine",
+          "Methionine",
+          "Sperm Motility",
+          "Semen Preservation",
+          "Spermatozoa"
+        ],
+        "keywords": [
+          "Antioxidants",
+          "Cryopreservation",
+          "DNA integrity",
+          "Incubation resilience",
+          "Ram semen"
+        ],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 31404,
+    "molecular_formula": "C15H24O",
+    "molecular_weight": "220.35",
+    "xlogp": 5.3,
+    "tpsa": 20.2,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "2,6-Di-tert-butyl-4-methylphenol",
+      "128-37-0",
+      "2,6-Di-tert-butyl-p-cresol",
+      "Butylhydroxytoluene",
+      "2,6-Di-t-butyl-4-methylphenol",
+      "Ionol",
+      "Stavox",
+      "DBPC",
+      "Impruvol",
+      "Dalpac"
+    ]
+  },
+  "cosing": {
+    "inci_name": "BUTYLATED HYDROXYTOLUENE (BHT",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

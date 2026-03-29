@@ -1,0 +1,267 @@
+{
+  "ingredient": "alpha",
+  "cas": "84380-01-8",
+  "ec": "617-561-8",
+  "inci_name": "ALPHA",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1642/22",
+        "date_avis": "2023-01-31",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "2% | 0.5 % | 7%",
+        "categorie": "Colorant",
+        "conclusion": "In light of the data provided, does the SCCS consider α-arbutin safe when used in face creams up to a maximum concentration of 2% and in body lotions up to a maximum concentration of 0.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided, does the SCCS consider α-arbutin safe when used in face creams up to a maximum concentration of 2% and in body lotions up to a maximum concentration of 0.5 %? The SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/66cdc38f-68e7-4e47-b06a-7ba73b027fb6_en?filename=sccs_o_264.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 9,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "34347259",
+        "doi": null,
+        "title": "Rosacea: An Update in Diagnosis, Classification and Management.",
+        "abstract": "The diagnosis and classification of rosacea has been modified to reflect presenting features. On exclusion of differentials, the diagnosis of rosacea is based on the presence of either (1) phymatous changes, or (2) centrofacial persistent erythema. In their absence, diagnosis can be established by presence of any two of: flushing/transient erythema, papules and pustules, telangiectases, or ocular manifestations. Management of rosacea depends on presenting feature(s), their severity, and impact. General management includes gentle skin care, sun protection, and trigger avoidance. Evidence-based treatment recommendations include topical brimonidine and oxymetazoline for persistent erythema; topical azelaic acid, ivermectin, metronidazole, minocycline and oral doxycycline, tetracycline and isotretinoin for papules and pustules; vascular lasers and light devices for telangiectases; and omega-3 fatty acids and cyclosporine ophthalmic emulsion for ocular rosacea. While surgical or laser therapy can be considered for clinically noninflamed phyma, there are no trials on their utility. Combination therapies include topical brimonidine with topical ivermectin, or topical metronidazole with oral doxycycline. Topical metronidazole, topical ivermectin, and topical azelaic acid are appropriate for maintenance therapy. In conclusion, the updated phenotype approach, based on presenting clinical features, is the foundation for current diagnosis, classification, and treatment of rosacea.",
+        "journal": "Skin therapy letter",
+        "date": "2021-Jul",
+        "mesh": [
+          "Brimonidine Tartrate",
+          "Dermatologic Agents",
+          "Doxycycline",
+          "Humans",
+          "Metronidazole",
+          "Rosacea"
+        ],
+        "keywords": [
+          "alpha-adrenergic agonist",
+          "anti-parasitic",
+          "antibiotic",
+          "diagnosis",
+          "dicarboxylic acid",
+          "erythema",
+          "laser therapy",
+          "management",
+          "phenotype approach",
+          "phyma"
+        ],
+        "relevance_score": 8
+      },
+      {
+        "pmid": "38534748",
+        "doi": "10.3390/ijms23031101",
+        "title": "Use of Collagen in Cosmetic Products.",
+        "abstract": "Collagen (CLG) belongs to the family of fibrillar proteins and is composed of left-handed α polypeptide chains, which, twisting around themselves and their axis, form a right-handed superhelix. In the chemical structure, it contains mainly proline, hydroxyproline, glycine, and hydroxylysine. It occurs naturally in the dermis in the form of fibers that provide the skin with proper density and elasticity. The review aimed to present the types of collagen protein, factors affecting its structure and its unusual role in the functioning of the human body. Also, an overview of cosmetic products containing collagen or its derivatives, the characteristics of the formulas of these products, and the effects of their use were presented. Throughout the market, there are many cosmetic and cosmeceutical products containing CLG. They are in the form of fillers administered as injections, belonging to the group of the oldest tissue fillers; products administered orally and for topical use, such as creams, gels, serums, or cosmetic masks. Analyzed studies have shown that the use of products with collagen or its peptides improves the general condition of the skin and delays the aging process by reducing the depth of wrinkles, improving hydration (in the case of oral preparations), reducing transepithelial water loss (TEWL), as well as improving skin density and elasticity. In addition, oral application of bioactive CLG peptides has shown a positive effect on the nails, reducing the frequency of their breakage.",
+        "journal": "Current issues in molecular biology",
+        "date": "2024-Mar",
+        "mesh": [],
+        "keywords": [
+          "collagen",
+          "cosmeceutical products",
+          "cosmetics",
+          "skin"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "27843919",
+        "doi": "10.1159/000446215",
+        "title": "Rosacea Management.",
+        "abstract": "BACKGROUND: Rosacea is a chronic inflammatory skin condition associated with four distinct subtypes: erythematotelangiectatic, papulopustular, phymatous, and ocular. PURPOSE: To review the different kinds of management for all subtypes. METHODS: We divided rosacea management into three main categories: patient education, skin care, and pharmacological/procedural interventions. RESULTS: Flushing is better prevented rather than treated, by avoiding specific triggers, decreasing transepidermal water loss by moisturizers, and blocking ultraviolet light. Nonselective β-blockers and α2-adrenergic agonists decrease erythema and flushing. The topical α-adrenergic receptor agonist brimonidine tartrate 0.5% reduces persistent facial erythema. Intradermal botulinum toxin injection is almost safe and effective for the erythema and flushing. Flashlamp-pumped dye, potassium-titanyl-phosphate and pulsed-dye laser, and intense pulsed light are used for telangiectasias. Metronidazole 1% and azelaic acid 15% cream reduce the severity of erythema. Both systemic and topical remedies treat papulopustules. Systemic remedies include metronidazole, doxycycline, minocycline, clarithromycin and isotretinoin, while topical remedies are based on metronidazole 0.75%, azelaic acid 15 or 20%, sodium sulfacetamide, ivermectin 1%, permethrin 5%, and retinoid. Ocular involvement can be treated with oral or topical antibacterial. Rhinophyma can be corrected by dermatosurgical procedures, decortication, and various types of lasers. CONCLUSION: There are many options for rosacea management. Patients may have multiple subtypes, and each phase has its own treatment.",
+        "journal": "Skin appendage disorders",
+        "date": "2016-Sep",
+        "mesh": [],
+        "keywords": [
+          "Azelaic acid",
+          "Demodex",
+          "Inflammatory lesion",
+          "Isotretinoin",
+          "Ivermectin",
+          "Laser",
+          "Ocular rosacea",
+          "Rosacea"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "22916351",
+        "doi": "10.1111/j.1610-0387.2012.07939.x",
+        "title": "Cosmetic and dermatologic use of alpha hydroxy acids.",
+        "abstract": "Alpha hydroxy acids (AHAs), in particular glycolic acid, are a class of chemical compounds frequently used in cosmetics and dermatology. This review summarizes the current knowledge regarding chemistry, mechanism of action as well as the different indications ranging from cosmetic skin hydration to acne proven by clinical trials. Overall AHAs depending on the concentration used present an ingredient for cosmetic products or medical devices with proven efficacy.",
+        "journal": "Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+        "date": "2012-Jul",
+        "mesh": [
+          "Cosmetics",
+          "Dermatologic Agents",
+          "Humans",
+          "Hydroxy Acids",
+          "Skin Diseases"
+        ],
+        "keywords": [],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "39050562",
+        "doi": "10.3390/molecules28207219",
+        "title": "Evaluating the Efficacy and Safety of Alpha-Hydroxy Acids in Dermatological Practice: A Comprehensive Clinical and Legal Review.",
+        "abstract": "The global market for alpha-hydroxy acids (AHAs) is undergoing significant expansion, propelled by increasing demand for skincare products that address aging and environmental damage. This review focuses on the dermatological applications of AHAs, particularly in cosmetic formulations like chemical peels. We have identified that AHAs, such as glycolic and lactic acids, enhance skin rejuvenation by promoting apoptosis in skin cells, boosting collagen and elastin synthesis, and improving skin texture and luminosity. Our comprehensive analysis reveals a nuanced understanding of AHAs' effectiveness across various skin types and conditions, demonstrating their broad utility in treating conditions like acne, hyperpigmentation, and photoaging. However, the optimal concentrations for therapeutic efficacy with minimal side effects are yet to be precisely defined, necessitating further research. Regulatory compliance is underscored as essential for the safe application of AHAs in cosmetics, with international guidelines recommending specific concentrations and pH levels to minimize potential skin irritation. In Conclusion, the review highlights the effectiveness of AHAs in cosmetic dermatology, emphasizing the necessity for continued research and rigorous regulatory adherence to maximize their safe and beneficial application worldwide.",
+        "journal": "Clinical, cosmetic and investigational dermatology",
+        "date": "2024",
+        "mesh": [],
+        "keywords": [
+          "alpha hydroxy acids",
+          "chemical peels",
+          "glycolic acid",
+          "practice guidelines"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "37769698",
+        "doi": "10.1177/10915818231204282",
+        "title": "Sodium α-Olefin Sulfonates.",
+        "abstract": "The Expert Panel for Cosmetic Ingredient Safety reviewed newly available studies since their original assessment in 1998, along with updated information regarding product types and concentrations of use, and confirmed that sodium α-olefin sulfonates are safe as cosmetic ingredients in the practices of use and concentration as described in this report.",
+        "journal": "International journal of toxicology",
+        "date": "2023-Dec",
+        "mesh": [
+          "Consumer Product Safety",
+          "Cosmetics",
+          "Alkenes",
+          "Sodium"
+        ],
+        "keywords": [
+          "Sodium C12-14 Olefin Sulfonate",
+          "Sodium C14-16 Olefin Sulfonate",
+          "Sodium C14-18 Olefin Sulfonate",
+          "Sodium C16-18 Olefin Sulfonate",
+          "Sodium α-Olefin Sulfonates"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "37169404",
+        "doi": "10.1016/j.cps.2022.12.003",
+        "title": "Photoaging and Topical Rejuvenation.",
+        "abstract": "Photoaging is a complex process of skin changes associated with chronic ultraviolet exposure. Prevention with photoprotection and treatment with topical retinoids are the core components of a topical antiaging regimen. Other topicals such as hydroquinone, vitamin C, niacinamide, and alpha hydroxyl acid can be added based on specific concerns. However, caution must be used with some of these products as the stability and absorption are major considerations. A simple topical regimen will reduce irritability and enhance compliance.",
+        "journal": "Clinics in plastic surgery",
+        "date": "2023-Jul",
+        "mesh": [
+          "Humans",
+          "Skin Aging",
+          "Rejuvenation",
+          "Retinoids",
+          "Skin",
+          "Ascorbic Acid",
+          "Administration, Topical"
+        ],
+        "keywords": [
+          "Alpha hydroxy acid",
+          "Hydroquinone",
+          "Photoaging",
+          "Skin rejuvenation",
+          "Sunscreen",
+          "Topical niacinamide",
+          "Topical vitamin C",
+          "Tretinoin"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "35934431",
+        "doi": "10.1016/j.fsc.2022.03.003",
+        "title": "Photoaging and Topical Rejuvenation.",
+        "abstract": "Photoaging is a complex process of skin changes associated with chronic ultraviolet exposure. Prevention with photoprotection and treatment with topical retinoids are the core components of a topical antiaging regimen. Other topicals such as hydroquinone, vitamin C, niacinamide, and alpha hydroxyl acid can be added based on specific concerns. However, caution must be used with some of these products as the stability and absorption are major considerations. A simple topical regimen will reduce irritability and enhance compliance.",
+        "journal": "Facial plastic surgery clinics of North America",
+        "date": "2022-Aug",
+        "mesh": [
+          "Humans",
+          "Rejuvenation",
+          "Retinoids",
+          "Skin",
+          "Skin Aging"
+        ],
+        "keywords": [
+          "Alpha hydroxy acid",
+          "Hydroquinone",
+          "Photoaging",
+          "Skin rejuvenation",
+          "Sunscreen",
+          "Topical niacinamide",
+          "Topical vitamin C",
+          "Tretinoin"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "23075568",
+        "doi": "10.1159/000343174",
+        "title": "Caffeine's mechanisms of action and its cosmetic use.",
+        "abstract": "Caffeine is being increasingly used in cosmetics due to its high biological activity and ability to penetrate the skin barrier. This alkaloid is frequently used as a hydrophilic model substance in human and animal skin penetration as well as different synthetic membrane using Franz diffusion cell experiments. The commercially available topical formulations of caffeine normally contain 3% caffeine. As for a cosmetic purpose, caffeine is used as an active compound in anti-cellulite products because it prevents excessive accumulation of fat in cells. This alkaloid stimulates the degradation of fats during lipolysis through inhibition of the phosphodiesterase activity. Caffeine has potent antioxidant properties. It helps protect cells against the UV radiation and slows down the process of photoaging of the skin. Moreover, caffeine contained in cosmetics increases the microcirculation of blood in the skin and also stimulates the growth of hair through inhibition of the 5-α-reductase activity.",
+        "journal": "Skin pharmacology and physiology",
+        "date": "2013",
+        "mesh": [
+          "Animals",
+          "Antioxidants",
+          "Blood Vessels",
+          "Caffeine",
+          "Cosmetics",
+          "Hair",
+          "Humans",
+          "Lipodystrophy",
+          "Microcirculation",
+          "Skin Absorption"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 158637,
+    "molecular_formula": "C12H16O7",
+    "molecular_weight": "272.25",
+    "xlogp": -0.7,
+    "tpsa": 120,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "alpha-Arbutin",
+      "84380-01-8",
+      "alpha arbutin",
+      "UNII-72VUP07IT5",
+      "72VUP07IT5",
+      "ORISTAR AAT",
+      "DTXSID20233358",
+      "RefChem:58967",
+      "Derma Pella Intimate Brightening",
+      "DTXCID20155849"
+    ]
+  },
+  "cosing": {
+    "inci_name": "ALPHA",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

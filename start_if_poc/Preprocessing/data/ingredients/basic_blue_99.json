@@ -1,0 +1,146 @@
+{
+  "ingredient": "Basic blue 99",
+  "cas": "68123-13-7",
+  "ec": "268-544-3",
+  "inci_name": "BASIC BLUE 99",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1683/25",
+        "date_avis": "2026-02-02",
+        "type_rapport": "Scientific Advice",
+        "verdict": "Not Safe",
+        "concentration_max": "1 % in non-oxidative hair dye formulations | 1% in petrolatum | 80% in the new batches",
+        "categorie": "Colorant",
+        "conclusion": "The SCCS concludes the following: (1) In light of the data provided, does the SCCS consider Basic Blue 99 safe, when used as an ingredient at 1 % in non-oxidative hair dye formulations? Having evaluated all the available data, the SCCS does not consider the use of Basic Blue 99 safe for use as an ingredient in non-oxidative hair dye formulations because the collective evidence indicates a potential for genotoxicity.",
+        "abstract": "The SCCS concludes the following: (1) In light of the data provided, does the SCCS consider Basic Blue 99 safe, when used as an ingredient at 1 % in non-oxidative hair dye formulations? Having evaluated all the available data, the SCCS does not consider the use of Basic Blue 99 safe for use as an ingredient in non-oxidative hair dye formulations because the collective evidence indicates a potential for genotoxicity. (2) Does the SCCS have any further scientific concerns with regard to the use of Basic Blue 99 in cosmetic products? Although there is an uncertainty regarding the exact composition of Basic Blue 99 batch that caused (partly severe) immediate-type hypersensitivity reactions, the SCCS considers this an alert for such a risk with the current batch specifications under consideration. The SCCS regards Basic Blue 99 a skin sensitiser. Keywords: SCCS, scientific advice, hair dye, Basic Blue 99, C059, 3-[(4-amino-6-bromo-5,8- dihydro-1-hydroxy-8-imino-5-oxo-2-naphtyl)amino]-N,N,N-trimethylanilinium chloride, CAS No. 68123-13-7, EC No. 268-544-3, submission IV & V, Regulation 1223/2009",
+        "pdf_url": "https://health.ec.europa.eu/document/download/10e3d810-e66f-4218-8690-8d01bd03cf20_en?filename=sccs_o_304.pdf"
+      }
+    ],
+    "dernier_verdict": "Not Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 4,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "17613131",
+        "doi": "10.1080/10915810701351202",
+        "title": "Final report on the safety assessment of Basic Blue 99.",
+        "abstract": "Basic Blue 99 is a direct, nonoxidative hair colorant used in temporary and semipermanent hair dyes. According to current reported usage data, Basic Blue 99 is used at concentrations from 0.004% to 2% and the most often reported use is in hair tints. Hair dyes containing Basic Blue 99, as \"coal tar\" hair dye products, are exempt from the principal adulteration provision and from the color additive provision of the Federal Food, Drug, and Cosmetic Act of 1938 when the label bears a caution statement and \"patch test\" instructions for determining whether the product causes skin irritation. Preliminary testing on or by individuals should be done using an open patch test that is evaluated at 48 h after application of the test material. Users, therefore, would be able to determine their individual reactions to hair dye products containing Basic Blue 99. Basic Blue 99 dye is approximately 60% to 63% dye, whereas the remainder of the mixture is composed of sugar ( approximately 25.7%), volatile matter/water crystallization ( approximately 1.8%), and inorganic salts (bringing the mixture to 100%). The dermal absorption of Basic Blue 99 is low in both rats and humans. The LD(50) values of Basic Blue 99 in mice and rats were 2.7 g/kg and between 1.0 g/kg and greater than 2.0 g/kg, respectively. Mice and rats orally administered Basic Blue 99 for 90 days did not show any indications of cumulative toxicity. Discoloration of organs involved in the elimination of Basic Blue 99 from the animals was noted in both test species. In rabbits, Basic Blue 99 did not cause ocular irritation, but some discoloration was noted. Basic Blue 99 caused minimal dermal irritation in rabbits. Sensitization occurred in animals exposed to Basic Blue 99 in a DMSO vehicle, but not in a water vehicle in guinea pigs and mice. Basic Blue 99 administered by gavage did not cause developmental toxicity in rats. Basic Blue 99 was a weak mutagen with and without metabolic activation in the Ames test, producing both reverse and frameshift mutations, but did not induce mutations in Escherichia coli or in any mammalian cells tested. In a modified repeated-insult patch test (RIPT), no volunteers had any reaction to Basic Blue 99 after a 1-h occlusive challenge. Case reports have documented positive patch test results to 1% Basic Blue 99 in three patients. A current review of the hair dye epidemiology literature identified that use of direct hair dyes, although not the focus in all investigations, appears to have little evidence of an association with cancer or other adverse events. The Panel recognizes that hair dye epidemiology studies do not address the safety of individual hair dyes. Based on the available safety test data on Basic Blue 99, however, the Panel determined that this ingredient would not likely have carcinogenic potential as used in hair dyes. The Cosmetic Ingredient Review Expert Panel concluded that Basic Blue 99 is safe as a hair dye ingredient in the practice of use and concentration as described in this safety assessment.",
+        "journal": "International journal of toxicology",
+        "date": "2007",
+        "mesh": [
+          "Animals",
+          "Consensus",
+          "Consumer Product Safety",
+          "Hair Dyes",
+          "Humans",
+          "Naphthoquinones",
+          "Quaternary Ammonium Compounds",
+          "Risk Assessment",
+          "Toxicity Tests"
+        ],
+        "keywords": [],
+        "relevance_score": 9
+      },
+      {
+        "pmid": "20456377",
+        "doi": "10.1111/j.1365-2230.2010.03854.x",
+        "title": "Contact urticaria to cosmetic and industrial dyes.",
+        "abstract": "Contact urticaria (CU) defines the weal-and-flare reaction that occurs after external cutaneous contact with a causative agent. These reactions often cause discomfort for patients, affect their quality of life, and in severe cases may be life-threatening. Some dyes are known to be urticariogens. Many people have daily exposure to these urticariogens, because of the widespread use of dyes, for example in textiles, cosmetics and foods. We reviewed industrial and cosmetic dyes such as hair dyes, basic blue 99 dye, patent blue dyes, henna, red dyes, curcumin and reactive dyes, which can potentially cause CU. Overall, the reported cases of CU lacked appropriate controls. Hair-dye constituents such as preservatives and intensifiers may play an important role as causative agents of CU. We recommend appropriate protection guidelines to reduce the incidence of CU in high-risk groups such as hairdressers, dye-factory workers or workers in dye-related industries.",
+        "journal": "Clinical and experimental dermatology",
+        "date": "2011-Jan",
+        "mesh": [
+          "Coloring Agents",
+          "Cosmetics",
+          "Curcumin",
+          "Dermatitis, Contact",
+          "Humans",
+          "Naphthoquinones",
+          "Patch Tests",
+          "Quaternary Ammonium Compounds",
+          "Time Factors",
+          "Urticaria"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "33125009",
+        "doi": "10.1039/d0ay01395a",
+        "title": "Assessment of semi-permanent hair dyes in wash water from beauty salons by liquid chromatography-tandem mass spectrometry-selected reaction monitoring (LC-MS/MS-SRM).",
+        "abstract": "Herein, we present an approach for the analytical determination and quantification of semi-permanent hair dyes in wash water samples released during washing of dyed hair employing a liquid chromatography-tandem mass spectrometry-selected reaction monitoring (LC-MS/MS-SRM) method with electrospray ionization detection. Specifically, Basic Blue 99 (BB 99), Basic Brown 16 (BB 16), Basic Red 76 (BR 76), Basic Yellow 57 (BY 57) and Acid Violet 43 (AV 43) are hair dyes with properties known to be harmful to human health and the environment. The hair dyes are present in commercial formulation and are discharged into the effluents without fully effective treatment. The detection and quantification by the LC-MS/MS technique show a linear relationship for each studied hair dye in the concentration range from 1 to 200 ng mL-1 in aqueous solution. The limits of detection and quantification were found from 0.66 to 20 ng mL-1 and from 2.0 to 63 ng mL-1, respectively, values that are compatible with the level required in wash water analysis. The method was applied in samples collected from 5 successive washings of hair dyed with a commercial formulation using the established procedure. BB 99 and BY 57 dyes have lower fixation on the scalp and hair, showing 866 ng mL-1 and 145 ng mL-1 release on the first day of washing, respectively. The accumulation of dye and slow release after washing can lead to future problems for both the environment and living organisms.",
+        "journal": "Analytical methods : advancing methods and applications",
+        "date": "2020-Nov",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "2401144",
+        "doi": "10.1111/j.1600-0536.1990.tb00092.x",
+        "title": "Cosmetic allergy from the aminoketone colour basic blue 99 (CI 56059).",
+        "abstract": null,
+        "journal": "Contact dermatitis",
+        "date": "1990-Jul",
+        "mesh": [
+          "Cosmetics",
+          "Dermatitis, Contact",
+          "Female",
+          "Hair Dyes",
+          "Hair Preparations",
+          "Humans",
+          "Middle Aged",
+          "Naphthoquinones",
+          "Quaternary Ammonium Compounds"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 93377,
+    "molecular_formula": "C19H20BrClN4O2",
+    "molecular_weight": "451.7",
+    "xlogp": null,
+    "tpsa": 102,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Basic blue 99",
+      "68123-13-7",
+      "C.I. Basic Blue 99",
+      "Jarocol Steel Blue",
+      "P0U7VBC51E",
+      "CI 56059",
+      "DTXSID60874042",
+      "ARIANOR STEEL BLUE 306004",
+      "Benzenaminium, 3-((4-amino-6-bromo-5,8-dihydro-1-hydroxy-8-imino-5-oxo-2-naphthalenyl)amino)-N,N,N-trimethyl-, chloride",
+      "Benzenaminium, 3-((4-amino-6-bromo-5,8-dihydro-1-hydroxy-8-imino-5-oxo-2-naphthalenyl)amino)-N,N,N-trimethyl-, chloride (1:1)"
+    ]
+  },
+  "cosing": {
+    "inci_name": "BASIC BLUE 99",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

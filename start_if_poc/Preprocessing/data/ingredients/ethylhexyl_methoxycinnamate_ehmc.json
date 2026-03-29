@@ -1,0 +1,168 @@
+{
+  "ingredient": "Ethylhexyl Methoxycinnamate (EHMC",
+  "cas": "5466-77-3",
+  "ec": "226-775-7",
+  "inci_name": "ETHYLHEXYL METHOXYCINNAMATE (EHMC",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1671/24",
+        "date_avis": "2025-06-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "10%",
+        "categorie": "UV Filter",
+        "conclusion": "In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Ethylhexyl Methoxycinnamate, does the SCCS consider Ethylhexyl Methoxycinnamate safe when used as UV-Filter in cosmetic products up to a maximum concentration of 10%? The SCCS has noted that the available evidence shows that EHMC is an endocrine- active substance due to estrogenic activity and weak anti-androgenic activity both in vitro and in vivo.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Ethylhexyl Methoxycinnamate, does the SCCS consider Ethylhexyl Methoxycinnamate safe when used as UV-Filter in cosmetic products up to a maximum concentration of 10%? The SCCS has noted that the available evidence shows that EHMC is an endocrine- active substance due to estrogenic activity and weak anti-androgenic activity both in vitro and in vivo. Having considered the data provided, and the concerns relating to potential endocrine disrupting properties of EHMC, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/3166a978-06de-4526-b25e-8d5a66943a2e_en?filename=sccs_o_294.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 4,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "38704047",
+        "doi": "10.1016/j.chemosphere.2024.142218",
+        "title": "Exposure to UV-B filter octylmethoxycinnamate and human health effects: Focus on endocrine disruptor actions.",
+        "abstract": "Human skin is the first line of photoprotection against UV radiation. However, despite having its defence mechanisms, the photoprotection that the skin exerts is not enough. To protect human skin, the inclusion of UV filters in the cosmetic industry has grown significantly as a photoprotection strategy. Octylmethoxycinnamate, also designated by octinoxate, or 2-ethylhexyl-4-methoxycinnamate (CAS number: 5466-77-3) is one of the most widely used UV-B filter in the cosmetic industry. The toxic effects of OMC have alarmed the public, but there is still no consensus in the scientific community about its use. This article aims to provide an overview of the UV filters' photoprotection, emphasizing the OMC and the possible negative effects it may have on the public health. Moreover, the current legislation will be addressed. In summary, the recommendations should be rethought to assess their risk-benefit, since the existing literature warns us to endocrine-disrupting effects of OMC. Further studies should be focus on the toxicity of OMC alone, in mixture and should consider its degradation products, to improve the knowledge of its risk assessment as EDC.",
+        "journal": "Chemosphere",
+        "date": "2024-Jun",
+        "mesh": [
+          "Cinnamates",
+          "Humans",
+          "Sunscreening Agents",
+          "Ultraviolet Rays",
+          "Endocrine Disruptors",
+          "Risk Assessment",
+          "Skin",
+          "Cosmetics"
+        ],
+        "keywords": [
+          "EHMC",
+          "Endocrine-disrupting chemical",
+          "Photoprotection",
+          "Risk assessment",
+          "UV radiation"
+        ],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "35931261",
+        "doi": "10.1016/j.chemosphere.2022.135807",
+        "title": "UV-B filter octylmethoxycinnamate-induced vascular endothelial disruption on rat aorta: In silico and in vitro approach.",
+        "abstract": "Throughout human life, an extensive and varied range of emerging environmental contaminants, called endocrine disruptors (EDCs), cause adverse health effects, including in the cardiovascular (CV) system. Cardiovascular diseases (CVD) are worryingly one of the leading causes of all mortality and mobility worldwide. The UV-B filter octylmethoxycinnamate (also designated octinoxate, or ethylhexyl methoxycinnamate (CAS number: 5466-77-3)) is an EDC widely present in all personal care products. However, to date, there are no studies evaluating the OMC-induced effects on vasculature using animal models to improve human cardiovascular health. This work analysed the effects of OMC on rat aorta vasculature and explored the modes of action implicated in these effects. Our results indicated that OMC relaxes the rat aorta by endothelium-dependent mechanisms through the signaling pathways of cyclic nucleotides and by endothelium-independent mechanisms involving inhibition of L-Type voltage-operated Ca2+ channels (L-Type VOCC). Overall, OMC toxicity on rat aorta may produce hypotension via vasodilation due to excessive NO release and blockade of L-Type VOCC. Moreover, the OMC-induced endothelial dysfunction may also occur by promoting the endothelial release of endothelin-1. Therefore, our findings demonstrate that exposure to OMC alters the reactivity of the rat aorta and highlight that long-term OMC exposure may increase the risk of human CV diseases.",
+        "journal": "Chemosphere",
+        "date": "2022-Nov",
+        "mesh": [
+          "Animals",
+          "Aorta",
+          "Cinnamates",
+          "Endocrine Disruptors",
+          "Endothelin-1",
+          "Endothelium",
+          "Endothelium, Vascular",
+          "Humans",
+          "Nucleotides, Cyclic",
+          "Rats"
+        ],
+        "keywords": [
+          "A7r5 cells",
+          "Calcium channels",
+          "Cardiovascular system",
+          "Endocrine-disrupting chemical",
+          "Rat aorta"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "37536478",
+        "doi": "10.1016/j.envpol.2023.122302",
+        "title": "Disrupting effects of the emerging contaminant octylmethoxycinnamate (OMC) on human umbilical artery relaxation.",
+        "abstract": "Cardiovascular diseases (CVD) represent the number one cause of death worldwide. The vascular endothelium may play a role in the pathophysiology of CVD diseases. Octylmethoxycinnamate (OMC) is a UV-B filter (CAS number: 5466-77-3) widely used worldwide in numerous personal care products, including sunscreens, daily creams, and makeup. This UV-B filter is considered an endocrine disruptor. Therefore, this investigation aimed to evaluate the direct effects of OMC in human umbilical arteries (HUAs) with endothelium and the possible mechanisms involved in the response. The results demonstrated that OMC exerts a rapid (non-genomic) and endothelium-dependent arterial relaxant effect on HUAs previously contracted with serotonin (5-HT) and Histamine (His). On the other hand, when HUAs were contracted with potassium chloride (KCl), the relaxing effect was only observed in HUAs without endothelium, and it appeared to be inhibited in HUAs with endothelium. Thus, the vasorelaxant effect of OMC depends on the endothelium and depends on the contractile agent used, suggesting that OMC may act through different signaling pathways. Furthermore, computational modulation studies, corroborated the binding of OMC to all the proteins under investigation (eNOS, COX-2, ET-1, and TxA2), with higher affinity for COX-2. In summary, the vascular effect of OMC may involve activating different pathways, i.e., acting through the NO pathway, COX pathway, or activating the endothelin-1 pathway.",
+        "journal": "Environmental pollution (Barking, Essex : 1987)",
+        "date": "2023-Oct",
+        "mesh": [
+          "Humans",
+          "Umbilical Arteries",
+          "Cyclooxygenase 2",
+          "Cinnamates",
+          "Muscle Contraction",
+          "Serotonin"
+        ],
+        "keywords": [
+          "2-Ethyl-hexyl-4-trimethoxycinnamate",
+          "Endothelial cells",
+          "Octinoxate",
+          "Pregnancy exposure",
+          "Smooth muscle cells",
+          "UV-B filter"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "32380599",
+        "doi": "10.1016/j.scitotenv.2019.134048",
+        "title": "Photolysis of mixtures of UV filters octocrylene and ethylhexyl methoxycinnamate leads to formation of mixed transformation products and different kinetics.",
+        "abstract": "The treatment with ultraviolet (UV) light is a well-known technique for water disinfection. Photodegradation by UV light is in discussion as measure for advanced water treatment that could provide a potential removal option for micropollutants. Micropollutants such as ingredients from personal care products are also present in grey water. Grey water gets increasingly attention as a source for water reuse. For that purpose it has to be treated. UV-treatment is an option. However, the knowledge on the fate of micropollutants within such a treatment is little. Therefore, we investigated the fate of the UV filters ethylhexyl methoxycinnamate (EHMC), and octocrylene (OCR) as for both UV filters the presence in grey water was reported. OCR as a single compound was investigated with regard to its degradation kinetics and possible photo-transformation products (photo-TPs). These results were compared with those of EHMC previously reported in literature. The mixture of the two UV filters was also investigated to reveal if mixture effects occur regarding the elimination of the UV filters and the formation of TPs. A medium pressure mercury vapor lamp (200-400 nm) was employed for photolysis. This study shows that OCR itself was eliminated below the limit of detection after 256 min and that photo-TPs were formed. The photolysis of the mixture demonstrated alterations of the degradation rates and patterns. Additional TPs were formed by the reaction of the UV filters or TPs with each other. The study shows that more attention should be paid to mixture-effects and mixture-TPs that may cause further follow-up effects.",
+        "journal": "The Science of the total environment",
+        "date": "2019-Dec",
+        "mesh": [],
+        "keywords": [
+          "Ethylhexyl methoxycinnamate (EHMC)",
+          "Micropollutant",
+          "Mixture",
+          "Octocrylene (OCR)",
+          "Personal care products (PCPs)",
+          "Photo transformation product"
+        ],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 5355130,
+    "molecular_formula": "C18H26O3",
+    "molecular_weight": "290.4",
+    "xlogp": 5.3,
+    "tpsa": 35.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Octinoxate",
+      "2-Ethylhexyl p-methoxycinnamate",
+      "Parsol MCX",
+      "Parsol MOX",
+      "Parsol",
+      "Octyl methoxycinnamate",
+      "2-Ethylhexyl-p-methoxycinnamate",
+      "Escalol 557",
+      "Sunscreen AV",
+      "Ethylhexyl methoxycinnamate"
+    ]
+  },
+  "cosing": {
+    "inci_name": "ETHYLHEXYL METHOXYCINNAMATE (EHMC",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

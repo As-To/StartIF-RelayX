@@ -1,0 +1,320 @@
+{
+  "ingredient": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+  "cas": "302776-68-7",
+  "ec": "443-860-6",
+  "inci_name": "DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1678/25",
+        "date_avis": "2025-06-26",
+        "type_rapport": "Scientific Advice",
+        "verdict": null,
+        "concentration_max": "10 % | 10% in cosmetic products and only if DnHexP is a",
+        "categorie": "Colorant",
+        "conclusion": "SCCS comment Based on the findings by the German authorities, a patent application and a technical- analytical report, the SCCS concludes that, although it is technically possible to produce DHHB in which DnHexP is absent, a batch of DHHB with not higher than 1 ppm of DnHexP can be considered safe if DnHexP is present as an impurity resulting from a synthesis route.",
+        "abstract": "The SCCS concludes the following: 1. Considering the recent concerns over the presence of DnHexP as a contaminant in the production of Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB) used as a UV- filter in cosmetic products, as well as in view of technical and scientific progress and taking under consideration in particular the various health concerns, the SCCS is requested to identify the maximum safe level of DnHexP as a contaminant in DHHB preparations Considering the health concerns associated with DnHexP, the SCCS calculated a maximum safe level of 0.026% (260 ppm) for this impurity in the UV filter DHHB. This applies when DHHB is used up to 10% in cosmetic products and only if DnHexP is an unavoidable impurity. 2. Does the SCCS have any further scientific concerns regarding the presence of DnHexP in DHHB as a UV-filter in cosmetic products? The SCCS has noted from the available information that DnHexP was below the level of detection in several DHHB containing sunscreen products and other DHHB sources, provided that a specific manufacturing process is applied. The information also showed that it is technically possible to lower the levels of DnHexP in DHHB down to 1 ppm. Considering the existence of such alternative manufacturing process for DHHB, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/0bb2a0be-ba7c-4a1f-96df-d57d18c1316f_en?filename=sccs_o_299.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "35809791",
+        "doi": "10.1016/j.tiv.2022.105431",
+        "title": "In vitro safety evaluation of sunscreen formulation from nanostructured lipid carriers using human cells and skin model.",
+        "abstract": "There is a risk of toxicological reactions due to systemic absorption and photo-instability of sunscreens. The study aimed to investigate the safety profile (cytotoxicity, phototoxicity, photostability, UV filter release profile, and skin irritation properties) of sunscreen (NLC-TRF sunscreen) produced from nanostructured lipid carriers (NLCs) and tocotrienol-rich fraction (TRF). The cytotoxicity and phototoxicity of the sunscreen were evaluated on normal human dermal fibroblast (NHDF) and skin irritation properties was tested on skin model. Besides, the photoprotection in pre- and post-UV irradiation were analysed to determine the photostability. Additionally, the release profile for UV filters (diethylamino hydroxybenzoyl hexyl benzoate (DHHB) and ethylhexyl triazone (EHT)) were evaluated. The NLC-TRF sunscreen demonstrated no cytotoxicity and skin irritation to cause cell death. It showed no phototoxic effect and high photostability up to 10 Minimal Erythema Dose (MED) to ensure high SPF value above 50 and broad-spectrum of UV absorption. The NLC-TRF sunscreen implies its safety for topical application with sustainable release profile for UV filter (cumulative release of 28% for DHHB and 40% for EHT after 8 h) due to the application of NLCs. The results suggest that the NLC-TRF sunscreen is an advanced formulation with improved stability and is safe for topical delivery.",
+        "journal": "Toxicology in vitro : an international journal published in association with BIBRA",
+        "date": "2022-Oct",
+        "mesh": [
+          "Drug Stability",
+          "Humans",
+          "Lipids",
+          "Skin",
+          "Sunscreening Agents",
+          "Ultraviolet Rays"
+        ],
+        "keywords": [
+          "Controlled release",
+          "Normal human dermal fibroblast",
+          "Photostability",
+          "Phototoxicity",
+          "Skin irritation",
+          "Sunscreen"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "30965299",
+        "doi": "10.1088/1361-6528/ab177c",
+        "title": "Nanovesicle-based formulations for photoprotection: a safety and efficacy approach.",
+        "abstract": "Vesicular nanosystems are versatile and they are able to encapsulate actives with different solubilities, such as lipophilic and hydrophilic compounds. The most well-known vesicular nanosystems are liposomes and niosomes, the last one is formed by non-ionic surfactants. In the present work, we developed photoprotective niosomes containing sunscreens (octyl methoxycinnamate, diethylamino hydroxybenzoyl hexyl benzoate and phenylbenzimidazole sulfonic acid), non-ionic surfactants, cholesterol and stearylamine (positive-charged lipid). Studies based on dynamic light scattering techniques, entrapment efficiency and morphology by transmission electron microscopy were performed to characterize the niosomes. In addition, rheology, pH, in vitro sun protection factor (SPF) efficacy and toxicity and in vivo and in vitro safety were determined for the niosome formulations F-N1 and F-N2. The mean sizes of N1 and N2 were 168 ± 5 nm and 192 ± 8 nm, respectively, and their morphologies were spherical, unilamellar and with an entrapment efficiency of more than 45% for each sunscreen. Both formulations, F-N1 and F-N2 presented characteristics of pseudoplastic non-Newtonian fluids, showing declining viscosity with increasing shear rate applied. SPF values were considered satisfactory, 34 ± 8 for formulation F-N1 and 34 ± 5 for F-N2. The formulations did not present toxicity when tested in macrophages and the pH was compatible with skin, which minimizes allergies. The in vitro safety assay showed lipophilic sunscreens greater affinity for the epidermis, since this layer contains natural lipids. In vivo safety assay suggests that the increased skin retention of N2 is directly correlated with the positive charge of stearylamine. Stable photoprotective niosomes were obtained and were shown to be promising nanostructures to be used against solar radiation.",
+        "journal": "Nanotechnology",
+        "date": "2019-Aug",
+        "mesh": [
+          "Animals",
+          "Cell Survival",
+          "Cinnamates",
+          "Drug Compounding",
+          "Elastic Modulus",
+          "Hydrogen-Ion Concentration",
+          "Liposomes",
+          "Mice",
+          "Nanostructures",
+          "Particle Size"
+        ],
+        "keywords": [],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "36358585",
+        "doi": "10.1002/poc.3904",
+        "title": "A Safe-by-Design Approach to \"Reef Safe\" Sunscreens Based on ZnO and Organic UV Filters.",
+        "abstract": "In recent years, the issue of coral bleaching has led to restrictions in some tropical locations (i.e., Palau, Hawaii, etc.) on the use of some organic UV sunscreen filters, such as oxybenzone and ethyl hexyl methoxycinnamate. In contrast, ZnO is considered safe for marine environments and thus is often used without considering its photocatalytic and oxidative activities related to the generation of O2•- and HO•. Moreover, ZnO needs to be used in combination with other filters to reach higher protection factors. Thus, the study of its interaction with formulations and with organic filters is important in sunscreen technology for the development of safer by-design products. In this work, the photocatalytic activity of zinc oxides with different surface areas (30, 25 and 9 m2/g) and their interaction with selected organic sunscreen filters were investigated. In particular, the ZnO photocatalytic kinetics were studied following the photodegradation of Acid Blue 9 (AB9) observing a first-order reaction with a chemical regime. Our evaluations of the selective inhibitions by hvb+ and HO• demonstrated a substantial predominance of the hydroxide radicals in the expression of the photocatalysis, a trend that was also confirmed by the irradiation of ZnO in an ethanolic solution. Indeed, the formulations containing both ZnO and organic filters defined as \"safe\" for coral reefs (i.e., Diethylamino Hydroxybenzoyl Hexyl Benzoate, DHHB, and Ethylhexyl Triazone, EHT) showed a non-negligible photocatalytic oxidation and thus the combination was underlined as safe to use.",
+        "journal": "Antioxidants (Basel, Switzerland)",
+        "date": "2022-Nov",
+        "mesh": [],
+        "keywords": [
+          "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+          "Ethylhexyl Triazone",
+          "ZnO",
+          "cosmetic",
+          "hydroxy radical",
+          "photocatalysis",
+          "sunscreen",
+          "superoxide anion"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "37068670",
+        "doi": "10.1016/j.scitotenv.2023.163498",
+        "title": "Transformation and toxicity studies of UV filter diethylamino hydroxybenzoyl hexyl benzoate in the swimming pools.",
+        "abstract": "Diethylamino hydroxybenzoyl hexyl benzoate (DHHB), an ultraviolet (UV) filter, can be found in sunscreens and other personal care products and thus can be introduced into swimming pools through the swimmers. In outdoor pools, DHHB will inevitably interact with free chlorine and sunlight. Therefore, the mechanism of solar‑chlorine chemical transformation of DHHB, as well as the environmental risk, were investigated in this work. In chlorinated with solar (Cl + solar) process, free chlorine was the dominant contributor to 85% of the DHHB degradation, while hydroxyl radicals and reactive chlorine species contributed only 15% because of low free radical generation and fast DHHB and free chlorine reaction rates. Scavenging matrices, such as Cl-, NH4+, and dissolved organic matter (DOM), inhibited the degradation of DHHB in the Cl + solar process, while Br-, HCO3-, NO3-, and urea promoted DHHB degradation. DHHB degradation was inhibited in tap water swimming pool samples, while it was enhanced in seawater pool samples by the Cl + solar process. Seven transformation by-products (TBPs) including mono-, dichlorinated, dealkylate, and monochloro-hydroxylated TBPs were identified. Three degradation pathways, chlorine substitution, chlorine and hydroxyl substitution, and dealkylation were proposed for DHHB transformation in the Cl + solar process. Both Quantitative structure-activity relationship and Aliivibrio fischeri toxicity tests demonstrated increased toxicity for the chlorinated TBPs. A risk assessment of the DHHB and its TBPs suggested that both DHHB and its chlorinated TBPs pose a significant health risk.",
+        "journal": "The Science of the total environment",
+        "date": "2023-Jul",
+        "mesh": [
+          "Chlorine",
+          "Swimming Pools",
+          "Ultraviolet Rays",
+          "Sunscreening Agents",
+          "Water",
+          "Water Pollutants, Chemical",
+          "Water Purification",
+          "Kinetics",
+          "Oxidation-Reduction",
+          "Aminophenols"
+        ],
+        "keywords": [
+          "Health risk",
+          "Solar/chlorine process",
+          "Swimming pool",
+          "Transformation by-products",
+          "UV filter"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "27321112",
+        "doi": "10.1016/j.ijpharm.2016.06.041",
+        "title": "Chemical ultraviolet absorbers topically applied in a skin barrier mimetic formulation remain in the outer stratum corneum of porcine skin.",
+        "abstract": "The objective of the present study was to evaluate the fate of three chemical sunscreens, isoamyl p-methoxycinnamate (IPMC), diethylamino hydroxybenzoyl hexyl benzoate (DHHB), and bis-ethylhexylphenol methoxyphenyl triazine (BEMT), topically applied to mammalian skin from a skin barrier mimetic oil-in-water formulation. High Performance Liquid Chromatography (HPLC) methods were developed for the analysis of each molecule and validated. Franz cell permeation studies were conducted following application of finite doses of the formulations to excised porcine skin. A vehicle formulation containing no sunscreens was evaluated as a control. Permeation studies were conducted for 12h after which full mass balance studies were carried out. Analysis of individual UV sunscreens was achieved with HPLC following application of the formulation to the skin with no interference from the vehicle components. No skin permeation of any of the chemical sunscreens was evident after 12h. While sunscreens were detected in up to 12 tape strips taken from the SC, 87% or more of the applied doses recovered in the first 5 tape strips. When corrected for the amount of protein removed per tape strip this corresponded to a penetration depth in porcine stratum corneum of ∼1.7μm. Mass balance studies indicated total recovery values were within accepted guidelines for cosmetic formulations. Overall, only superficial penetration into the SC was observed for each compound. These findings are consistent with the physicochemical properties of the selected UV absorbing molecules and their formulation into an ordered biomimetic barrier formulation thus support their intended use in topical consumer formulations designed to protect from UV exposure. To our knowledge this is the first report of depth profiling of chemical sunscreens in the SC that combines tape stripping and protein determination following in vitro Franz cell studies.",
+        "journal": "International journal of pharmaceutics",
+        "date": "2016-Aug",
+        "mesh": [
+          "Administration, Topical",
+          "Animals",
+          "Biomimetic Materials",
+          "Drug Compounding",
+          "Epidermis",
+          "Organ Culture Techniques",
+          "Skin Absorption",
+          "Sunscreening Agents",
+          "Swine",
+          "Ultraviolet Rays"
+        ],
+        "keywords": [
+          "Mass balance",
+          "Permeation studies",
+          "Porcine skin",
+          "Sunscreens",
+          "Tape stripping",
+          "Topical"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "25853065",
+        "doi": "10.1155/2013/506923",
+        "title": "Quality by Design-Based Development of a Stability-Indicating RP-HPLC Method for the Simultaneous Determination of Methylparaben, Propylparaben, Diethylamino Hydroxybenzoyl Hexyl Benzoate, and Octinoxate in Topical Pharmaceutical Formulation.",
+        "abstract": "A stability-indicating RP-HPLC method has been developed and validated for the simultaneous determination of methylparaben (MP), propylparaben (PP), diethylamino hydroxybenzoyl hexyl benzoate (DAHHB), and octinoxate (OCT) in topical pharmaceutical formulation. The desired chromatographic separation was achieved on the Kinetex(TM) C18 (250 × 4.6 mm, 5 μm) column using gradient elution at 257 nm detection wavelength. The optimized mobile phase consisted of a buffer : acetonitrile : tetrahydrofuran (60 : 30 : 10, v/v/v) as solvent A and acetonitrile : tetrahydrofuran (70 : 30, v/v) as solvent B. The method showed linearity over the range of 0.19-148.4 μg/mL, 0.23-15.3 μg/mL, 1.97-600.5 μg/mL, and 1.85-451.5 μg/mL for MP, PP, DAHHB, and OCT, respectively. Recovery for all the components was found to be in the range of 98-102%. The stability-indicating capability of the developed method was established by analysing the forced degradation samples in which the spectral purity of MP, PP, DAHHB, and OCT, along with the separation of the degradation products from the analyte peaks, was achieved. The proposed method was successfully applied for the quantitative determination of MP, PP, DAHHB, and OCT in the lotion sample. The design expert with ANOVA software with the linear model was applied and a 2(4) full factorial design was employed to estimate the model coefficients and also to check the robustness of the method. Results of the two-level full factorial design, 2(4) with 20 runs including four centrepoint analysis based on the variance analysis (ANOVA), demonstrated that all four factors, as well as the interactions of resolution between DAHHB and OCT are statistically significant.",
+        "journal": "Scientia pharmaceutica",
+        "date": "2014",
+        "mesh": [],
+        "keywords": [
+          "DHHB",
+          "DOE",
+          "Degradation",
+          "Octinoxate",
+          "RP-HPLC"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "38703981",
+        "doi": "10.1016/j.envpol.2024.124093",
+        "title": "Inorganic UV filter-based sunscreens labelled as eco-friendly threaten sea urchin populations.",
+        "abstract": "Although the negative effects of inorganic UV filters have been documented on several marine organisms, sunscreen products containing such filters are available in the market and proposed as eco-friendly substitutes for harmful, and already banned, organic UV filters (e.g. octinoxate and oxybenzone). In the present study, we investigated the effects of four sunscreen products, labelled by cosmetic companies as \"eco-friendly\", on the early developmental stages of the sea urchin Paracentrotus lividus, a keystone species occurring in vulnerable coastal habitats. Among sunscreens tested, those containing ZnO and TiO2 or their mix caused severe impacts on sea urchin embryos. We show that inorganic UV filters were incorporated by larvae during their development and, despite the activation of defence strategies (e.g. phagocytosis by coelomocytes), generated anomalies such as skeletal malformations and tissue necrosis. Conversely, the sunscreen product containing only new-generation organic UV filters (e.g. methylene bis-benzotriazolyl tetramethyl, ethylhexyl triazone, butylphenol diethylamino hydroxybenzoyl hexyl benzoate) did not affect sea urchins, thus resulting actually eco-compatible. Our findings expand information on the impact of inorganic UV filters on marine life, corroborate the need to improve the eco-friendliness assessment of sunscreen products and warn of the risk of bioaccumulation and potential biomagnification of inorganic UV filters along the marine food chain.",
+        "journal": "Environmental pollution (Barking, Essex : 1987)",
+        "date": "2024-Jun",
+        "mesh": [
+          "Sunscreening Agents",
+          "Animals",
+          "Sea Urchins",
+          "Ultraviolet Rays",
+          "Titanium",
+          "Water Pollutants, Chemical",
+          "Paracentrotus",
+          "Larva",
+          "Zinc Oxide"
+        ],
+        "keywords": [
+          "Eco-friendly sunscreens",
+          "Inorganic UV filters",
+          "Paracentrotus lividus",
+          "Titanium dioxide",
+          "Zinc oxide"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "28042100",
+        "doi": "10.1016/j.ejps.2016.12.031",
+        "title": "Diethylamino hydroxybenzoyl hexyl benzoate (DHHB) as additive to the UV filter avobenzone in cosmetic sunscreen formulations - Evaluation of the photochemical behavior and photostabilizing effect.",
+        "abstract": "The aim of the present study was to investigate the photochemical behavior of DHHB and its photostabilizing effect on avobenzone (AVO) in different sunscreen formulations. The formulations were subjected to photostability studies by HPLC and spectrophotometry. In vitro phototoxicity was assessed using 3T3 fibroblast cultures. The mechanism of interaction between DHHB and AVO was investigated by steady state and time-resolved fluorescence spectroscopy. All formulations provided ultra-protection against UVA radiation. HPLC results demonstrated that DHHB did not present a photostabilizing effect on AVO. Fluorescence spectroscopy showed that AVO and DHHB interact by a static quenching mechanism and DHHB did not affect the AVO excited state lifetime. In addition, the energy transfer by Förster mechanism (FRET), which is the most often mechanism responsible for singlet-singlet quenching, is unlikely in this work. These results suggest why DHHB did not work as a photostabilizer on AVO singlet excited state. Phototoxicity results demonstrated that combinations containing DHHB (C2) did not show a phototoxic potential. Finally, although DHHB was considered to be photostable for all formulations studied (F2 and F3) it did not increase the photostability of AVO (F3). Thus, we suggested that formulations containing DHHB (F2) should be considered more advantageous than formulations containing AVO and AVO/DHHB (F1 and F3 respectively).",
+        "journal": "European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences",
+        "date": "2017-Mar",
+        "mesh": [
+          "3T3 Cells",
+          "Aminophenols",
+          "Animals",
+          "Benzophenones",
+          "Cell Line",
+          "Chemistry, Pharmaceutical",
+          "Drug Stability",
+          "Mice",
+          "Mice, Inbred BALB C",
+          "Propiophenones"
+        ],
+        "keywords": [
+          "Antioxidants",
+          "Butyl methoxydibenzoylmethane",
+          "DHHB",
+          "Fluorescence analysis",
+          "Photodegradation",
+          "Phototoxicity"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "32065958",
+        "doi": "10.1016/j.jphotobiol.2020.111818",
+        "title": "Effect of emollients on UV filter absorbance and sunscreen efficiency.",
+        "abstract": "The idea of increasing the performance of sunscreens without adding more UV-filters is very attractive. Early studies reported an influence of solvents on the absorbing properties of UV-absorbers which was shown to be connected to the solvent polarity. However, the polarity differed a lot between tested solvents and most were unsuitable UV-filter solubilizers. The aim of the present study was to focus exclusively on emollients pertinent for sunscreens and investigate their impact on the performance of UV-filter combinations. The UV absorbance of Bis-ethylhexyloxyphenol Methoxyphenyl Triazine, Ethylhexyl Triazone, Diethylamino Hydroxybenzoyl Hexyl Benzoate, and Ethylhexyl Methoxycinnamate was measured in suncare relevant emollients comprising C12-15 Alkyl Benzoate, Dibutyl Adipate, Caprylic/Capric Triglyceride, Coco-caprylate, Isopropyl Myristate, Dicaprylyl Carbonate. The wavelength of maximum absorbance (λmax) and specific extinction at λmax (E1,1 (λmax)) were assessed for each UV-filter - emollient system. The performance of market relevant UV-filter combinations based on the studied UV-filters was simulated for each emollient with a computational method using the absorbance values measured for each UV-filter - emollient system. The difference in polarity of emollients led to a 2-3 nm bathochromic shift and a variation of the E1,1 (λmax) ranging from 4 to 20% for tested UV-filters. The emollient type showed nearly no influence on the sun protection factor (SPF) of market relevant UV-filter combinations probably due to a different influence an emollient shows on the UVB filters resulting in cancelling of the corresponding effect. Conversely, for all UV-filter combinations the UVA protection decreased with a decrease in the emollient polarity. Whilst the SPF was not impacted by standardly used cosmetic oils, the results advocate to use polar emollients to optimize the UVA protection. This is of advantage since polar emollients better dissolve crystalline UV-filters. From tested emollients, Dibutyl Adipate performed the best for both SPF and PPD factors.",
+        "journal": "Journal of photochemistry and photobiology. B, Biology",
+        "date": "2020-Apr",
+        "mesh": [
+          "Adipates",
+          "Aminophenols",
+          "Benzophenones",
+          "Cinnamates",
+          "Emollients",
+          "Phenols",
+          "Sun Protection Factor",
+          "Sunscreening Agents",
+          "Triazines",
+          "Ultraviolet Rays"
+        ],
+        "keywords": [
+          "Emollients",
+          "Extinction",
+          "Performance simulation",
+          "UV-filters",
+          "Wavelength of maximum absorbance"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "38010544",
+        "doi": "10.1016/j.ecoenv.2017.04.027",
+        "title": "Microbial consortia degrade several widely used organic UV filters, but a number of hydrophobic filters remain recalcitrant to biodegradation.",
+        "abstract": "Organic UV filters are important ingredients in many personal care products, including sunscreens. Evaluating the biodegradability of organic UV filters is key to estimate their recalcitrance and environmental fate and thus central to their overall environmental risk assessment. In order to further understand the degradation process, the aim was to investigate whether specific consortia could degrade certain UV filters. Several bacterial strains were isolated from enrichment cultures actively degrading octocrylene (OC), butyl methoxydibenzoylmethane (BM), homosalate (HS), and 2-ethylhexyl salicylate (ES) and were utilized to construct an in-house consortium. This synthetic consortium contained 27 bacterial strains and degraded OC, BM, HS, and ES 60-80% after 12 days, but not benzophenone-3 (BP3), methoxyphenyl triazine (BEMT), methylene bis-benzotriazolyl tetramethylbutylphenol (MBBT), diethylhexyl butamido triazone (DBT), ethylhexyl triazone (EHT), or diethylamino hydroxybenzoyl hexyl benzoate (DHHB). Furthermore, several commercial microbial mixtures from Greencell were tested to assess their degradation activity toward the same organic UV filters. ES and HS were degraded by some of the commercial consortia, but to a lesser extent. The rest of the tested UV filters were not degraded by any of the commercial bacterial mixes. These results confirm that some organic UV filters are recalcitrant to biodegradation, while others are degraded by a specific set of microorganisms.",
+        "journal": "Environmental science and pollution research international",
+        "date": "2023-Dec",
+        "mesh": [
+          "Microbial Consortia",
+          "Ultraviolet Rays",
+          "Sunscreening Agents",
+          "Cosmetics",
+          "Propiophenones"
+        ],
+        "keywords": [
+          "Biodegradation",
+          "Consortia",
+          "Environmental fate",
+          "Organic UV filters",
+          "Pure bacterial strains",
+          "Wastewater sludge"
+        ],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 10111431,
+    "molecular_formula": "C24H31NO4",
+    "molecular_weight": "397.5",
+    "xlogp": 6.5,
+    "tpsa": 66.8,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "302776-68-7",
+      "Hexyl 2-(4-(diethylamino)-2-hydroxybenzoyl)benzoate",
+      "Diethylamino hydroxybenzoyl hexyl benzoate",
+      "Hexyl 2-[4-(Diethylamino)-2-hydroxybenzoyl]benzoate",
+      "Benzoic acid, 2-[4-(diethylamino)-2-hydroxybenzoyl]-, hexyl ester",
+      "ANQ870JD20",
+      "DTXSID60184370",
+      "Benzoic acid, 2-(4-(diethylamino)-2-hydroxybenzoyl)-, hexyl ester",
+      "RefChem:133468",
+      "DTXCID70106861"
+    ]
+  },
+  "cosing": {
+    "inci_name": "DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

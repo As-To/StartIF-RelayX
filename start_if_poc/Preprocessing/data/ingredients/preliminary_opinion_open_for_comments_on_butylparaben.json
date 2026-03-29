@@ -1,0 +1,70 @@
+{
+  "ingredient": "Preliminary Opinion open for comments on Butylparaben",
+  "cas": "94-26-8",
+  "ec": "202-318-7",
+  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON BUTYLPARABEN",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1651/23",
+        "date_avis": "2023-10-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "0.14 %",
+        "categorie": "Colorant",
+        "conclusion": "Alternatively, what is according to the SCCS the maximum concentration considered safe for use of Butylparaben as a preservative in cosmetic products?",
+        "abstract": "and male rats for 14 days. At DNA damage important the end of the experiment butylparaben (butyl 4- level was details have Comet assay blood samples were taken hydroxybenzoate) on statistically not been from heart. Genotoxic effect different from provided was measured in blood and pubertal male rats. treatment enabling liver samples with Comet Abstracts / Toxicology groups assessing the assay. Letters 258S (2016) S62- compared to data. S324. the oil control groups. 4 Rats 8 groups of 6 rats: orally at Not provided Positive 2 Limited Çömezoğlu B, Barlas N. 200, 400, or 800 Potential Genotoxic Effects DNA damage Hepatocyte mg/kg/day for 14 days and of Butylparaben (Butyl 4- parameters isolation orally at 100, 200, or 400 Hydroxybenzoate) in were procedure Comet assay mg/kg/day for the 28 days. Lymphocytes and Liver statistically lacks on blood Samples of Pubertal Male significantly important leukocytes Animals receiving only corn Rats. increased in details, e.g. and oil or a 60 mg/kg methyl leukocytes cytotoxicity hepatocytes methanesulfonate (MMS) Erciyes Med J. 2022; after 14 and assessment. intraperitoneal injection 24 44(3): 279-285 | DOI: 28 days with hours before dissection 10.14744/etd.2021.70750. higher values after 14 days. served as control groups. In 100 cells were analysed hepatocytes using the Comet Assay IV generally image analysis system higher values (Perceptive of DNA Instruments/Instem, damage Suffolk, UK): tail moment, parameters the intensity of the comet were observed 131 SCCS/1651/23 Preliminary",
+        "pdf_url": "https://health.ec.europa.eu/document/download/aa892d36-cb89-49c2-b0b1-5a14f4006642_en?filename=sccs_o_275.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 7184,
+    "molecular_formula": "C11H14O3",
+    "molecular_weight": "194.23",
+    "xlogp": 3.6,
+    "tpsa": 46.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "BUTYLPARABEN",
+      "Butyl 4-hydroxybenzoate",
+      "94-26-8",
+      "Butyl paraben",
+      "Butyl p-hydroxybenzoate",
+      "Butoben",
+      "Nipabutyl",
+      "Butyl chemosept",
+      "Butyl parasept",
+      "Tegosept B"
+    ]
+  },
+  "cosing": {
+    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON BUTYLPARABEN",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

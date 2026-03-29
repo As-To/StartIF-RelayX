@@ -1,0 +1,312 @@
+{
+  "ingredient": "aluminium",
+  "cas": "7429-90-5",
+  "ec": null,
+  "inci_name": "ALUMINIUM",
+  "sccs": {
+    "nb_avis": 2,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1662/23",
+        "date_avis": "2024-03-27",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "2%",
+        "categorie": "Colorant",
+        "conclusion": "The SCCS considers that aluminium compounds are safe when used: - in non-sprayable product categories at the maximum levels indicated in Tables 1 and 2.",
+        "abstract": "The SCCS concludes the following: 1. In light of the new data provided, does the SCCS consider Aluminium compounds safe when used in cosmetic products? In the event that the estimated exposure to Aluminium from cosmetic products is found to be of concern, SCCS is asked to recommend safe concentration limits for each category and product type. The SCCS considers that aluminium compounds are safe when used: - in non-sprayable product categories at the maximum levels indicated in Tables 1 and 2. - in sprayable products, at the maximum levels for the total formulation (i.e. including propellant) indicated in Table 1, provided that the percentage of particles/droplets with a diameter of less than 10 μm does not exceed 20% of the total aerosolised particles/droplets. Since the Applicant’s data submission indicated that aluminium is not used in sunscreen aerosol sprays, this",
+        "pdf_url": "https://health.ec.europa.eu/document/download/cad5a8dd-c3b1-4cb2-b21d-0afdc7bd886b_en?filename=sccs_o_284.pdf"
+      },
+      {
+        "sccs_number": "SCCS/1644/22",
+        "date_avis": "2023-03-21",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": null,
+        "categorie": "Colorant",
+        "conclusion": "The SCCS considers that aluminium compounds are safe when used • in non-sprayable product categories at the maximum levels indicated in Tables 4 and 6; and • in sprayable products, at the maximum levels indicated in Table 4, provided that the percentage of particles/droplets with a diameter of less than 10 μm does not exceed 20% of the total aerosolised particles/droplets.",
+        "abstract": "The SCCS concludes the following: 1. In light of the new data provided, does the SCCS consider Aluminium compounds safe when used in cosmetic products other than deodorants, antiperspirants, lipsticks and toothpastes? In the event that the estimated exposure to Aluminium from cosmetic products is found to be of concern, SCCS is asked to recommend safe concentration limits for each category. The SCCS considers that aluminium compounds are safe when used • in non-sprayable product categories at the maximum levels indicated in Tables 4 and 6; and • in sprayable products, at the maximum levels indicated in Table 4, provided that the percentage of particles/droplets with a diameter of less than 10 μm does not exceed 20% of the total aerosolised particles/droplets. Since the Applicant’s data submission indicated that aluminium is not used in sunscreen aerosol sprays, this",
+        "pdf_url": "https://health.ec.europa.eu/document/download/3aef8532-9bb5-4fb3-8b30-c757ead34e63_en?filename=sccs_o_266_0.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "25919144",
+        "doi": "10.1002/14651858.CD003262.pub4",
+        "title": "Interventions for rosacea.",
+        "abstract": "BACKGROUND: Rosacea is a common chronic skin condition affecting the face, characterised by flushing, redness, pimples, pustules and dilated blood vessels. The eyes are often involved and thickening of the skin with enlargement (phymas), especially of the nose, can occur in some people. A range of treatment options are available but it is unclear which are most effective. OBJECTIVES: To assess the efficacy and safety of treatments for rosacea. SEARCH METHODS: We updated our searches, to July 2014, of: the Cochrane Skin Group Specialised Register, CENTRAL in The Cochrane Library (2014, Issue 6), MEDLINE (from 1946), EMBASE (from 1974) and Science Citation Index (from 1988). We searched five trials registers and checked reference lists for further relevant studies. SELECTION CRITERIA: Randomised controlled trials in people with moderate to severe rosacea. DATA COLLECTION AND ANALYSIS: Study selection, data extraction, risk of bias assessment and analyses were carried out independently by two authors. MAIN RESULTS: We included 106 studies, comprising 13,631 participants. Sample sizes of 30-100 and study duration of two to three months were most common. More women than men were included, mean age of 48.6 years, and the majority had papulopustular rosacea, followed by erythematotelangiectatic rosacea.A wide range of comparisons (67) were evaluated. Topical interventions: metronidazole, azelaic acid, ivermectin, brimonidine or other topical treatments. Systemic interventions: oral antibiotics, combinations with topical treatments or other systemic treatments, i.e. isotretinoin. Several studies evaluated laser or light-based treatment.The majority of studies (57/106) were assessed as 'unclear risk of bias', 37 'high risk ' and 12 'low risk'. Twenty-two studies provided no usable or retrievable data i.e. none of our outcomes were addressed, no separate data reported for rosacea or limited data in abstracts.Eleven studies assessed our primary outcome 'change in quality of life', 52 studies participant-assessed changes in rosacea severity and almost all studies addressed adverse events, although often only limited data were provided. In most comparisons there were no statistically significant differences in number of adverse events, most were mild and transient. Physician assessments including investigators' global assessments, lesion counts and erythema were evaluated in three-quarters of the studies, but time needed for improvement and duration of remission were incompletely or not reported.The quality of the body of evidence was rated moderate to high for most outcomes, but for some outcomes low to very low.Data for several outcomes could only be pooled for topical metronidazole and azelaic acid. Both were shown to be more effective than placebo in papulopustular rosacea (moderate quality evidence for metronidazole and high for azelaic acid). Pooled data from physician assessments in three trials demonstrated that metronidazole was more effective compared to placebo (risk ratio (RR) 1.98, 95% confidence interval (CI) 1.29 to 3.02). Four trials provided data on participants' assessments, illustrating that azelaic acid was more effective than placebo (RR 1.46, 95% CI 1.30 to 1.63). The results from three studies were contradictory on which of these two treatments was most effective.Two studies showed a statistically significant and clinically important improvement in favour of topical ivermectin when compared to placebo (high quality evidence). Participants' assessments in these studies showed a RR of 1.78 (95% CI 1.50 to 2.11) and RR of 1.92 (95% CI 1.59 to 2.32),which were supported by physicians' assessments. Topical ivermectin appeared to be slightly more effective than topical metronidazole for papulopustular rosacea, based on one study, for improving quality of life and participant and physician assessed outcomes (high quality evidence for these outcomes).Topical brimonidine in two studies was more effective than vehicle in reducing erythema in rosacea at all time points over 12 hours (high quality evidence). At three hours the participants' assessments had a RR of 2.21 (95% CI 1.52 to 3.22) and RR of 2.00 (95% CI 1.33 to 3.01) in favour of brimonidine. Physicians' assessments confirmed these data. There was no rebound or worsening of erythema after treatment cessation.Topical clindamycin phosphate combined with tretinoin was not considered to be effective compared to placebo (moderate quality evidence).Topical ciclosporin ophthalmic emulsion demonstrated effectiveness and improved quality of life for people with ocular rosacea (low quality evidence).Of the comparisons assessing oral treatments for papulopustular rosacea there was moderate quality evidence that tetracycline was effective but this was based on two old studies of short duration. Physician-based assessments in two trials indicated that doxycycline appeared to be significantly more effective than placebo (RR 1.59, 95% CI 1.02 to 2.47 and RR 2.37, 95% CI 1.12 to 4.99) (high quality evidence). There was no statistically significant difference in effectiveness between 100 mg and 40 mg doxycycline, but there was evidence of fewer adverse effects with the lower dose (RR 0.25, 95% CI 0.11 to 0.54) (low quality evidence). There was very low quality evidence from one study (assessed at high risk of bias) that doxycycline 100 mg was as effective as azithromycin. Low dose minocycline (45 mg) was effective for papulopustular rosacea (low quality evidence).Oral tetracycline was compared with topical metronidazole in four studies and showed no statistically significant difference between the two treatments for any outcome (low to moderate quality evidence).Low dose isotretinoin was considered by both the participants (RR 1.23, 95% CI 1.05 to 1.43) and physicians (RR 1.18, 95% CI 1.03 to 1.36) to be slightly more effective than doxycycline 50-100 mg (high quality evidence).Pulsed dye laser was more effective than yttrium-aluminium-garnet (Nd:YAG) laser based on one study, and it appeared to be as effective as intense pulsed light therapy (both low quality evidence). AUTHORS' CONCLUSIONS: There was high quality evidence to support the effectiveness of topical azelaic acid, topical ivermectin, brimonidine, doxycycline and isotretinoin for rosacea. Moderate quality evidence was available for topical metronidazole and oral tetracycline. There was low quality evidence for low dose minocycline, laser and intense pulsed light therapy and ciclosporin ophthalmic emulsion for ocular rosacea. Time needed to response and response duration should be addressed more completely, with more rigorous reporting of adverse events. Further studies on treatment of ocular rosacea are warranted.",
+        "journal": "The Cochrane database of systematic reviews",
+        "date": "2015-Apr",
+        "mesh": [
+          "Anti-Infective Agents",
+          "Brimonidine Tartrate",
+          "Cyclosporine",
+          "Dermatologic Agents",
+          "Dicarboxylic Acids",
+          "Doxycycline",
+          "Female",
+          "Humans",
+          "Ivermectin",
+          "Male"
+        ],
+        "keywords": [],
+        "relevance_score": 28
+      },
+      {
+        "pmid": "19450296",
+        "doi": null,
+        "title": "Otitis externa.",
+        "abstract": "INTRODUCTION: Otitis externa is thought to affect 10% of people at some stage, and can present in acute, chronic, or necrotising forms. Otitis externa may be associated with eczema of the ear canal, and is more common in swimmers, humid environments, people with absence of ear wax or with narrow ear canals, hearing-aid users, and after mechanical trauma. METHODS AND OUTCOMES: We conducted a systematic review and aimed to answer the following clinical questions: What are the effects of empirical and prophylactic treatments for otitis externa? We searched: Medline, Embase, The Cochrane Library, and other important databases up to October 2007 (Clinical Evidence reviews are updated periodically, please check our website for the most up-to-date version of this review). We included harms alerts from relevant organisations such as the US Food and Drug Administration (FDA) and the UK Medicines and Healthcare products Regulatory Agency (MHRA). RESULTS: We found nine systematic reviews, RCTs, or observational studies that met our inclusion criteria. We performed a GRADE evaluation of the quality of evidence for interventions. CONCLUSIONS: In this systematic review we present information relating to the effectiveness and safety of the following interventions: oral antibiotics, specialist aural toilet, topical acetic acid drops or spray, topical aluminium acetate drops, topical antibacterials, topical antifungals, topical anti-infective agents, topical corticosteroids, and water exclusion.",
+        "journal": "BMJ clinical evidence",
+        "date": "2008-Jun",
+        "mesh": [
+          "Acetic Acid",
+          "Acute Disease",
+          "Administration, Oral",
+          "Anti-Bacterial Agents",
+          "Anti-Infective Agents",
+          "Anti-Infective Agents, Local",
+          "Glucocorticoids",
+          "Humans",
+          "Otitis Externa"
+        ],
+        "keywords": [],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "21418684",
+        "doi": null,
+        "title": "Otitis externa.",
+        "abstract": "INTRODUCTION: Otitis externa is thought to affect 10% of people at some stage, and can present in acute, chronic, or necrotising forms. Otitis externa may be associated with eczema of the ear canal, and is more common in swimmers, humid environments, people with absence of ear wax or with narrow ear canals, hearing-aid users, and after mechanical trauma. METHODS AND OUTCOMES: We conducted a systematic review and aimed to answer the following clinical questions: What are the effects of empirical and prophylactic treatments for otitis externa? We searched: Medline, Embase, The Cochrane Library, and other important databases up to October 2007 (Clinical Evidence reviews are updated periodically; please check our website for the most up-to-date version of this review). We included harms alerts from relevant organisations such as the US Food and Drug Administration (FDA) and the UK Medicines and Healthcare products Regulatory Agency (MHRA). RESULTS: We found nine systematic reviews, RCTs, or observational studies that met our inclusion criteria. We performed a GRADE evaluation of the quality of evidence for interventions. CONCLUSIONS: In this systematic review, we present information relating to the effectiveness and safety of the following interventions: oral antibiotics, specialist aural toilet, topical acetic acid drops or spray, topical aluminium acetate drops, topical antibacterials, topical antifungals, topical anti-infective agents, topical corticosteroids, and water exclusion.",
+        "journal": "BMJ clinical evidence",
+        "date": "2010-Aug",
+        "mesh": [
+          "Acetic Acid",
+          "Acute Disease",
+          "Administration, Oral",
+          "Administration, Topical",
+          "Anti-Bacterial Agents",
+          "Anti-Infective Agents",
+          "Anti-Infective Agents, Local",
+          "Glucocorticoids",
+          "Humans",
+          "Otitis Externa"
+        ],
+        "keywords": [],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "26074134",
+        "doi": null,
+        "title": "Otitis externa.",
+        "abstract": "INTRODUCTION: Otitis externa is thought to affect 10% of people at some stage, and can present in acute, chronic, or necrotising forms. Otitis externa may be associated with eczema of the ear canal, and is more common in swimmers, in humid environments, in people with narrow ear canals, in hearing-aid users, and after mechanical trauma. METHODS AND OUTCOMES: We conducted a systematic review and aimed to answer the following clinical question: What are the effects of empirical treatments for otitis externa? We searched: Medline, Embase, The Cochrane Library, and other important databases up to October 2013 (Clinical Evidence reviews are updated periodically; please check our website for the most up-to-date version of this review). RESULTS: Nine studies were included. We performed a GRADE evaluation of the quality of evidence for interventions. CONCLUSIONS: In this systematic review, we present information relating to the effectiveness and safety of the following interventions: oral antibiotics, specialist aural toilet, topical acetic acid, topical aluminium acetate, topical antibacterials, topical antifungals, topical corticosteroids, and combinations of these agents.",
+        "journal": "BMJ clinical evidence",
+        "date": "2015-Jun",
+        "mesh": [
+          "Acetic Acid",
+          "Anti-Bacterial Agents",
+          "Glucocorticoids",
+          "Humans",
+          "Otitis Externa",
+          "Therapeutic Irrigation",
+          "Treatment Outcome"
+        ],
+        "keywords": [],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "32248967",
+        "doi": "10.1016/j.annder.2020.01.003",
+        "title": "[Deodorants and antiperspirants].",
+        "abstract": "The terms deodorants and antiperspirants very frequently used interchangeably despite the fact that they employ completely different active substances and mechanisms of action. Antiperspirants are necessarily deodorants due to the lack of substrate to decompose. They nevertheless represent a group of very specific substances that create particular problems due to the presence of aluminium chlorohydrate, or ACH, (Al2(OH)5Cl, 2H2O), aluminium sesquichlorohydrate and aluminium-zirconium complex, which, after hydrolysis, causes intense acidification of the skin, hence the importance of inclusion of emollients and pH regulators in formulations. Moreover, systemic aluminium is thought to be genotoxic and to promote breast cancer, and it is thus at the centre of numerous scientific controversies. Nevertheless, its potential toxicity following topical application is related to its ability to penetrate skin, which is as yet poorly understood but considered very low, a fact that may provide some degree of reassurance regarding its use in cosmetic products. Its role in Alzheimer's disease has not been proven. On the other hand, zirconium salts are considered toxic and are partly regulated in Europe. The problems associated with deodorants are those arising from the presence of antiseptics (triclosan, usnic acid) capable of inducing bacterial resistance, but more particularly, the presence of axillary dermatitis due to the allergenic potential of the fragrances and essential oils used (e.g. isoeugenol, citronellal, lyral, cinnamic aldehyde, etc.).",
+        "journal": "Annales de dermatologie et de venereologie",
+        "date": "2020-May",
+        "mesh": [
+          "Antiperspirants",
+          "Deodorants",
+          "Humans"
+        ],
+        "keywords": [
+          "Aluminium chlorhydrate",
+          "Aluminium chlorohydrate",
+          "Aluminium-zirconium complex",
+          "Antiperspirant",
+          "Antiseptics",
+          "Antiseptiques",
+          "Antitranspirant",
+          "Complexe aluminium-zirconium",
+          "Deodorant",
+          "Déodorant"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "33801406",
+        "doi": "10.1016/j.biopha.2016.08.021",
+        "title": "Levothyroxine Interactions with Food and Dietary Supplements-A Systematic Review.",
+        "abstract": "Levothyroxine (l-thyroxine, l-T4) is a drug of choice for treating congenital and primary hypothyroidism. Although clinically significant interactions between l-T4 and food can alter the safety and efficacy of the treatment, they still seem to be generally underestimated by patients, physicians and pharmacists. This review aimed to investigate the effects of meals, beverages, and dietary supplements consumption on l-T4 pharmacokinetics and pharmacodynamics, to identify the most evident interactions, and to perform the recommendations for safe co-administering of l-T4 and food. A total of 121 studies were identified following a systematic literature search adhering to PRISMA guidelines. After full-text evaluation, 63 studies were included. The results proved that l-T4 ingestion in the morning and at bedtime are equally effective, and also that the co-administration of l-T4 with food depends on the drug formulation. We found limited evidence for l-T4 interactions with coffee, soy products, fiber, calcium or iron supplements, and enteral nutrition but interestingly they all resulted in decreased l-T4 absorption. The altered l-T4 efficacy when ingested with milk, juices, papaya, aluminium-containing preparations, and chromium supplements, as well as observed enhancement effect of vitamin C on l-T4 absorption, shall be further investigated in larger, well-designed studies. Novel formulations are likely to solve the problem of coffee, calcium and iron induced malabsorption of l-T4. Maintaining a proper time interval between l-T4 and food intake, especially for coffee and calcium, or iron supplements, provides another effective method of eliminating such interactions.",
+        "journal": "Pharmaceuticals (Basel, Switzerland)",
+        "date": "2021-Mar",
+        "mesh": [],
+        "keywords": [
+          "coffee",
+          "fiber",
+          "food",
+          "interaction",
+          "levothyroxine",
+          "soy"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "21103856",
+        "doi": "10.1007/s00105-010-2026-4",
+        "title": "[Cutaneous calciphylaxis].",
+        "abstract": "Calciphylaxis represents a dermatological emergency with a mortality of up to 80%. The disease is characterized by a triad of arteriolar medial calcification, thrombotic cutaneous ischemia and necrotic ulcerations. Recently several mechanisms of vascular calcification have been identified. This may led to preventive measures in the future. Early diagnosis is important to avoid complications such as sepsis. The dermatologist plays an important role in early diagnosis based on the recognition of clinical presentation and histopathology. Patients with end-stage renal disease are most commonly affected by calciphylaxis. The most frequent non-uremic predisposing conditions are primary hyperparathyroidism, malignancies, alcohol-induced liver disease, and autoimmune connective tissue diseases. Medical treatment aims to normalize mineral metabolism to reduce the serum concentration of sodium phosphate and thus to prevent precipitation and calcification. Newer compounds are bisphosphonates, non-sodium/non-aluminium phosphate binders, cinacalcet, paricalcitrol, and sodium thiosulfate. Among the surgical procedures parathyroidectomy did not result in a significant survival benefit. An aggressive surgical debridement of necrotic ulcerations, on the other hand, improved survival. Early diagnosis and a multidisciplinary treatment approach including re-vascularization by the vascular surgeon, repeated surgical debridement and split skin transplantation support wound healing and insure limb conservation.",
+        "journal": "Der Hautarzt; Zeitschrift fur Dermatologie, Venerologie, und verwandte Gebiete",
+        "date": "2010-Dec",
+        "mesh": [
+          "Biopsy",
+          "Bone Density Conservation Agents",
+          "Calciphylaxis",
+          "Chelating Agents",
+          "Combined Modality Therapy",
+          "Debridement",
+          "Diagnosis, Differential",
+          "Diphosphonates",
+          "Ergocalciferols",
+          "Humans"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "34396567",
+        "doi": "10.1002/jat.4228",
+        "title": "Aluminium in cosmetics and personal care products.",
+        "abstract": "Usage of inorganic ingredients like aluminium salts in cosmetics and personal care products has been a concern for producers and consumers. Although aluminium is used to treat hyperhidrosis, some worries have been raised about aluminium's role in breast cancer, breast cyst and Alzheimer's disease. The human population is exposed to aluminium from vaccines, diet, and drinking water, but the frequent use of aluminium-based cosmetics might add additional local exposure. This paper reviews literature to determine if aluminium-based products may pose potential harm to the body. The dermal absorption of aluminium is not widely understood. It is not yet known whether aluminium can travel from the skin to brain to cause Alzheimer's disease. Aluminium may cause gene instability, alter gene expression or enhance oxidative stress, but the carcinogenicity of aluminium has not been proved yet. Until now, epidemiological researches were based on oral information, which lacks consistency, and the results are conflicting. Future studies should target real-life-based long-time exposure to antiperspirants and other aluminium-containing cosmetics and personal care products.",
+        "journal": "Journal of applied toxicology : JAT",
+        "date": "2021-Nov",
+        "mesh": [
+          "Aluminum",
+          "Aluminum Compounds",
+          "Cosmetics",
+          "Gene Expression",
+          "Humans",
+          "Oxidative Stress"
+        ],
+        "keywords": [
+          "Alzheimer's disease",
+          "aluminium",
+          "antiperspirant",
+          "cancer",
+          "personal care products"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "36896776",
+        "doi": "10.1111/ics.12852",
+        "title": "Deodorants and antiperspirants: New trends in their active agents and testing methods.",
+        "abstract": "Sweating is the human body's thermoregulation system but also results in unpleasant body odour which can diminish the self-confidence of people. There has been continued research in finding solutions to reduce both sweating and body odour. Sweating is a result of increased sweat flow and malodour results from certain bacteria and ecological factors such as eating habits. Research on deodorant development focuses on inhibiting the growth of malodour-forming bacteria using antimicrobial agents, whereas research on antiperspirant synthesis focuses on technologies reducing the sweat flow, which not only reduces body odour but also improves people's appearance. Antiperspirant's technology is based on the use of aluminium salts which can form a gel plug at sweat pores, obstructing the sweat fluid from arising onto the skin surface. In this paper, we perform a systematic review on the recent progress in the development of novel antiperspirant and deodorant active ingredients that are alcohol-free, paraben-free, and naturally derived. Several studies have been reported on the alternative class of actives that can potentially be used for antiperspirant and body odour treatment including deodorizing fabric, bacterial, and plant extracts. However, a significant challenge is to understand how the gel-plugs of antiperspirant actives are formed in sweat pores and how to deliver long-lasting antiperspirant and deodorant benefits.",
+        "journal": "International journal of cosmetic science",
+        "date": "2023-Aug",
+        "mesh": [
+          "Humans",
+          "Antiperspirants",
+          "Deodorants",
+          "Body Odor",
+          "Sweating",
+          "Sweat Glands"
+        ],
+        "keywords": [
+          "antiperspirant",
+          "body odour",
+          "delivery/vectorization/penetration",
+          "deodorant",
+          "formulation/stability",
+          "safety testing",
+          "sweat glands",
+          "sweating"
+        ],
+        "relevance_score": 0
+      },
+      {
+        "pmid": "36634821",
+        "doi": "10.1016/j.jhep.2022.12.013",
+        "title": "Activation of CD4 T cells during prime immunization determines the success of a therapeutic hepatitis B vaccine in HBV-carrier mouse models.",
+        "abstract": "BACKGROUND & AIMS: We recently developed a heterologous therapeutic vaccination scheme (TherVacB) comprising a particulate protein prime followed by a modified vaccinia-virus Ankara (MVA)-vector boost for the treatment of HBV. However, the key determinants required to overcome HBV-specific immune tolerance remain unclear. Herein, we aimed to study new combination adjuvants and unravel factors that are essential for the antiviral efficacy of TherVacB. METHODS: Recombinant hepatitis B surface and core antigen (HBsAg and HBcAg) particles were formulated with different liposome- or oil-in-water emulsion-based combination adjuvants containing saponin QS21 and monophosphoryl lipid A; these formulations were compared to STING-agonist c-di-AMP and conventional aluminium hydroxide formulations. Immunogenicity and the antiviral effects of protein antigen formulations and the MVA-vector boost within TherVacB were evaluated in adeno-associated virus-HBV-infected and HBV-transgenic mice. RESULTS: Combination adjuvant formulations preserved HBsAg and HBcAg integrity for ≥12 weeks, promoted human and mouse dendritic cell activation and, within TherVacB, elicited robust HBV-specific antibody and T-cell responses in wild-type and HBV-carrier mice. Combination adjuvants that prime a balanced HBV-specific type 1 and 2 T helper response induced high-titer anti-HBs antibodies, cytotoxic T-cell responses and long-term control of HBV. In the absence of an MVA-vector boost or following selective CD8 T-cell depletion, HBsAg still declined (mediated mainly by anti-HBs antibodies) but HBV replication was not controlled. Selective CD4 T-cell depletion during the priming phase of TherVacB resulted in a complete loss of vaccine-induced immune responses and its therapeutic antiviral effect in mice. CONCLUSIONS: Our results identify CD4 T-cell activation during the priming phase of TherVacB as a key determinant of HBV-specific antibody and CD8 T-cell responses. IMPACT AND IMPLICATIONS: Therapeutic vaccination is a potentially curative treatment option for chronic hepatitis B. However, it remains unclear which factors are essential for breaking immune tolerance in HBV carriers and determining successful outcomes. Our study provides the first direct evidence that efficient priming of HBV-specific CD4 T cells determines the success of therapeutic hepatitis B vaccination in two preclinical HBV-carrier mouse models. Applying an optimal formulation of HBV antigens that activates CD4 and CD8 T cells during prime immunization provided the foundation for an antiviral effect of therapeutic vaccination, while depletion of CD4 T cells led to a complete loss of vaccine-induced antiviral efficacy. Boosting CD8 T cells was important to finally control HBV in these mouse models. Our findings provide important insights into the rational design of therapeutic vaccines for the cure of chronic hepatitis B.",
+        "journal": "Journal of hepatology",
+        "date": "2023-Apr",
+        "mesh": [
+          "Mice",
+          "Humans",
+          "Animals",
+          "Hepatitis B Vaccines",
+          "Hepatitis B virus",
+          "Hepatitis B Surface Antigens",
+          "Hepatitis B, Chronic",
+          "Hepatitis B Core Antigens",
+          "CD4-Positive T-Lymphocytes",
+          "Immunization"
+        ],
+        "keywords": [
+          "CD4 T cells",
+          "Chronic hepatitis B",
+          "TherVacB",
+          "combination adjuvant",
+          "immunotolerance",
+          "therapeutic vaccine"
+        ],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 5359268,
+    "molecular_formula": "Al",
+    "molecular_weight": "26.981538",
+    "xlogp": null,
+    "tpsa": 0,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "ALUMINUM",
+      "Aluminium",
+      "7429-90-5",
+      "Aluminum metal",
+      "Aluminum powder",
+      "Metallic aluminum",
+      "Al",
+      "Aluminium metallicum",
+      "Aluminium 27",
+      "Aluminum 27"
+    ]
+  },
+  "cosing": {
+    "inci_name": "ALUMINIUM",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

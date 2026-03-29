@@ -1,0 +1,295 @@
+{
+  "ingredient": "Yellow No",
+  "cas": "1184721-10-5",
+  "ec": null,
+  "inci_name": "YELLOW NO",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1670/24",
+        "date_avis": "2024-10-25",
+        "type_rapport": "Scientific Advice",
+        "verdict": null,
+        "concentration_max": "1 % in oxidative hair dye and at | 1.5 % in non-oxidative hair dye formulations | 1% in oxidative hair dye formulations and at",
+        "categorie": "Colorant",
+        "conclusion": "ABSTRACT The SCCS concludes the following: 1.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided, does the SCCS consider HC Yellow 16 safe, when used as an ingredient at 1 % in oxidative hair dye and at 1.5 % in non-oxidative hair dye formulations? In the light of the data provided, SCCS considers that the use of HC Yellow No. 16 (B123) as an ingredient at 1% in oxidative hair dye formulations and at 1.5% in non-oxidative hair dye formulations is safe, considering the specifications of the new commercial batches as described in the submission file II (as detailed in section 3.1.4). 2. Does the SCCS have any further scientific concerns with regard to the use of HC Yellow 16 in cosmetic products? / Keywords: SCCS, scientific advice, hair dye, HC Yellow No. 16, B123, Submission II, CAS 1184721-10-5, Regulation 1223/2009",
+        "pdf_url": "https://health.ec.europa.eu/document/download/73062780-ac23-433b-8c45-1bce0ed935b2_en?filename=sccs_o_292.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "11358107",
+        "doi": null,
+        "title": "Final report on the safety assessment of Cocoyl Sarcosine, Lauroyl Sarcosine, Myristoyl Sarcosine, Oleoyl Sarcosine, Stearoyl Sarcosine, Sodium Cocoyl Sarcosinate, Sodium Lauroyl Sarcosinate, Sodium Myristoyl Sarcosinate, Ammonium Cocoyl Sarcosinate, and Ammonium Lauroyl Sarcosinate.",
+        "abstract": "This safety assessment addresses cosmetic ingredients that are N-acyl derivatives of sarcosine and are generally referred to as acyl sarcosines, and those that are salts, known generally as acyl sarcosinates. Previous assessments have addressed the safety of each of the fatty acids that appear in these acyl sarcosines and sarcosinates (Coconut Acid, Oleic Acid, Lauric Acid, and Myristic Acid). In each case the fatty acid was either safe for use or safe as used in cosmetic formulations. Acyl sarcosines are considered modified fatty acids with greater solubility and increased acidity of the carboxylic acid group compared to the parent fatty acid. They are used in a large number of cosmetic formulations as hair-conditioning agents and surfactant-cleansing agents. In soaps, concentrations are reported to be as high as 12.9%. These ingredients have low oral toxicity in rats. Although cytotoxic to Chinese hamster cells in culture, acyl sarcosines and sarcosinates are not mutagenic in those cells, nor in bacterial cells in culture. Carcinogenicity data were not available. These ingredients are nonirritating and nonsensitizing to animal and human skin, although they can enhance the penetration of other ingredients through the skin. For that reason, caution should be exhibited in formulating cosmetic products that contain these ingredients in combination with other ingredients whose safety is based on their lack of absorption or where dermal absorption is a concern (e.g., HC Yellow No. 4, Disperse Yellow 3). Because sarcosine can be nitrosated to form N-nitrososarcosine, a known animal carcinogen, these ingredients should not be used in cosmetic products in which N-nitroso compounds may be formed. With the above caveat, and based on the available data, it was concluded that these acyl sarcosines and sarcosinates are safe as used in rinse-off products. They may be safely used in leave-on products at concentrations up to 5%, the highest concentration tested in clinical irritation and sensitization studies. Oleoyl Sarcosine is used as a corrosion inhibitor in some aerosol products, at extremely low concentrations. In this circumstance, the ingredient is not being used as a cosmetic ingredient and this report is not intended to limit that use. Because of the absence of data on inhalation toxicity, however, it was concluded that the available data were not sufficient to support the safety of acyl sarcosines and sarcosinates as cosmetic ingredients in products where they are likely to be inhaled.",
+        "journal": "International journal of toxicology",
+        "date": "2001",
+        "mesh": [
+          "Administration, Inhalation",
+          "Animals",
+          "Consumer Product Safety",
+          "Cosmetics",
+          "Humans",
+          "Mutagens",
+          "Nitrosation",
+          "Sarcosine",
+          "Skin",
+          "Solubility"
+        ],
+        "keywords": [],
+        "relevance_score": 14
+      },
+      {
+        "pmid": "17613134",
+        "doi": "10.1080/10915810701351244",
+        "title": "Final report on the safety assessment of HC Yellow No. 5.",
+        "abstract": "HC Yellow No. 5 is a direct hair dye. Hair dyes containing HC Yellow No. 5, as \"coal tar\" hair dye products, are exempt from the principal adulteration provision and from the color additive provision of the Federal Food, Drug, and Cosmetic Act of 1938 when the label bears a caution statement and \"patch test\" instructions for determining whether the product causes skin irritation. Preliminary testing on or by individuals should be done using an open patch test that is evaluated at 48 h after application of the test material. Users, therefore, would be able to determine their individual reactions to hair dye products containing HC Yellow No. 5. Absorption of HC Yellow No. 5 is minimal through skin (< 0.2%). The oral LD(50) for rats is 555.56 mg/kg. No significant toxic effects were observed after chronic oral exposure of HD Yellow No. 5 to dogs. Mild dermal irritation, but no dermal sensitization or ocular irritation was observed in laboratory animals. Results of fertility and reproductive performance, teratology, and developmental studies were negative. HC Yellow No. 5 was found to be nonmutagenic and noncytotoxic in standard laboratory assays. A current review of the hair dye epidemiology literature identified that use of direct hair dyes, although not the focus in all investigations, appears to have little evidence of an association with cancer or other adverse events. Based on the available safety test data on HC Yellow No. 5, the Panel determined that this ingredient likely would not have carcinogenic potential as used in hair dyes. The Cosmetic Ingredient Review (CIR) Expert Panel concluded that HC Yellow No. 5 is safe as a hair dye ingredient in the practices of use and concentration as described in this safety assessment.",
+        "journal": "International journal of toxicology",
+        "date": "2007",
+        "mesh": [
+          "Animals",
+          "Consensus",
+          "Consumer Product Safety",
+          "Hair Dyes",
+          "Humans",
+          "Irritants",
+          "Phenylenediamines",
+          "Risk Assessment",
+          "Toxicity Tests"
+        ],
+        "keywords": [],
+        "relevance_score": 9
+      },
+      {
+        "pmid": "18686145",
+        "doi": "10.1080/02652040802340706",
+        "title": "The development of colour-encapsulated microspheres for novel colour cosmetics.",
+        "abstract": "In the present study, the preparation, characterization and colour retention properties of organic colour-loaded microspheres are described. The study aimed to produce shatter-resistant, low-bleeding polymeric microspheres with particle diameters of 20 µm containing 10-20% (w/w) of the Food, Drug, and Cosmetic grade colourants FD&C Blue No. 1 Al Lake, FD&C Yellow No. 5 Al Lake and D&C Red No. 36 by utilizing an aqueous-dispersed polymer water-in-oil (W/O) solvent evaporation process featuring styrene/acrylates-based copolymers. The influences of matrix polymeric components on the shape, integrity and dye retention of the microspheres were studied. Encapsulation matrices based on alkali soluble polymers yielded misshapen spheroids that were prone both to swelling and decreased dye retention in aqueous environments, as well as loss of shape at 70°C in cosmetic oils under shear. A resin supported emulsion (RSE)-based matrix, in comparison, yielded highly spherical microspheres resistant to shape deformation and swelling. Additions of up to 15% (w/w) of an alkali soluble polymer to the RSE system improved colour dispersion without detrimentally affecting the structural integrity of the microspheres while also slightly decreasing dye concentrations released into aqueous solutions. The in vitro dye release of the colour-loaded microspheres in a cosmetic-type water-in-silicone (W/Si) emulsion was evaluated and compared to the in vitro dye release studies in aqueous solutions. No direct correlations between the emulsion system and single-component aqueous solutions could be made. Dye-release levels evaluated from contacting the microspheres with a complex aqueous medium (CAM5), which incorporated ingredient classes typically encountered in the aqueous phase of an emulsion, were found to correlate to levels determined in the generic W/Si emulsion with a 93% linear regression between the data sets. This study demonstrates that the CAM5 protocol (or, alternatively, a CAM2.5 protocol) satisfactorily predicted that the commercial materials derived, in part, from this study (Ciba: ENCAPSULENCE Blue 1, ENCAPSULENCE Yellow 5 and ENCAPSULENCE Red 36) are well suited to retain their colour and shape in liquid cosmetic foundations.",
+        "journal": "Journal of microencapsulation",
+        "date": "2009-Jun",
+        "mesh": [
+          "Acrylates",
+          "Coloring Agents",
+          "Cosmetics",
+          "Drug Compounding",
+          "Emulsions",
+          "Microspheres",
+          "Particle Size",
+          "Polymers",
+          "Styrene"
+        ],
+        "keywords": [],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "28454783",
+        "doi": "10.1016/j.fct.2017.04.034",
+        "title": "Lack of genotoxicity in vivo for food color additive Tartrazine.",
+        "abstract": "Tartrazine is approved as a food color additive internationally with INS number 102, in the United States as food color subject to batch certification \"Food, Drug, and Cosmetic\" (FD&C) Yellow No. 5, and in Europe as food color additive with E number 102. In their evaluation of the color (2013), the European Food Safety Authority (EFSA) expressed concerns of potential genotoxicity, based primarily on one genotoxicity study that was not conducted according to Guidelines. The present in vivo genotoxicity study was conducted according to OECD Guidelines in response to EFSA's request for additional data. The animal species and strain, and the tissues examined were selected specifically to address the previously reported findings. The results of this study show clear absence of genotoxic activity for Tartrazine, in the bone marrow micronucleus assay and the Comet assay in the liver, stomach, and colon. These data addressed EFSA's concerns for genotoxicity. The Joint WHO/FAO Committee on Food Additives (JECFA) (2016) also reviewed these data and concluded that there is no genotoxicity concern for Tartrazine. Negative findings in parallel genotoxicity studies on Allura Red AC and Ponceau 4R (published separately) are consistent with lack of genotoxicity for azo dyes used as food colors.",
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "2017-Jul",
+        "mesh": [
+          "Animals",
+          "Comet Assay",
+          "DNA Damage",
+          "Europe",
+          "Food Coloring Agents",
+          "Food Safety",
+          "Male",
+          "Mice",
+          "Mice, Inbred ICR",
+          "Micronucleus Tests"
+        ],
+        "keywords": [
+          "E102",
+          "FD&C Yellow No. 5",
+          "Food color",
+          "Genotoxicity",
+          "INS 102",
+          "Tartrazine"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "17505761",
+        "doi": "10.1590/s1519-69842007000100019",
+        "title": "Prolonged use of the food dye tartrazine (FD&C yellow no 5) and its effects on the gastric mucosa of Wistar rats.",
+        "abstract": "Tartrazine is one of the most widely used artificial foods, drugs and cosmetic dyes. It is a nitrous derivative and is known to cause allergic reactions such as asthma and urticaria, as well as having been the focus of studies on mutagenesis and carcinogenesis due to its transformation into aromatic amine sulfanilic acid after being metabolized by the gastrointestinal microflora. 45 male Wistar rats were assigned to a control group (A) or a treatment one (B). The treatment group received 7.5 mg x kg(-1) x day(-1) of tartrazine daily in drinking water offered ad libitum for ten months from weaning to the age of twelve months. There was a significant increase in the number of lymphocytes and eosinophils of the gastric antrum mucosa. No carcinogenetic changes in any gastric area were observed during the study. As tartrazine belongs to the azo class, it is still a possible food carcinogen. Other studies with different doses and schedules, observing their effects associated to other carcinogens should be carried out if their safe use is to be recommended.",
+        "journal": "Brazilian journal of biology = Revista brasleira de biologia",
+        "date": "2007-Feb",
+        "mesh": [
+          "Animals",
+          "Food Coloring Agents",
+          "Gastric Mucosa",
+          "Male",
+          "Rats",
+          "Rats, Wistar",
+          "Tartrazine",
+          "Time Factors"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "32599104",
+        "doi": "10.1016/j.fct.2020.111499",
+        "title": "Certified food dyes in over the counter medicines and supplements marketed for children and pregnant women.",
+        "abstract": "Food, Drug, & Cosmetic (FD&C) dyes are synthetic color additives used in food, prescription drugs and over-the-counter medicines (OTCs). Consumption of FD&C dyes has been associated with neurobehavioral behavior in some children. The amount of dye used in commercial products is proprietary, making it difficult to assess dietary intake and determine exposure in children. To date, no studies have examined FD&C dyes in OTCs or vitamins in the United States. To address this, FD&C Red No. 40, Yellow No. 5, Yellow No. 6, Blue No. 1, and Blue No. 2 levels were measured in prenatal vitamin tablets, children's chewable and gummy vitamins, pain reliever tablets and syrups, and cough/cold/allergy tablets and syrups. Dyes were isolated using solid phase extraction (SPE) and quantified by high performance liquid chromatography (HPLC). Dye levels varied between products with highest levels in pain reliever and cough/cold/allergy syrups. Significant variability was observed within some brands. Degradation of Red No. 40, Blue No. 1, and Yellow No. 6 was observed in the vitamin gummies. Intake of FD&C Red No. 40 is two times the US FDA ADI (accepted daily intake) for some children's pain reliever syrups and almost three times the US FDA ADI for some cough/cold/allergy syrups.",
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "2020-Sep",
+        "mesh": [
+          "Analgesics",
+          "Child",
+          "Chromatography, High Pressure Liquid",
+          "Coloring Agents",
+          "Dietary Supplements",
+          "Female",
+          "Food Additives",
+          "Histamine Antagonists",
+          "Humans",
+          "Molecular Structure"
+        ],
+        "keywords": [
+          "FD&C dyes",
+          "Gummies",
+          "High performance liquid chromatography",
+          "Over-the-counter medicine",
+          "Vitamins"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "34677017",
+        "doi": "10.3724/SP.J.1123.2020.11020",
+        "title": "[Determination of 40 dyes in oxidative hair dye products by high performance liquid chromatography].",
+        "abstract": "Oxidative hair dye products have always been one of the key concerns in cosmetic supervision. The various aromatic amine and phenol dyes used in such products have different degrees of sensitization and toxicities. Therefore, it is necessary to establish a rapid and accurate method for the determination of various dyes. A high performance liquid chromatography (HPLC) method was developed for the determination of 40 dyes in oxidative hair dye products, and the method was optimized in terms of mobile phase type, column temperature, detection wavelength, and extraction solvent concentration. The sample pretreatment method was as follows: weighed 0.5 g sample accurately, added to 10 mL of sodium bisulfite solution containing 70% ethanol, extracted by ultrasonication for 15 min, added to 25 mL of the sodium bisulfite solution. Chromatographic separation was carried out on a Waters Atlantis® T3 MV Kit column (250 mm×4.6 mm, 5 μm) by gradient elution. To protect the column, the sample solution was filtered using a syringe filter with a 0.45-μm membrane before injection. The mobile phase was 0.02 mol/L ammonium acetate aqueous solution (containing 4% acetonitrile) and acetonitrile. The column temperature was varied between 30 ℃ and 35 ℃ during the separation. The dyes were detected using a photodiode array detector. The detection wavelength of 31 dyes was 235 nm, and that of the other nine dyes was 280 nm. The external standard method was used for quantitative analysis. The results showed that the 40 dyes could be separated well. All the dyes had good linearities in their own concentration ranges, with correlation coefficients (r) exceeding 0.999. The limits of detection (LODs) of the 40 dyes ranged from 5 to 168 μg/g, and the limits of quantification (LOQs) ranged from 16 to 504 μg/g. The average spiked recoveries at three levels (2.5, 5.0, and 10 mg/g) of the 40 dyes ranged from 81.4% to 109.6%, with relative standard deviations (RSDs) less than 5%. The stability of each dye in the standard solutions was good within 24 h, with RSDs ranging from 0.2% to 2.2%. To demonstrate the applicability of the method, 12 batches of commercial oxidative hair dye products from different manufacturers were analyzed. In total, 24 kinds of dyes were detected in the 12 batches of samples, and the contents of these dyes ranged from 0.01% to 2.83%. The method greatly increased the types of dyes detected by a single chromatography step, especially the permitted dyes (36 types). Compared with the standard method of Safety and Technical Standards for Cosmetics (2015 edition), this method replenished 13 permitted dyes: 1-hydroxyethyl 4,5-diaminopyrazole sulfate, hydroxyethyl-p-phenylenediaminesulfate, tetraaminopyrimidine sulfate, 2,6-dihydroxyethylaminotoluene, 2-amino-6-chloro-4-nitrophenol, 2-methyl-5-hydroxyethylaminophenol, 3-nitro-p-hydroxyethylaminophenol, 4-hydroxypropylamino-3-nitrophenol, 5-amino-4-chloro-o-cresol, 5-amino-6-chloro-o-cresol, HC yellow No. 2, hydroxybenzomorpholine, and hydroxyethyl-2-nitro-p-toluidine. The sensitivity and accuracy of the results could ensure and the detection efficiency could be improved through validation of the method. The developed method is suitable for the determination of various dyes in oxidative hair dye products and can provide an effective technical means for the supervision of such products.",
+        "journal": "Se pu = Chinese journal of chromatography",
+        "date": "2021-Nov",
+        "mesh": [
+          "Chromatography, High Pressure Liquid",
+          "Cosmetics",
+          "Hair Dyes",
+          "Oxidative Stress",
+          "Solvents"
+        ],
+        "keywords": [
+          "dyes",
+          "high performance liquid chromatography (HPLC)",
+          "oxidative hair dye products"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "1473799",
+        "doi": "10.1016/0278-6915(92)90116-3",
+        "title": "Evaluation of the cumulative (repeated application) eye irritation and corneal staining potential of FD&C yellow no. 5, FD&C blue no. 1 and FD&C blue no. 1 aluminium lake.",
+        "abstract": "A protocol to evaluate the ocular irritation, staining, and embedding potential of FD&C colours (Yellow No. 5, Blue No. 1, Blue No. 1 Aluminium Lake) produced by repeated topical application to rabbit eyes is described. Test materials (3%, w/v in aqueous vehicle) were administered once daily, for a total of 21 days, to the conjunctival sac of the right eye of New Zealand White Rabbits (6 of each sex per group) at a dose volume of 30 microliters. Control animals (6 of each sex) received 30 microliters of the vehicle daily. All animals survived and were free of significant clinical signs of toxicity throughout the study. Ophthalmoscopic examinations revealed that all animals were free of abnormalities considered to be of clinical importance; all animals were free of significant signs of ocular irritation, staining and particle embedment. The results of this study support the safe use of these materials in consumer products intended for use in the eye area.",
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "1992-Dec",
+        "mesh": [
+          "Animals",
+          "Benzenesulfonates",
+          "Body Weight",
+          "Conjunctiva",
+          "Cornea",
+          "Female",
+          "Male",
+          "Rabbits",
+          "Tartrazine"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "27092991",
+        "doi": "10.1080/19440049.2016.1179536",
+        "title": "Exposure estimate for FD&C colour additives for the US population.",
+        "abstract": "Dietary exposures to the seven food, drug, and cosmetic (FD&C) colour additives that are approved for general use in food in the United States were estimated for the US population (aged 2 years and older), children (aged 2-5 years) and teenage boys (aged 13-18 years) based on analytical levels of the FD&C colour additives in foods. Approximately 600 foods were chosen for analysis, based on a survey of product labels, for the levels of FD&C colour additives. Dietary exposure was estimated using both 2-day food consumption data from the combined 2007-10 National Health and Nutrition Examination Survey (NHANES) and 10-14-day food consumption data from the 2007-10 NPD Group, Inc. National Eating Trends - Nutrient Intake Database (NPD NET-NID). Dietary exposure was estimated at the mean and 90th percentile using three different exposure scenarios: low exposure, average exposure and high exposure, to account for the range in the amount of each FD&C colour additive for a given food. For all populations and all exposure scenarios, the highest cumulative eaters-only exposures in food were determined for FD&C Red No. 40, FD&C Yellow No. 5 and FD&C Yellow No. 6. In addition, the eaters-only exposure was estimated for individual food categories in order to determine which food categories contributed the most to the exposure for each FD&C colour additive. Breakfast Cereal, Juice Drinks, Soft Drinks, and Frozen Dairy Desserts/Sherbet (also referred to as Ice Cream, Frozen Yogurt, Sherbet (including Bars, Sticks, Sandwiches)) were the major contributing food categories to exposure for multiple FD&C colour additives for all three populations.",
+        "journal": "Food additives & contaminants. Part A, Chemistry, analysis, control, exposure & risk assessment",
+        "date": "2016-May",
+        "mesh": [
+          "Adolescent",
+          "Adolescent Nutritional Physiological Phenomena",
+          "Azo Compounds",
+          "Breakfast",
+          "Child",
+          "Child Nutritional Physiological Phenomena",
+          "Child, Preschool",
+          "Databases, Factual",
+          "Diet",
+          "Edible Grain"
+        ],
+        "keywords": [
+          "Dietary exposure",
+          "FD&C Blue No. 1",
+          "FD&C Blue No. 2",
+          "FD&C Green No. 3",
+          "FD&C Red No. 3",
+          "FD&C Red No. 40",
+          "FD&C Yellow No. 5",
+          "FD&C Yellow No. 6",
+          "food consumption"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "12587013",
+        "doi": null,
+        "title": "NTP Toxicology and Carcinogenesis Studies of D&C Yellow No. 11 (CAS No. 8003-22-3) in F344/N Rats (Feed Studies).",
+        "abstract": "D&C Yellow No. 11 is used to color topical drug preparations and cosmetics. It is also used in spirit lacquers, polystyrenes, polycarbonates, polyamides, acrylic resins, colored smokes, and hydrocarbon solvents. D&C Yellow No. 11 was nominated to the NTP for toxicity and carcinogenesis studies as part of a larger regulatory effort mandated by Congress and undertaken by the Food and Drug Administration to determine the safety of a number of provisionally listed dyes. D&C Yellow No. 11 is currently regulated for external use. The recommendation to study D&C Yellow No. 11 by dietary exposure was based on the fact that it is a contaminant of D&C Yellow No. 10, a candidate for permanent listing as a chemical for which there is a potential for ingestion. First-generation (F(0)) male and female F344/N rats were given D&C Yellow No. 11 (approximately 99% pure) in feed for up to 19 weeks and then mated, and exposure of second-generation (F(1)) males and females began in utero and continued for 2 years after weaning at 28 days of age. Genetic toxicology studies were conducted in Salmonella typhimurium, cultured Chinese hamster ovary cells, and mouse peripheral blood. REPRODUCTIVE TOXICITY STUDY: Groups of 60 male and 60 female F(0) rats were given 0, 500, 1,700, or 5,000 ppm D&C Yellow No. 11 in feed for up to 19 weeks, which resulted in average daily doses of 35, 120, or 350 mg D&C Yellow No. 11/kg body weight to males and 35, 120, or 370 mg/kg to females. All F(0) males and females survived until the end of the study. Prior to cohabitation, mean body weight gains of males given 500, 1,700, or 5,000 ppm and of females given 5,000 ppm were significantly lower than those of the controls. The mean body weight gains of exposed females during gestation and lactation were generally similar to those of the controls. Feed consumption by exposed groups of rats was generally similar to that by the control groups prior to cohabitation. The duration of gestation, the average litter size, the number of live pups on days 4 (precull) and 21, and the percentage of male pups for each exposure group were similar to those of the controls. The mean body weights of exposed litters were significantly less than those of the control litters on days 14 and 21; this effect was considered to be related to D&C Yellow No. 11 exposure. 2-YEAR STUDY: Groups of 60 male and 60 female F(1) rats were given 0, 500, 1,700, or 5,000 ppm D&C Yellow No. 11 in feed for 105 (males) or 106 (females) weeks after weaning (day 28); 6 to 10 rats per group were evaluated at 12 months. These exposure concentrations resulted in average daily doses of approximately 25, 85, or 250 mg D&C Yellow No. 11/kg body weight to males and 25, 100, or 280 mg/kg to females. Survival, Body Weights, Feed Consumption, and Clinical Findings: Survival of males given 1,700 or 5,000 ppm was significantly less than that of the controls, and survival of 1,700 ppm females was significantly greater than that of the controls. Mean body weights of 1,700 and 5,000 ppm males and females were generally lower than those of the controls throughout the study. Feed consumption by exposed groups was similar to that by the controls. Chemical-related clinical findings included yellow discoloration of the entire body in all exposed males and females from day 1 and head swelling and edema in 1,700 and 5,000 ppm males. One 1,700 ppm and five 5,000 ppm males were moribund and were killed between weeks 49 and 81; these deaths were attributed to extensive edema. Hematology: A few minimal hematology changes occurred in male rats at the 12-month interim evaluation. There was evidence of minimal anemia in exposed males; this anemia was characterized by decreased hematocrit values, hemoglobin concentrations, and erythrocyte counts. The minimal anemia was characterized as normocytic, normochromic, and nonresponsive. There were no biologically or statistically significant differences in hematology parameters between control and exposed females. Pathology Findings: Absolute and relative liver weights of all exposed groups of md relative liver weights of all exposed groups of males and females were significantly greater than those of the controls at 12 months. At 2 years, the incidences of hepatocellular adenoma in 5,000 ppm males and of hepatocellular adenoma or carcinoma (combined) in 5,000 ppm females were significantly greater than those in the controls. At 12 months, the incidences of clear cell foci in 1,700 and 5,000 ppm females were significantly greater than that in the controls. At 2 years, the incidences of mixed cell foci in exposed males and of clear cell foci in exposed males (except 500 ppm) and females were significantly greater than those in the controls. Incidences of cytologic alterations (basophilia and granularity) of hepatocytes, and pigmentation in bile duct epithelium, hepatocytes, and Kupffer cells in exposed males and females were greater than those in the controls at both 12 months and 2 years. Renal tubule adenomas were observed in two 5,000 ppm males, and one renal tubule carcinoma was observed in a 1,700 ppm male. During an extended evaluation, renal tubule adenomas were observed in two additional 5,000 ppm males, four 1,700 ppm males, and two 500 ppm males. Renal tubule hyperplasia was observed in exposed groups of males but not in controls, and the incidences in 1,700 ppm males from both standard and extended evaluations were significantly greater than those in the controls. Necrosis and regeneration of the renal tubule epithelium were observed in all control and exposed male rats and in most female rats at 12 months and 2 years. The severity of nephropathy in exposed males and females was significantly greater than that in the controls. In exposed males and 1,700 ppm females at 2 years, the incidences of hyperplasia of the transitional epithelium in the kidney, which commonly accompanies advanced nephropathy, were greater than those of the controls, and the severity of this lesion in exposed males and females was greater than that in the controls. The incidences of renal tubule pigmentation in all exposed groups of males and females at 12 months and 2 years were significantly greater than those in the controls. Squamous cell carcinomas of the tongue were observed in one 500 ppm male at 12 months and one 5,000 ppm female at 2 years, and one squamous cell carcinoma of the oral mucosa was observed in each group of exposed males and in one 5,000 ppm female at 2 years. At 2 years, squamous cell papillomas were observed in the oral cavity (oral mucosa or tongue) of one control, one 500 ppm, two 1,700 ppm, and four 5,000 ppm males; this lesion was also observed in one control and one 500 ppm female. GENETIC TOXICOLOGY: Results of mutagenicity tests with D&amp;C Yellow No. 11 in Salmonella typhimurium were equivocal in one study, based on responses observed in strain TA100 with induced rat liver S9, and weakly positive in a second study, based on responses observed in strains TA98 and TA100 with induced rat or hamster liver S9. D&amp;C Yellow No. 11 induced sister chromatid exchanges and chromosomal aberrations in cultured Chinese hamster ovary cells, with and without S9. No increase in the frequency of micronucleated normochromatic erythrocytes was observed in peripheral blood samples from male and female B6C3F(1) mice administered D&amp;C Yellow No. 11 in feed for 13 weeks. CONCLUSIONS: Under the conditions of this perinatal exposure followed by a 2-year dosed feed study, there was some evidence of carcinogenic activity of D&amp;C Yellow No. 11 in male F344/N rats based on increased incidences of hepatocellular adenoma, renal tubule neoplasms, and squamous cell neoplasms of the oral cavity. There was some evidence of carcinogenic activity in female F344/N rats based on increased inci dences of hepatocellular neoplasms. Incidences of uncommon squamous cell carcinoma of the oral cavity in females may have been related to chemical treatment. Exposure of rats to D&amp;C Yellow No. 11 in feed for 2 years resulted in increased incidences of nonneoplastic liver lesions including clear cell foci, increased basophilia and granularity in the cytoplasm of hepatocytes, and bile duct, hepatocyte, and Kupffer cell pigmentation in males and females and mixed cell foci in males. In the kidney, there were increased incidences of renal tubule pigmentation and transitional epithelial hyperplasia in males and females and renal tubule hyperplasia in males. The severity of nephropathy was increased in exposed males and females. Synonyms: 2-(2-Quinolinyl)-1H-indene-1,3-(2H)-dione; 2-(2-quinolyl)-1,3-indandione Trade names: Arlosol Yellow S, Chinoline Yellow D (soluble in spirits), Chinoline Yellow ZSS, C.I. 47000, C.I. Solvent Yellow 33, Nitro Fast Yellow SL, Oil Yellow SIS, Petrol Yellow C, Quinoline Yellow A Spirit Soluble, Quinoline Yellow Base, Quinoline Yellow Spirit Soluble, Quinoline Yellow SS, Solvent Yellow 33, Waxoline Yellow T",
+        "journal": "National Toxicology Program technical report series",
+        "date": "1997-Apr",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 136602044,
+    "molecular_formula": "C10H9ClN4O",
+    "molecular_weight": "236.66",
+    "xlogp": 2.6,
+    "tpsa": 62.8,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "SCHEMBL15049243",
+      "SCHEMBL16232517",
+      "CLLDCLHNLJUKGQ-BUHFOSPRSA-N",
+      "CLLDCLHNLJUKGQ-UHFFFAOYSA-N",
+      "DTXSID601186148",
+      "2-Chloro-4-[(E)-(1-methyl-1H-pyrazol-5-yl)diazenyl]phenol",
+      "2-Chloro-4-[(1E)-2-(1-methyl-1H-pyrazol-5-yl)diazenyl]phenol",
+      "1184721-10-5"
+    ]
+  },
+  "cosing": {
+    "inci_name": "YELLOW NO",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

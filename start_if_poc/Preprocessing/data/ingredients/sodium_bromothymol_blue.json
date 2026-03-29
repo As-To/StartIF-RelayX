@@ -1,0 +1,70 @@
+{
+  "ingredient": "Sodium bromothymol blue",
+  "cas": "34722-90-2",
+  "ec": "252-169-7",
+  "inci_name": "SODIUM BROMOTHYMOL BLUE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1645/22",
+        "date_avis": "2023-03-22",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "0.5 %",
+        "categorie": "Colorant",
+        "conclusion": "In light of the data provided, does the SCCS consider Sodium Bromothymol Blue safe when used in non-oxidative hair colouring products up to a maximum on-head concentration of 0.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided, does the SCCS consider Sodium Bromothymol Blue safe when used in non-oxidative hair colouring products up to a maximum on-head concentration of 0.5 %? Having considered the data provided, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/1121092f-002f-4477-bcce-37cff1e63853_en?filename=sccs_o_267.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 22489401,
+    "molecular_formula": "C27H27Br2NaO5S",
+    "molecular_weight": "646.4",
+    "xlogp": null,
+    "tpsa": 103,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "34722-90-2",
+      "Bromothymol Blue, sodium salt",
+      "Bromthymol Blue sodium",
+      "Phenol, 4,4'-(1,1-dioxido-3H-2,1-benzoxathiol-3-ylidene)bis(2-bromo-3-methyl-6-(1-methylethyl)-, monosodium salt",
+      "RefChem:1080188",
+      "252-169-7",
+      "CFN0FBC3YH",
+      "Phenol, 4,4'-(3H-2,1-benzoxathiol-3-ylidene)bis(2-bromo-3-methyl-6-(1-methylethyl)-, S,S-dioxide, monosodium salt",
+      "Sodium bromothymol Blue",
+      "Bromothymol Blue sodium salt"
+    ]
+  },
+  "cosing": {
+    "inci_name": "SODIUM BROMOTHYMOL BLUE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

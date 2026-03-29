@@ -1,0 +1,70 @@
+{
+  "ingredient": "Preliminary Opinion open for comments on Hydroxyapatite",
+  "cas": null,
+  "ec": "215-145-7",
+  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON HYDROXYAPATITE",
+  "sccs": {
+    "nb_avis": 2,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1677/25",
+        "date_avis": "2025-06-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "29.5% | 10%",
+        "categorie": "Surfactant",
+        "conclusion": "The SCCS concludes the following: (1) In view of the above, and taking into account the scientific data provided, does the SCCS consider Hydroxyapatite (nano) safe when used in toothpaste up to a maximum concentration of 29.",
+        "abstract": "The SCCS concludes the following: (1) In view of the above, and taking into account the scientific data provided, does the SCCS consider Hydroxyapatite (nano) safe when used in toothpaste up to a maximum concentration of 29.5% and in mouthwash up to a maximum concentration of 10% according to the specifications as reported in the submission, taking into account reasonably foreseeable exposure conditions? Based on the data provided, the SCCS considers hydroxyapatite (nano) safe when used at concentrations up to 29.5% in toothpaste, and up to 10% in mouthwash. This",
+        "pdf_url": "https://health.ec.europa.eu/document/download/3b83f50e-1f2c-4c8a-9699-3d03aadeab0f_en?filename=sccs_o_300.pdf"
+      },
+      {
+        "sccs_number": "SCCS/1648/22",
+        "date_avis": "2023-03-22",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "10% in toothpaste | 0.465% in mouthwash",
+        "categorie": "Colorant",
+        "conclusion": "the SCCS considers hydroxyapatite (nano) safe when used at concentrations up to 10% in toothpaste, and up to 0.",
+        "abstract": "The SCCS concludes the following: 1. In view of the above, and taking into account the scientific data provided, does the SCCS consider hydroxyapatite (nano) safe when used in oral cosmetic products according to the maximum concentrations and specifications as reported in the submission, taking into account reasonably foreseeable exposure conditions? Based on the data provided, the SCCS considers hydroxyapatite (nano) safe when used at concentrations up to 10% in toothpaste, and up to 0.465% in mouthwash. This safety evaluation only applies to the hydroxyapatite (nano) with the following characteristics: - composed of rod-shaped particles of which at least 95.8% (in particle number) have an aspect ratio less than 3, and the remaining 4.2% have an aspect ratio not exceeding 4.9; - the particles are not coated or surface modified. 2. Does the SCCS have any further scientific concerns with regard to the use of hydroxyapatite (nano) in oral cosmetic products? This",
+        "pdf_url": "https://health.ec.europa.eu/document/download/1377b7bf-0672-4749-8f6a-0a001fb50ed0_en?filename=sccs_o_269.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": null,
+    "molecular_formula": null,
+    "molecular_weight": null,
+    "xlogp": null,
+    "tpsa": null,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": []
+  },
+  "cosing": {
+    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON HYDROXYAPATITE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

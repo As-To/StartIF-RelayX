@@ -1,0 +1,301 @@
+{
+  "ingredient": "Thiomersal",
+  "cas": "54-64-8",
+  "ec": "200-210-4",
+  "inci_name": "THIOMERSAL",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1686/25",
+        "date_avis": "2026-02-02",
+        "type_rapport": "Scientific Advice",
+        "verdict": null,
+        "concentration_max": "56.6% in both CH | 30.96 mg/L in water at | 54.1 mg/mL in water",
+        "categorie": "Preservative",
+        "conclusion": "ABSTRACT The SCCS concludes the following: In light of technical and scientific progress and SCCS’ expert judgement and taking under consideration in particular the various health concerns, the SCCS is requested: (1) to identify and justify whether there are specific concerns regarding the current use of ‘Thiomersal’ and ‘Phenylmercuric salts’ as preservatives in cosmetic eye products; Considering that the Margin of Safety based on renal toxicity as the most sensitive endpoint is less than 100, and that genotoxicity evidence is unresolved, the use of ‘Thiomersal’ and ‘Phenylmercuric salts’ as preservatives in cosmetic eye products is not considered safe at the concentration levels currently permitted in cosmetic products.",
+        "abstract": "of Magos et al. 1985: Porton Wistar male and female Rats were “given by gastric gavage five daily doses of 8.0 mg Hg/kg methyl- or ethylmercuric chloride or 9.6 mg Hg/kg ethylmercuric chloride. Three or 10 days after the last treatment day rats treated with either 8.0 or 9.6 mg Hg/kg ethylmercury had higher total or organic mercury concentrations in blood and lower concentrations in kidneys and brain than methylmercury-treated rats. In each of these tissues the inorganic mercury concentration was higher after ethyl- than after methylmercury. Weight loss relative to the expected body weight and renal damage was higher in ethylmercury-treated rats than in rats given equimolar doses of methylmercury. These effects became more severe when the dose of ethylmercury was increased by 20%. Thus, in renotoxicity the renal concentration of inorganic mercury seems to be more important than the concentration of organic or total mercury. In methylmercury-treated rats damage and inorganic mercury deposits were restricted to the P2 region of the proximal tubules, while in ethylmercury-treated rats the distribution of mercury and damage was more widespread. There was little difference in the neurotoxicities of methylmercury and ethylmercury when effects on the dorsal root ganglia or coordination disorders were compared. Based on both criteria, an equimolar dose of ethylmercury was less neurotoxic than methylmercury, but a 20% increase in the dose of ethylmercury was enough to raise the sum of coordination disorder scores slightly and ganglion damage significantly above those in methylmercury- treated rats. In spite of the relatively higher inorganic mercury concentration in the brain of ethylmercury- than in the brain of methylmercury-treated rats, the granular layer damage in the cerebellum was widespread only in the methylmercury-treated rats. Thus, inorganic mercury or dealkylation cannot be responsible for granular layer damage in alkylmercury intoxication. Moreover, histochemistry demonstrated no inorganic mercury deposits in the granular layer.” Ref.: Magos et al. 1985 The distribution of mercury as (-methyl, -ethyl and inorganic mercury) in rat tissues (brain, heart, kidney and liver) and blood following administration of THI or meHg was examined. Animals received one dose/day of Met-Hg or THI by gavage (0.5 mg Hg/kg). Blood samples were collected after 6, 12, 24, 48, 96 and 120 h of exposure. After 5 days, the animals were killed, and their tissues were collected. Total blood mercury (THg) levels were determined by ICP-MS, and methylmercury (meHg), ethylmercury (etHg) and inorganic mercury (Ino-Hg) levels were determined by speciation analysis with LC-ICP-MS. Mercury remains longer in the blood of rats treated with meHg compared to that of THI-exposed rats. Moreover, after 48 h of the THI treatment, most of the Hg found in blood was inorganic. Of the total mercury found in the brain after THI exposure, 63% was in the form of Ino-Hg, with 13.5% as etHg and 23.7% as meHg. In general, mercury in tissues and blood following THI treatment was predominantly found as Ino-Hg, but a considerable amount of etHg was also found in the liver and brain. According to the authors, the results demonstrated that the toxicokinetics of THI 10 SCCS/1686/25 Final version Scientific advice on the safety of Thimerosal (CAS No. 54-64-8, EC No. 200-210-4) and Phenylmercuric salts as preservatives in cosmetic products _________________________________________________________________________________ is “completely different” from that of meHg. Thus, for them, meHg is not considered an appropriate reference for assessing the risk from exposure to THI-derived Hg. Ref.: Rodrigues et al. 2010 According to Goldfrank’s Textbook, “Limited pharmacokinetic data exist for thimerosal and ethylmercury. Once absorbed, thimerosal breaks down to form ethylmercury and thiosalicylate. Some ethylmercury further decomposes into inorganic mercury in the blood, and the remainder distributes into kidney and, to a lesser extent, brain tissue (Magos 1985, Magos 2003). Because of its longer organic chain, ethylmercury is less stable and decomposes more rapidly than methylmercury, leaving less ethylmercury available to enter kidney and brain tissue (Magos 2003). Ethylmercury crosses the blood-brain barrier by passive diffusion (...). Intracellular ethylmercury decomposes to inorganic mercury, which accumulates in kidney and brain tissues (...). The half-life of thimerosal is estimated to be about 18 days (...). Thimerosal is eliminated in the feces as inorganic mercury (...).”. Ref.: Nelson et al. 2011 A review of in vitro and in vivo studies that compare the toxicological parameters among etHg and other forms of mercury (predominantly meHg) had the aim to assess their relative toxicities and potential to cause cumulative insults. In the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/a351b6bd-c164-416a-8ad4-1fa18a24780d_en?filename=sccs_o_308.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "37694195",
+        "doi": "10.1111/j.1600-0536.2009.01615.x",
+        "title": "Analysis of Adverse Reactions of Cosmetics in Chinese Han Population in Recent Five Years.",
+        "abstract": "BACKGROUND: There are still some gaps in the summary and generalization of cosmetic-related adverse reaction reports. OBJECTIVE: The aim of this study is to summarize and analyze the occurrence of cosmetic adverse reactions in Shanghai Han population by using available survey data. MATERIALS AND METHODS: Collection, statistics and analysis of patients with cosmetic adverse reactions in Shanghai Huashan Hospital from 2017 to 2021. RESULTS: Among the 1004 patients, most of them (96.71%) were diagnosed as cosmetic contact dermatitis, which often occurred within 3 days of using cosmetics (51.79%). A total of 260 patients were tested with patch test, but the compliance rate was only 18.08%. Among them, 240 patients underwent additional European standard allergen tests, and positive allergens were detected in 210 cases (87.5%). Univariate analysis revealed that dosage form (emulsion and cream), age (≤25 years) and the allergic ingredients triethanolamine, rose oil, propylene glycol, thiomersal and musk ambrette are associated with the occurrence of cosmetic adverse reactions within seven days. A logit prediction model was also successfully constructed: Logit (P) = 1.710-0.796×1 + 1.185×2 -3.650X3-1.335X4. CONCLUSION: This study complements the data reported on cosmetic adverse reactions in the Chinese Han population and suggests that in future clinical diagnosis and data collection, emphasis should be placed on patch testing, combining the patch test with cosmetic protoplast with the European standard allergen test to improve the detection rate.",
+        "journal": "Clinical, cosmetic and investigational dermatology",
+        "date": "2023",
+        "mesh": [],
+        "keywords": [
+          "adverse reaction reporting",
+          "contact dermatitis",
+          "cosmetics",
+          "patch tests",
+          "personal care products"
+        ],
+        "relevance_score": 15
+      },
+      {
+        "pmid": "40690851",
+        "doi": "10.1016/j.vaccine.2025.127510",
+        "title": "Safety and immunogenicity of thiomersal-free recombinant hepatitis E vaccine: A randomized, double-blind, active-controlled study.",
+        "abstract": "INTRODUCTION: The first recombinant hepatitis E vaccine (Escherichia Coli), Hecolin® (Xiamen Innovax, China), was approved for people aged ≥16 years. Innovax has developed a thiomersal-free formulation process change according to the requirement of 2020 Chinese Pharmacopoeia. This study aimed to evaluate the safety and immunogenicity of the thiomersal-free hepatitis E vaccine compared with the licensed hepatitis E vaccine in people aged ≥16 years. CLINICAL TRIAL REGISTRATION: NCT06564116. METHODS: This was a single-center, randomized, double-blind, active-controlled study conducted in China. Eligible participants were randomly assigned in a 1:1 ratio to the thiomersal-free hepatitis E vaccine group (HEV-TF group) or the hepatitis E vaccine group (HEV group) stratified by sex and age. Each participant received three doses of the vaccine intramuscularly at 0, 1 and 6 months. Safety was evaluated based on adverse events (AEs) occurred within 30 days following each dose, serious adverse events (SAEs) and pregnancy events occurred during the study period. Immunogenicity was evaluated through quantification of anti-HEV IgG in serum samples collected at 0 and 7 months. RESULTS: A total of 612 eligible participants were enrolled and received at least 1 dose of vaccine. 558 participants were included in the per protocol set for immunogenicity. All participants seroconverted in both groups by month 7. The seroconversion rate difference was 0.00 % (95 % confidence interval [CI] -1.38 to 1.34). The geometric mean concentrations (GMCs) in HEV-TF group and HEV group were 16.57 U/mL and 18.47 U/mL, respectively. The GMC ratio was 0.90 (95 % CI 0.79 to 1.01). The overall AEs rates were similar between the groups (16.88 % vs. 12.50 %). Most of AEs were grade 1 or 2. No vaccine-related SAE occurred during the study period. CONCLUSIONS: The thiomersal-free hepatitis E vaccine demonstrated non-inferior immunogenicity compared with the licensed hepatitis E vaccine Hecolin® and showed an acceptable safety profile.",
+        "journal": "Vaccine",
+        "date": "2025-Aug",
+        "mesh": [
+          "Humans",
+          "Female",
+          "Double-Blind Method",
+          "Male",
+          "Adult",
+          "Hepatitis E",
+          "Vaccines, Synthetic",
+          "Viral Hepatitis Vaccines",
+          "Middle Aged",
+          "Hepatitis E virus"
+        ],
+        "keywords": [
+          "Hepatitis E",
+          "Hepatitis E vaccine",
+          "Thiomersal"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "25036048",
+        "doi": "10.1097/INF.0000000000000479",
+        "title": "The safety and immunogenicity of two hepatitis B vaccine formulations (thiomersal-free and thiomersal-containing) in healthy vietnamese infants: a phase III, prospective, single-blinded, randomized, controlled trial.",
+        "abstract": "BACKGROUND: To evaluate the safety and immunogenicity of the thiomersal-free (TF) and thiomersal-containing (TC) formulations of Hepavax-Gene in healthy Vietnamese neonates. METHODS: A single-blind, randomized, controlled study in Ho Chi Minh City, Vietnam. Healthy infants, born after a normal gestational period (37-42 weeks) to hepatitis B surface antigen-negative mothers, participated in the study. Subjects were randomly allocated in a 1:1 ratio to receive either Hepavax-Gene TC or Hepavax-Gene TF using a standard 0-1-6-month administration schedule. Postvaccination blood samples were taken at months 1, 6 and 7. Parents/legal guardians recorded solicited local and systemic adverse events up to 4 weeks after each vaccination. RESULTS: Very high proportions of subjects were seroprotected. Seroprotection rates at 1, 6 and 7 months were all above 95% using a 10 IU/L cutoff, and were mostly above 90% using a 100 IU/L cutoff. Seroprotection rates between the 2 formulations were equivalent within a 5% margin for either cutoff titer both after 6 and 7 months. There were no significant differences in the number of adverse events reported between the 2 formulations. Safety results were in line with previous reports for Hepavax-Gene. Both formulations of Hepavax-Gene were well tolerated. There were no local adverse events reported in the TF group. No serious adverse events were reported during the study. CONCLUSIONS: The thiomersal-free formulation of Hepavax-Gene was noninferior to the thiomersal-containing formulation of Hepavax-Gene in terms of immunogenicity. There was evidence that the thiomersal-free vaccine was associated with fewer local adverse events.",
+        "journal": "The Pediatric infectious disease journal",
+        "date": "2015-Jan",
+        "mesh": [
+          "Anti-Infective Agents",
+          "Chemistry, Pharmaceutical",
+          "Drug-Related Side Effects and Adverse Reactions",
+          "Female",
+          "Healthy Volunteers",
+          "Hepatitis B Antibodies",
+          "Hepatitis B Vaccines",
+          "Humans",
+          "Infant",
+          "Infant, Newborn"
+        ],
+        "keywords": [],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "32026609",
+        "doi": "10.1111/vop.12746",
+        "title": "Antimicrobial activity of topical dyes used in clinical veterinary ophthalmology.",
+        "abstract": "OBJECTIVE: To evaluate in vitro the antibacterial effects of fluorescein, rose bengal, and lissamine green topical ophthalmic dyes against selected Gram-positive and Gram-negative bacteria, and to evaluate whether preserved or preservative-free fluorescein solutions are able to inhibit or potentiate bacterial growth. PROCEDURES: Susceptibility testing was performed using the Kirby-Bauer disk diffusion method plated with clinical ocular isolates of Staphylococcus aureus, Staphylococcus pseudintermedius, Streptococcus spp., Escherichia coli, and Pseudomonas aeruginosa. Bacterial growth inhibition was evaluated 24 hours following the addition of commercially available fluorescein, rose bengal, and lissamine green sterile strips. Antimicrobial effectiveness testing was performed by inoculation of compounded 1% dye solutions, both with and without preservatives (fluorescein and lissamine contained thiomersal, and rose bengal contained nipagin and nepazol), with the five previously mentioned bacteria. Growth was evaluated at days 7, 14, and 28. RESULTS: All dyes showed antibacterial activity against Gram-positive organisms. Preservative-free compounded 1% fluorescein solution inhibited growth of Gram-positive organisms but not of Gram-negative organisms. Preservative-free rose bengal and lissamine green inhibited growth of both types of organisms. CONCLUSIONS: Preferably, ocular surface samples for antimicrobial culture should be taken prior to the administration of topical dyes, due to their potential antibacterial activity, particularly if undiluted strips are applied directly or commercial fluorescein solutions are used and not immediately rinsed. Ophthalmic dye solutions containing preservative are safe from bacterial growth for up to 28 days if properly handled and stored. The use of preservative-free fluorescein solutions should be avoided and preservative-free rose bengal and lissamine green should be handled carefully.",
+        "journal": "Veterinary ophthalmology",
+        "date": "2020-May",
+        "mesh": [
+          "Animals",
+          "Eye Infections, Bacterial",
+          "Fluorescein",
+          "Fluorescent Dyes",
+          "Gram-Negative Bacteria",
+          "Gram-Positive Bacteria",
+          "Lissamine Green Dyes",
+          "Microbial Sensitivity Tests",
+          "Ophthalmic Solutions",
+          "Rose Bengal"
+        ],
+        "keywords": [
+          "Pseudomonas aeruginosa",
+          "antimicrobial activity",
+          "eye drops",
+          "fluorescein",
+          "lissamine green",
+          "rose bengal"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "22748624",
+        "doi": "10.1016/j.jfma.2011.02.006",
+        "title": "Safety and immunogenicity of a split-virion AS03A-adjuvanted A/Indonesia/05/2005 (H5N1) vaccine in Taiwanese adults.",
+        "abstract": "BACKGROUND/PURPOSE: This study evaluated the immune response elicited by two formulations of an AS03(A)-adjuvanted H5N1 A/Indonesia/05/2005 prepandemic influenza vaccine, developed using manufacturing processes with or without thiomersal. In addition, it also evaluated compliance to the Centre for Biologics Evaluation and Research and Committee for Medicinal Products for Human Use (CHMP) immunogenicity guidance criteria for pandemic influenza vaccines in adults. METHODS: This phase III, observer-blind, randomized study (NCT00812981) enrolled 320 subjects aged 18-60 years into two groups to receive, 21 days apart, two doses of the formulation manufactured using either the thiomersal-containing process (Group TC) or the thiomersal-free process (Group TF). Blood samples collected before vaccination, 21 days after the second vaccine dose, and 6 months following the first vaccine dose (Days 0, 42, and 180) were analysed using a hemagglutination inhibition (HI) assay. Safety assessments were made for the entire study period. RESULTS: Twenty-one days after the second dose of vaccine, both groups met the CHMP criteria for vaccine-homologous HI response (seroprotection rates/seroconversion rates ≥ 98.7%, seroconversion factor ≥ 121.9) and also for a heterologous HI response against the A/Vietnam/1194/2004 strain (seroprotection rates/seroconversion rates ≥ 81.3%, seroconversion factor ≥ 10.8). Six months after the first dose of vaccine, a marked persistence of the vaccine-homologous HI response was observed that still met one or more CHMP criteria. Pain at the injection site (Group TF 95%, Group TC 91.8%) and myalgia (Group TF 68.8%, Group TC 63.5%) were the most frequently recorded solicited symptoms. Overall, both formulations had a clinically acceptable safety profile. CONCLUSION: Administration of two doses of the AS03(A)-adjuvanted H5N1 prepandemic influenza vaccine was found to be highly immunogenic in adults with a clinically acceptable safety profile. The ability to confer cross-clade protective immunity makes it a suitable option for mitigation of the morbidity and mortality of outbreaks and pandemics due to H5N1 and drifted strains.",
+        "journal": "Journal of the Formosan Medical Association = Taiwan yi zhi",
+        "date": "2012-Jun",
+        "mesh": [
+          "Adolescent",
+          "Adult",
+          "Chemistry, Pharmaceutical",
+          "Double-Blind Method",
+          "Drug Administration Schedule",
+          "Female",
+          "Hemagglutination Inhibition Tests",
+          "Humans",
+          "Influenza A Virus, H5N1 Subtype",
+          "Influenza Vaccines"
+        ],
+        "keywords": [],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "25708367",
+        "doi": "10.1016/j.cca.2015.02.030",
+        "title": "Thimerosal: clinical, epidemiologic and biochemical studies.",
+        "abstract": "INTRODUCTION: Thimerosal (or Thiomersal) is a trade name for an organomercurial compound (sodium ethyl-mercury (Hg) thiosalicylate) that is 49.55% Hg by weight, which rapidly decomposes in aqueous saline solutions into ethyl-Hg hydroxide and ethyl-Hg chloride. Developed in 1927, it has been and is still being used as a preservative in some cosmetics, topical pharmaceuticals, and biological drug products, including vaccines. Concerns have been voiced about its use because it is toxic to human cells. Although it is banned in several countries, it continues to be added to some vaccines in the United States and many vaccines in the developing world. DISCUSSION: This critical review focuses on the clinical, epidemiological, and biochemical studies of adverse effects from Thimerosal in developing humans. This review will include research that examines fetal, infant, and childhood death; birth defects; neurodevelopmental testing deficits in children; and neurodevelopmental disorders (attention deficit/hyperactivity disorder, autism spectrum disorder, tic disorder, and specific developmental delays). The review will also look at the research that examined the outcomes of acute accidental ethyl-Hg poisoning in humans. The studies that examine the underlying biochemical insights into the neuronal cellular damage will also be explored. CONCLUSION: The culmination of the research that examines the effects of Thimerosal in humans indicates that it is a poison at minute levels with a plethora of deleterious consequences, even at the levels currently administered in vaccines.",
+        "journal": "Clinica chimica acta; international journal of clinical chemistry",
+        "date": "2015-Apr",
+        "mesh": [
+          "Growth and Development",
+          "Humans",
+          "Thimerosal"
+        ],
+        "keywords": [
+          "Ethylmercury",
+          "Humans",
+          "Neurodevelopment",
+          "Thimerosal"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "25981166",
+        "doi": "10.1016/j.taap.2015.05.002",
+        "title": "Toxicological effects of thiomersal and ethylmercury: Inhibition of the thioredoxin system and NADP(+)-dependent dehydrogenases of the pentose phosphate pathway.",
+        "abstract": "Mercury (Hg) is a strong toxicant affecting mainly the central nervous, renal, cardiovascular and immune systems. Thiomersal (TM) is still in use in medical practice as a topical antiseptic and as a preservative in multiple dose vaccines, routinely given to young children in some developing countries, while other forms of mercury such as methylmercury represent an environmental and food hazard. The aim of the present study was to determine the effects of thiomersal (TM) and its breakdown product ethylmercury (EtHg) on the thioredoxin system and NADP(+)-dependent dehydrogenases of the pentose phosphate pathway. Results show that TM and EtHg inhibited the thioredoxin system enzymes in purified suspensions, being EtHg comparable to methylmercury (MeHg). Also, treatment of neuroblastoma and liver cells with TM or EtHg decreased cell viability (GI50: 1.5 to 20μM) and caused a significant (p<0.05) decrease in the overall activities of thioredoxin (Trx) and thioredoxin reductase (TrxR) in a concentration- and time-dependent manner in cell lysates. Compared to control, the activities of Trx and TrxR in neuroblastoma cells after EtHg incubation were reduced up to 60% and 80% respectively, whereas in hepatoma cells the reduction was almost 100%. In addition, the activities of glucose-6-phosphate dehydrogenase and 6-phosphogluconate dehydrogenase were also significantly inhibited by all mercurials, with inhibition intensity of Hg(2+)>MeHg≈EtHg>TM (p<0.05). Cell incubation with sodium selenite alleviated the inhibitory effects on TrxR and glucose-6-phosphate dehydrogenase. Thus, the molecular mechanism of toxicity of TM and especially of its metabolite EtHg encompasses the blockage of the electrons from NADPH via the thioredoxin system.",
+        "journal": "Toxicology and applied pharmacology",
+        "date": "2015-Aug",
+        "mesh": [
+          "Cell Survival",
+          "Dose-Response Relationship, Drug",
+          "Ethylmercury Compounds",
+          "Hep G2 Cells",
+          "Humans",
+          "NADPH Dehydrogenase",
+          "Pentose Phosphate Pathway",
+          "Thimerosal",
+          "Thioredoxins"
+        ],
+        "keywords": [
+          "Ethylmercury",
+          "Mercury",
+          "Pentose phosphate pathway",
+          "Selenium",
+          "Thiomersal",
+          "Thioredoxin system"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "31945067",
+        "doi": "10.1111/bjd.14167",
+        "title": "Patch testing in Lao medical students.",
+        "abstract": "BACKGROUND: Dermatological services in Laos, South East Asia are limited to the capital and patch testing is currently not available, so no data exists regarding the common cutaneous allergens in this population. OBJECTIVES: The aim of this study was to document positive patch tests in medical students without evidence of contact dermatitis in Laos. PATIENTS/MATERIALS/METHODS: One hundred and fifty medical students were patch tested using TRUE Test® panels 1 to 3 (35 allergens). Readings were taken at Days 2 and 4. RESULTS: Thirty-eight students (25.3%) had a positive reaction to at least one allergen, accounting for 52 reactions in total. The proportion of the students with positive patch test reading was significantly higher in the female [33/96 (34%)] than in the male [5/54 (9%)], p<0.001. The most common allergens were: nickel (10%), gold (6.6%), thiomersal (6.6%), cobalt dichloride (2%) and p-tert-Butylphenol formaldehyde resin (2%). Balsam of Peru (0.66%), black rubber mix (0.66%), Cl+Me-Isothiazolinone (0.66%), fragrance mix 1 (0.66%), quinolone mix (0.66%), methyldibromo glutaronitrile (0.66%), mercapto mix (0.66%), epoxy resin (0.66%), paraben mix (0.66%), thiuram (0.66%) and wool alcohols (0.66%) accounted for all of the other positive reactions. CONCLUSION: This study represents the first documented patch test results in Lao medical students and in the adult Lao population. The results of this study will inform any future research into contact allergy in Laos and give an insight into the background level of contact sensitivity in this population.",
+        "journal": "PloS one",
+        "date": "2020",
+        "mesh": [
+          "2-Naphthylamine",
+          "Adolescent",
+          "Adult",
+          "Allergens",
+          "Balsams",
+          "Cobalt",
+          "Dermatitis, Allergic Contact",
+          "Epoxy Resins",
+          "Female",
+          "Gold"
+        ],
+        "keywords": [],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "12859755",
+        "doi": "10.1046/j.1365-2672.2003.01972.x",
+        "title": "The effects of some formulation factors used in ophthalmic preparations on thiomersal activity against Pseudomonas aeruginosa and Staphylococcus aureus.",
+        "abstract": "AIMS: To investigate the effects of formulation ingredients used in ophthalmic preparations on thiomersal activity against Staphylococcus aureus and Pseudomonas aeruginosa. METHODS AND RESULTS: Minimum inhibition concentrations (MICs) of the tested ingredients and their combinations were studied using partial broth dilution checkerboard method. Complex formation was determined using differential scanning calorimetry (DSC) and u.v. scan. Isotonic agents showed insignificant difference in thiomersal activity. Low concentrations of propylene glycol and glycerol (2 to about 6.5%) significantly reduced the activity of thiomersal against P. aeruginosa. Higher concentrations up to about 40%, of the two cosolvents did not affect the antibacterial activity. Viscosity increasing agents significantly reduced the antibacterial activity of thiomersal. Low concentrations of 0.05% and 0.05-0.1% of ethylenediaminetetraacetic acid resulted in a significant decrease in thiomersal activity against S. aureus and P. aeruginosa, respectively. However, concentrations above 0.25 and 0.5 up to 4% caused significant increase on the antibacterial activity against the two later micro-organisms, respectively. CONCLUSIONS: Results showed that thiomersal formed complexes with ingredients containing polyhydroxy groups and chelating agents, thus thiomersal is not recommended to be used with such ingredients. SIGNIFICANCE AND IMPACT OF THE STUDY: This study highlighted the importance of proper selection of ingredients and preservatives for ophthalmic preparations.",
+        "journal": "Journal of applied microbiology",
+        "date": "2003",
+        "mesh": [
+          "Anti-Infective Agents, Local",
+          "Chelating Agents",
+          "Excipients",
+          "Humans",
+          "Microbial Sensitivity Tests",
+          "Ophthalmic Solutions",
+          "Pharmaceutic Aids",
+          "Pseudomonas aeruginosa",
+          "Staphylococcus aureus",
+          "Thimerosal"
+        ],
+        "keywords": [],
+        "relevance_score": 0
+      },
+      {
+        "pmid": "16707195",
+        "doi": "10.1016/j.vaccine.2006.04.018",
+        "title": "Comparison of thiomersal-free and thiomersal-containing formulations of a recombinant hepatitis B vaccine (Hepavax-Gene) in healthy adults.",
+        "abstract": "A thiomersal-free (TF) formulation of the recombinant hepatitis B vaccine Hepavax-Gene has been developed. This study compared immunogenicity and safety of Hepavax-Gene, Hepavax-Gene TF and Engerix-B (containing trace amounts of thiomersal) in a large healthy adult population (N=770) using two vaccination schedules: the priming 0-1-2 months or the standard 0-1-6 month schedule. Hepavax-Gene TF was non-inferior to Hepavax-Gene and Engerix-B with respect to seroprotection rates (>or=10I U/L) 1 month after the third vaccination using the 0-1-6 month schedule, with 99.1% for both Hepavax-Gene formulations and 100% for Engerix-B of subjects' seroprotected in each group. The seroprotection rate after the 0-1-2 schedule was 89.6% for Hepavax-Gene TF, lower than for Hepavax-Gene (94.2%) but comparable to Engerix-B (86.4%). Furthermore, Hepavax-Gene TF was as well tolerated as the comparator vaccines.",
+        "journal": "Vaccine",
+        "date": "2006-Jun",
+        "mesh": [
+          "Adult",
+          "Female",
+          "Hepatitis B",
+          "Hepatitis B Antibodies",
+          "Hepatitis B Vaccines",
+          "Hepatitis B virus",
+          "Humans",
+          "Immunization Schedule",
+          "Immunoglobulin G",
+          "Male"
+        ],
+        "keywords": [],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 16684434,
+    "molecular_formula": "C9H9HgNaO2S",
+    "molecular_weight": "404.82",
+    "xlogp": null,
+    "tpsa": 65.4,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "thimerosal",
+      "54-64-8",
+      "Thiomersal",
+      "Thiomersalate",
+      "Mercurothiolate",
+      "MERTHIOLATE",
+      "Sodium merthiolate",
+      "Thimerosalate",
+      "Thimerosalum",
+      "Thimerosol"
+    ]
+  },
+  "cosing": {
+    "inci_name": "THIOMERSAL",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

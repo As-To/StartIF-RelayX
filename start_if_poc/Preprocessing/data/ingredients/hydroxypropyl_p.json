@@ -1,0 +1,68 @@
+{
+  "ingredient": "Hydroxypropyl p",
+  "cas": "73793-79-0",
+  "ec": "827-723-1",
+  "inci_name": "HYDROXYPROPYL P",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1659/23",
+        "date_avis": "2024-02-28",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "2 % | 2%",
+        "categorie": "Colorant",
+        "conclusion": "the SCCS considers that hydroxypropyl p-phenylenediamine and its dihydrochloride salt are safe when used in oxidative hair colouring products up to a maximum on-head concentration of 2%.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided, does the SCCS consider Hydroxypropyl p-phenylenediamine and its dihydrochloride salt safe when used in oxidative hair colouring products up to a maximum on-head concentration of 2 %? In light of the data provided, the SCCS considers that hydroxypropyl p-phenylenediamine and its dihydrochloride salt are safe when used in oxidative hair colouring products up to a maximum on-head concentration of 2%. 2. Does the SCCS have any further scientific concerns with regard to the use of Hydroxypropyl p-phenylenediamine and its dihydrochloride salt in cosmetic products? A mild to moderate eye irritation potential of the test item cannot be excluded. Hydroxypropyl p-phenylenediamine and its dihydrochloride salt is a moderate skin sensitiser based on animal data. Keywords: SCCS, scientific",
+        "pdf_url": "https://health.ec.europa.eu/document/download/2a98c339-4596-4ca1-a050-171aedf80094_en?filename=sccs_o_280_final.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 15907303,
+    "molecular_formula": "C9H14N2O",
+    "molecular_weight": "166.22",
+    "xlogp": 0.5,
+    "tpsa": 72.3,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "3-(2,5-diaminophenyl)propan-1-ol",
+      "73793-79-0",
+      "RefChem:490106",
+      "827-723-1",
+      "2-(3-hydroxypropyl)-p-phenylenediamine",
+      "SCHEMBL6257247",
+      "SCHEMBL29384423",
+      "EN300-7838983"
+    ]
+  },
+  "cosing": {
+    "inci_name": "HYDROXYPROPYL P",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

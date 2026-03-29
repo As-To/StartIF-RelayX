@@ -1,0 +1,93 @@
+{
+  "ingredient": "Methyl Salicylate for the environment",
+  "cas": "119-36-8",
+  "ec": "204-317-7",
+  "inci_name": "METHYL SALICYLATE FOR THE ENVIRONMENT",
+  "sccs": {
+    "nb_avis": 2,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1676/25",
+        "date_avis": "2025-04-30",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "0.4% in toothpaste and | 0.02% in other products when used in products inte | 12%",
+        "categorie": "Fragrance",
+        "conclusion": "of SCCS/1658/23 and the aggregate exposure, the SCCS is requested to re-assess the maximum concentration of Methyl Salicylate that is considered safe when used in products intended for children of age 0-3.",
+        "abstract": "The SCCS concludes the following: 1. Taking under consideration the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/c0d2bb4f-87c2-4fff-978d-1ed3af73de1a_en?filename=sccs_o_298.pdf"
+      },
+      {
+        "sccs_number": "SCCS/1654/23",
+        "date_avis": "2023-09-14",
+        "type_rapport": "Final Opinion",
+        "verdict": "Safe",
+        "concentration_max": "2.52% | 0.02%",
+        "categorie": "Fragrance",
+        "conclusion": "52% methyl salicylate is considered safe.",
+        "abstract": "The SCCS concludes the following: In the SCCS/1633/21",
+        "pdf_url": "https://health.ec.europa.eu/document/download/82f8774d-0bd7-4355-b6e9-f2760cd85eb8_en?filename=sccs_o_274.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 1,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "39396699",
+        "doi": "10.1016/j.fct.2024.115047",
+        "title": "RIFM fragrance ingredient safety assessment, methyl salicylate, CAS registry number 119-36-8.",
+        "abstract": null,
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "2024-Dec",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 4133,
+    "molecular_formula": "C8H8O3",
+    "molecular_weight": "152.15",
+    "xlogp": 2.3,
+    "tpsa": 46.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "methyl salicylate",
+      "Methyl 2-hydroxybenzoate",
+      "119-36-8",
+      "Analgit",
+      "Flucarmit",
+      "Exagien",
+      "Betula",
+      "2-Hydroxybenzoic acid methyl ester",
+      "Gaultheriaoel",
+      "Wintergruenoel"
+    ]
+  },
+  "cosing": {
+    "inci_name": "METHYL SALICYLATE FOR THE ENVIRONMENT",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

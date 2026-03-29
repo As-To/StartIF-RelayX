@@ -1,0 +1,70 @@
+{
+  "ingredient": "Basic Brown 16",
+  "cas": "26381-41-9",
+  "ec": "247-640-9",
+  "inci_name": "BASIC BROWN 16",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1684/25",
+        "date_avis": "2026-02-02",
+        "type_rapport": "Scientific Advice",
+        "verdict": "Not Safe",
+        "concentration_max": "2 % in non-oxidative hair dye formulations",
+        "categorie": "Colorant",
+        "conclusion": "In light of the data provided, does the SCCS consider Basic Brown 16 safe, when used as an ingredient at 2 % in non-oxidative hair dye formulations? Having assessed the data provided, the SCCS does not consider the use of Basic Brown 16 safe when used as an ingredient in non-oxidative hair dye formulations because the weight of evidence indicates its potential for mutagenicity.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided, does the SCCS consider Basic Brown 16 safe, when used as an ingredient at 2 % in non-oxidative hair dye formulations? Having assessed the data provided, the SCCS does not consider the use of Basic Brown 16 safe when used as an ingredient in non-oxidative hair dye formulations because the weight of evidence indicates its potential for mutagenicity. 2. Does the SCCS have any further scientific concerns with regard to the use of Basic Brown 16 in cosmetic products? / Keywords: SCCS, scientific advice, hair dye, Basic Brown 16, C009, 8-[(4- Aminophenyl)diazenyl]-7-hydroxy-N,N,N-trimethylnaphthalen-2-aminium chloride, CAS No. 26381-41-9, EC No. 247-640-9, submission V ter., Regulation 1223/2009",
+        "pdf_url": "https://health.ec.europa.eu/document/download/189b7e0f-5d91-4bea-ae82-7efdd8bae8d4_en?filename=sccs_o_305.pdf"
+      }
+    ],
+    "dernier_verdict": "Not Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 117785,
+    "molecular_formula": "C19H21ClN4O",
+    "molecular_weight": "356.8",
+    "xlogp": null,
+    "tpsa": 71,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Basic brown 16",
+      "26381-41-9",
+      "Arianor Mahogany",
+      "UNII-QEJ5GK0TG1",
+      "QEJ5GK0TG1",
+      "C.I. 12250",
+      "EINECS 247-640-9",
+      "C.I. BASIC BROWN 16",
+      "DTXSID20874043",
+      "ARIANOR MAHOGANY 306002"
+    ]
+  },
+  "cosing": {
+    "inci_name": "BASIC BROWN 16",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

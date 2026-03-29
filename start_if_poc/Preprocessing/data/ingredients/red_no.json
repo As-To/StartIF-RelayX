@@ -1,0 +1,284 @@
+{
+  "ingredient": "Red No",
+  "cas": "1444596-49-9",
+  "ec": null,
+  "inci_name": "RED NO",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1673/24",
+        "date_avis": "2025-01-22",
+        "type_rapport": "Scientific Advice",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "1.5% in oxidative hair dye and at | 0.5% in non-oxidative hair dye formulations | 0.5% in non-oxidative as well as at",
+        "categorie": "Colorant",
+        "conclusion": "the SCCS considers HC Red 18 safe when used as an ingredient at 1.",
+        "abstract": "The SCCS concludes the following: (1) In light of the data provided, does the SCCS consider HC Red 18 safe, when used as an ingredient at 1.5% in oxidative hair dye and at 0.5% in non-oxidative hair dye formulations? In light of the data provided, the SCCS considers HC Red 18 safe when used as an ingredient at 1.5% in oxidative hair dye and at 0.5% in non-oxidative hair dye formulations. (2) Does the SCCS have any further scientific concerns with regard to the use of HC Red 18 in cosmetic products? / Keywords: SCCS, scientific advice, hair dye, HC Red No. 18 (В124), CAS 1444596-49-9, submission II, Regulation 1223/2009",
+        "pdf_url": "https://health.ec.europa.eu/document/download/e921f990-7a44-4825-a15e-cd8e6a6bbc15_en?filename=sccs_o_295.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "18569161",
+        "doi": "10.1080/10915810802032438",
+        "title": "Final report on the safety assessment of HC Red No. 7.",
+        "abstract": "HC Red No. 7 functions as a semipermanent (direct) hair colorant in one cosmetic product at 1%. Analytical studies found the relative purity of HC Red No. 7 to be > 98.5%. Impurities may include 2-nitro-benzene-1,4-diamine; 3-(4-amino-3-nitro-phenyl)-oxazolin-2-one; 2-chloroethyl 4-amino-3-nitrophenylcarbamate; residual solvents ethanol, DMF, or isopropyl acetate; chloride ions; and heavy metals. Around 0.10% of the applied HC Red No. 7 was absorbed in human dermatomed skin samples. In an acute oral toxicity study in rats, the maximum nonlethal dose was 300 mg/kg. The no observed effect level (NOEL) in a subchronic oral toxicity study in rats was 50 mg/kg day(- 1). HC Red No. 7 was not a dermal or ocular irritant in rabbits, but lymphoproliferative responses in mice indicated that HC Red No. 7 should be considered a moderate sensitizer. The NOEL for maternal toxicity was 50 mg/kg/day and the no observed adverse effect level (NOAEL) for embryonic development was 200 mg/kg/day in a prenatal toxicity study of HC Red No. 7 using rats. HC Red No. 7 was nonmutagenic at the hprt locus but mutagenic at the TK locus in mouse lymphoma cells, was mutagenic in several Salmonella typhimurium strains, was not active in an unscheduled DNA synthesis assay, and was unclear in a micronucleus assay in human lymphocyte cultures. No carcinogenicity studies were available, nor were any clinical tests reported. Available hair dye epidemiology studies are insufficient to conclude a causal relationship between hair dye use and cancer or other diseases, but more relevant is that direct hair dyes, although not the focus in all investigations, appear to have little evidence of an association with adverse events as reported in epidemiology studies. As reviewed by the Cosmetic Ingredient Review (CIR) Expert Panel, HC Red No. 7 appears to be a moderate sensitizer in animals. No human sensitivity data concerning this ingredient have been reported. However, hair dyes containing HC Red No. 7, as coal tar hair dye products, are exempt from the principal adulteration provision and from the color additive provisions in sections 601 and 706 of the Federal Food, Drug, and Cosmetic Act, when the label bears a caution statement and patch test instructions for determining whether the product causes contact dermatitis. The Expert Panel expects that following this procedure will identify prospective individuals who would have an irritation/sensitization reaction and allow them to avoid significant exposures. The CIR Expert Panel also noted that mutagenicity studies available for HC Red No. 7 gave both positive and negative results. Based on the available data, it was concluded that, at most, this ingredient is a weak mutagen. Due to its low dermal absorption potential and its use as a semipermanent hair dye, the CIR Expert Panel believes there is low risk of genotoxicity and that HC Red No. 7 is safe as a hair dye ingredient in the practices of use and concentrations as described in this safety assessment.",
+        "journal": "International journal of toxicology",
+        "date": "2008",
+        "mesh": [
+          "Animals",
+          "Consensus",
+          "Consumer Product Safety",
+          "Dose-Response Relationship, Drug",
+          "Ethanol",
+          "Hair Dyes",
+          "Humans",
+          "Mutagens",
+          "Nitro Compounds",
+          "Risk Assessment"
+        ],
+        "keywords": [],
+        "relevance_score": 15
+      },
+      {
+        "pmid": "3615984",
+        "doi": "10.1111/j.1539-6924.1986.tb00202.x",
+        "title": "Final report of the Color Additive Scientific Review Panel.",
+        "abstract": "The Color Additives Scientific Review Panel considered whether there was information sufficient to perform a carcinogenic risk assessment on the colors D&C Red No. 19 (R-19), D&C Red No. 37 (R-37), D&C Orange No. 17 (O-17), D&C Red No. 9 (R-9), D&C Red No. 8 (R-8) and FD&C Red No. 3 (R-3) and to evaluate the assessments sent to FDA as part of the petitions for use of the colors for drug and external uses by the Cosmetic, Toiletry and Fragrance Association (CTFA). There is a lack of human data concerning the colors for making a human health assessment, so the assessments are based upon the extrapolation of animal data. The risk assessments are determined for exposure to single chemicals. Excluded from consideration are possible effects from exposure to multiple chemicals, such as co-carcinogenesis, promotion, synergism, antagonism, etc. In the light of recent efforts in establishing a consensus in risk assessment, the Panel has determined that the CTFA assessments for R-10, O-17, and R-9 are consistent with present acceptable usages, although it questions some of the assumptions used in the assessments. The Panel identified a number of general assumptions made, and discusses their validity, their impact on total uncertainty, and the potential options to address the gaps in understanding that necessitate the assumption. The Panel also derived revised risk estimates using more \"reasonable\" assumptions than \"worst-case\" situations, for 90th percentile and average exposure. For those assumptions that are easily quantifiable, the Panel's estimates are less than an order of magnitude lower than the CTFA risk estimates, indicating that the underestimates and overestimates of the CTFA risk estimates tend to balance each other. The impact of most of the assumptions is not quantifiable. The assessment for R-3 is complicated by the fact that there is no good skin penetrance study for this color. It was assumed that the penetrance is similar to that of another water-soluble xanthene color, R-19. It is expected that the absorption of the color is not likely to exceed that of the smaller molecule, R-19. Therefore, the risk estimates are similar to the CTFA estimates, but with different reasoning. The estimates for R-8 and R-37 are different from the others in that there is a lack of any exposure or toxicological information on these colors.(ABSTRACT TRUNCATED AT 400 WORDS)",
+        "journal": "Risk analysis : an official publication of the Society for Risk Analysis",
+        "date": "1986-Jun",
+        "mesh": [
+          "Animals",
+          "Carcinogens",
+          "DNA Damage",
+          "DNA Repair",
+          "Food Coloring Agents",
+          "Mutagenicity Tests",
+          "Mutagens",
+          "Mutation",
+          "United States",
+          "United States Food and Drug Administration"
+        ],
+        "keywords": [],
+        "relevance_score": 9
+      },
+      {
+        "pmid": "12718609",
+        "doi": null,
+        "title": "Carcinogenicity Testing of the Cosmetic Dye: D&C Red No. 36.",
+        "abstract": "D&C Red No. 36, a drug and cosmetic dye commonly used for coloring lipsticks, was evaluated for its carcinogenic potential in male and female Wistar rats. This dye has been shown to exhibit mutagenic activity towards Salmonella typhimurium TA 98 in the presence of S9 mix. In the present study, 50 male and 50 female rats in each group were given diets containing D&C Red No. 36 at 2 different concentrations, 1,000 ppm and 2,000 ppm, for 78 weeks and sacrificed at week 98. It was found that dye treatment had no significant effect on the survival of either male or female animals as well as the body weight gain in males. However, body weight gain of treated females was slightly lower than that of the control group. Histopathological assessment demonstrated a number of benign and malignant tumors to have developed in various organs of both dye treated and control groups. In male rats, benign liver tumors were found at incidences of 16.7% and 18.8% of the low (1,000 ppm) and high (2,000 ppm) dose groups, respectively, similar to the 20% for the control group. Malignant tumors of the thyroid gland were observed only in the low dose and control groups, at 4.2% and 2%, respectively. In the high dose group, the incidences of lung, liver, urinary bladder and soft tissue cancers were 4.2%, 2.1%, 2.1% and 2.1%, respectively, only one soft tissue cancer being observed in a control group animal. In females, benign tumors were observed in the liver and mammary glands. The incidences of liver tumors in the low and high dose groups were 12.8% and 16%, respectively, and 6% in the control group. Values for mammary gland tumors were 10.6%, 10%, and 18% respectively. Malignant tumors were also observed in various other organs, including the uterus, lung, kidney, thyroid, thymus and salivary gland, but the incidences were very low (about 2-4%) and in dye treated male and female rats were not statistically different from those in the control animals. The results of the present study thus demonstrated that D&C Red No. 36 at the concentrations of 1,000 ppm and 2,000 ppm in the diet is not carcinogenic either to male or female Wistar rats. While the occurrence of benign liver tumors in female rats may be related to dye treatment, the lack of any apparent dose-dependence or any statistically significant difference from the control group (P = 0.06) suggests that this is unlikely.",
+        "journal": "Asian Pacific journal of cancer prevention : APJCP",
+        "date": "2002",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 8
+      },
+      {
+        "pmid": "17598027",
+        "doi": null,
+        "title": "In vitro dermal absorption and metabolism of D&C red no. 17 in human and porcineskin.",
+        "abstract": "D&C red no. 17 is approved for use in externally applied drug and cosmetic applications, in amounts consistent with good manufacturing practice. Concerns about the safety of the color additive (1-[4-phenylazophenylazo]-2-napthol (PAN) is the primary color constituent) have been raised due to potential metabolic cleavage of PAN to yield 4-aminoazobenzene. (14)C-PAN was applied in a commercially available suntan vehicle containing D&C red no. 17 to viable porcine and non-viable (cadaver) human skin in flow-through diffusion cells. At the end of 24 h, unabsorbed material was removed from the skin and some cells were allowed to continue for an additional 48 h. In human skin, 0.07% and 0.17% of the applied dose were absorbed into the receptor fluid after 24 and 72 h, respectively. At the end of 24 h, 12.5% of the applied dose remained in the skin, which did not decrease at 72 h. When PAN was applied to viable porcine skin for 24 h, 0.3% of the applied dose was absorbed and 12.7% remained in the skin. Additional studies to simulate short-term exposure were completed with PAN applied to the skin for only 15 min, and absorption was determined for 24 and 72 h. These studies in human cadaver skin found 0.02% and 0.08% of the applied dose in the receptor fluid after 24 and 72 h, respectively. Viable porcine skin studies with the 15-min application resulted in receptor fluid values of 0.1% of the applied dose after 24 h. Lipophilic receptor fluids composed of the non-ionic surfactant Volpo 20 at wt% concentrations of 1%, 3%, or 6% in water did not increase partitioning of PAN from the skin into the receptor fluid. No metabolism of PAN was found in viable porcine skin when examined by HPLC. In conclusion, skin absorption of PAN from a commercially available suntan product was low.",
+        "journal": "Journal of cosmetic science",
+        "date": "2007",
+        "mesh": [
+          "Administration, Cutaneous",
+          "Animals",
+          "Azo Compounds",
+          "Cosmetics",
+          "Humans",
+          "In Vitro Techniques",
+          "Naphthols",
+          "Skin",
+          "Skin Absorption",
+          "Swine"
+        ],
+        "keywords": [],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "12778211",
+        "doi": null,
+        "title": "Carcinogenesis Bioassay of D & C Red No. 9 (CAS No. 5160-02-1) in F344 Rats and B6C3F1 Mice (Feed Study).",
+        "abstract": "A carcinogenesis bioassay of D & C Red No. 9, a pigment used in topical drugs and cosmetics, was conducted by feeding diets containing 1,000 or 3,000 ppm of the test substance (89.8% pure) to groups of 50 F344 rats of either sex for 103 weeks. Similar groups of 50 B6C3F1 mice received diets containing 1,000 or 2,000 ppm of the test substance for 103 weeks. Groups of 50 untreated rats and mice of either sex served as controls. In a 13-week subchronic study, the spleens of most dosed rats were enlarged and pigment (unidentified) was present in the renal tubular epithelium. Lymphoreticular hyperplasia of thymic lymph nodes was found in 75-100% of females receiving 6,000-50,000 ppm D & C Red No. 9 and in 70-100% of male rats receiving 3,000-25,000 ppm. Hemosiderosis of the liver was observed at the high-dose levels in male and female rats. Mice receiving 1,250 ppm or more D & C Red No. 9 had congestion of the spleen and hemosiderin deposits. Thus, the selection of doses for the chronic study was based on the appearance of hemosiderosis and the incidences and severity of splenic lesions observed in the 91-day subchronic study. In the chronic study, mean body weights of dosed rats of either sex and of male mice were comparable with those of controls. After week 50, the mean body weight of high-dose female mice was lower than that of the controls. No compound-related effects on survival or clinical signs were observed for rats or mice of either sex. With the possible exception of female mice, all other dosed groups of rats or mice might have tolerated higher doses, thus a clear maximum tolerated dose may not have been utilized in this study. Splenic sarcomas (0/50, 0/50, 26/48; P<0.001) and neoplastic nodules of the liver (0/50, 6/50, 7/49; P<0.01) were observed in high-dose male rats at incidences significantly higher than those in the controls. Incidences of neoplastic nodules in the livers (1/50, 1/50, 5/50) of female rats showed a statistically significant (P<0.05) trend. Nonneoplastic splenic lesions were also observed in dosed male and female rats. Lymphocytic leukemia was observed in dosed male (10/50, 2/50, 2/50) and female (10/50, 2/50, 1/50) rats at statistically significant (P<0.05) decreased incidences, compared with controls. Adenomas or carcinomas of the preputial gland in male rats (7/50, 2/50, 0/50) occurred with a statistically significant (P<0.01) negative relationship to dose of D & C Red No. 9 (P=0.007). Under the conditions of this bioassay, D & C Red No. 9 was carcinogenic for male F344 rats causing an increased incidence of sarcomas of the spleen and a dose-related increase in neoplastic nodules of the liver. D & C Red No. 9 was not considered to be carcinogenic to female F344 rats, although the increased incidence of neoplastic nodules of the liver may have been associated with administration of the test chemical. D & C Red No. 9 was not carcinogenic for B6C3F1 mice of either sex. Levels of Evidence of Carcinogenicity: Male Rats: Positive Female Rats: Equivocal Male Mice: Negative Female Mice: Negative Synonyms: 5-chloro-2-[(2-hydroxy-1-naphthalenyl)azo]-4-methylbenzene sulfonic acid, barium salt; C.I. Pigment Red; C.I. Pigment Red 53:1; C.I. Pigment Red, barium salt",
+        "journal": "National Toxicology Program technical report series",
+        "date": "1982-May",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "28458012",
+        "doi": "10.1016/j.fct.2017.04.037",
+        "title": "Lack of genotoxicity in vivo for food color additive Allura Red AC.",
+        "abstract": "Allura Red AC is an approved food color additive internationally with INS number 129, in the United States as food color subject to batch certification \"Food, Drug, and Cosmetic\" (FD&C) Red No. 40, and in Europe as food color additive with E number 129. In their evaluation of the color (2013), the European Food Safety Authority (EFSA) expressed concerns of potential genotoxicity, based primarily on one genotoxicity study that was not conducted according to Guidelines. The present in vivo genotoxicity study was conducted according to OECD Guidelines in response to EFSA's request for additional data. The animal species and strain, and the tissues examined were selected specifically to address the previously reported findings. The results show clear absence of genotoxic activity for Allura Red AC, in the bone marrow micronucleus assay and the Comet assay in the liver, stomach, and colon. These data addressed EFSA's concerns for genotoxicity. The Joint WHO/FAO Committee on Food Additives (JECFA) (2016) also reviewed the study and concluded that there is no genotoxicity concern for Allura Red AC. Negative findings in parallel genotoxicity studies on Tartrazine and Ponceau 4R (published separately) are consistent with lack of genotoxicity for azo dyes used as food colors.",
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "2017-Jul",
+        "mesh": [
+          "Animals",
+          "Azo Compounds",
+          "Comet Assay",
+          "DNA Damage",
+          "Food Coloring Agents",
+          "Food Safety",
+          "Male",
+          "Mice",
+          "Mice, Inbred ICR",
+          "Micronucleus Tests"
+        ],
+        "keywords": [
+          "Allura Red AC",
+          "E129",
+          "FD&C Red no. 40",
+          "Food color",
+          "Genotoxicity",
+          "INS 129"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "35233072",
+        "doi": "10.4088/JCP.v61n0703",
+        "title": "Exposures to FD&C synthetic color additives from over-the-counter medications and vitamins in United States children and pregnant women.",
+        "abstract": "BACKGROUND: Food and Drug Administration (FDA) Food Drug and Cosmetic (FD&C) synthetic color additives (SCAs) have been associated with attentional and behavioral problems in children. Efforts to quantify exposure have focused on foods, while the contribution of medications and supplements remains unknown. OBJECTIVE: To estimate exposures to SCAs in children (2-16 years) and pregnant women from intake of common over-the-counter (OTC) medications and vitamins. METHODS: We estimated single-day exposure (mg/kg/day) to FD&C SCAs based on measurements of 25 different products and recommended dosages on product labels. Exposures were compared to SCA exposure estimates from food we previously developed and acceptable daily intakes (ADIs) established by FDA and the World Health Organization. RESULTS: The highest exposure was found for FD&C Red No. 40 in a children's cold/cough/allergy syrup. A child aged 12-16 years consuming the maximum daily dosage would have an exposure of 0.221 mg/kg/day, which is twice this age group's typical exposure to this additive from food. No estimated exposures exceeded the ADIs. SIGNIFICANCE: Some children's OTC medications and vitamins may cause daily SCA exposures comparable to those from foods. OTC medications and vitamins should be considered in efforts to quantify population exposure to FD&C SCAs. IMPACT: Exposure to synthetic color additives (SCAs) from foods has been associated with behavioral problems in children. Exposures from over-the-counter (OTC) medications and vitamins remain unquantified despite widespread use. We estimated exposures in children and pregnant women for 25 different OTC medication and vitamin products sold in the United States. While exposures were below acceptable daily intakes (ADIs) established by the US Food and Drug Administration and the World Health Organization, some were comparable to typical daily exposures from foods. This work critically informs future SCA exposure assessments and provides valuable information for parents concerned about the health effects of SCAs.",
+        "journal": "Journal of exposure science & environmental epidemiology",
+        "date": "2023-Sep",
+        "mesh": [
+          "Child",
+          "Humans",
+          "Female",
+          "Pregnancy",
+          "United States",
+          "Vitamins",
+          "Pharmaceutical Preparations",
+          "Pregnant People",
+          "Food Additives",
+          "Dietary Supplements"
+        ],
+        "keywords": [
+          "Acceptable daily intake",
+          "Artificial food colors",
+          "Children",
+          "Human exposure",
+          "Hyperactivity",
+          "Pregnant women"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "6339890",
+        "doi": "10.1016/0165-1110(83)90035-0",
+        "title": "The significance of azo-reduction in the mutagenesis and carcinogenesis of azo dyes.",
+        "abstract": "Azo dyes are widely used in textile, printing, cosmetic, drug and food-processing industries. They are also used extensively in laboratories as either biological stains or pH indicators. The extent of such use is related to the degree of industrialization. Since intestinal cancer is more common in highly industrialized countries, a possible connection may exist between the increase in the number of cancer cases and the use of azo dyes. Azo dyes can be reduced to aromatic amines by the intestinal microflora. The mutagenicity of a number of azo dyes is reviewed in this paper. They include Trypan Blue, Ponceau 3R, Pinceau 2R, Methyl Red, Methyl Yellow, Methyl Orange, Lithol Red, Orange I, Orange II, 4-Phenylazo-Naphthylamine, Sudan I, Sudan IV, Acid Alizarin Violet N, Fast Garnet GBC, Allura Red, Ponceau SX, Sunset Yellow, Tartrazine, Citrus Red No. 2, Orange B, Yellow AB, Carmoisine, Mercury Orange, Ponceau S, Versatint Blue, Phenylazophenol, Evan's Blue and their degraded aromatic amines. The significance of azo reduction in the mutagenesis and carcinogenesis of azo dyes is discussed.",
+        "journal": "Mutation research",
+        "date": "1983-Apr",
+        "mesh": [
+          "Animals",
+          "Azo Compounds",
+          "Biotransformation",
+          "Carcinogens, Environmental",
+          "Chemical Phenomena",
+          "Chemistry",
+          "Humans",
+          "Intestinal Neoplasms",
+          "Intestines",
+          "Mutagens"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "27092991",
+        "doi": "10.1080/19440049.2016.1179536",
+        "title": "Exposure estimate for FD&C colour additives for the US population.",
+        "abstract": "Dietary exposures to the seven food, drug, and cosmetic (FD&C) colour additives that are approved for general use in food in the United States were estimated for the US population (aged 2 years and older), children (aged 2-5 years) and teenage boys (aged 13-18 years) based on analytical levels of the FD&C colour additives in foods. Approximately 600 foods were chosen for analysis, based on a survey of product labels, for the levels of FD&C colour additives. Dietary exposure was estimated using both 2-day food consumption data from the combined 2007-10 National Health and Nutrition Examination Survey (NHANES) and 10-14-day food consumption data from the 2007-10 NPD Group, Inc. National Eating Trends - Nutrient Intake Database (NPD NET-NID). Dietary exposure was estimated at the mean and 90th percentile using three different exposure scenarios: low exposure, average exposure and high exposure, to account for the range in the amount of each FD&C colour additive for a given food. For all populations and all exposure scenarios, the highest cumulative eaters-only exposures in food were determined for FD&C Red No. 40, FD&C Yellow No. 5 and FD&C Yellow No. 6. In addition, the eaters-only exposure was estimated for individual food categories in order to determine which food categories contributed the most to the exposure for each FD&C colour additive. Breakfast Cereal, Juice Drinks, Soft Drinks, and Frozen Dairy Desserts/Sherbet (also referred to as Ice Cream, Frozen Yogurt, Sherbet (including Bars, Sticks, Sandwiches)) were the major contributing food categories to exposure for multiple FD&C colour additives for all three populations.",
+        "journal": "Food additives & contaminants. Part A, Chemistry, analysis, control, exposure & risk assessment",
+        "date": "2016-May",
+        "mesh": [
+          "Adolescent",
+          "Adolescent Nutritional Physiological Phenomena",
+          "Azo Compounds",
+          "Breakfast",
+          "Child",
+          "Child Nutritional Physiological Phenomena",
+          "Child, Preschool",
+          "Databases, Factual",
+          "Diet",
+          "Edible Grain"
+        ],
+        "keywords": [
+          "Dietary exposure",
+          "FD&C Blue No. 1",
+          "FD&C Blue No. 2",
+          "FD&C Green No. 3",
+          "FD&C Red No. 3",
+          "FD&C Red No. 40",
+          "FD&C Yellow No. 5",
+          "FD&C Yellow No. 6",
+          "food consumption"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "39280409",
+        "doi": "10.7759/cureus.66997",
+        "title": "Chromhidrosis Linked to Personal Care Products.",
+        "abstract": "Eccrine chromhidrosis (CH) is a rare condition characterized by the excretion of colored sweat from eccrine glands. This case report contributes to the medical literature by highlighting two instances of eccrine CH linked to over-the-counter personal care products, an association not previously documented. These products contained FD&C Blue No. 1, D&C Red No. 33, and Ext. D&C Violet No. 2, which are known colorants in various consumer items. These cases underscore the potential for personal care products containing colored dyes to cause eccrine CH. The medical community and consumers must be vigilant about product ingredients to facilitate an accurate diagnosis and promote informed usage. Healthcare professionals should consider the role of colored personal care products in their differential diagnosis of CH to recognize and address potential risks effectively. These cases emphasize the need to actively include colored personal care products in medical considerations to ensure that healthcare practices and consumer awareness properly recognize and address potential risks associated with these products.",
+        "journal": "Cureus",
+        "date": "2024-Aug",
+        "mesh": [],
+        "keywords": [
+          "chromhidrosis",
+          "colored dyes",
+          "colored sweat",
+          "eccrine sweat glands",
+          "personal care products"
+        ],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 136996854,
+    "molecular_formula": "C9H7ClN4OS2",
+    "molecular_weight": "286.8",
+    "xlogp": 4,
+    "tpsa": 124,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "SCHEMBL16802936",
+      "SCHEMBL18631945",
+      "XQNTVGDQOPVBIP-UHFFFAOYSA-N",
+      "DTXSID801372937",
+      "2-Chloro-4-{(E)-[3-(methylsulfanyl)-1,2,4-thiadiazol-5-yl]diazenyl}phenol",
+      "1444596-49-9"
+    ]
+  },
+  "cosing": {
+    "inci_name": "RED NO",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

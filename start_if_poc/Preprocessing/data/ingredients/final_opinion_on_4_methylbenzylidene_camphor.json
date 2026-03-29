@@ -1,0 +1,70 @@
+{
+  "ingredient": "Final Opinion on 4-Methylbenzylidene camphor",
+  "cas": "36861-47-9",
+  "ec": "253-242-6",
+  "inci_name": "FINAL OPINION ON 4-METHYLBENZYLIDENE CAMPHOR",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1640/21",
+        "date_avis": "2022-04-29",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "4%",
+        "categorie": "Colorant",
+        "conclusion": "In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of 4-Methylbenzylidene camphor (4-MBC), does the SCCS consider 4-MBC safe when used as a UV-filter in cosmetic products up to a maximum concentration of 4%? The SCCS cannot conclude on the safety of 4-MBC, because the information provided is insufficient to fully evaluate potential genotoxicity.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of 4-Methylbenzylidene camphor (4-MBC), does the SCCS consider 4-MBC safe when used as a UV-filter in cosmetic products up to a maximum concentration of 4%? The SCCS cannot conclude on the safety of 4-MBC, because the information provided is insufficient to fully evaluate potential genotoxicity. Moreover, there is sufficient evidence that 4-MBC may act as an endocrine disruptor and has effects on both the thyroid and estrogen systems. Effects on the androgen system are not so evident, as only in vitro evidence is available. Even if the genotoxic potential was excluded, the current re-evaluation of 4-MBC established a higher exposure level than in the previous",
+        "pdf_url": "https://health.ec.europa.eu/document/download/bc7fc1c9-9a5e-4f7c-a67f-a03b4dea312b_en?filename=sccs_o_262.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 37563,
+    "molecular_formula": "C18H22O",
+    "molecular_weight": "254.4",
+    "xlogp": 4.5,
+    "tpsa": 17.1,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "36861-47-9",
+      "3-(4'-Methylbenzylidene)camphor",
+      "RefChem:1066747",
+      "Bicyclo(2.2.1)heptan-2-one, 1,7,7-trimethyl-3-((4-methylphenyl)methylene)-",
+      "4-Methylbenzylidenecamphor",
+      "1,7,7-trimethyl-3-[(4-methylphenyl)methylidene]bicyclo[2.2.1]heptan-2-one",
+      "Methyl Benzylidene Camphor; 3-(4'-Methyl)benzylidene-bornan-2-one",
+      "3-(4'-methyl)benzylidene-bornan-2-one",
+      "38102-62-4",
+      "SCHEMBL83091"
+    ]
+  },
+  "cosing": {
+    "inci_name": "FINAL OPINION ON 4-METHYLBENZYLIDENE CAMPHOR",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

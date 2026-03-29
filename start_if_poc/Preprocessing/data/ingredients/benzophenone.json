@@ -1,0 +1,294 @@
+{
+  "ingredient": "Benzophenone",
+  "cas": "4065-45-6",
+  "ec": "223-772-2",
+  "inci_name": "BENZOPHENONE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1660/23",
+        "date_avis": "2024-03-27",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "5%",
+        "categorie": "UV Filter",
+        "conclusion": "In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of benzophenone-4, does the SCCS consider benzophenone-4 safe when used as UV-Filter in cosmetic products up to a maximum concentration of 5%?",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of benzophenone-4, does the SCCS consider benzophenone-4 safe when used as UV-Filter in cosmetic products up to a maximum concentration of 5%? On the basis of the safety assessment, and considering the concerns related to potential endocrine disrupting properties, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/3784d1dc-0a4b-4177-ac2c-0a426f68de7d_en?filename=sccs_o_283.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "39419330",
+        "doi": "10.1016/j.chemosphere.2024.143536",
+        "title": "Single and mixture toxicity of benzophenone-3 and its metabolites on Daphnia magna.",
+        "abstract": "Benzophenone-3 (BP-3) is one of the organic ultraviolet (UV) filters widely used in personal care products, resulting in its ubiquitous occurrence in aquatic systems. This study discovered the potential risks of benzophenone-3 and its metabolites (BP-1 and BP-8) in aquatic environments. This study investigated the toxicity of three single BPs and their mixtures' effects on the survival of Daphnia magna. All three BP types were found to have toxic effects on D. magna, with median effective concentration (EC50) values of 22.55 mg/L for BP-1, 1.89 mg/L for BP-3, and 2.36 mg/L for BP-8, after 48 h of exposure. When the three BPs were binary and ternary mixtures, the EC50 values fell within 2.74-32.26 mg/L. Binary and tertiary mixtures of the three BPs indicated no strong synergistic or antagonistic effects. The mixture toxicity predictions using the classical mixture concept of concentration addition and measured toxicity data showed good predictability. The ecological risks of BPs were assessed using the maximum measured environmental concentrations of BPs collected from a river in Taiwan, divided by their respective predicted no-effect concentration (PNEC) values derived from the assessment factor (AF) method. The result showed a low ecological risk for the sum of three BPs. However, BP-3 had the highest potential risk, while BP-1 was the lowest among the three BPs. Therefore, BP-3 should pay attention to long-term environmental monitoring and management. This study provides valuable information for establishing scientifically-based water quality criteria for BPs and evaluating and managing the potential risk of BPs in the aquatic environment.",
+        "journal": "Chemosphere",
+        "date": "2024-Oct",
+        "mesh": [
+          "Daphnia",
+          "Animals",
+          "Benzophenones",
+          "Water Pollutants, Chemical",
+          "Sunscreening Agents",
+          "Toxicity Tests",
+          "Daphnia magna"
+        ],
+        "keywords": [
+          "Benzophenone",
+          "Daphnia",
+          "Mixture toxicity",
+          "Organic UV filter",
+          "Risk assessment"
+        ],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "38890543",
+        "doi": "10.1016/j.envres.2022.113239",
+        "title": "Recent use of consumer and personal care products and exposures to select endocrine disrupting chemicals among urban children with asthma.",
+        "abstract": "BACKGROUND: Emerging studies suggest that endocrine disrupting chemicals (EDCs) in personal care and other consumer products are linked with various adverse health effects, including respiratory and reproductive effects. Despite Black persons using more personal care products than other demographic groups and having a high asthma burden, little is known regarding their consumer product use patterns and associated EDC exposures. OBJECTIVE: To examine the association between recent exposure to select EDCs with specific consumer products and behaviors in a cohort of 110 predominantly Black children with asthma, ages 8-17 years, living in Baltimore City, Maryland. METHODS: We quantified concentrations of bisphenol A (BPA), bisphenol S (BPS), bisphenol F, two dichlorophenols, four parabens, triclosan, benzophenone-3, and triclocarban in spot urine samples. Questionnaires were used to capture recent (last 24-h) consumer product use and behaviors. Associations between EDCs and consumer product uses/behaviors were assessed using multivariable linear regression, adjusting for age, gender, race/ethnicity, and caregiver income level. Effect estimates were expressed as geometric mean ratios of biomarker concentrations of product-users vs non-users. RESULTS: Increased concentrations to select EDCs were associated with recent use of air freshener (ratios; BPA: 1.9, 95%CI 1.4-2; BPS 1.7, 95%CI 1-2.97; propyl paraben: 3.0, 95%CI 1.6-5.6), scented candles (methyl paraben: 2.6, 95%CI 1.1-6.1), and scented carpet powder (2,5-dichlorophenol: 2.8, 95%CI 1.2-6.3). Additionally, consuming canned food was associated with some increased biomarker concentrations (ratios: BPA: 1.7, 95%CI 1.2-2.4; BPS: 2.1, 95% CI: 1.2-3.6). SIGNIFICANCE: These findings add to the body of evidence suggesting that recent use of select consumer products in Black children contributes to exposure of chemicals of concern and could potentially inform exposure mitigation interventions. Findings have broad potential health implications for pediatric populations and Black children who may face exposure and health disparities. IMPACT: Little is known about how children's personal care product use and consumer behaviors affect their exposures to endocrine disrupting chemicals (EDCs). This is particularly true for Black children who often experience a disparate exposure burden to many EDCs. This is a significant knowledge gap among children that are uniquely vulnerable to EDCs as they undergo critical windows of growth and development. Our findings show associations between consumer products and EDC exposures in predominantly Black children in low-income settings. Identifying EDC exposure determinants has broad health implications as many of these chemicals have been associated with adverse health risks.",
+        "journal": "Journal of exposure science & environmental epidemiology",
+        "date": "2024-Jul",
+        "mesh": [
+          "Humans",
+          "Child",
+          "Endocrine Disruptors",
+          "Male",
+          "Adolescent",
+          "Female",
+          "Asthma",
+          "Cosmetics",
+          "Phenols",
+          "Baltimore"
+        ],
+        "keywords": [
+          "Children with Asthma",
+          "Endocrine disrupting chemical exposure",
+          "Exposure disparities",
+          "Personal care products"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "26487337",
+        "doi": "10.1007/s00244-015-0227-7",
+        "title": "Toxicopathological Effects of the Sunscreen UV Filter, Oxybenzone (Benzophenone-3), on Coral Planulae and Cultured Primary Cells and Its Environmental Contamination in Hawaii and the U.S. Virgin Islands.",
+        "abstract": "Benzophenone-3 (BP-3; oxybenzone) is an ingredient in sunscreen lotions and personal-care products that protects against the damaging effects of ultraviolet light. Oxybenzone is an emerging contaminant of concern in marine environments—produced by swimmers and municipal, residential, and boat/ship wastewater discharges. We examined the effects of oxybenzone on the larval form (planula) of the coral Stylophora pistillata, as well as its toxicity in vitro to coral cells from this and six other coral species. Oxybenzone is a photo-toxicant; adverse effects are exacerbated in the light. Whether in darkness or light, oxybenzone transformed planulae from a motile state to a deformed, sessile condition. Planulae exhibited an increasing rate of coral bleaching in response to increasing concentrations of oxybenzone. Oxybenzone is a genotoxicant to corals, exhibiting a positive relationship between DNA-AP lesions and increasing oxybenzone concentrations. Oxybenzone is a skeletal endocrine disruptor; it induced ossification of the planula, encasing the entire planula in its own skeleton. The LC50 of planulae exposed to oxybenzone in the light for an 8- and 24-h exposure was 3.1 mg/L and 139 µg/L, respectively. The LC50s for oxybenzone in darkness for the same time points were 16.8 mg/L and 779 µg/L. Deformity EC20 levels (24 h) of planulae exposed to oxybenzone were 6.5 µg/L in the light and 10 µg/L in darkness. Coral cell LC50s (4 h, in the light) for 7 different coral species ranges from 8 to 340 µg/L, whereas LC20s (4 h, in the light) for the same species ranges from 0.062 to 8 µg/L. Coral reef contamination of oxybenzone in the U.S. Virgin Islands ranged from 75 µg/L to 1.4 mg/L, whereas Hawaiian sites were contaminated between 0.8 and 19.2 µg/L. Oxybenzone poses a hazard to coral reef conservation and threatens the resiliency of coral reefs to climate change.",
+        "journal": "Archives of environmental contamination and toxicology",
+        "date": "2016-Feb",
+        "mesh": [
+          "Animals",
+          "Anthozoa",
+          "Benzophenones",
+          "Environmental Monitoring",
+          "Hawaii",
+          "Sunscreening Agents",
+          "United States Virgin Islands",
+          "Water Pollutants, Chemical"
+        ],
+        "keywords": [],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "29086472",
+        "doi": "10.1111/jocd.12449",
+        "title": "Dermatological and environmental toxicological impact of the sunscreen ingredient oxybenzone/benzophenone-3.",
+        "abstract": "Oxybenzone (Benzophenone-3) is an emerging human and environmental contaminant used in sunscreens and personal care products to help minimize the damaging effects of ultraviolet radiation. The Center for Disease Control fourth national report on human exposure to environmental chemicals demonstrated that approximately 97% of the people tested have oxybenzone present in their urine, and independent scientists have reported various concentrations in waterways and fish worldwide. Oxybenzone can also react with chlorine, producing hazardous by-products that can concentrate in swimming pools and wastewater treatment plants. Moreover, adverse reactions could very well be increased by the closed loop of ingesting fish contaminated with oxybenzone and/or washing the ingredient off our bodies and having it return in drinking water as treatment plants do not effectively remove the chemical as part of their processing protocols. In humans, oxybenzone has been reported to produce contact and photocontact allergy reactions, implemented as a possible endocrine disruptor and has been linked to Hirschsprung's disease. Environmentally, oxybenzone has been shown to produce a variety of toxic reactions in coral and fish ranging from reef bleaching to mortality. Lastly, with the rise in skin cancer rates and the availability of more effective sunscreen actives such as micronized zinc oxide and titanium dioxide, serious doubts about the relative prevention benefit of personal care products containing oxybenzone must be raised and compared with the potential negative health and environmental effects caused by the accumulation of this and other chemicals in the ecosystem.",
+        "journal": "Journal of cosmetic dermatology",
+        "date": "2018-Feb",
+        "mesh": [
+          "Animals",
+          "Benzophenones",
+          "Dermatitis, Irritant",
+          "Environmental Pollutants",
+          "Humans",
+          "Patch Tests",
+          "Risk Assessment",
+          "Sensitivity and Specificity",
+          "Skin Irritancy Tests",
+          "Skin Neoplasms"
+        ],
+        "keywords": [
+          "contact dermatitis",
+          "environmental contaminant",
+          "toxicity"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "28474616",
+        "doi": "10.4103/ijmr.IJMR_626_16",
+        "title": "Ketoprofen-induced photoallergic dermatitis.",
+        "abstract": "Drug-induced photosensitivity reactions are significant adverse effects. Ketoprofen is one of the most common drugs that can cause skin rash in sun-exposed areas. Non-steroidal anti-inflammatory drugs (NSAIDs), such as ketoprofen, are often used for a variety of symptoms, including pain and fever. An understanding of the presentation and clinical course of ketoprofen-induced photosensitivity is necessary to correctly diagnose and manage this condition. Ketoprofen-induced photosensitivity reactions usually present as photoallergic dermatitis, which is a cell-mediated immune process. The benzophenone moiety in ketoprofen plays a major role in ketoprofen's ability to act as a photosensitizer. Several agents, such as fenofibrate and octocrylene have been found to be associated with aggravation of ketoprofen-induced photoallergic dermatitis or cross-photosensitization, and these reactions result from structural similarities with ketoprofen. Treatment of ketoprofen-induced photoallergic dermatitis includes discontinuation of ketoprofen, topical or systemic corticosteroids and avoidance of sun exposure and agents known to exacerbate dermatitis. In conclusion, photoallergic dermatitis is a significant adverse effect of ketoprofen. Some agents known to worsen dermatitis may be found in sun protection products (notably, octocrylene in sunscreen). Educating the patient to avoid these products is critical to treatment. Since NSAIDs, such as ketoprofen, are used commonly for a variety of illnesses, drug-induced photoallergic dermatitis should be high on the differential in individuals using these medications who present with acute onset of a rash in sun-exposed areas.",
+        "journal": "The Indian journal of medical research",
+        "date": "2016-Dec",
+        "mesh": [
+          "Anti-Inflammatory Agents, Non-Steroidal",
+          "Dermatitis, Photoallergic",
+          "Exanthema",
+          "Humans",
+          "Ketoprofen",
+          "Photosensitivity Disorders",
+          "Sunscreening Agents"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "38373965",
+        "doi": "10.1289/EHP8739",
+        "title": "Urinary phenols and parabens exposure in relation to urinary incontinence in the US population.",
+        "abstract": "BACKGROUND: Our study aimed to investigate the impact of urinary concentrations of personal care products (PCPs)-related phenols (PNs) and parabens (PBs), including Triclosan (TCS), Bisphenol A (BPA), Benzophenone-3 (BP-3), Butylparaben (BPB), Ethylparaben (EPB), Methylparaben (MPB), and Propylparaben (PPB), on urinary incontinence (UI) occurrence. METHOD: We conducted a cross-sectional analysis using data from the National Health and Nutrition Examination Survey (NHANES) spanning the years 2007 to 2016. Regression analysis was employed to investigate the relationship between exposure to PCPs-related substances, various levels of exposure, and UI within both the general population and the female demographic. Additionally, the Bayesian Kernel Machine Regression (BKMR) model was used to assess the effects of mixtures on UI. RESULTS: Our analysis comprised 7,690 participants who self-reported their diagnosis. Among them, 12.80% experienced stress urinary incontinence (SUI), 11.80% reported urge urinary incontinence (UUI), and 10.22% exhibited mixed urinary incontinence (MUI). In our fully adjusted multivariable models, BP-3 exposure exhibited a positive association with SUI (OR 1.07, 95% CI 1.02-1.14, p = 0.045). BPA exposure correlated with an increased risk of UUI (OR 1.21, 95% CI 1.01-1.44, p = 0.046) and MUI (OR 1.26, 95% CI 1.02-1.54, p = 0.029). TCS exposure displayed a negative correlation with the incidence of MUI (OR 0.87, 95% CI 0.79-0.97, p = 0.009). No significant links were observed between parabens and urinary incontinence. Notably, among the female population, our investigation revealed that BPA exposure heightened the risk of MUI (OR 1.28, 95% CI 1.01-1.63, p = 0.043). Participants in the highest tertile of BP-3 exposure demonstrated elevated likelihoods of SUI and MUI compared to those in the lowest tertile. In the BKMR analysis, negative trends were observed between the mixture and the risks of UUI and MUI when the mixture ranged from the 25th to the 40th and 35th to the 40th percentiles or above, respectively. Additionally, a positive trend was identified between the mixture and MUI when it was in the 40th to 55th percentile. CONCLUSION: In conclusion, our findings suggest that exposure to BPA, TCS, and BP-3 may contribute to the development of urinary incontinence.",
+        "journal": "BMC public health",
+        "date": "2024-Feb",
+        "mesh": [
+          "Humans",
+          "Female",
+          "Nutrition Surveys",
+          "Parabens",
+          "Cross-Sectional Studies",
+          "Bayes Theorem",
+          "Urinary Incontinence",
+          "Urinary Incontinence, Stress"
+        ],
+        "keywords": [
+          "Parabens",
+          "Personal care products",
+          "Urinary incontinence",
+          "benzophenone-3",
+          "bisphenol A",
+          "triclosan"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "40064164",
+        "doi": "10.1055/s-0045-1802986",
+        "title": "Examining the Impact of Environmental Non-Persistent Compounds: Phthalates, BPA, and Benzophenone on Endometriosis.",
+        "abstract": "Endometriosis is a debilitating condition characterized by the growth of endometrial-like tissue outside the uterus, leading to chronic pain and inflammation. While its etiology remains complex, emerging evidence implicates environmental contaminants as potential contributors. This review explores the roles of endocrine-disrupting chemicals such as phthalates, bisphenol A (BPA), and benzophenone-like ultraviolet (UV) filters in the development and progression of endometriosis. These chemicals, commonly found in everyday products such as plastics, personal care items, and sunscreen, can mimic or interfere with hormonal functions, disrupting the hormonal balance essential for reproductive health. This review included 18 peer-reviewed studies on phthalates, BPA, and UV filters from 2003 to 2023. Evidence for UV filters was inconclusive, with only two studies available. BPA was positively associated with endometriosis in four out of seven studies. Phthalates were associated with a greater odds of endometriosis in five studies, and with a reduced odds in one study, while three studies found no association with endometriosis. This underscores the need for further research with improved timing of exposure measurement. Understanding the role of phthalates, BPA, and UV filters on endometriosis is crucial for developing effective prevention strategies, potentially reducing the burden of endometriosis.",
+        "journal": "Seminars in reproductive medicine",
+        "date": "2024-Dec",
+        "mesh": [
+          "Humans",
+          "Female",
+          "Endometriosis",
+          "Phthalic Acids",
+          "Benzophenones",
+          "Phenols",
+          "Benzhydryl Compounds",
+          "Endocrine Disruptors",
+          "Environmental Pollutants",
+          "Environmental Exposure"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "35843073",
+        "doi": "10.1016/j.envint.2022.107405",
+        "title": "Assessment of human exposure to benzophenone-type UV filters: A review.",
+        "abstract": "To avoid the harmful effects of UV radiation, benzophenone-type UV filters (BPs) are widely used in personal care products and other synthetic products. Biomonitoring studies have shown the presence of BPs in various human biological samples, raising health concerns. However, there is a paucity of data on the global human exposure to this group of contaminants. In this study, we compiled data on the body burden of BPs along with the possible exposure routes and biotransformation pathways. BPs can easily penetrate the skin barrier and thus, they can be absorbed through the skin. In the human body, BPs can undergo Phase I (mainly demethylation and hydroxylation) and Phase II (mainly glucuronidation and sulfation) biotransformations. From a total of 158 studies, most of the studies are related to urine (concentration up to 92.7 mg L-1), followed by those reported in blood (up to 0.9 mg L-1) and milk (up to 0.8 mg L-1). Among BPs, benzophenone-1 and benzophenone-3 are the most commonly detected congeners. The body burden of BPs is associated with various factors, including the country of residence, lifestyle, income, education level, and ethnicity. The presence of BPs in maternal urine (up to 1.1 mg L-1), placenta (up to 9.8 ng g-1), and amniotic fluid (up to 15.7 μg L-1) suggests potential risks of prenatal exposure. In addition, transplacental transfer of BPs is possible, as demonstrated by their presence in maternal serum and cord serum. The possible association of BPs exposure and health effects was discussed. Future human biomonitoring studies and studies on the potential health effects are warranted. Overall, this review provides a summary of the global human exposure to BPs and can serve as supporting evidence to guide usage in order to protect humans from being exposed to BPs.",
+        "journal": "Environment international",
+        "date": "2022-Sep",
+        "mesh": [
+          "Benzophenones",
+          "Cosmetics",
+          "Female",
+          "Humans",
+          "Placenta",
+          "Pregnancy",
+          "Sunscreening Agents",
+          "Ultraviolet Rays"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "34713618",
+        "doi": "10.1002/advs.202102686",
+        "title": "Maternal Benzophenone Exposure Impairs Hippocampus Development and Cognitive Function in Mouse Offspring.",
+        "abstract": "Benzophenones are widely supplemented in personal care products, but little is known about its neurodevelopmental toxicity. The previous epidemiological study discovered a negative correlation between maternal exposure to a benzophenone metabolite 4-hydroxybenzophenone (4HBP) and child's neurodevelopment, yet the causal relationship and detailed mechanism remain to be defined. Here, it is reported that prenatal, but not postnatal, exposure to environmentally relevant level of 4HBP impairs hippocampus development and causes cognitive dysfunction in offspring mice. Transcriptomic analyses reveal that 4HBP induces the endoplasmic reticulum stress-induced apoptotic signaling and inflammatory response in hippocampal neural stem cells. Mechanistically, 4HBP exposure activates protein kinase R-like ER kinase (PERK) signaling, which induces CHOP, inhibits IκB translation, and transactivates p65, thereby promoting inflammation and apoptosis on multiple levels. Importantly, genetic or pharmacological inhibition of PERK pathway significantly attenuates 4HBP-induced NFκB signaling and neurodevelopmental abnormalities in mice and in a human brain organoid model. The study uncovers the neurodevelopmental toxicity of BP and cautions its exposure during pregnancy.",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "date": "2021-Dec",
+        "mesh": [],
+        "keywords": [
+          "4-hydroxybenzophenone",
+          "endoplasmic reticulum stress",
+          "neurodevelopmental toxicity",
+          "p65",
+          "protein kinase R-like ER kinase-eIF2α"
+        ],
+        "relevance_score": 0
+      },
+      {
+        "pmid": "36279254",
+        "doi": "10.1097/DER.0000000000000963",
+        "title": "Sunscreens: A Review of UV Filters and Their Allergic Potential.",
+        "abstract": "Abstract Active ingredients of sunscreens, or UV filters, have increased in use because public awareness of sun safety has risen. In addition to this intentional use, unintentional exposures to UV filters also occur through application of personal care products, where the filters are incorporated into the product. There are 2 main types of UV filters: organic (chemical) filters and the 2 inorganic (mineral) filters, titanium dioxide and zinc oxide. Both allergic contact dermatitis (ACD) and photoallergic contact dermatitis (PACD) have been caused by organic filters; oxybenzone (benzophenone-3) is the most frequently reported contact and photocontact allergen compared with all other UV filters. There are no reports of ACD or PACD to the inorganic (physical) UV filters. Here, we review the categories of sunscreens available, currently marketed UV filters, and their corresponding ACD and PACD.",
+        "journal": "Dermatitis : contact, atopic, occupational, drug",
+        "date": "2023",
+        "mesh": [
+          "Humans",
+          "Sunscreening Agents",
+          "Dermatitis, Photoallergic",
+          "Dermatitis, Allergic Contact",
+          "Allergens",
+          "Cosmetics",
+          "Ultraviolet Rays",
+          "Benzophenones"
+        ],
+        "keywords": [],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 19988,
+    "molecular_formula": "C14H12O6S",
+    "molecular_weight": "308.31",
+    "xlogp": 2.2,
+    "tpsa": 109,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Sulisobenzone",
+      "4065-45-6",
+      "5-Benzoyl-4-hydroxy-2-methoxybenzenesulfonic acid",
+      "Benzophenone-4",
+      "2-Hydroxy-4-methoxybenzophenone-5-sulfonic acid",
+      "Sungard",
+      "Uval",
+      "Benzophenone 4",
+      "Seesorb 101S",
+      "Syntase 230"
+    ]
+  },
+  "cosing": {
+    "inci_name": "BENZOPHENONE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

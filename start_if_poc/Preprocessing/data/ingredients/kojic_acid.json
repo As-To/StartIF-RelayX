@@ -1,0 +1,261 @@
+{
+  "ingredient": "Kojic acid",
+  "cas": "501-30-4",
+  "ec": "207-922-4",
+  "inci_name": "KOJIC ACID",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1637/21",
+        "date_avis": "2022-03-16",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "1 %",
+        "categorie": "Colorant",
+        "conclusion": "In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Kojic acid, does the SCCS consider Kojic acid safe when used in cosmetic products up to a maximum concentration of 1 %?",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Kojic acid, does the SCCS consider Kojic acid safe when used in cosmetic products up to a maximum concentration of 1 %? On the basis of the safety assessment, and considering the concerns related to potential endocrine disrupting properties of Kojic acid, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/04c4600e-fac7-43c7-bccc-18714258b644_en?filename=sccs_o_259.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 1,
+    "articles": [
+      {
+        "pmid": "35642229",
+        "doi": null,
+        "title": "Topical Treatments for Melasma and Their Mechanism of Action.",
+        "abstract": "OBJECTIVE: We conducted a review of topical agents currently used in melasma, discussing their mechanism of action, efficacy, safety, and tolerability, with an update on newer treatments. METHODS: A systematic review from PubMed database was performed, using PRISMA guidelines. The search was limited to English and Spanish studies that were double or single blinded, prospective, controlled or randomized clinical trials, reviews of literature, and meta-analysis studies. RESULTS: 348 studies were analyzed; 80 papers met inclusion criteria. Triple combination (TC) therapy and hydroquinone (HQ) are still the most well-studied agents with strong evidence-based recommendation. TC therapy remains the gold standard of care based on efficacy and patient tolerability. Evidence has shown ascorbic acid, azelaic acid, glycolic acid, kojic acid, salicylic acid, and niacinamide to be effective as adjuvant therapies with minimal side effects. Tranexamic acid (TA) and cysteamine have become recent agents of interest due to their good tolerability, however more trials and studies are warranted. Less evidence exists for other topical agents, such as linoleic acid, mulberry extract oil, rucinol, 2% undecylenoyl phenylalanine, and epidermal growth factors agents. LIMITATIONS: Some studies discussed represented a low sample size, and there is an overall lack of recent studies with larger populations and long-term follow up. CONCLUSIONS: TC therapy continues to be the gold standard of care. Topical cysteamine and TA are newer options that can be incorporated as adjuvant and maintenance treatments into a patient's regimen. Cysteamine and topical TA have no known severe adverse effects. Evidence comparing other topical adjuvant treatments to HQ, maintains HQ as the gold standard of care.",
+        "journal": "The Journal of clinical and aesthetic dermatology",
+        "date": "2022-May",
+        "mesh": [],
+        "keywords": [
+          "chloasma",
+          "depigmentation",
+          "depigmented agents",
+          "melanosis",
+          "melasma",
+          "peels",
+          "skin-lightening agents",
+          "therapy",
+          "topicals"
+        ],
+        "relevance_score": 7
+      },
+      {
+        "pmid": "38099013",
+        "doi": "10.4103/idoj.idoj_490_22",
+        "title": "Topical and Systemic Therapies in Melasma: A Systematic Review.",
+        "abstract": "INTRODUCTION: Melasma is an acquired disorder, which presents with well-demarcated, brown-colored hyperpigmented macules, commonly involving the sun-exposed areas such as the face. It is a chronic and distressing condition, affecting the patients' quality of life, and has been conventionally treated with \"first-line\" agents including hydroquinone (HQ) alone or as a part of a triple combination cream (TCC), while \"second-line\" options include chemical peels, and third line options include laser therapy. MATERIALS AND METHODS: A systematic search was performed for all topical and systemic treatments for melasma up till May 4, 2021, using the PubMed and EMBASE databases, according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) protocol. The search terms \"melasma\" and \"treatment\" were used to search for the relevant articles on both these databases, and a total of 4020 articles were identified. After removing the duplicate entries and screening the titles, abstracts, and full-text articles, we identified 174 randomized controlled trials (RCTs) or controlled clinical trials. RESULTS: Based on our review, HQ, TCCs, sunscreens, kojic acid (KA), and azelaic acid receive grade A recommendation. Further large-scale studies are required to clearly establish the efficacy of topical vitamin C, resorcinol, and topical tranexamic acid (TXA). Several newer topical agents may play a role only as an add-on or second-line drugs or as maintenance therapy. Oral TXA has a strong recommendation, provided there are no contraindications. Procyanidins, Polypodium leucotomos (PL), and even synbiotics may be taken as adjuncts. DISCUSSION: Several newer topical and systemic agents with multimodal mechanisms of action have now become available, and the balance seems to be tipping in favor of these innovative modalities. However, it is worth mentioning that the choice of agent should be individualized and subject to availability in a particular country.",
+        "journal": "Indian dermatology online journal",
+        "date": "2023",
+        "mesh": [],
+        "keywords": [
+          "Melasma",
+          "review",
+          "systemic",
+          "topical",
+          "treatment"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "38800358",
+        "doi": "10.33448/rsd-v11i11.33581",
+        "title": "Melasma: A Step-by-Step Approach Towards a Multimodal Combination Therapy.",
+        "abstract": "Melasma is a common challenge in the field of pigmentary skin disorders, exerting a significant emotional and psychosocial burden on patients. The persistent and recurring nature of melasma complicates its management in routine clinical practice. This comprehensive review outlines a stepwise, practical approach encompassing diagnostic, preventive and therapeutic strategies for the management of melasma. A thorough exploration of aggravating and exacerbating factors, including sun exposure, hormonal imbalances, photosensitizing medication and cosmetics, is essential for a holistic assessment of the disease. With an emphasis on consistent and effective photoprotection, initial topical treatment modalities target the melanin production and/or the transfer of melanosomes to keratinocytes. Topical tyrosine inhibitors emerge as the first choice for reducing and preventing hyperpigmentation, with compounds such as thiamidol or tranexamic acid (TXA) being preferred for their safety profile over hydroquinone (HQ), kojic acid and arbutin. Combination with chemical peels can further enhance the therapeutic efficacy, even in cases with resistant melasma. In more severe cases, laser- and light-based interventions may be considered, but with the caveat of the likelihood of recurrence within 3-6 months. Assisted TXA delivery, via either fractional non-ablative laser or microneedling techniques, can further improve clinical outcomes. In conclusion, an optimal melasma management strategy is a multimodal approach, which includes effective photoprotection and a mix of different topical treatments targeting melanin synthesis, the anti-inflammatory environment, senescence and vascularity. Complementary procedures, such as chemical peels, and laser, light-based or microneedling procedures, with or without TXA, can further expedite melanin clearance in more severely affected instances. Individual discussions with patients regarding treatment expectations, recurrence likelihood and potential side effects are paramount to a comprehensive and successful therapeutic journey.",
+        "journal": "Clinical, cosmetic and investigational dermatology",
+        "date": "2024",
+        "mesh": [],
+        "keywords": [
+          "chloasma",
+          "hyperpigmentation",
+          "melanosis",
+          "melasma"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "20725554",
+        "doi": null,
+        "title": "Postinflammatory hyperpigmentation: a review of the epidemiology, clinical features, and treatment options in skin of color.",
+        "abstract": "Postinflammatory hyperpigmentation is a common sequelae of inflammatory dermatoses that tends to affect darker skinned patients with greater frequency and severity. Epidemiological studies show that dyschromias, including postinflammatory hyperpigmentation, are among the most common reasons darker racial/ethnic groups seek the care of a dermatologist. The treatment of postinflammatory hyperpigmentation should be started early to help hasten its resolution and begins with management of the initial inflammatory condition. First-line therapy typically consists of topical depigmenting agents in addition to photoprotection including a sunscreen. Topical tyrosinase inhibitors, such as hydroquinone, azelaic acid, kojic acid, arbutin, and certain licorice extracts, can effectively lighten areas of hypermelanosis. Other depigmenting agents include retinoids, mequinol, ascorbic acid, niacinamide, N-acetyl glucosamine, and soy with a number of emerging therapies on the horizon. Topical therapy is typically effective for epidermal postinflammatory hyperpigmentation; however, certain procedures, such as chemical peeling and laser therapy, may help treat recalcitrant hyperpigmentation. It is also important to use caution with all of the above treatments to prevent irritation and worsening of postinflammatory hyperpigmentation.",
+        "journal": "The Journal of clinical and aesthetic dermatology",
+        "date": "2010-Jul",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "33998768",
+        "doi": "10.1111/pcmr.12986",
+        "title": "Management of hyperpigmentation: Current treatments and emerging therapies.",
+        "abstract": "Hyperpigmentation of the skin refers to a dermatological condition which alters the color of the skin, making it discolored or darkened. The treatments for hyperpigmentation disorders often take very long to show results and have poor patient compliance. The first-line treatment for hyperpigmentation involves topical formulations of conventional agents such as hydroquinone, kojic acid, and glycolic acid followed by oral formulations of therapeutic agents such as tranexamic acid, melatonin, and cysteamine hydrochloride. The second-line approaches include chemical peels and laser therapy given under the observation of expert professionals. However, these therapies pose certain limitations and adverse effects such as erythema, skin peeling, and drying and require long treatment duration to show visible effects. These shortcomings of the conventional treatments provided scope for further research on newer alternatives for managing hyperpigmentation. Some of these therapies include novel formulations such as solid lipid nanocarriers, liposomes, phytochemicals, platelet-rich plasma, microneedling. This review focuses on elaborating on several hyperpigmentation disorders and their mechanisms, the current, novel and emerging treatment options for management of hyperpigmentation.",
+        "journal": "Pigment cell & melanoma research",
+        "date": "2021-Nov",
+        "mesh": [
+          "Glycolates",
+          "Humans",
+          "Hydroquinones",
+          "Hyperpigmentation",
+          "Pyrones",
+          "Skin"
+        ],
+        "keywords": [
+          "chemical peels",
+          "hyperpigmentation",
+          "laser therapy",
+          "novel therapies",
+          "topical formulations"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "26962392",
+        "doi": null,
+        "title": "Periorbital Hyperpigmentation: A Comprehensive Review.",
+        "abstract": "Periorbital hyperpigmentation is a commonly encountered condition. There is very little scientific data available on the clinical profile and pathogenesis of periorbital hyperpigmentation. Periorbital hyperpigmentation is caused by various exogenous and endogenous factors. The causative factors include genetic or heredity, excessive pigmentation, postinflammatory hyperpigmentation secondary to atopic and allergic contact dermatitis, periorbital edema, excessive vascularity, shadowing due to skin laxity and tear trough associated with aging. There are a number of treatment options available for periorbital hyperpigmentation. Among the available alternatives to treat dark circles are topical depigmenting agents, such as hydroquinone, kojic acid, azelaic acid, and topical retinoic acid, and physical therapies, such as chemical peels, surgical corrections, and laser therapy, most of which are tried scientifically for melasma, another common condition of hyperpigmentation that occurs on the face. The aim of treatment should be to identify and treat the primary cause of hyperpigmentation as well as its contributing factors.",
+        "journal": "The Journal of clinical and aesthetic dermatology",
+        "date": "2016-Jan",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "40996222",
+        "doi": "10.1111/jdv.70066",
+        "title": "Delphi consensus on melasma management by international experts and pigmentary disorders society.",
+        "abstract": "BACKGROUND: Melasma, an acquired hyperpigmentation disorder, affects individuals of all ethnicities. Its multifactorial aetiology, high recurrence rates and psychosocial impact complicate management and necessitate comprehensive, evidence-based recommendations. OBJECTIVES: The objective was to develop an international consensus on the diagnosis and management of melasma by synthesizing expert opinions and the latest scientific evidence. METHODS: This consensus was developed using a modified Delphi approach. A core group of two senior dermatologists who were experts in pigmentary disorders guided the process, and a diverse panel of 38 dermatologists with a special interest in pigmentary disorders from 11 countries (Australia, Brazil, France, India, Italy, Mexico, Philippines, South Africa, South Korea, Taiwan and the USA) participated in three rounds of surveys and discussions, under the aegis of the Pigmentary Disorders Society (PDS). A literature search of articles published between 2014 and 2024 identified key studies that were graded using the Oxford levels of evidence (2009). Consensus statements were drafted, refined and finalized based on expert feedback. Responses were assessed using a 5-point Likert scale, with predefined thresholds for high (≥75%), moderate (55%-74%) and low (<55%) agreement. RESULTS: The consensus development process started with 34 statements, and at the end of the third round of the Delphi process, 21, 4 and 1 statement reached high, moderate and low consensus, respectively. Key recommendations highlighted photoprotection with broad-spectrum sunscreens as essential, regulated and supervised use of hydroquinone-based triple combination creams as the gold standard, and alternatives such as topical azelaic acid, kojic acid and oral tranexamic acid. Adjunctive procedural therapies, such as chemical peels and microneedling, were suggested to enhance topical efficacy, while lasers were reserved for refractory cases. CONCLUSIONS: These recommendations aim to improve the outcomes of melasma patients globally by integrating expert opinion and evidence-based strategies. Future research should focus on evaluating emerging therapies and optimizing long-term maintenance strategies.",
+        "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+        "date": "2026-Apr",
+        "mesh": [
+          "Humans",
+          "Melanosis",
+          "Delphi Technique",
+          "Consensus",
+          "Dermatologic Agents",
+          "Societies, Medical",
+          "Hydroquinones",
+          "Pyrones",
+          "Tranexamic Acid"
+        ],
+        "keywords": [
+          "consensus",
+          "dermatology",
+          "disease management",
+          "hyperpigmentation",
+          "melanosis"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "30537675",
+        "doi": "10.1016/j.biopha.2018.12.006",
+        "title": "Kojic acid applications in cosmetic and pharmaceutical preparations.",
+        "abstract": "Skin color disorders can be caused by various factors, such as excessive exposure to sunlight, aging and hormonal imbalance during pregnancy, or taking some medications. Kojic acid (KA) is a natural metabolite produced by fungi that has the ability to inhibit tyrosinase activity in synthesis of melanin. The major applications of KA and its derivatives in medicine are based on their biocompatibility, antimicrobial and antiviral, antitumor, antidiabetic, anticancer, anti-speck, anti-parasitic, and pesticidal and insecticidal properties. In addition, KA and its derivatives are used as anti-oxidant, anti-proliferative, anti-inflammatory, radio protective and skin-lightening agent in skin creams, lotions, soaps, and dental care products. KA has the ability to act as a UV protector, suppressor of hyperpigmentation in human and restrainer of melanin formation, due to its tyrosinase inhibitory activity. Also, KA could be developed as a chemo sensitizer to enhance efficacy of commercial antifungal drugs or fungicides. In general, KA and its derivatives have wide applications in cosmetics and pharmaceutical industries.",
+        "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+        "date": "2019-Feb",
+        "mesh": [
+          "Animals",
+          "Antifungal Agents",
+          "Antioxidants",
+          "Cosmetics",
+          "Free Radical Scavengers",
+          "Humans",
+          "Hyperpigmentation",
+          "Melanins",
+          "Pyrones",
+          "Skin Pigmentation"
+        ],
+        "keywords": [
+          "Cosmetic",
+          "Health brightening products",
+          "Hyperpigmentation",
+          "Kojic acid",
+          "Melanin"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "34658706",
+        "doi": "10.5114/ada.2021.108913",
+        "title": "Double-blind, randomized controlled trial comparing the use of microneedling alone versus chemical peeling alone versus a combination of microneedling and chemical peeling in the treatment of atrophic post-acne scars. An assessment of clinical effectiveness and patients' quality-of-life.",
+        "abstract": "INTRODUCTION: Acne vulgaris is a common, chronic disease. One of the most commonly encountered complications of acne is permanent atrophic scarring. Treatment of atrophic scars includes fillers, dermabrasion, laser resurfacing, microneedling and peelings and it is often difficult to treat. In our double-blind randomized controlled trial (RCT), we investigated the synergistic effect of microneedling with the application of trichloroacetic acid, kojic acid and hydrogen peroxide in the treatment of atrophic acne scars. AIM: To assess the clinical effectiveness and patients' quality-of-life (HRQoL) after three types of atrophic post-acne scar treatment, namely microneedling alone (MN) vs chemical peeling alone (CP) vs. a combination of microneedling and chemical peeling (MN + CP). MATERIAL AND METHODS: A total of 120 patients were enrolled into the study following strict inclusion/exclusion criteria and randomized into the three treatment groups - MN, CP (a combination of trichloroacetic acid, kojic acid and hydrogen peroxide), and MN + CP. According to a preapproved protocol, each patient underwent four treatment sessions, each spread 20 days apart. Both pre- and post-treatment clinical status (using the Goodman-Baron scale; two expert raters blinded to the treatment used) and patients' HRQoL (using the Dermatology Life Quality Index) were assessed. RESULTS: During the 5-month recruitment period, a total of 120 patients were approached and agreed to take part in the study (94 females - 78.3% and 26 males) (mean age of 30.14 ±3.64 years; range: 18-45 years). Only in the MN + CP group there was a statistically significant improvement according to the G-B scale post-treatment (2.87 ±0.83 vs. 2.03 ±1.16 respectively; p = 0.0005). Patients in all three treatment groups experienced a statistically significant improvement in their HRQoL post-treatment (all p's < 0.05). CONCLUSIONS: A combination of microneedling and chemical peeling produces the best, objectively measured effects in the treatment of atrophic post-acne scars. All examined treatments, even if not producing a clinically significant treatment outcome, improve patients' HRQoL.",
+        "journal": "Postepy dermatologii i alergologii",
+        "date": "2021-Aug",
+        "mesh": [],
+        "keywords": [
+          "PRX-T33",
+          "acne",
+          "microneedling",
+          "quality of life",
+          "scar"
+        ],
+        "relevance_score": 0
+      },
+      {
+        "pmid": "38910501",
+        "doi": "10.1097/IIO.0000000000000525",
+        "title": "Integrating Skincare into Medical Practice.",
+        "abstract": "The integration of skincare into medical practice can enhance patient care. Understanding the anatomy and physiology of the skin is the foundation for effective skincare interventions. Genetic and inflammatory conditions play a significant role in aesthetic skin physiology. There are key active ingredients that are pivotal in addressing various skin concerns. Sunscreens provide crucial protection against UV radiation, while pigment control agents such as hydroquinone, kojic acid, and arbutin target the melanin pathway. Exfoliating agents and skin turnover enhancers such as retinoids and hydroxy acids promote skin renewal and rejuvenation. In addition, ingredients such as hyaluronic acid, ceramides, niacinamide, antioxidants, peptides, and botanicals contribute to improving skin quality. Adding skincare to medical practice requires careful product selection, patient education, and marketing strategies.",
+        "journal": "International ophthalmology clinics",
+        "date": "2024-Jul",
+        "mesh": [
+          "Humans",
+          "Skin Care",
+          "Sunscreening Agents",
+          "Skin Aging",
+          "Skin Diseases",
+          "Dermatologic Agents"
+        ],
+        "keywords": [],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 3840,
+    "molecular_formula": "C6H6O4",
+    "molecular_weight": "142.11",
+    "xlogp": -0.9,
+    "tpsa": 66.8,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "kojic acid",
+      "501-30-4",
+      "5-Hydroxy-2-(hydroxymethyl)-4H-pyran-4-one",
+      "5-Hydroxy-2-(hydroxymethyl)-4-pyrone",
+      "5-hydroxy-2-(hydroxymethyl)pyran-4-one",
+      "4H-PYRAN-4-ONE, 5-HYDROXY-2-(HYDROXYMETHYL)-",
+      "5-Hydroxy-2-hydroxymethyl-4-pyrone",
+      "acido kojico",
+      "2-Hydroxymethyl-5-hydroxy-gamma-pyrone",
+      "2-(Hydroxymethyl)-5-hydroxy-4H-pyran-4-one"
+    ]
+  },
+  "cosing": {
+    "inci_name": "KOJIC ACID",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

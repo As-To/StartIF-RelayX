@@ -1,0 +1,305 @@
+{
+  "ingredient": "vitamin A",
+  "cas": "68-26-8",
+  "ec": "200-796-1",
+  "inci_name": "ADENINE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1639/21",
+        "date_avis": "2022-10-25",
+        "type_rapport": "Final Opinion",
+        "verdict": null,
+        "concentration_max": "0.05% | 10%",
+        "categorie": "UV Filter",
+        "conclusion": "the SCCS considers that a contribution from cosmetic products of up to 10% could be acceptable.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided, does the SCCS consider that the contribution of the cosmetic products among the overall/total exposure to vitamin A is of concern? The SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/73fa20f3-2083-4dcf-948a-585a3f0c44df_en?filename=sccs_o_261.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "35946971",
+        "doi": "10.36849/JDD.6498",
+        "title": "Treatment of Scalp Psoriasis.",
+        "abstract": "Scalp involvement is seen in a majority of individuals with psoriasis, a chronic autoimmune skin disease with variable phenotypes. Occasionally, isolated scalp involvement is observed; and this causes significant psychosocial morbidity. Management of scalp psoriasis is difficult, in part due to the difficulty of applying topical agents and its refractory nature. Various treatment options are available with variable efficacy. Topical agents include topical steroids, keratolytics, tar and anthralin compounds, vitamin D analogues, and vitamin A derivatives. The combination treatment of topical betamethasone and calcipotriene is the most effective topical therapy. Systemic agents include conventional agents such as methotrexate, cyclosporine, and oral retinoids. Biologics offer a greater efficacy, with near complete or complete clearance of the scalp. In this article we review the published literature on adult and scalp psoriasis to highlight its treatment. Articles published in peer-reviewed journals were included for qualitative analysis of the literature, including reviews, clinical trials, case series, case reports published in the electronic database (MEDLINE/PubMed) through June 2021, cross references of respective articles, and trials from clinicaltrials.gov. J Drugs Dermatol. 2022;21(8):833-837. doi:10.36849/JDD.6498.",
+        "journal": "Journal of drugs in dermatology : JDD",
+        "date": "2022-Aug",
+        "mesh": [
+          "Administration, Topical",
+          "Betamethasone",
+          "Dermatologic Agents",
+          "Humans",
+          "Keratolytic Agents",
+          "Psoriasis",
+          "Scalp",
+          "Scalp Dermatoses",
+          "Treatment Outcome"
+        ],
+        "keywords": [],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "35816067",
+        "doi": "10.36849/JDD.6890",
+        "title": "Update: Mechanisms of Topical Retinoids in Acne.",
+        "abstract": "Topical retinoids are the cornerstone of current acne management due to their actions on multiple facets of acne pathophysiology. Retinoids are a family of compounds that structurally and functionally resemble vitamin A, an essential nutrient with a key role in cellular growth and differentiation. In the skin, retinoids exert their effects by binding retinoic acid receptors (RARs) in the cell nucleus with subsequent regulation of gene transcription. There are three subtypes of RARs, and the topical retinoids currently approved for acne have differing receptor binding profiles which may translate to clinical differences, since the specific RAR subtypes activated dictate the biological response of target cells. The activity of a retinoid depends on cellular transport, receptor-binding pattern and affinity, and the genes activated. This review discusses physiologic pathways in skin that are affected by topical retinoids during acne therapy, with a focus on new data from trifarotene, a retinoid which is highly selective for the RAR-&gamma; receptor. Recently, bioinformatic data comparing gene expression in acne lesions treated with trifarotene versus spontaneously resolving acne lesions showed that trifarotene significantly modulates 67 genes that do not appear in the spontaneously resolving lesion. These genes are involved in cellular migration, activation of adaptive immunity, inflammation, and matrix reorganization. Expression of these trifarotene-regulated genes after treatment and in an active lesion occurred in opposite directions, providing clues to the molecular and genetic response to trifarotene in resolving acne. J Drugs Dermatol. 2022;21(7):734-740. doi:10.36849/JDD.6890.",
+        "journal": "Journal of drugs in dermatology : JDD",
+        "date": "2022-Jul",
+        "mesh": [
+          "Acne Vulgaris",
+          "Cell Differentiation",
+          "Humans",
+          "Retinoids",
+          "Skin"
+        ],
+        "keywords": [],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "39233460",
+        "doi": "10.1016/j.phymed.2023.154824",
+        "title": "Cosmeceuticals in photoaging: A review.",
+        "abstract": "BACKGROUND: Photoaging is a process of the architecture of normal skin damaged by ultraviolet radiation. Topical cosmeceuticals have been used to treat this condition. The authors aimed to understand the mechanism and level of evidence of different commonly used cosmeceuticals used to treat photodamaged skin. OBJECTIVE: A range of commonly used topical cosmeceuticals (botanicals, peptides, and hydroquinone) has been used in cosmetic medicine for many years to treat photodamaged skin. This review article compares their efficacy and level of evidence. MATERIAL AND METHODS: This study was a systematic review to evaluate the efficacy of different topical cosmeceuticals. Keywords including \"Photoaging,\" \"Azelaic acid,\" \"Soy,\" \"Green Tea,\" \"Chamomile,\" \"Ginkgo,\" \"Tea Tree Oil,\" \"Resveratrol,\" \"Cucumber,\" \"Ginseng,\" \"Centella asiatica,\" \"Licorice Root,\" \"Aloe Vera,\" \"Peptides,\" \"Argireline,\" \"Hydroquinone,\" were typed on OVID, PUBMED, MEDLINE for relevant studies published on photoaging treatment. RESULTS: Most of the evidence behind cosmeceuticals is of high-quality ranging from Level I to Level II. In particular, the evidence base behind peptides is the strongest with most studies achieving Level Ib status in the evidence hierarchy. CONCLUSION: Topical cosmeceuticals like botanicals, peptides and hydroquinone can effectively treat photodamaged skin.",
+        "journal": "Skin research and technology : official journal of International Society for Bioengineering and the Skin (ISBS) [and] International Society for Digital Imaging of Skin (ISDIS) [and] International Society for Skin Imaging (ISSI)",
+        "date": "2024-Sep",
+        "mesh": [
+          "Humans",
+          "Skin Aging",
+          "Cosmeceuticals",
+          "Ultraviolet Rays",
+          "Skin",
+          "Administration, Topical",
+          "Hydroquinones"
+        ],
+        "keywords": [
+          "biological aging",
+          "cosmeceuticals",
+          "monophenol monooxygenase",
+          "peptides",
+          "skin aging",
+          "vitamin A"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "38695936",
+        "doi": "10.1007/s00403-024-02895-4",
+        "title": "The role of vitamins and nutrients in rosacea.",
+        "abstract": "Rosacea is a common inflammatory skin condition displaying symptoms like flushing, erythema, papules, and pustules. Oral antibiotics, despite long-term adverse effects, are often used due to topical treatment limitations, underscoring the need for cost-effective choices like dietary modifications. Our review investigates the role of vitamins and minerals in rosacea, and provides evidence-based recommendations for supplementation and topical treatment of these nutrients for rosacea. An online search was performed on PubMed, Web of Science, Science Direct, Google Scholar, and ClinicalTrials.gov from 1998 to 2023. Included studies were summarized and assessed for quality and relevance in rosacea management. Varied outcomes emerged concerning the impact of essential vitamins and minerals on rosacea treatment. Vitamin A derivatives, specifically oral isotretinoin, demonstrated significant efficacy, with a 90% reduction in lesions, complete remission in 24% of patients, and marked improvement in 57% of patients. Vitamin B3 derivatives, such as topical 1-methylnicotinamide 0.25% and NADH 1%, improved symptoms in 76.4% (26/34) and 80% of patients, respectively. Outcomes for vitamin D, vitamin C, and zinc supplementation varied across studies. However, zinc sulfate solution 5% significantly reduced acne rosacea severity for patients with 40% and 60% exhibiting a moderate or good response, respectively. Omega-3 fatty acids showed significant improvement in alleviating xerophthalmia in 64% of patients with ocular rosacea. Vitamins and minerals hold potential in managing rosacea symptoms, offering a safe and cost-effective alternative or adjunctive treatment option. Currently, there are no established recommendations regarding their supplementation for rosacea. Studies assessing serum levels of vitamins and minerals in relation to rosacea are warranted, as this avenue holds potential for future advancements in the field.",
+        "journal": "Archives of dermatological research",
+        "date": "2024-May",
+        "mesh": [
+          "Rosacea",
+          "Humans",
+          "Vitamins",
+          "Dietary Supplements",
+          "Treatment Outcome",
+          "Nutrients",
+          "Administration, Cutaneous"
+        ],
+        "keywords": [
+          "B Vitamins",
+          "Omega-3 fatty acids",
+          "Rosacea",
+          "Vitamin A",
+          "Vitamin D",
+          "Zinc"
+        ],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "38243868",
+        "doi": "10.1111/ddg.15290",
+        "title": "Treatment of ocular rosacea: a systematic review.",
+        "abstract": "Rosacea is a common chronic skin disease distributed primarily around the central face. Ocular manifestations of rosacea are poorly studied, and estimates of prevalence vary widely, ranging from 6% to 72% in the rosacea population. Treatment options for ocular rosacea include lid hygiene, topical and oral antibiotics, cyclosporine ophthalmic emulsion, oral vitamin A derivatives, and intense pulsed light; however, a direct comparison of treatment methods for ocular rosacea is lacking. This review aims to compare treatment efficacy and adverse events for different treatment modalities in ocular rosacea. We performed a systematic review by searching Cochrane, MEDLINE and Embase. Title, abstract, full text screening, and data extraction were done in duplicate. Sixty-six articles met the inclusion criteria, representing a total of 1,275 patients. The most effective treatment modalities were topical antimicrobials and oral antibiotics, which achieved complete or partial response in 91% (n = 82/90) and 89% (n = 525/580) of patients respectively, followed by intense pulsed light (89%, n = 97/109 partial response), cyclosporine ophthalmic emulsion (87% n = 40/46), and lid hygiene (65%, n = 67/105). Combination treatments achieved a complete or partial response in 90% (n = 69/77). Results suggest that topical antimicrobials, oral antibiotics, intense pulsed light. and cyclosporine were the most efficacious single modality treatments.",
+        "journal": "Journal der Deutschen Dermatologischen Gesellschaft = Journal of the German Society of Dermatology : JDDG",
+        "date": "2024-Feb",
+        "mesh": [
+          "Humans",
+          "Emulsions",
+          "Rosacea",
+          "Anti-Bacterial Agents",
+          "Cyclosporine",
+          "Skin Diseases"
+        ],
+        "keywords": [
+          "IPL",
+          "Rosacea",
+          "adverse events",
+          "doxycycline",
+          "isotretinoin",
+          "ocular",
+          "treatment"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "31697447",
+        "doi": "10.1002/ncp.10420",
+        "title": "Vitamin A and Wound Healing.",
+        "abstract": "Vitamin A is a general term for retinoids. Vitamin A deficiency leads to a variety of cutaneous manifestations. It also functions as a hormone through retinoic acid receptors altering the activity of multiple cell lines. Pancreatic vitamin A levels are critical for retinoid signaling and normal pancreatic control of glucose. Vitamin A deficiency is more common during infection, and supplementation reduces severe morbidity and mortality from infectious diseases. Vitamin A modulates activities at the cellular level and, via its interrelationship with hormones such as thyroid, insulin, and corticosteroids, has diffuse metabolic effects on the body. It plays an important role in all stages of wound healing. Vitamin A is known for its ability to stimulate epithelial growth, fibroblasts, granulation tissue, angiogenesis, collagen synthesis, epithelialization, and fibroplasia. Local (topical) and systemic supplementation with vitamin A has been proven to increase dermal collagen deposition. There are numerous animal studies and limited human studies regarding physiologic effect of vitamin A on acute or chronic wounds via systemic or topical administration. The most common use of vitamin A supplementation is to offset steroids' effect. When considering supplementation, the potential benefits must be weighed against the risk of harm. Vitamin A toxicity can be critical and even result in death. The evidence for supplementation with vitamin A is currently limited to expert opinion and is not backed up by rigorous trials. There is an acute need for therapeutic trials with vitamin A supplementations.",
+        "journal": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
+        "date": "2019-Dec",
+        "mesh": [
+          "Administration, Oral",
+          "Administration, Topical",
+          "Animals",
+          "Dietary Supplements",
+          "Humans",
+          "Vitamin A",
+          "Vitamin A Deficiency",
+          "Vitamins",
+          "Wound Healing",
+          "Wounds and Injuries"
+        ],
+        "keywords": [
+          "dietary supplements",
+          "hypervitaminosis A",
+          "retinoids",
+          "vitamin A",
+          "wound healing",
+          "wounds"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "39050538",
+        "doi": "10.1111/ced.14245",
+        "title": "Acne treatment: research progress and new perspectives.",
+        "abstract": "Acne is a chronic inflammatory skin disease that primarily affects adolescents and is attributed to various factors, including hormonal changes, genetic predisposition, and environmental influences. It typically manifests in areas rich in sebaceous glands such as the face, chest, and back. Symptoms of acne can range from mild to severe and may present as pimples, pustules, nodules, cysts, and scarring. The appearance of acne can significantly impact both the physical and mental well-being of patients, potentially leading to feelings of anxiety, depression, and social withdrawal. The pathogenesis of acne is multifaceted involving genetic predisposition as well as environmental factors such as hormonal imbalances, inflammation, abnormal follicular sebaceous unit keratinization, proliferation of follicular microorganisms like Propionibacterium acnes, increased sebum production, and dietary influences. Traditional treatment methods for acne include topical drug therapy, oral drug therapy, photoelectric therapy, and chemical peeling. With ongoing research into the pathogenesis of acne, treatment methods are rapidly evolving with novel antibiotics, probiotics, biological agents, topical anti-androgen drugs, topical vitamin A acid metabolism blockers, antimicrobial peptides, immunotherapy, micro-needling, and micro-needling patches. This article aims to provide a comprehensive review of recent advancements in acne treatment.",
+        "journal": "Frontiers in medicine",
+        "date": "2024",
+        "mesh": [],
+        "keywords": [
+          "acne",
+          "antimicrobial resistance",
+          "novel antibiotics",
+          "probiotics",
+          "research progress"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "39108105",
+        "doi": "10.1097/00029330-200602020-00003",
+        "title": "Antioxidants for Skin Health.",
+        "abstract": "Antioxidants play a pivotal role in maintaining skin health and integrity, combating the deleterious effects of oxidative stress induced by environmental aggressors such as UV radiation, pollution, and lifestyle factors. This paper reviews the contributions of key antioxidants, including Vitamin C, Vitamin E, Vitamin A, green tea extract, Coenzyme Q10, Resveratrol, Selenium, and Polyphenols, in skin health care. Vitamin C, known for its collagen synthesis promotion and photoprotection properties, alongside Vitamin E, a lipid-soluble antioxidant, synergistically works to neutralize free radicals and repair damaged skin cells. Vitamin A, in the form of retinol, plays a critical role in skin cell regeneration and the maintenance of skin integrity. Green tea extract, rich in Polyphenols, offers anti-inflammatory and anticarcinogenic properties, making it a potent ingredient for skin protection. Coenzyme Q10, a naturally occurring antioxidant in the body, aids in energy production for cell repair and regeneration, while Resveratrol, found in grapes and berries, provides anti-ageing benefits by enhancing skin's resistance to oxidative stress. Selenium, an essential mineral, contributes to the protection of skin cells from oxidative damage. The incorporation of these antioxidants in skincare products and dietary sources is discussed, highlighting the importance of a holistic approach in skincare regimes. The paper emphasizes the synergy between topical applications and dietary intake of antioxidants, advocating for a comprehensive strategy for promoting skin health and preventing age-related skin alterations. Method: For the review article, a variety of search engines and databases were used to identify relevant articles. Furthermore, for biomedical literature focusing on antioxidants and their effects on skin health, PubMed was used. Moreover, to access a wide range of scholarly articles, including those related to dermatology and skincare, Google Scholar was used. Scopus provides comprehensive coverage of peer-reviewed literature across various scientific disciplines. Web of Science identifies high-impact articles and research on antioxidants in skincare. In addition, for accessing full-text articles on antioxidants and their applications in dermatology, Science Direct was used. The inclusion criteria for the review paper were as follows: only studies published in peer-reviewed journals were included to ensure the credibility and reliability of the information. Articles published in English were considered, to avoid language-related biases and ensure comprehension. Studies published within the last 10 years were included to provide the most current insights into antioxidant research in skincare. Articles must specifically focus on the role of antioxidants (Vitamin C, Vitamin E, Vitamin A, green tea extract, Coenzyme Q10, Resveratrol, Selenium, Polyphenols) in skin health care. Both experimental studies (in vivo and in vitro) and clinical trials were included to provide a comprehensive overview of the antioxidant effects. Full-text articles were included to allow for thorough data extraction and analysis. The exclusion criteria for the review paper were as follows: Publications that were not peer-reviewed, such as editorials, opinion pieces, and non-scholarly articles, were excluded. Articles published in languages other than English were excluded due to potential translation challenges and to maintain consistency. Studies that did not focus on the specified antioxidants or their impact on skin health were excluded. Duplicate publications were excluded to avoid redundancy in the review. Articles with insufficient or incomplete data were excluded to ensure the quality and reliability of the review findings.",
+        "journal": "Recent advances in food, nutrition & agriculture",
+        "date": "2025",
+        "mesh": [
+          "Humans",
+          "Antioxidants",
+          "Skin",
+          "Ubiquinone",
+          "Skin Aging",
+          "Polyphenols",
+          "Selenium",
+          "Oxidative Stress",
+          "Resveratrol",
+          "Tea"
+        ],
+        "keywords": [
+          "Antioxidants",
+          "UV radiation",
+          "coenzyme Q10",
+          "green tea extract",
+          "oxidative stress",
+          "pollution",
+          "resveratrol",
+          "selenium.",
+          "skin health",
+          "vitamin A"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "17515510",
+        "doi": "10.1001/archderm.143.5.606",
+        "title": "Improvement of naturally aged skin with vitamin A (retinol).",
+        "abstract": "OBJECTIVE: To evaluate the effectiveness of topical retinol (vitamin A) in improving the clinical signs of naturally aged skin. DESIGN: Randomized, double-blind, vehicle-controlled, left and right arm comparison study. SETTING: Academic referral center. PATIENTS: The study population comprised 36 elderly subjects (mean age, 87 years), residing in 2 senior citizen facilities. INTERVENTION: Topical 0.4% retinol lotion or its vehicle was applied at each visit by study personnel to either the right or the left arm, up to 3 times a week for 24 weeks. MAIN OUTCOME MEASURES: Clinical assessment using a semiquantitative scale (0, none; 9, most severe) and biochemical measurements from skin biopsy specimens obtained from treated areas. RESULTS: After 24 weeks, an intent-to-treat analysis using the last-observation-carried-forward method revealed that there were significant differences between retinol-treated and vehicle-treated skin for changes in fine wrinkling scores (-1.64 [95% CI, -2.06 to -1.22] vs -0.08 [95% CI, -0.17 to 0.01]; P<.001). As measured in a subgroup, retinol treatment significantly increased glycosaminoglycan expression (P = .02 [n = 6]) and procollagen I immunostaining (P = .049 [n = 4]) compared with vehicle. CONCLUSIONS: Topical retinol improves fine wrinkles associated with natural aging. Significant induction of glycosaminoglycan, which is known to retain substantial water, and increased collagen production are most likely responsible for wrinkle effacement. With greater skin matrix synthesis, retinol-treated aged skin is more likely to withstand skin injury and ulcer formation along with improved appearance.",
+        "journal": "Archives of dermatology",
+        "date": "2007-May",
+        "mesh": [
+          "Administration, Cutaneous",
+          "Aged, 80 and over",
+          "Atrophy",
+          "Collagen Type I",
+          "Double-Blind Method",
+          "Female",
+          "Glycosaminoglycans",
+          "Humans",
+          "Male",
+          "RNA, Messenger"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "31616211",
+        "doi": "10.5114/ada.2019.87443",
+        "title": "Retinoids: active molecules influencing skin structure formation in cosmetic and dermatological treatments.",
+        "abstract": "Vitamin A is the first vitamin approved by the Food and Drug Administration as an anti-wrinkle agent that changes appearance of the skin surface and has anti-aging effects. Vitamin A is in a group of fat-soluble substances and belongs to the category of retinoids. Apart from retinol, that group includes structurally related substances with the biological properties of retinol. Since the biological activity of the substances differs, for the purpose of standardization, it is given in retinol equivalents. Vitamin A and its derivatives are among the most effective substances slowing the aging process. Retinoids regulate the cell apoptosis, differentiation and proliferation. Anti-wrinkle properties of retinoids promote keratinocytes proliferation, strengthen the protective function of the epidermis, restrain transepidermal water loss, protect collagen against degradation and inhibit metalloproteinases activity. Retinoid activity is related to high affinity for nuclear receptors: RAR - retinoid acid receptors and RXR - retinoid X receptors.",
+        "journal": "Postepy dermatologii i alergologii",
+        "date": "2019-Aug",
+        "mesh": [],
+        "keywords": [
+          "dermatology",
+          "retinoids",
+          "retinol",
+          "skin aging",
+          "vitamin A"
+        ],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 445354,
+    "molecular_formula": "C20H30O",
+    "molecular_weight": "286.5",
+    "xlogp": 5.7,
+    "tpsa": 20.2,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "retinol",
+      "all-trans-Retinol",
+      "68-26-8",
+      "trans-retinol",
+      "Veroftal",
+      "Agoncal",
+      "Bentavit A",
+      "Homagenets Aoral",
+      "Sehkraft A",
+      "Testavol S"
+    ]
+  },
+  "cosing": {
+    "inci_name": "ADENINE",
+    "function": "ADENINE  Fermer  Export file is being prepared and will be automatically downloaded to your computer when ready.  Fermer  Export file has been downloaded to your computer.  PDF INCI Name  ADENINE  Description  Vitamin B4  CAS #  73-24-5  EC #  200-796-1  Identified INGREDIENTS or substances e.g.  Cosmetics Regulation provisions   Functions SKIN CONDITIONING SCCS opinions Go backCosIng - Cosmetics Ingredients This site is managed by the Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs  Accessibilité  Commission européenne  Contactez la Commission européenne  Suivre la Commission européenne sur les réseaux sociaux  Ressources pour les partenaires  Politique linguistique  Cookies  Politique de confidentialité  Mentions légales",
+    "restriction": null,
+    "has_sccs_opinion": true,
+    "sccs_opinion_url": "https://ec.europa.eu/growth/tools-databases/cosing/details/54413"
+  }
+}

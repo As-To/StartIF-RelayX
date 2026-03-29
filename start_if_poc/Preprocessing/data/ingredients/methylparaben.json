@@ -1,0 +1,320 @@
+{
+  "ingredient": "Methylparaben",
+  "cas": "99-76-3",
+  "ec": "202-785-7",
+  "inci_name": "METHYLPARABEN",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1652/23",
+        "date_avis": "2023-12-14",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "0.4%",
+        "categorie": "Preservative",
+        "conclusion": "In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Methylparaben, does the SCCS consider Methylparaben safe when used as a preservative in cosmetic products up to a maximum concentration of 0.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Methylparaben, does the SCCS consider Methylparaben safe when used as a preservative in cosmetic products up to a maximum concentration of 0.4% (as acid) when used on its own and up to 0.8% (as acid) for mixtures of esters as indicated in entry 12 of Annex V to the Cosmetics Regulation? On the basis of the safety assessment considering all available data and the concerns related to endocrine activity, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/eb3192aa-089c-4fcf-8cac-b34892dd0b3e_en?filename=sccs_o_276_final.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 1,
+    "articles": [
+      {
+        "pmid": "19101832",
+        "doi": "10.1080/10915810802548359",
+        "title": "Final amended report on the safety assessment of Methylparaben, Ethylparaben, Propylparaben, Isopropylparaben, Butylparaben, Isobutylparaben, and Benzylparaben as used in cosmetic products.",
+        "abstract": "Parabens is the name given to a group of p-hydroxybenzoic acid (PHBA) esters used in over 22,000 cosmetics as preservatives at concentrations up to 0.8% (mixtures of parabens) or up to 0.4% (single paraben). The group includes Methylparaben, Ethylparaben, Propylparaben, Isopropylparaben, Butylparaben, Isobutylparaben, and Benzylparaben. Industry estimates of the daily use of cosmetic products that may contain parabens were 17.76 g for adults and 378 mg for infants. Parabens in cosmetic formulations applied to skin penetrate the stratum corneum in inverse relation to the ester chain length. Carboxylesterases hydrolyze parabens in the skin. Parabens do not accumulate in the body. Serum concentrations of parabens, even after intravenous administration, quickly decline and remain low. Acute toxicity studies in animals indicate that parabens are not significantly toxic by various routes of administration. Subchronic and chronic oral studies indicate that parabens are practically nontoxic. Numerous genotoxicity studies, including Ames testing, dominant lethal assay, host-mediated assay, and cytogenic assays, indicate that the Parabens are generally nonmutagenic, although Ethylparaben and Methylparaben did increase chromosomal aberrations in a Chinese Hamster ovary cell assay. Ethylparaben, Propylparaben, and Butylparaben in the diet produced cell proliferation in the forestomach of rats, with the activity directly related to chain length of the alkyl chain, but Isobutylparaben and Butylparaben were noncarcinogenic in a mouse chronic feeding study. Methylparaben was noncarcinogenic when injected subcutaneously in mice or rats, or when administered intravaginally in rats, and was not cocarcinogenic when injected subcutaneously in mice. Propylparaben was noncarcinogenic in a study of transplacental carcinogenesis. Methylparaben was nonteratogenic in rabbits, rats, mice, and hamsters, and Ethylparaben was nonteratogenic in rats. Parabens, even at levels that produce maternal toxicity, do not produce fetal anomalies in animal studies. Parabens have been extensively studied to evaluate male reproductive toxicity. In one in vitro study, sperm were not viabile at concentrations as low as 6 mg/ml Methylparaben, 8 mg/ml Ethylparaben, 3 mg/ml Propylparaben, or 1 mg/ml Butylparaben, but an in vivo study of 0.1% or 1.0% Methylparaben or Ethylparaben in the diet of mice reported no spermatotoxic effects. Propylparaben did affect sperm counts at all levels from 0.01% to 1.0%. Epididymis and seminal vesicle weight decreases were reported in rats given a 1% oral Butylparaben dose; and decreased sperm number and motile activity in F(1) offspring of rats maternally exposed to 100 mg/kg day(- 1) were reported. Decreased sperm numbers and activity were reported in F(1) offspring of female rats given Butylparaben (in DMSO) by subcutaneous injection at 100 or 200 mg/kg day(- 1), but there were no abnormalities in the reproductive organs. Methylparaben was studied using rats at levels in the diet up to an estimated mean dose of 1141.1 mg/kg day(- 1) with no adverse testicular effects. Butylparaben was studied using rats at levels in the diet up to an estimated mean dose of 1087.6 mg/kg day(- 1) in a repeat of the study noted above, but using a larger number of animals and a staging analysis of testicular effects-no adverse reproductive effects were found. Butylparaben does bind to estrogen receptors in isolated rat uteri, but with an affinity orders of magnitude less than natural estradiol. Relative binding (diethylstilbesterol binding affinity set at 100) to the human estrogen receptors alpha and beta increases as a function of chain length from not detectable for Methylparaben to 0.267 +/- 0.027 for human estrogen receptor alpha and 0.340 +/- 0.031 for human estrogen receptor beta for Isobutylparaben. In a study of androgen receptor binding, Propylparaben exhibited weak competitive binding, but Methylparaben had no binding effect at all. PHBA at 5 mg/kg day(-1) subcutaneously (s.c.) was reported to produce an estrogenic response in one uterotrophic assay using mice, but there was no response in another study using rats (s.c. up to 5 mg/kg day(- 1)) and mice (s.c. up to 100 mg/kg day(- 1)) and in a study using rats (s.c. up to 100 mg/kg day(- 1)). Methylparaben failed to produce any effect in uterotrophic assays in two laboratories, but did produce an effect in other studies from another laboratory. The potency of Methylparaben was at least 1000x less when compared to natural estradiol. The same pattern was reported for Ethylparaben, Propylparaben, and Butylparaben when potency was compared to natural estradiol. In two studies, Isobutylparaben did produce an estrogenic response in the uterotrophic assay, but the potency was at least 240,000x less than estradiol. In one study, Benzylparaben produced an estrogenic response in the uterotrophic assay, but the potency was at least 330,000x less than estradiol. Estrogenic activity of parabens and PHBA was increased in human breast cancer cells in vitro, but the increases were around 4 orders of magnitude less than that produced by estradiol. Parabens are practically nonirritating and nonsensitizing in the population with normal skin. Paraben sensitization has occurred and continues to be reported in the case literature, but principally when exposure involves damaged or broken skin. Even when patients with chronic dermatitis are patch-tested to a parabens mix, parabens generally induce sensitization in less than 4% of such individuals. Many patients sensitized to paraben-containing medications can wear cosmetics containing these ingredients with no adverse effects. Clinical patch testing data available over the past 20 years demonstrate no significant change in the overall portion of dermatitis patients that test positive for parabens. As reviewed by the Cosmetic Ingredient Review (CIR) Expert Panel, the available acute, subchronic, and chronic toxicity tests, using a range of exposure routes, demonstrate a low order of parabens' toxicity at concentrations that would be used in cosmetics. Parabens are rarely irritating or sensitizing to normal human skin at concentrations used in cosmetics. Although parabens do penetrate the stratum corneum, metabolism of parabens takes place within viable skin, which is likely to result in only 1% unmetabolized parabens available for absorption into the body. The Expert Panel did consider data in the category of endocrine disruption, including male reproductive toxicity and various estrogenic activity studies. The CIR Expert Panel compared exposures to parabens resulting from use of cosmetic products to a no observed adverse effect level (NOAEL) of 1000 mg/kg day(- 1) based on the most statistically powerful and well-conducted study of the effects of Butylparabens on the male reproductive system. The CIR Expert Panel considered exposures to cosmetic products containing a single parabens preservative (use level of 0.4%) separately from products containing multiple parabens (use level of 0.8%) and infant exposures separately from adult exposures in determining margins of safety (MOS). The MOS for infants ranged from approximately 6000 for single paraben products to approximately 3000 for multiple paraben products. The MOS for adults ranged from 1690 for single paraben products to 840 for multiple paraben products. The Expert Panel considers that these MOS determinations are conservative and likely represent an overestimate of the possibility of an adverse effect (e.g., use concentrations may be lower, penetration may be less) and support the safety of cosmetic products in which parabens preservatives are used.",
+        "journal": "International journal of toxicology",
+        "date": "2008",
+        "mesh": [
+          "Animals",
+          "Consumer Product Safety",
+          "Cosmetics",
+          "Humans",
+          "Parabens",
+          "Toxicity Tests"
+        ],
+        "keywords": [],
+        "relevance_score": 28
+      },
+      {
+        "pmid": "26551603",
+        "doi": "10.1097/DER.0000000000000147",
+        "title": "\"Parabenoia\" Debunked, or \"Who's Afraid of Parabens?\".",
+        "abstract": "Parabens have been used as preservatives in foods, injectables, and topical preparations for nearly 10 decades. Present in nature, rapidly metabolized by skin and liver enzymes, they have an excellent safety record. However, in the past 15 years, they have been under scrutiny for their alleged estrogenic and antiandrogenic effects, as well as their putative role in promoting cancerogenesis through endocrine disruption. Scientific articles supporting these assertions have led the European Community to ban or restrict the use of some parabens. Despite that methylparaben and ethylparaben have negligible endocrine disruption activity, the food, pharmaceutical, and cosmetic industries are under pressure from scare campaigns in the media and are responding by replacing parabens with other biocides that cause multiple cases, and even worldwide epidemics, of allergic contact sensitization. In the present review, we present a balanced account of the published literature about the metabolism and potential toxicology of parabens.",
+        "journal": "Dermatitis : contact, atopic, occupational, drug",
+        "date": "2015",
+        "mesh": [
+          "Androgen Antagonists",
+          "Androgens",
+          "Animals",
+          "Breast Neoplasms",
+          "Consumer Product Safety",
+          "Cosmetics",
+          "Estrogens",
+          "Female",
+          "Humans",
+          "Parabens"
+        ],
+        "keywords": [],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "40602876",
+        "doi": "10.1016/j.jes.2025.01.006",
+        "title": "Associations of pharmaceutical and personal care product chemical exposure with thyroid nodules and thyroid homeostasis.",
+        "abstract": "Pharmaceuticals and personal care products (PPCPs) have been considered as potential contributors to thyroid nodule (TN) and abnormal thyroid homeostasis, but epidemiological evidence is scarce. A total of 1261 individuals comprised of 367 TN patients and 895 controls were recruited from Sichuan, China. The urinary concentrations of fourteen PPCPs were measured. Five thyroid hormones (THs) in serum were determined as indicators of thyroid homeostasis, including thyroid-stimulating hormone, triiodothyronine (T3), thyroxine (T4), free-T3 and free-T4. Serum levels of thyroglobulin antibody (TGAb) and thyroperoxidase antibody (TPOAb) were quantified to identify individual thyroid antibody (TA) statuses. TN patients exhibited higher propyl-paraben (PrP) (median: 1.30 µg/g Cr) level than controls (0.64 µg/g Cr). PrP were significantly associated with TN risk with ORs of 1.060 (95 % CI: 1.002, 1.122). The relationship of methyl-paraben with TN risk was nonlinear (p = 0.049). PPCP exposure was significant with TN risk only in females and TA positive (TPOAb or TGAb) groups, indicating that PPCP susceptibility to TN differs by sex and TA status. Linear regression models showed ethyl-paraben was significantly negatively associated with T4 (β: -0.005, 95 % CI: -0.011, -0.002) and T3 (β: -0.007, 95 % CI: -0.015, -0.002), and positively associated with TPOAb (β: 0.059, 95 % CI: 0.000, 0.119), suggesting that certain PPCP exposure could affect thyroid homeostasis and autoimmunity. The effects of PPCP exposure on TH and TA levels presented sex-specific. Our findings suggest that PPCP exposure increases TN risk and affects thyroid homeostasis, exhibiting sex and antibody status dependence.",
+        "journal": "Journal of environmental sciences (China)",
+        "date": "2025-Nov",
+        "mesh": [
+          "Humans",
+          "Thyroid Nodule",
+          "Female",
+          "Male",
+          "Homeostasis",
+          "Middle Aged",
+          "Adult",
+          "China",
+          "Thyroid Gland",
+          "Cosmetics"
+        ],
+        "keywords": [
+          "Case-control study",
+          "Pharmaceutical and personal care product chemicals",
+          "Thyroid antibody",
+          "Thyroid homeostasis",
+          "Thyroid nodule"
+        ],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "30484673",
+        "doi": "10.33549/physiolres.934004",
+        "title": "Parabens and their relation to obesity.",
+        "abstract": "Parabens are a group of chemicals used as preservatives in the food, cosmetic and pharmaceutical industries. They are known to possess estrogenic effects, and therefore have been classified as endocrine disruptors. In addition to the classical endocrine organs, other tissues have endocrine activity, including adipose tissue. Several chemicals are known to cause obesogenic effects, and parabens are currently being studied in this context. The aim of this study was to investigate the possible connections of paraben exposure and obesity. Blood plasma from 27 healthy women was collected during their menstrual cycle. Basal anthropometric measures, levels of parabens (methylparaben, ethylparaben and propylparaben), adipokines (adiponectin, adipsin, leptin, resistin and visfatin) and hormones affecting energy balance and metabolic health (c-peptide, ghreline, GIP, GLP-1, glucagon, insulin, PAI-1) were measured. A Kolmogorov-Smirnov test showed higher methylparaben and propylparaben levels in women with BMI 25-34.9 compared to those with BMI 18.5-24.9. Plasma levels of methylparaben as well as the sum of parabens were positively associated with the plasma adipsin levels. Negative associations for methylparaben were found for glucagon, leptin and PAI-1. In accordance with other experimental studies we observed important associations of methylparaben and hormones affecting energy balance and metabolic health, indicating its obesogenic potential.",
+        "journal": "Physiological research",
+        "date": "2018-Nov",
+        "mesh": [
+          "Adipokines",
+          "Adult",
+          "Energy Metabolism",
+          "Female",
+          "Food Preservatives",
+          "Humans",
+          "Obesity",
+          "Parabens",
+          "Preservatives, Pharmaceutical"
+        ],
+        "keywords": [],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "36981689",
+        "doi": "10.1016/S0015-6264(82)80219-8",
+        "title": "Potential Carcinogens in Makeup Cosmetics.",
+        "abstract": "Facial makeup cosmetics are commonly used products that are applied to the skin, and their ingredients come into contact with it for many years. Consequently, they should only contain substances that are considered safe or used within an allowable range of established concentrations. According to current European laws, all cosmetics approved for use should be entirely safe for their users, and the responsibility for this lies with manufacturers, distributors, and importers. However, the use of cosmetics can be associated with undesirable effects due to the presence of certain chemical substances. An analysis of 50 random facial makeup cosmetics commercially available on the European Union market and manufactured in six European countries was carried out, concerning the presence of substances with potential carcinogenic properties, as described in recent years in the literature. Nine types of facial makeup cosmetics were selected, and their compositions, as declared on the labels, were analyzed. The carcinogens were identified with information present in the European CosIng database and according to the Insecticide Resistance Action Committee's (IRAC) classification. As a result, the following potential carcinogens were identified: parabens (methylparaben, propylparaben, butylparaben, and ethylparaben), ethoxylated compounds (laureth-4, lautreth-7, or ethylene glycol polymers known as PEG), formaldehyde donors (imidazolidinyl urea, quaternium 15, and DMDM hydantoin), and ethanolamine and their derivatives (triethanolamine and diazolidinyl urea), as well as carbon and silica. In conclusion, all of the analyzed face makeup cosmetics contain potential carcinogenic substances. The literature review confirmed the suppositions regarding the potential carcinogenic effects of selected cosmetic ingredients. Therefore, it seems necessary to carry out studies on the long-term exposure of compounds present in cosmetics and perhaps introduce stricter standards and laws regulating the potential presence of carcinogens and their activity in cosmetics.",
+        "journal": "International journal of environmental research and public health",
+        "date": "2023-Mar",
+        "mesh": [
+          "Carcinogens",
+          "Cosmetics",
+          "Formaldehyde",
+          "Skin",
+          "Europe"
+        ],
+        "keywords": [
+          "cancer",
+          "carcinogens",
+          "ethanolamines",
+          "heavy metals",
+          "makeup"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "41572664",
+        "doi": "10.1177/07482337261419181",
+        "title": "Assessing systemic absorption and estrogenic potential of methylparaben and propylparaben in consumer use.",
+        "abstract": "Methylparaben and propylparaben are widely used as preservatives in consumer products, including cosmetics, personal care items, and pharmaceuticals. Concerns have been raised regarding their potential for systemic absorption and estrogenic activity, which may contribute to endocrine disruption. This review evaluates current evidence on dermal absorption, metabolism, and systemic distribution of methylparaben and propylparaben, emphasizing factors influencing their bioavailability. Additionally, the estrogenic potential of these compounds in experimental studies is examined, assessing receptor binding affinity and biological effects. Overall, while parabens exhibit weak estrogenic activity compared to endogenous hormones, repeated exposure and cumulative effects warrant further investigation. The toxicokinetic data combined with estrogenic activity assessments provide critical insight into the risk of endocrine disruption associated with paraben exposure. This assessment provides an understanding of methylparaben and propylparaben safety, supporting informed regulatory decisions and consumer awareness.",
+        "journal": "Toxicology and industrial health",
+        "date": "2026-Mar",
+        "mesh": [
+          "Parabens",
+          "Humans",
+          "Preservatives, Pharmaceutical",
+          "Skin Absorption",
+          "Animals",
+          "Endocrine Disruptors",
+          "Cosmetics",
+          "Estrogens",
+          "Consumer Product Safety"
+        ],
+        "keywords": [
+          "breast cancer",
+          "estrogenicity",
+          "methylparaben",
+          "parabens",
+          "propylparaben",
+          "reproductive cancer"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "38373965",
+        "doi": "10.1289/EHP8739",
+        "title": "Urinary phenols and parabens exposure in relation to urinary incontinence in the US population.",
+        "abstract": "BACKGROUND: Our study aimed to investigate the impact of urinary concentrations of personal care products (PCPs)-related phenols (PNs) and parabens (PBs), including Triclosan (TCS), Bisphenol A (BPA), Benzophenone-3 (BP-3), Butylparaben (BPB), Ethylparaben (EPB), Methylparaben (MPB), and Propylparaben (PPB), on urinary incontinence (UI) occurrence. METHOD: We conducted a cross-sectional analysis using data from the National Health and Nutrition Examination Survey (NHANES) spanning the years 2007 to 2016. Regression analysis was employed to investigate the relationship between exposure to PCPs-related substances, various levels of exposure, and UI within both the general population and the female demographic. Additionally, the Bayesian Kernel Machine Regression (BKMR) model was used to assess the effects of mixtures on UI. RESULTS: Our analysis comprised 7,690 participants who self-reported their diagnosis. Among them, 12.80% experienced stress urinary incontinence (SUI), 11.80% reported urge urinary incontinence (UUI), and 10.22% exhibited mixed urinary incontinence (MUI). In our fully adjusted multivariable models, BP-3 exposure exhibited a positive association with SUI (OR 1.07, 95% CI 1.02-1.14, p = 0.045). BPA exposure correlated with an increased risk of UUI (OR 1.21, 95% CI 1.01-1.44, p = 0.046) and MUI (OR 1.26, 95% CI 1.02-1.54, p = 0.029). TCS exposure displayed a negative correlation with the incidence of MUI (OR 0.87, 95% CI 0.79-0.97, p = 0.009). No significant links were observed between parabens and urinary incontinence. Notably, among the female population, our investigation revealed that BPA exposure heightened the risk of MUI (OR 1.28, 95% CI 1.01-1.63, p = 0.043). Participants in the highest tertile of BP-3 exposure demonstrated elevated likelihoods of SUI and MUI compared to those in the lowest tertile. In the BKMR analysis, negative trends were observed between the mixture and the risks of UUI and MUI when the mixture ranged from the 25th to the 40th and 35th to the 40th percentiles or above, respectively. Additionally, a positive trend was identified between the mixture and MUI when it was in the 40th to 55th percentile. CONCLUSION: In conclusion, our findings suggest that exposure to BPA, TCS, and BP-3 may contribute to the development of urinary incontinence.",
+        "journal": "BMC public health",
+        "date": "2024-Feb",
+        "mesh": [
+          "Humans",
+          "Female",
+          "Nutrition Surveys",
+          "Parabens",
+          "Cross-Sectional Studies",
+          "Bayes Theorem",
+          "Urinary Incontinence",
+          "Urinary Incontinence, Stress"
+        ],
+        "keywords": [
+          "Parabens",
+          "Personal care products",
+          "Urinary incontinence",
+          "benzophenone-3",
+          "bisphenol A",
+          "triclosan"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "35183580",
+        "doi": "10.1016/j.chemosphere.2022.134019",
+        "title": "Parabens and antimicrobial compounds in conventional and \"green\" personal care products.",
+        "abstract": "The personal care product (PCP) industry is a worldwide multi-billion-dollar industry. Several synthetic compounds like parabens and antimicrobial agents triclosan (TCS) and triclocarban (TCC) are ingredients in many PCPs. Due to growing public awareness of potential risks associated with parabens and other synthetic compounds, more PCPs are being marketed as \"green,\" \"alternative,\" or \"natural.\" We analyzed 19 green and 34 conventional PCP products obtained from a European store for seven parabens, TCC, and TCS. We found no statistically significant difference in the concentrations between green and conventional products. Only four products mentioned parabens in the list of ingredients; however, parabens were detected in 43 products, and at μg/g levels in seven PCPs. Methylparaben was typically present at the highest concentration, and one mascara exceeded the European legal concentration limit of methylparaben. Low concentrations of isopropyl-, isobutyl-, and benzylparabens, which are banned in the EU, were detected in 70% of PCPs. The cumulative estimated daily intake of parabens is an order of magnitude higher for people using only conventional products than those using green products exclusively. We propose that legislation be developed with more explicit rules on when a product can be advertised as \"green\" to aid consumers' choices.",
+        "journal": "Chemosphere",
+        "date": "2022-Jun",
+        "mesh": [
+          "Anti-Bacterial Agents",
+          "Anti-Infective Agents",
+          "Cosmetics",
+          "Humans",
+          "Parabens",
+          "Triclosan"
+        ],
+        "keywords": [
+          "Cosmetics",
+          "Endocrine disruptors",
+          "Greenwashing",
+          "Human health",
+          "Parabens",
+          "Triclosan"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "40035399",
+        "doi": "10.1002/tox.24507",
+        "title": "Distinct Disruptive Effects of Methylparaben and Propylparaben on the Prostate and Gonads of Adult Gerbils.",
+        "abstract": "Parabens are chemicals used as preservatives in food, personal care products, and pharmaceuticals. Detectable paraben levels are found in water, air, and soil, making human and animal exposure unavoidable. This study evaluated the effects of methylparaben, propylparaben, and their mixture on the prostate and gonads of male and female gerbils. Gerbils aged 90 days were assigned to the groups: (M) 10 mg/kg/day of methylparaben; (P) 10 mg/kg/day of propylparaben; (M + P) 5 mg/kg/day of methylparaben plus 5 mg/kg/day of propylparaben; (C) control group. The animals were treated orally for 30 consecutive days, and the prostates and gonads were subjected to morphometric-stereological, immunohistochemical, and biochemical analyses. The male ventral prostates in the P and M + P groups showed an increase in relative weight, higher cell proliferation, besides the occurrence of hyperplasia and epithelial desquamation. All treatments reduced malondialdehyde levels in the male prostate. The female prostate exhibited alterations in all treated groups, but with greater severity in the P and M + P groups. These alterations included increased cell proliferation and epithelial hyperplasia, as well as stromal inflammatory foci and increased secretory activity. M, P, and M + P reduced the diameter of the seminiferous tubules, the thickness of the germinal epithelium, and the catalase activity in the testes. In the ovaries, P and M + P reduced the primary follicle number and increased the superoxide dismutase activity. These results indicate that propylparaben is more harmful to the prostate and gonads than methylparaben, and that the acceptable daily intake for these parabens is not safe for reproductive health.",
+        "journal": "Environmental toxicology",
+        "date": "2025-Aug",
+        "mesh": [
+          "Animals",
+          "Parabens",
+          "Male",
+          "Female",
+          "Prostate",
+          "Gerbillinae",
+          "Testis",
+          "Preservatives, Pharmaceutical",
+          "Ovary"
+        ],
+        "keywords": [
+          "endocrine disrupting chemicals",
+          "female prostate",
+          "morphology",
+          "parabens",
+          "ventral male prostate"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "39004877",
+        "doi": "10.1002/bmc.5944",
+        "title": "[Not Available].",
+        "abstract": "A quick, simple, sensitive, efficient and stability-indicating reverse-phase ultraperformance liquid chromatographic method for the estimation of propylparaben, methylparaben and sodium benzoate in a pharmaceutical liquid oral formulation was developed. A Waters Acquity UPLC BEH C18, 50 × 2.1 mm, 1.7 μm i.d. column was used to perform chromatographic separation with a 0.1% perchloric acid mobile phase used as solvent A and a mixture of 0.1 % perchloric acid and methanol in the ratio 20:80 (v/v), respectively, as solvent B. The experiments were carried out at a flow rate of 0.4 ml/min and the detection wavelength was 240 nm. The compartment temperature of the column was set at 40°C and the injection volume was set at 2 μl. The main aim of the research was to develop a single UPLC assay method for promethazine (active ingredient) and preservatives in the oral solution of promethazine HCl and dextromethorphan HBr that contains promethazine (active ingredient) and methylparaben, propylparaben and sodium benzoate (preservatives). An assay of dextromethorphan HBr was developed and validated by another HPLC method. The drug and preservatives were eluted at retention times of 19.3 min for promethazine HCl, 9.3 min for methylparaben, 18.9 min for propylparaben and 8.9 min for sodium benzoate. Validation of the developed method was carried out as stated by the International Conference on Harmonization guidelines ICH Q2B and under USP<1225>. The analytical parameters verified specificity/selectivity, linearity, accuracy, ruggedness and robustness. The linearity ranges of promethazine HCL, methylparaben, propylparaben and sodium benzoate were 10-100, 10-80, 1.0-8.0 and 10-80 μg/ml, respectively, with a correlation coefficient of active ingredients and preservatives of 1.00. Percentage recoveries of promethazine, propylparaben, methylparaben, and sodium benzoate were 100.0-100.2, 99.0-100.3, 99.5-98.0 and 99.0-100.0%. The validated analytical method proves that the method is specific, precise, linear, accurate, sensitive, rugged and stable, indicating the quantification of the active ingredient and all preservatives in liquid oral formulations.",
+        "journal": "Biomedical chromatography : BMC",
+        "date": "2024-Sep",
+        "mesh": [
+          "Parabens",
+          "Chromatography, High Pressure Liquid",
+          "Sodium Benzoate",
+          "Promethazine",
+          "Reproducibility of Results",
+          "Drug Stability",
+          "Linear Models",
+          "Antitussive Agents",
+          "Chromatography, Reverse-Phase",
+          "Histamine Antagonists"
+        ],
+        "keywords": [
+          "UPLC",
+          "assay",
+          "methylparaben",
+          "promethazine HCl",
+          "promethazine HCl and dextromethorphan HBr oral solution",
+          "propylparaben",
+          "sodium benzoate"
+        ],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 7456,
+    "molecular_formula": "C8H8O3",
+    "molecular_weight": "152.15",
+    "xlogp": 2,
+    "tpsa": 46.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Methyl 4-hydroxybenzoate",
+      "METHYLPARABEN",
+      "99-76-3",
+      "Methyl paraben",
+      "Methyl p-hydroxybenzoate",
+      "Nipagin",
+      "Tegosept M",
+      "Moldex",
+      "Methyl parahydroxybenzoate",
+      "Maseptol"
+    ]
+  },
+  "cosing": {
+    "inci_name": "METHYLPARABEN",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

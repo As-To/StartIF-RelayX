@@ -1,0 +1,155 @@
+{
+  "ingredient": "Preliminary Opinion open for comments on Benzyl salicylate",
+  "cas": "118-58-1",
+  "ec": "204-262-9",
+  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON BENZYL SALICYLATE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1656/23",
+        "date_avis": "2023-10-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": null,
+        "categorie": "UV Filter",
+        "conclusion": "The SCCS concludes the following: (1) In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Benzyl Salicylate, does the SCCS consider Benzyl Salicylate safe when used up to the maximum concentrations provided in the dossier submission by the Benzyl Salicylate Consortium?",
+        "abstract": "The SCCS concludes the following: (1) In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Benzyl Salicylate, does the SCCS consider Benzyl Salicylate safe when used up to the maximum concentrations provided in the dossier submission by the Benzyl Salicylate Consortium? Based on the assessment of data provided and taking under consideration the concerns related to potential endocrine disrupting properties, the SCCS considers Benzyl Salicylate safe when used up to the maximum concentrations as provided in Table 1 of this",
+        "pdf_url": "https://health.ec.europa.eu/document/download/c0c99946-c65a-40c7-af03-705da2c95a50_en?filename=sccs_o_277.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": true,
+    "annex_III_details": {
+      "entry_number": "75",
+      "product_type": "b) Autres produits",
+      "max_concentration": "3 % (en chlorure de benzalkonium)",
+      "max_concentration_pct": 3.0,
+      "conditions": "La présence de la substance doit être indiquée dans la liste des ingrédients visés à l'article 19, paragraphe 1, point g), lorsque sa concentration est supérieure: — à 0,001 % dans les produits sans rinçage — à 0,01 % dans les produits à rincer",
+      "labelling": "Éviter tout contact avec les yeux"
+    }
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 3,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "30359701",
+        "doi": "10.1016/j.yrtph.2018.10.018",
+        "title": "Initial hazard assessment of benzyl salicylate: In vitro genotoxicity test and combined repeated-dose and reproductive/developmental toxicity screening test in rats.",
+        "abstract": "Benzyl salicylate is used as a fragrance ingredient and an ultraviolet light absorber, but its toxicity is unknown. Therefore, toxicity tests and hazard classification were conducted for screening assessment under the Japanese Chemical Substances Control Law. Benzyl salicylate was found to be non-genotoxic in vitro based on the chromosomal aberration test using Chinese hamster lung cells. However, the combined repeated-dose and reproductive/developmental screening toxicity test, in which male and female rats were administered benzyl salicylate by gavage at 0, 30, 100, or 300 mg/kg/day for 42 and 41-46 days, respectively, from 14 days before mating until postnatal Day 4, showed that repeated doses had major effects on the thymus, liver, epididymis, and femur at 100 and/or 300 mg/kg/day. Furthermore, although benzyl salicylate had no effect on the estrus cycle, fertility, corpus lutea, or implantation rate, embryonic resorption, offspring mortality, and neural tube defects were observed at 300 mg/kg/day, and the offspring had lower body weights at 30 and 100 mg/kg/day, suggesting teratogenicity similar to other salicylates. Based on the developmental toxicity, this chemical was classified as hazard class 2, with a lowest observed adverse effect level (LOAEL) of 30 mg/kg/day and a D-value of 0.003 mg/kg/day.",
+        "journal": "Regulatory toxicology and pharmacology : RTP",
+        "date": "2018-Dec",
+        "mesh": [
+          "Animals",
+          "Cell Line",
+          "Cricetulus",
+          "Dose-Response Relationship, Drug",
+          "Embryo Loss",
+          "Embryo, Mammalian",
+          "Female",
+          "Fibroblasts",
+          "Lung",
+          "Male"
+        ],
+        "keywords": [
+          "CAS No. 118-58-1",
+          "Chemical substances control low",
+          "D-value",
+          "Embryonic resorption",
+          "Existing chemical substance",
+          "Hazard class",
+          "Low body weight",
+          "Neural tube defect",
+          "Salicylic acid",
+          "Teratogenic potential"
+        ],
+        "relevance_score": 6
+      },
+      {
+        "pmid": "33351203",
+        "doi": "10.1111/cod.13763",
+        "title": "Sensitization to benzyl salicylate and other allergens in patients with frontal fibrosing alopecia.",
+        "abstract": "BACKGROUND: Contact sensitization is frequent among patients with frontal fibrosing alopecia (FFA) (52%-76%). OBJECTIVE: To evaluate the frequency of sensitization/photosensitization in an FFA population. METHODS: A population of FFA patients were patch tested (Spanish Contact Dermatitis Research Group [GEIDAC] baseline; cosmetic and fragrance series), and photopatch tested (sunscreen series). RESULTS: Thirty-six patients (mean age: 64.6 years; 35/36: women) were studied. A history of dermatitis was recorded in 69.4% (frequently involving the face). Overall, 80.5% patients showed positive patch-test reactions. The most frequently positive allergens were nickel sulfate (25%), benzyl salicylate (22%), gallates (16.6%), propolis (16.6%), and limonene hydroperoxides (13.8%). Benzyl salicylate was likely relevant to the dermatitis (labeled on personal care products and most patients reporting clinical improvement with allergen avoidance). Patch tests with sunscreens showed positive reactions to 11 materials (five patients). Photopatch tests were positive in one case. CONCLUSION: We speculate a possible relationship between sensitization to benzyl salicylate and FFA. Hypothetically, the most likely explanation is that sensitization to benzyl salicylate involving FFA patients is a consequence of increased exposure to it. It is unclear whether allergen avoidance may impact the prognosis of alopecia. However, it seems to significantly improve the patients´ quality of life by lessening dermatitis and pruritus.",
+        "journal": "Contact dermatitis",
+        "date": "2021-Jun",
+        "mesh": [
+          "Adult",
+          "Aged",
+          "Aged, 80 and over",
+          "Allergens",
+          "Alopecia",
+          "Cosmetics",
+          "Dermatitis, Allergic Contact",
+          "Dermatitis, Photoallergic",
+          "Female",
+          "Humans"
+        ],
+        "keywords": [
+          "allergic contact dermatitis",
+          "benzyl salicylate (CAS no. 118-58-1)",
+          "fragrance",
+          "frontal fibrosing alopecia",
+          "gallates",
+          "patch tests",
+          "photopatch tests",
+          "propolis",
+          "scarring alopecia",
+          "sunscreen"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "39433245",
+        "doi": "10.1016/j.fct.2024.115065",
+        "title": "RIFM fragrance ingredient safety assessment, benzyl salicylate, CAS registry number 118-58-1.",
+        "abstract": null,
+        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
+        "date": "2024-Dec",
+        "mesh": [],
+        "keywords": [],
+        "relevance_score": 0
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 8363,
+    "molecular_formula": "C14H12O3",
+    "molecular_weight": "228.24",
+    "xlogp": 3.2,
+    "tpsa": 46.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "BENZYL SALICYLATE",
+      "118-58-1",
+      "Benzyl 2-hydroxybenzoate",
+      "Benzyl o-hydroxybenzoate",
+      "Salicylic Acid Benzyl Ester",
+      "Salicylic acid, benzyl ester",
+      "Phenylmethyl 2-hydroxybenzoate",
+      "Benzoic acid, 2-hydroxy-, phenylmethyl ester",
+      "Salicylsaeurebenzylester",
+      "Salicyclic acid, benzyl ester"
+    ]
+  },
+  "cosing": {
+    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON BENZYL SALICYLATE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

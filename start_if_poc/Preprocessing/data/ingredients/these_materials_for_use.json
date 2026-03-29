@@ -1,0 +1,70 @@
+{
+  "ingredient": "these materials for use",
+  "cas": "99685-96-8",
+  "ec": "628-630-7",
+  "inci_name": "THESE MATERIALS FOR USE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1649/23",
+        "date_avis": "2023-10-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": null,
+        "categorie": "Colorant",
+        "conclusion": "In view of the above, and taking into account the scientific data provided, does the SCCS consider Fullerenes, Hydroxylated Fullerenes and hydrated forms of Hydroxylated Fullerenes safe when used in cosmetic products according to the maximum concentrations and specifications as reported via CPNP, taking into account reasonably foreseeable exposure conditions?",
+        "abstract": "The SCCS concludes the following: 1. In view of the above, and taking into account the scientific data provided, does the SCCS consider Fullerenes, Hydroxylated Fullerenes and hydrated forms of Hydroxylated Fullerenes safe when used in cosmetic products according to the maximum concentrations and specifications as reported via CPNP, taking into account reasonably foreseeable exposure conditions? Having assessed the information provided by the Notifiers, and the information available from published literature, the SCCS cannot conclude on the safety of fullerenes and (hydrated) hydroxylated forms of fullerenes due to a number of uncertainties and data gaps in regard to physicochemical, toxicokinetic and toxicological aspects. These uncertainties and data gaps have been indicated in relevant sections of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/464f0ce1-18d2-4a11-a3e1-927d5fe9ba8d_en?filename=sccs_o_271.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 123591,
+    "molecular_formula": "C60",
+    "molecular_weight": "720.6",
+    "xlogp": 18.3,
+    "tpsa": 0,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "Fullerene",
+      "Fullerenes",
+      "Buckyballs",
+      "Buckminsterfullerenes",
+      "RefChem:5620",
+      "CHEBI:33416",
+      "DTXSID501336805",
+      "99685-96-8",
+      "Buckminsterfullerene",
+      "Fullerene-C60"
+    ]
+  },
+  "cosing": {
+    "inci_name": "THESE MATERIALS FOR USE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

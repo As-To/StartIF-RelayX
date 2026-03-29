@@ -1,0 +1,317 @@
+{
+  "ingredient": "Silver",
+  "cas": "7440-22-4",
+  "ec": "231-131-3",
+  "inci_name": "SILVER",
+  "sccs": {
+    "nb_avis": 2,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1687/25",
+        "date_avis": "2025-12-17",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "0.2 %",
+        "categorie": "Colorant",
+        "conclusion": "ABSTRACT 3 4 The SCCS concludes the following: 5 6 7 1.",
+        "abstract": null,
+        "pdf_url": "https://health.ec.europa.eu/document/download/fee553a1-d946-4ef3-9d8a-e45f325cbc3b_en?filename=sccs_o_309.pdf"
+      },
+      {
+        "sccs_number": "SCCS/1665/24",
+        "date_avis": "2024-06-20",
+        "type_rapport": "Final Opinion",
+        "verdict": "Not Safe",
+        "concentration_max": "0.2 %",
+        "categorie": "Colorant",
+        "conclusion": "the SCCS considers micron-sized particulate Silver not safe at concentrations up to 0.",
+        "abstract": "The SCCS concludes the following: (1) In light of the data provided and taking under consideration the classification as toxic for reproduction Cat. 2, does the SCCS consider micron-sized particulate Silver safe when used up to a maximum concentration of 0.2 % in rinse-off and 0.3 % in leave-on cosmetic products? In light of the data provided and taking under consideration the classification as toxic for reproduction Cat. 2, the SCCS considers micron-sized particulate Silver not safe at concentrations up to 0.2 % in rinse-off and 0.3 % in leave-on cosmetic products when used alone or in combination. However, the use of micron-sized particulate Silver in eye shadow and oral exposure products (lip balm, toothpaste and mouthwash) at concentrations mentioned in Section 3.5 is considered safe, either used alone or in combination. (2) Alternatively, what is according to the SCCS, the maximum concentration considered safe for use of micron-sized particulate Silver in cosmetic products? / (3) Does the SCCS have any further scientific concerns with regard to the use of micron- sized particulate Silver in cosmetic products / Keywords: SCCS, scientific",
+        "pdf_url": "https://health.ec.europa.eu/document/download/4df13eb8-43cd-4cf5-9b50-3e9885cb5a06_en?filename=sccs_o_288.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 9,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "40231717",
+        "doi": "10.1111/ijd.17768",
+        "title": "Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis: A Review of Current Management and Innovative Therapies.",
+        "abstract": "There is no consensus regarding the treatment of Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis (TEN). Supportive care remains the preferred approach internationally, while the efficacy of topical/systemic therapies is subject to controversy. We reviewed published guidelines and recommendations on SJS/TEN management and assessed supportive care involving topical and systemic therapies in a series of SJS patients. We included several specialty departments from different countries to determine the consensus in the management of SJS/TEN. We also included SJS patients and provided supportive care including silver nitrate at 0.5% sprayed on denuded areas, in conjunction with a single dose of subcutaneous etanercept. Based on our literature review and experience, we propose a management algorithm for SJS/TEN. Our review confirmed the importance of supportive care, including specific topical and systemic treatments, for SJS/TEN. Systemic corticotherapy, cyclosporine A, intravenous immunoglobulin, tumor necrosis factor-alpha (TNF-α) blockers, or combinations are subject to controversies. In our pilot series of seven adult patients with SJS, we obtained good clinical results within 1 week, with mucosal and skin clearance at Week 2, along with a good safety profile. This was achieved by spraying topical silver nitrate at a concentration of 0.5% on denuded areas, following a single dose of etanercept. This consensus led to the recommendation of a combination of supportive care along with several possible topical and systemic therapies for SJS/TEN. Corticosteroids, immunoglobulins, cyclosporine A, and TNF-alpha blockers were used in our centers alone or in combination, with good results associated with 0.5% topical silver nitrate. In our series of SJS patients, silver nitrate at 0.5% associated with etanercept showed a good response.",
+        "journal": "International journal of dermatology",
+        "date": "2025-Jul",
+        "mesh": [
+          "Humans",
+          "Stevens-Johnson Syndrome",
+          "Etanercept",
+          "Silver Nitrate",
+          "Immunoglobulins, Intravenous",
+          "Practice Guidelines as Topic",
+          "Cyclosporine",
+          "Algorithms",
+          "Adrenal Cortex Hormones",
+          "Immunosuppressive Agents"
+        ],
+        "keywords": [
+          "Stevens‐Johnson syndrome",
+          "etanercept",
+          "silver nitrate",
+          "supportive care",
+          "toxic epidermal necrolysis"
+        ],
+        "relevance_score": 11
+      },
+      {
+        "pmid": "28475081",
+        "doi": null,
+        "title": "Effectiveness of silver diamine fluoride in caries prevention and arrest: a systematic literature review.",
+        "abstract": "This study aimed to evaluate the scientific evidence regarding the effectiveness of silver diamine fluoride (SDF) in preventing and arresting caries in the primary dentition and permanent first molars. A systematic review (SR) was performed by 2 independent reviewers using 3 electronic databases (PubMed, ScienceDirect, and Scopus). The database search employed the following key words: \"topical fluorides\" AND \"children\" AND \"clinical trials\"; \"topical fluorides\" OR \"silver diamine fluoride\" AND \"randomized controlled trial\"; \"silver diamine fluoride\" AND \"children\" OR \"primary dentition\" AND \"tooth decay\"; \"silver diamine fluoride\" OR \"sodium fluoride varnish\" AND \"early childhood caries\"; and \"silver diamine fluoride\" AND \"children\". Inclusion criteria were articles published in English, from 2005 to January 2016, on clinical studies using SDF as a treatment intervention to evaluate caries arrest in children with primary dentition and/or permanent first molars. Database searches provided 821 eligible publications, of which 33 met the inclusion criteria. After the abstracts were prescreened, 25 articles were dismissed based on exclusion criteria. The remaining 8 full-text articles were assessed for eligibility. Of these, 7 publications were included in the SR. These included 1 study assessing the effectiveness of SDF at different concentrations; 3 studies comparing SDF with other interventions; 2 investigations comparing SDF at different application frequencies and with other interventions; and 1 study comparing semiannual SDF applications versus a control group. The literature indicates that SDF is a preventive treatment for dental caries in community settings. At concentrations of 30% and 38%, SDF shows potential as an alternative treatment for caries arrest in the primary dentition and permanent first molars. To establish guidelines, more studies are needed to fully assess the effectiveness of SDF and to determine the appropriate application frequency.",
+        "journal": "General dentistry",
+        "date": "2017",
+        "mesh": [
+          "Cariostatic Agents",
+          "Child",
+          "Dental Caries",
+          "Fluorides, Topical",
+          "Humans",
+          "Molar",
+          "Quaternary Ammonium Compounds",
+          "Silver Compounds",
+          "Tooth, Deciduous"
+        ],
+        "keywords": [],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "35502235",
+        "doi": "10.1002/smll.201601338",
+        "title": "Nano Silver-Induced Toxicity and Associated Mechanisms.",
+        "abstract": "Nano silver is one of the most widely used engineering nanomaterials with antimicrobial activity against bacteria, fungi, and viruses. However, the widespread application of nano silver preparations in daily life raises concerns about public health. Although several review articles have described the toxicity of nano silver to specific major organs, an updated comprehensive review that clearly and systematically outlines the harmful effects of nano silver is lacking. This review begins with the routes of exposure to nano silver and its distribution in vivo. The toxic reactions are then discussed on three levels, from the organ to the cellular and subcellular levels. This review also provides new insights on adjusting the toxicity of nano silver by changing their size and surface functionalization and their combination with other materials to form a composite formulation. Finally, future development, challenges, and research directions are discussed.",
+        "journal": "International journal of nanomedicine",
+        "date": "2022",
+        "mesh": [
+          "Bacteria",
+          "Metal Nanoparticles",
+          "Nanostructures"
+        ],
+        "keywords": [
+          "distribution",
+          "exposure routes",
+          "mechanism",
+          "nano silver",
+          "toxicity"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "25418433",
+        "doi": "10.1016/j.burns.2014.10.007",
+        "title": "Silver-resistance, allergy, and blue skin: truth or urban legend?",
+        "abstract": "Medical and non-medical uses of silver are increasing. While the health benefits of silver therapy are widely claimed, few studies address the possible side effects of resistance, allergy, or skin discoloration. In this manuscript, a review of silver absorption, mechanism of action, allergy, microbial resistance and skin changes is presented. The ideal silver-delivery system is unknown. Most studies of side effects are animal or laboratory studies, which may not correlate with human experience. There is little correlation between serum silver levels, end-organ deposition and cytotoxic effects. The multiple mechanisms of antimicrobial action make true resistance unlikely. In microbes, genotypic resistance does not necessarily confer phenotypic resistance. Most cases of argyria occur from occupational exposure or from ingestion of colloidal silver rather than from topical application. Although toxicity, resistance and chronic skin changes are a theoretic concern, the lack of reported side effects despite widespread silver use is reassuring.",
+        "journal": "Burns : journal of the International Society for Burn Injuries",
+        "date": "2014-Dec",
+        "mesh": [
+          "Animals",
+          "Anti-Infective Agents",
+          "Burns",
+          "Dermatitis, Contact",
+          "Disease Models, Animal",
+          "Drug Resistance, Microbial",
+          "Humans",
+          "Pigmentation Disorders",
+          "Silver",
+          "Skin Absorption"
+        ],
+        "keywords": [
+          "Absorption",
+          "Allergies",
+          "Burn",
+          "Resistance",
+          "Silver",
+          "Skin Discoloration",
+          "Wound"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "41725469",
+        "doi": "10.3889/oamjms.2017.081",
+        "title": "Silver sulfadiazine in modern dermatology.",
+        "abstract": "Silver sulfadiazine, a topical antimicrobial that releases silver ions to disrupt bacterial cell membranes, is primarily used for second- and third-degree burns owing to its broad-spectrum activity against bacteria, fungi, and certain viruses. Beyond burns, silver sulfadiazine can be used off-label for conditions such as diabetic and pressure ulcers, atopic dermatitis, and radiation dermatitis. The literature suggests it may reduce bacterial load, accelerate healing, and address challenges such as multidrug-resistant Staphylococcus aureus. Rare side effects, including localized reactions and systemic toxicity with extensive use, necessitate cautious application, especially in vulnerable populations. Despite these limitations, silver sulfadiazine remains a cornerstone of dermatological wound care. Continued research is needed to optimize its use alongside emerging therapies.",
+        "journal": "Dermatology online journal",
+        "date": "2025-Nov",
+        "mesh": [
+          "Humans",
+          "Silver Sulfadiazine",
+          "Anti-Infective Agents, Local",
+          "Burns",
+          "Skin Diseases",
+          "Wound Healing",
+          "Off-Label Use"
+        ],
+        "keywords": [
+          "antimicrobial",
+          "burns",
+          "dermatology",
+          "silver",
+          "sulfadiazine",
+          "topical",
+          "wound"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "30802561",
+        "doi": "10.1016/j.jaad.2019.02.047",
+        "title": "Management of acute radiation dermatitis: A review of the literature and proposal for treatment algorithm.",
+        "abstract": "Radiation dermatitis is a common sequela of radiation therapy; up to 95% of patients will develop moderate-to-severe skin reactions. No criterion standard currently exists for the treatment of acute radiation-induced skin toxicity. It is therefore imperative to develop a greater understanding of management options available to allow clinicians to make informed decisions when managing radiation oncology patients. This literature review discusses the topical agents that have been studied for the treatment of acute radiation dermatitis, reviews their mechanisms of action, and presents a treatment algorithm for clinicians managing patients experiencing radiation dermatitis.",
+        "journal": "Journal of the American Academy of Dermatology",
+        "date": "2019-Aug",
+        "mesh": [
+          "Acute Disease",
+          "Adrenal Cortex Hormones",
+          "Algorithms",
+          "Anti-Infective Agents, Local",
+          "Bandages",
+          "Biological Products",
+          "Dermatologic Agents",
+          "Ethanolamines",
+          "Humans",
+          "Hydroxymethylglutaryl-CoA Reductase Inhibitors"
+        ],
+        "keywords": [
+          "aloe vera",
+          "ascorbic acid",
+          "calendula",
+          "catechins",
+          "chamomile",
+          "corticosteroids",
+          "dermatitis",
+          "epidermal growth factor",
+          "granulocyte macrophage-colony stimulating factor",
+          "hyaluronic acid"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "41101881",
+        "doi": "10.1016/j.cpm.2025.06.003",
+        "title": "Advanced Wound Therapies.",
+        "abstract": "This article aims to guide practitioners through the evolving field of wound therapies, highlighting recent innovations with positive outcomes and potential. Therapies surveyed include silver products, negative pressure wound therapy, oxygen therapies (including hyperbaric oxygen and topical oxygen therapy), and skin substitutes. The article summarizes the benefits and risks associated with each and provides practical advice on their use for practitioners.",
+        "journal": "Clinics in podiatric medicine and surgery",
+        "date": "2025-Oct",
+        "mesh": [
+          "Humans",
+          "Hyperbaric Oxygenation",
+          "Negative-Pressure Wound Therapy",
+          "Wound Healing",
+          "Skin, Artificial",
+          "Wounds and Injuries"
+        ],
+        "keywords": [
+          "Hyperbaric oxygen",
+          "Limb salvage",
+          "Negative pressure",
+          "Silver",
+          "Skin substitute",
+          "Topical oxygen",
+          "Wound therapy"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "8063942",
+        "doi": "10.1136/jcp.47.6.556",
+        "title": "Systemic argyria.",
+        "abstract": "A 74 year old man presented with signs and symptoms of mild cardiac failure. His face and chest were severely discoloured, which was thought to be due to cyanosis. He deteriorated and died of bronchopneumonia. At post mortem examination multiple organs, including the skin, showed silver pigment deposition; he also had a gastric malignant neuroendocrine tumour. He gave no history of contact with silver compounds. Systemic argyria caused by chronic ingestion of silver compounds is a rare condition which, apart from its cosmetic effects, is thought to be relatively harmless; it is not thought to be carcinogenic. This condition can pose diagnostic problems for both clinicians and pathologists.",
+        "journal": "Journal of clinical pathology",
+        "date": "1994-Jun",
+        "mesh": [
+          "Adenoma",
+          "Aged",
+          "Argyria",
+          "Esophageal Neoplasms",
+          "Fatal Outcome",
+          "Humans",
+          "Kidney Glomerulus",
+          "Liver Neoplasms",
+          "Male",
+          "Neuroendocrine Tumors"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "29316616",
+        "doi": "10.1186/1756-0500-7-3",
+        "title": "Revitalising Silver Nitrate for Caries Management.",
+        "abstract": "Silver nitrate has been adopted for medical use as a disinfectant for eye disease and burned wounds. In dentistry, it is an active ingredient of Howe's solution used to prevent and arrest dental caries. While medical use of silver nitrate as a disinfectant became subsidiary with the discovery of antibiotics, its use in caries treatment also diminished with the use of fluoride in caries prevention. Since then, fluoride agents, particularly sodium fluoride, have gained popularity in caries prevention. However, caries is an infection caused by cariogenic bacteria, which demineralise enamel and dentine. Caries can progress and cause pulpal infection, but its progression can be halted through remineralisation. Sodium fluoride promotes remineralisation and silver nitrate has a profound antimicrobial effect. Hence, silver nitrate solution has been reintroduced for use with sodium fluoride varnish to arrest caries as a medical model strategy of caries management. Although the treatment permanently stains caries lesions black, this treatment protocol is simple, painless, non-invasive, and low-cost. It is well accepted by many clinicians and patients and therefore appears to be a promising strategy for caries control, particularly for young children, the elderly, and patients with severe caries risk or special needs.",
+        "journal": "International journal of environmental research and public health",
+        "date": "2018-Jan",
+        "mesh": [
+          "Anti-Infective Agents, Local",
+          "Cariostatic Agents",
+          "Child",
+          "Clinical Protocols",
+          "Dental Caries",
+          "Dental Enamel",
+          "Humans",
+          "Silver Nitrate",
+          "Sodium Fluoride"
+        ],
+        "keywords": [
+          "caries",
+          "early childhood caries",
+          "silver diamine fluoride",
+          "silver nitrate",
+          "sodium fluoride"
+        ],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 23954,
+    "molecular_formula": "Ag",
+    "molecular_weight": "107.868",
+    "xlogp": null,
+    "tpsa": 0,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "SILVER",
+      "7440-22-4",
+      "Argentum",
+      "Silver atom",
+      "Colloidal silver",
+      "Silver, colloidal",
+      "Silver metal",
+      "Algaedyn",
+      "Silber",
+      "Shell silver"
+    ]
+  },
+  "cosing": {
+    "inci_name": "SILVER",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

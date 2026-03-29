@@ -1,0 +1,70 @@
+{
+  "ingredient": "Preliminary Opinion open for comments on new coating for Titanium Dioxide",
+  "cas": "30364-51-3",
+  "ec": "250-151-3",
+  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON NEW COATING FOR TITANIUM DIOXIDE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1667/24",
+        "date_avis": "2024-10-25",
+        "type_rapport": "Final Opinion",
+        "verdict": null,
+        "concentration_max": "100000 ppm in diet",
+        "categorie": "Colorant",
+        "conclusion": "Among the characteristics reported in that opinion, the SCCS indicated the substances considered safe for use as coating for TiO (nano).",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided, does the SCCS consider safe the use of Titanium Dioxide (nano) coated with a combination of w/w 6% Aluminium Hydroxide, 14% Sodium Myristoyl Sarcosinate and 10% Dimethicone, for use as UV filter in dermally applied cosmetic products? Considering all the provided information, the SCCS is of the view that there are a number of uncertainties and data gaps that do not allow a",
+        "pdf_url": "https://health.ec.europa.eu/document/download/db310eb8-f2ee-47a6-b47a-df52c692f97c_en?filename=sccs_o_289.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 23687235,
+    "molecular_formula": "C17H32NNaO3",
+    "molecular_weight": "321.4",
+    "xlogp": null,
+    "tpsa": 60.4,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "30364-51-3",
+      "Glycine, N-methyl-N-(1-oxotetradecyl)-, sodium salt",
+      "Sodium myristoyl sarcosinate",
+      "Sodium N-methyl-N-(1-oxotetradecyl)aminoacetate",
+      "N-Myristoylsarcosine acid, sodium salt",
+      "CRODASINIC MS",
+      "EINECS 250-151-3",
+      "sodium myristoylsarcosinate",
+      "NIKKOL SARCOSINATE MN",
+      "DTXSID7042013"
+    ]
+  },
+  "cosing": {
+    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON NEW COATING FOR TITANIUM DIOXIDE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

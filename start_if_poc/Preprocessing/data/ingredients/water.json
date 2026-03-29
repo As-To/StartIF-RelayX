@@ -1,0 +1,298 @@
+{
+  "ingredient": "water",
+  "cas": "7732-18-5",
+  "ec": "231-791-2",
+  "inci_name": "WATER",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1657/23",
+        "date_avis": "2023-10-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "1 %",
+        "categorie": "Antioxidant",
+        "conclusion": "The SCCS concludes the following: In light of the data provided and taking under consideration the aggregate exposure (including diet) and the concerns on the Tolerable Daily Upper Intake, (1) Does the SCCS consider that water soluble zinc salts are safe up to 1 % (as zinc) in toothpaste and 0.",
+        "abstract": "The SCCS concludes the following: In light of the data provided and taking under consideration the aggregate exposure (including diet) and the concerns on the Tolerable Daily Upper Intake, (1) Does the SCCS consider that water soluble zinc salts are safe up to 1 % (as zinc) in toothpaste and 0.1% (as zinc) in mouthwash, for both adults and children? If not, the SCCS is requested to provide safe concentrations for each age group. The SCCS has calculated aggregate exposure to water-soluble zinc salts via toothpaste at the concentrations of 1% and from diet, and concluded that the use of zinc in toothpaste is safe per se except for children under the age of 1 year because the intake exceeds the upper limit level. For children between 6 months and 1 year of age, the SCCS recommends a safe concentration of 0.72% for soluble zinc salts (as zinc) in toothpaste. The inclusion of zinc in mouthwash at 0.1% Zn is considered safe across all age groups above 6 years. (2) Does the SCCS consider that the contribution of the cosmetic products among the overall/total exposure to zinc is still of concern? / Keywords: SCCS, scientific",
+        "pdf_url": "https://health.ec.europa.eu/document/download/7b501a4d-0273-4039-b761-1dddfe35aab5_en?filename=sccs_o_279.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 10,
+    "nb_articles_12mois": 0,
+    "articles": [
+      {
+        "pmid": "33346506",
+        "doi": "10.36849/JDD.2020.5522",
+        "title": "Clinical Evaluation of a Nature-Based Bakuchiol Anti-Aging Moisturizer for Sensitive Skin.",
+        "abstract": "BACKGROUND: Patients with sensitive skin find topical retinoid use for anti-aging purposes challenging due to irritation. Bakuchiol, a meroterpene from the Psoralea corylifolia seed, has retinol functionality through retinol-like regulation of gene expression. OBJECTIVE: This research examined the tolerability, efficacy, and barrier effects of a nature-based bakuchiol-containing cleanser and moisturizer in subjects with sensitive skin. METHODS: 60 female subjects Fitzpatrick skin types I&ndash;V age 40&ndash;65 years with sensitive mild to moderate photodamaged skin were enrolled in this 4 week study. A sensitive skin panel was constructed: 1/3 eczema/atopic dermatitis, 1/3 rosacea, 1/3 cosmetic intolerance syndrome. Subjects used a nature-based cleanser and moisturizer twice daily and underwent transepidermal water loss (TEWL), corneometry, tolerability assessments, and efficacy assessments at baseline, 5&ndash;10 minutes post-application, and week 4. RESULTS: The skin care products were well tolerated and efficacious (P&lt;0.001) in terms of investigator assessed improvement in visual smoothness, tactile smoothness, clarity, radiance, overall appearance, and global anti-aging. Cheek corneometry measurements demonstrated a statistically significant 16% increase in skin moisture content (P&lt;0.001). CONCLUSION: A bakuchiol nature-based anti-aging moisturizer is well tolerated and effective in individuals with sensitive skin.J Drugs Dermatol. 2020;19(12): doi:10.36849/JDD.2020.5522.",
+        "journal": "Journal of drugs in dermatology : JDD",
+        "date": "2020-Dec",
+        "mesh": [
+          "Administration, Topical",
+          "Adult",
+          "Aged",
+          "Cheek",
+          "Cosmeceuticals",
+          "Dermatitis, Atopic",
+          "Emollients",
+          "Female",
+          "Humans",
+          "Middle Aged"
+        ],
+        "keywords": [],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "10778909",
+        "doi": "10.1081/clt-100100927",
+        "title": "Herbicide formulations.",
+        "abstract": "Herbicides comprise nearly half of the 5 billion pounds of pesticide active ingredients used worldwide annually. The active ingredient must be formulated with other ingredients to allow mixing, dilution, application, and stability. Liquid commercial formulations for spray foliar application include water-soluble liquids, emulsifiable concentrates, suspension concentrates or \"flowables,\" and gels. Dry formulations that are mixed with water for spray application include wettable powders and water-dispersible granules. Granules are broadcast directly out of the bag. The carrier in liquid formulations is either water or an organic solvent or oil. The general chemical class of the carrier may be deduced based on the solubility characteristics of the active ingredient. Cosolvents may be necessary to optimize solubility and stability. Surfactants are nearly universally present in herbicide formulations or added prior to application. They aid uniform spreading of the spray droplet on the leaf and penetration of its waxy cuticle by the active ingredient. In solvent-based formulations, surfactants permit a stable oil-in-water emulsion to form when diluted with water for actual use. New surfactant systems are currently of intense competitive importance. Other formulation ingredients include pH adjusters, buffers, milling aids, antifoaming agents, acid scavengers, dyes, suspending agents, preservatives, dispersants, emulsifiers, densifiers, antifreeze, and crystal promoters. In highly regulated environments, the other formulation components in pesticides are receiving scrutiny. In the US, the EPA's strategy has been to categorize currently used formulation ingredients into 4 lists based on their toxicology profiles. The ultimate outcome is to have all inert ingredients on List 4, Minimal Risk. List 4 ingredients are generally regarded as safe or have current use patterns that do not pose an unreasonable risk of adverse effect to public health or the environment.",
+        "journal": "Journal of toxicology. Clinical toxicology",
+        "date": "2000",
+        "mesh": [
+          "Chemistry, Pharmaceutical",
+          "Crops, Agricultural",
+          "Herbicides",
+          "United States",
+          "United States Environmental Protection Agency"
+        ],
+        "keywords": [],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "30130782",
+        "doi": "10.1159/000489527",
+        "title": "The Relation of pH and Skin Cleansing.",
+        "abstract": "Several epidermal barrier functions, like skin barrier regeneration and antimicrobial response, are related to the acidic nature of the skin surface pH (ss-pH). However, the epidermal acidification is known to be fragile and it is commonly accepted that cosmetic products, especially soaps and skin cleansing products, can induce significant changes in ss-pH. As a consequence, epidermal barrier function and skin microflora are affected negatively. ss-pH even increases after a single washing procedure or after rinsing the skin with water alone. The skin pH recovery needs time up to several hours before it can reach the physiological level. For cosmetic-relevant skin conditions, skin disorders and specific consumer groups, maintaining of the acidic ss-pH is beneficial for epidermal physiology and cutaneous microflora. In this context, cleansing and skin care products with a pH level of 4.0-5.0 may be helpful. In addition, combining the acidic product pH level with the ideal mix of surfactants, thereby enhancing product compatibility and minimizing skin irritation and intolerance, is a major challenge for the future. Beyond innovative cleansing technology, further multifaceted cosmetic research is a prerequisite to get deeper knowledge on the interrelation of product pH level, surfactant composition and corneobiology.",
+        "journal": "Current problems in dermatology",
+        "date": "2018",
+        "mesh": [
+          "Cosmetics",
+          "Epidermis",
+          "Humans",
+          "Hydrogen-Ion Concentration",
+          "Microbiota",
+          "Skin",
+          "Skin Care",
+          "Soaps",
+          "Surface-Active Agents"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "29086472",
+        "doi": "10.1111/jocd.12449",
+        "title": "Dermatological and environmental toxicological impact of the sunscreen ingredient oxybenzone/benzophenone-3.",
+        "abstract": "Oxybenzone (Benzophenone-3) is an emerging human and environmental contaminant used in sunscreens and personal care products to help minimize the damaging effects of ultraviolet radiation. The Center for Disease Control fourth national report on human exposure to environmental chemicals demonstrated that approximately 97% of the people tested have oxybenzone present in their urine, and independent scientists have reported various concentrations in waterways and fish worldwide. Oxybenzone can also react with chlorine, producing hazardous by-products that can concentrate in swimming pools and wastewater treatment plants. Moreover, adverse reactions could very well be increased by the closed loop of ingesting fish contaminated with oxybenzone and/or washing the ingredient off our bodies and having it return in drinking water as treatment plants do not effectively remove the chemical as part of their processing protocols. In humans, oxybenzone has been reported to produce contact and photocontact allergy reactions, implemented as a possible endocrine disruptor and has been linked to Hirschsprung's disease. Environmentally, oxybenzone has been shown to produce a variety of toxic reactions in coral and fish ranging from reef bleaching to mortality. Lastly, with the rise in skin cancer rates and the availability of more effective sunscreen actives such as micronized zinc oxide and titanium dioxide, serious doubts about the relative prevention benefit of personal care products containing oxybenzone must be raised and compared with the potential negative health and environmental effects caused by the accumulation of this and other chemicals in the ecosystem.",
+        "journal": "Journal of cosmetic dermatology",
+        "date": "2018-Feb",
+        "mesh": [
+          "Animals",
+          "Benzophenones",
+          "Dermatitis, Irritant",
+          "Environmental Pollutants",
+          "Humans",
+          "Patch Tests",
+          "Risk Assessment",
+          "Sensitivity and Specificity",
+          "Skin Irritancy Tests",
+          "Skin Neoplasms"
+        ],
+        "keywords": [
+          "contact dermatitis",
+          "environmental contaminant",
+          "toxicity"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "37276158",
+        "doi": "10.36849/JDD.7142",
+        "title": "Ceramide-Containing Adjunctive Skin Care for Skin Barrier Restoration During Acne Vulgaris Treatment.",
+        "abstract": "Barrier damage caused by facial acne vulgaris can be magnified by topical medication, such as adapalene (0.3%) and benzoyl peroxide (2.5%)(A/BPO), which utilizes a retinoid to normalize follicular keratinization and BPO to decrease the C. acnes population. Disease-induced irritation combined with topical medication-induced irritation results in dryness and enhanced inflammation leading to lower compliance and increased skin healing time. Ceramide-based moisturizers have documented barrier repair benefits for eczema but have not been studied for acne. The objective of this double-blind study was to measure the impact of acne treatment on skin barrier function and tolerance when paired with a ceramide routine. Participants were prescribed an A/BPO gel once daily. The treatment group received a ceramide-containing foaming facial cleanser and facial lotion, and the control group received basic foaming face wash for twice-daily use. Participant and investigator tolerability and efficacy were evaluated by both ordinal and clinical measures. Acne lesion counts and Investigator&rsquo;s Global Assessments (IGA) of acne were obtained along with transepidermal water loss (TEWL) measurements for barrier function. TEWL for the treatment group remained significantly lower than the control at all timepoints and significantly improved from baseline by week 12. The treatment group had statistically lower mean investigator scores for dryness at all timepoints. Inflammatory lesion counts were significantly lower for the treatment group. A/BPO damaged the skin barrier, demonstrated by elevated TEWL, contributing to dryness, redness, and scaling. Use of a ceramide-containing cleanser and moisturizer significantly reduced severity and incidence of dryness, erythema, and scaling while more quickly resolving barrier damage and restoring function. Draelos ZD, Baalbaki N, Colon G, et al. Ceramide-containing adjunctive skin care for skin barrier restoration during acne vulgaris treatment. J Drugs Dermatol. 2023;22(6):554-558. doi:10.36849/JDD.7142&nbsp.",
+        "journal": "Journal of drugs in dermatology : JDD",
+        "date": "2023-Jun",
+        "mesh": [
+          "Humans",
+          "Dermatologic Agents",
+          "Drug Combinations",
+          "Benzoyl Peroxide",
+          "Acne Vulgaris",
+          "Adapalene",
+          "Erythema",
+          "Skin Care",
+          "Double-Blind Method",
+          "Inflammation"
+        ],
+        "keywords": [],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "38284197",
+        "doi": "10.1111/exd.15008",
+        "title": "Enzymes for dermatological use.",
+        "abstract": "Skin is the ultimate barrier between body and environment and prevents water loss and penetration of pathogens and toxins. Internal and external stressors, such as ultraviolet radiation (UVR), can damage skin integrity and lead to disorders. Therefore, skin health and skin ageing are important concerns and increased research from cosmetic and pharmaceutical sectors aims to improve skin conditions and provide new anti-ageing treatments. Biomolecules, compared to low molecular weight drugs and cosmetic ingredients, can offer high levels of specificity. Topically applied enzymes have been investigated to treat the adverse effects of sunlight, pollution and other external agents. Enzymes, with a diverse range of targets, present potential for dermatological use such as antioxidant enzymes, proteases and repairing enzymes. In this review, we discuss enzymes for dermatological applications and the challenges associated in this growing field.",
+        "journal": "Experimental dermatology",
+        "date": "2024-Jan",
+        "mesh": [
+          "Humans",
+          "Ultraviolet Rays",
+          "Skin",
+          "Skin Diseases",
+          "Sunlight",
+          "Cosmetics"
+        ],
+        "keywords": [
+          "DNA repair enzymes",
+          "antioxidant enzymes",
+          "enzymes for topical use",
+          "proteases"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "36999457",
+        "doi": "10.1111/jocd.15718",
+        "title": "A review of the use of beeswax in skincare.",
+        "abstract": "BACKGROUND: Beeswax is a naturally occurring product secreted from worker bees that has varied uses in modern day. In skincare, its function ranges from its role as an occlusive, helping to create a semi-occlusive skin barrier that minimizes transepidermal water loss; as a humectant, locking in hydration; and an emollient to soften and soothe the skin. As a natural substance, its use has been shown to help alleviate symptoms associated with common cutaneous conditions like dermatitis, psoriasis, and overgrowth of normal skin flora. AIMS: In this narrative review, we aim to describe current uses of beeswax in skincare that has been published in the literature. MATERIALS AND METHODS: A review of beeswax related publications was performed by searching the PubMed database studies. RESULTS: A total of five clinical studies were included with three studies on animals and two studies in humans. DISCUSSION: Several studies show the benefits of topical beeswax in supporting the skin barrier. CONCLUSION: Beeswax can be a low-cost, natural ingredient for use in products. Further studies with topical beeswax are warranted.",
+        "journal": "Journal of cosmetic dermatology",
+        "date": "2023-Aug",
+        "mesh": [
+          "Humans",
+          "Animals",
+          "Skin",
+          "Waxes",
+          "Skin Care",
+          "Skin Diseases"
+        ],
+        "keywords": [
+          "beeswax",
+          "dermatitis",
+          "microbiome",
+          "skin barrier",
+          "skincare"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "39113291",
+        "doi": "10.1111/ics.12972",
+        "title": "The role of ceramides in skin barrier function and the importance of their correct formulation for skincare applications.",
+        "abstract": "Ceramides are a family of lipids constituted by a sphingoid base and a fatty acid. In the skin, they are mainly present in the stratum corneum where, with cholesterol and free fatty acids, they constitute the inter-corneocyte lipids. With the other lipid groups, they play a key role in the formation of dense lamellar structures between adjacent corneocytes, collectively ensuring the vital efficient barrier to water evaporation and protection from foreign agents´ penetration. Changes in ceramide level and relative composition, with potential impairment of lipid arrangement, have been evidenced in different skin conditions and skin diseases. Therefore, use of suitably formulated ceramides has been proposed for topical treatment to help re-structure damaged lipid arrangement and repair impaired skin barrier function. Nonetheless, the formulation of ceramides in products necessitates specific processes such as heating to high temperature before their introduction in the final formula. In this review on the structure, the role and the potential of ceramides for skincare, we point out the necessity of rigorous process when formulating ceramides into the final product. We demonstrate the counterproductive effects of undissolved ceramides on skin barrier repair capacity of the formulas, when assessed in different in vitro models of disrupted skin barrier.",
+        "journal": "International journal of cosmetic science",
+        "date": "2024-Aug",
+        "mesh": [
+          "Ceramides",
+          "Humans",
+          "Skin",
+          "Skin Care"
+        ],
+        "keywords": [
+          "ceramides",
+          "emulsion",
+          "formulation",
+          "skin barrier",
+          "skin physiology/structure",
+          "topical application"
+        ],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "22722766",
+        "doi": "10.1159/000338978",
+        "title": "Oily skin: an overview.",
+        "abstract": "Oily skin (seborrhea) is a common cosmetic problem that occurs when oversized sebaceous glands produce excessive amounts of sebum giving the appearance of shiny and greasy skin. This paper overviews the main concepts of sebaceous gland anatomy and physiology, including the biosynthesis, storage and release of sebum, as well as its relationship to skin hydration and water barrier function. We also address how skin oiliness may vary according to diet, age, gender, ethnicity and hot humid climates. The deeper understanding of this skin type provides the opportunity to better guide patients regarding skin care and also assist in the development of sebosuppressive agents.",
+        "journal": "Skin pharmacology and physiology",
+        "date": "2012",
+        "mesh": [
+          "Animals",
+          "Climate",
+          "Dermatitis, Seborrheic",
+          "Female",
+          "Hot Temperature",
+          "Humans",
+          "Humidity",
+          "Male",
+          "Risk Factors",
+          "Sebaceous Glands"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "30998081",
+        "doi": "10.1080/09546634.2019.1607024",
+        "title": "Dry skin management: practical approach in light of latest research on skin structure and function.",
+        "abstract": "Dry skin is a common condition that is attributed to a lack of water in the stratum corneum. With the availability of new technologies, light has been shed on the pathophysiology of dry skin at the molecular level. With the aim to discuss implications of this latest research for the optimal formulation of emollients designed to treat dry skin, five specialists met in November 2017. Research on three topics thereby provided particularly detailed new insights on how to manage dry skin: research on the lipid composition and organization of the stratum corneum, research on natural moisturizing factors, and research on the peripheral nervous system. There was consensus that latest research expands the rationale to include physiological lipids in an emollient used for dry skin, as they were found to be essential for an adequate composition and organization in the stratum corneum but are reduced in dry skin. Latest findings also confirmed the incorporation of carefully selected humectants into a topical emollient for dry skin, given the reduced activity of enzymes involved in the synthesis of moisturizing factors when skin is dry. Overall, the group of specialists concluded that the previous concept of the five components for an ideal emollient for dry skin is well in accordance with latest research.",
+        "journal": "The Journal of dermatological treatment",
+        "date": "2020-Nov",
+        "mesh": [
+          "Administration, Cutaneous",
+          "Emollients",
+          "Epidermis",
+          "Humans",
+          "Lipids",
+          "Skin Care",
+          "Skin Diseases",
+          "Skin Physiological Phenomena",
+          "Water"
+        ],
+        "keywords": [
+          "Dry skin",
+          "dexpanthenol",
+          "position paper",
+          "skin care",
+          "topical"
+        ],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": 962,
+    "molecular_formula": "H2O",
+    "molecular_weight": "18.015",
+    "xlogp": -0.5,
+    "tpsa": 1,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "water",
+      "7732-18-5",
+      "Distilled water",
+      "Dihydrogen oxide",
+      "Purified water",
+      "Sterile water",
+      "Water vapor",
+      "Water, deionized",
+      "aqua",
+      "oxidane"
+    ]
+  },
+  "cosing": {
+    "inci_name": "WATER",
+    "function": "WATER  Fermer  Export file is being prepared and will be automatically downloaded to your computer when ready.  Fermer  Export file has been downloaded to your computer.  PDF INCI Name  WATER  Description   CAS #  7732-18-5  EC #  231-791-2 (I)  Identified INGREDIENTS or substances e.g.  Cosmetics Regulation provisions   Functions ANTIPLAQUESKIN CONDITIONINGSOLVENT SCCS opinions Go backCosIng - Cosmetics Ingredients This site is managed by the Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs  Accessibilité  Commission européenne  Contactez la Commission européenne  Suivre la Commission européenne sur les réseaux sociaux  Ressources pour les partenaires  Politique linguistique  Cookies  Politique de confidentialité  Mentions légales",
+    "restriction": null,
+    "has_sccs_opinion": true,
+    "sccs_opinion_url": "https://ec.europa.eu/growth/tools-databases/cosing/details/92472"
+  }
+}

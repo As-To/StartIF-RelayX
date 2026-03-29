@@ -1,0 +1,241 @@
+{
+  "ingredient": "Hydroxyapatite (nano",
+  "cas": null,
+  "ec": "215-145-7",
+  "inci_name": "HYDROXYAPATITE (NANO",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1677/25",
+        "date_avis": "2025-06-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "29.5% | 10%",
+        "categorie": "Surfactant",
+        "conclusion": "The SCCS concludes the following: (1) In view of the above, and taking into account the scientific data provided, does the SCCS consider Hydroxyapatite (nano) safe when used in toothpaste up to a maximum concentration of 29.",
+        "abstract": "The SCCS concludes the following: (1) In view of the above, and taking into account the scientific data provided, does the SCCS consider Hydroxyapatite (nano) safe when used in toothpaste up to a maximum concentration of 29.5% and in mouthwash up to a maximum concentration of 10% according to the specifications as reported in the submission, taking into account reasonably foreseeable exposure conditions? Based on the data provided, the SCCS considers hydroxyapatite (nano) safe when used at concentrations up to 29.5% in toothpaste, and up to 10% in mouthwash. This",
+        "pdf_url": "https://health.ec.europa.eu/document/download/3b83f50e-1f2c-4c8a-9699-3d03aadeab0f_en?filename=sccs_o_300.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 8,
+    "nb_articles_12mois": 1,
+    "articles": [
+      {
+        "pmid": "30125613",
+        "doi": "10.1016/j.yrtph.2018.07.018",
+        "title": "Opinion of the Scientific Committee on Consumer Safety (SCCS) - Revision of the Opinion on hydroxyapatite (nano) in cosmetic products.",
+        "abstract": "In response to the concerns of the European Commission about potential absorption and entry of nanoparticles of hydroxyapatite into the cells when used in oral cosmetic products, the Scientific Committee on Consumer Safety (SCCS) was requested to provide a safety assessment of hydroxyapatite (nano). After making a detailed evaluation of the data provided in the submissions and scientific literature, the SCCS considered needle-shaped hydroxyapatite (nano) to be of concern due to its potential toxic effects, and stated that it should not be used in cosmetic products. In terms of other shapes of hydroxyapatite (nano), the available evidence was insufficient to allow drawing a conclusion on the safety of hydroxyapatite (nano) when used in oral cosmetic products up to a concentration of 10%.",
+        "journal": "Regulatory toxicology and pharmacology : RTP",
+        "date": "2018-Oct",
+        "mesh": [
+          "Consumer Product Safety",
+          "Cosmetics",
+          "Durapatite",
+          "Humans",
+          "Risk Assessment"
+        ],
+        "keywords": [
+          "CAS 1306-06-5",
+          "EC 215-145-7",
+          "Hydroxyapatite",
+          "Nano",
+          "Regulation 1223/2009",
+          "SCCS",
+          "Scientific Opinion"
+        ],
+        "relevance_score": 10
+      },
+      {
+        "pmid": "35588130",
+        "doi": "10.1016/j.nantod.2021.101279",
+        "title": "Nano-hydroxyapatite improves intestinal absorption of acetazolamide (BCS Class IV drug)-but how?",
+        "abstract": "We earlier reported that coating poorly water-soluble drugs with nano-hydroxyapatite (nano-HAP) improves bioavailability after oral administration. In the present study, we coated BCS Class IV drug acetazolamide (AZ) with nano-HAP (AZ/HAP formulation), and investigated its bioavailability and nano-HAP's role in promoting it. We tested AZ bioavailability after a single oral dose of the AZ/HAP formulation in rats, followed by a series of in vitro, ex vivo and in vivo testing. The binding state of AZ and nano-HAP was analyzed by gel filtration chromatography. AZ permeability was studied using a Caco-2 cell monolayer assay kit, to test for tight junction penetration, then using an Ussing chamber mounted with intestinal epithelium, both with and without Peyer's patch tissue, to examine the role of intracellular transport. Fluorescence-labeled nano-HAP particles were administered orally in rats to investigate their localization in the intestinal tract. The area under the blood concentration time-curve in rats was about 4 times higher in the AZ/HAP formulation group than in the untreated AZ group. Gel filtration analysis showed AZ and nano-HAP were not bound. The Caco-2 study showed equivalent AZ permeability for both groups, but without significant change in transepithelial electrical resistance (TEER), indicating that tight junctions were not penetrated. In the Ussing chamber study, no significant difference in AZ permeability between the two groups was observed for epithelium containing Peyer's patch tissue, but for epithelium without Peyer's patch tissue, at high concentration, significantly higher permeability in the AZ/HAP formulation group was observed. Fluorescent labeling showed nano-HAP particles were present in both intestinal villi and Peyer's patch tissue 30 min after oral administration. Our results suggest that nano-HAP's enhancement of drug permeability from the small intestine occurs not via tight junctions, but intracellularly, via the intestinal villi. Further study to elucidate the mechanism of this permeability enhancement is required.",
+        "journal": "PloS one",
+        "date": "2022",
+        "mesh": [
+          "Acetazolamide",
+          "Animals",
+          "Caco-2 Cells",
+          "Durapatite",
+          "Humans",
+          "Intestinal Absorption",
+          "Intestinal Mucosa",
+          "Pharmaceutical Preparations",
+          "Rats"
+        ],
+        "keywords": [],
+        "relevance_score": 5
+      },
+      {
+        "pmid": "24734929",
+        "doi": "10.1021/am501266a",
+        "title": "Nano-hydroxyapatite and nano-titanium dioxide exhibit different subcellular distribution and apoptotic profile in human oral epithelium.",
+        "abstract": "Nanomaterials (NMs) such as titanium dioxide (nano-TiO2) and hydroxyapatite (nano-HA) are widely used in food, personal care, and many household products. Due to their extensive usage, the risk of human exposure is increased and may trigger NMs specific biological outcomes as the NMs interface with the cells. However, the interaction of nano-TiO2 and nano-HA with cells, their uptake and subcellular distribution, and the cytotoxic effects are poorly understood. Herein, we characterized and examined the cellular internalization, inflammatory response and cytotoxic effects of nano-TiO2 and nano-HA using TR146 human oral buccal epithelial cells as an in vitro model. We showed both types of NMs were able to bind to the cellular membrane and passage into the cells in a dose dependent manner. Strikingly, both types of NMs exhibited distinct subcellular distribution profile with nano-HA displaying a higher preference to accumulate near the cell membrane compared to nano-TiO2. Exposure to both types of NMs caused an elevated reactive oxygen species (ROS) level and expression of inflammatory transcripts with increasing NMs concentration. Although cells treated with nano-HA induces minimal apoptosis, nano-TiO2 treated samples displayed approximately 28% early apoptosis after 24 h of NMs exposure. We further showed that nano-TiO2 mediated cell death is independent of the classical p53-Bax apoptosis pathway. Our findings provided insights into the potential cellular fates of human oral epithelial cells as they interface with industrial grade nano-HA and nano-TiO2.",
+        "journal": "ACS applied materials & interfaces",
+        "date": "2014-May",
+        "mesh": [
+          "Apoptosis",
+          "Durapatite",
+          "Humans",
+          "Metal Nanoparticles",
+          "Microscopy, Electron, Transmission",
+          "Mouth Mucosa",
+          "Reactive Oxygen Species",
+          "Titanium"
+        ],
+        "keywords": [],
+        "relevance_score": 4
+      },
+      {
+        "pmid": "39117099",
+        "doi": "10.1016/j.jdent.2024.105291",
+        "title": "Synthesis and characterization of different nano-hydroxyapatites and their impact on dental enamel following topical application for dental bleaching.",
+        "abstract": "OBJECTIVE: This study aims to synthesize, characterize, and assess the penetration of hydrogen peroxide (HP), color change (CC), and surface morphology changes after the application of two distinct nano-hydroxyapatite (nano-HAp). METHODS: Two nano-HAp were previously synthesized by co-precipitation: one with rod-shaped particles (RS) and the other with spherical-shaped particles (SS). The surface charge of the nano-HAp particles was determined at varying pH levels and characterized by X-ray diffraction patterns and Fourier transform infrared spectroscopy. The morphology of the samples was assessed using scanning electron microscopy (SEM). The nano-HAp particles were applied before the dental bleaching procedure. Forty teeth were divided into four groups (n = 10) according to the bleaching treatment: no treatment, bleaching with 35 % HP only, RS application and bleaching with 35 % HP, and SS application and bleaching with 35 % HP. HP concentration (µg mL-1) was measured using UV-Vis, while CC was evaluated with a digital spectrophotometer (ΔEab, ΔE00 and WID). Additionally, four teeth from each group were selected for SEM analysis. Statistical analysis encompassed one-way ANOVA, Tukey's, and Dunnet's tests. RESULTS: RS and SS were successfully synthesized by coprecipitation, primarily differing in pH during synthesis. Both variations of nano-HAp morphology significantly reduced HP diffusion into the pulp chamber (p < 0.001). Regarding enamel morphology, groups analyzed post dental bleaching exhibited greater HAp deposition on the enamel surface. Notably, this deposition did not impede CC. SIGNIFICANCE: The utilization of different nano-HAp morphologies prior to dental bleaching appears to be a promising strategy for mitigating adverse effects associated with dental bleaching procedures.",
+        "journal": "Journal of dentistry",
+        "date": "2024-Oct",
+        "mesh": [
+          "Tooth Bleaching",
+          "Dental Enamel",
+          "Humans",
+          "Tooth Bleaching Agents",
+          "Hydrogen Peroxide",
+          "Spectroscopy, Fourier Transform Infrared",
+          "Microscopy, Electron, Scanning",
+          "X-Ray Diffraction",
+          "Hydrogen-Ion Concentration",
+          "Surface Properties"
+        ],
+        "keywords": [
+          "Hydroxyapatites",
+          "Tooth bleaching",
+          "Tooth permeability"
+        ],
+        "relevance_score": 3
+      },
+      {
+        "pmid": "19834786",
+        "doi": "10.1007/s10856-009-3905-z",
+        "title": "Crystallization process of carbonate substituted hydroxyapatite nanoparticles in toothpastes upon physiological conditions: an in situ time-resolved X-ray diffraction study.",
+        "abstract": "The crystallization process in recently developed toothpastes, containing nanoparticles of carbonate substituted hydroxyapatite (nano-CHA), was investigated. For this purpose, the non-conventional Energy Dispersive X-Ray Diffraction technique, that demonstrated to be a powerful tool to follow in situ phase transformations, was applied, for the first time, to products of pharmaceutical-cosmetic interest. Two types of toothpastes, containing 15 and 20 wt% of nano-CHA, respectively, have been studied. It was observed that, after mixing the toothpastes with water and saliva in order to reproduce in vivo conditions, a crystallization of nano-CHA takes place. Such process occurs in a characteristic time of (22 +/- 1) min for the toothpaste containing 15 wt% of nano-CHA and of (3.9 +/- 0.5) min for the one containing 20% of nano-CHA. For both toothpastes, a 10% increase in grain dimensions was observed over an average characteristic time of (55 +/- 5) min.",
+        "journal": "Journal of materials science. Materials in medicine",
+        "date": "2010-Feb",
+        "mesh": [
+          "Bone Substitutes",
+          "Carbonates",
+          "Durapatite",
+          "Humans",
+          "Materials Testing",
+          "Nanoparticles",
+          "Saliva",
+          "Toothpastes",
+          "X-Ray Diffraction"
+        ],
+        "keywords": [],
+        "relevance_score": 2
+      },
+      {
+        "pmid": "38891458",
+        "doi": "10.3390/ma14174837",
+        "title": "Three-Dimensional-Printed Composite Scaffolds Containing Poly-ε-Caprolactone and Strontium-Doped Hydroxyapatite for Osteoporotic Bone Restoration.",
+        "abstract": "A challenge in tissue engineering and the pharmaceutical sector is the development of controlled local release of drugs that raise issues when systemic administration is applied. Strontium is an example of an effective anti-osteoporotic agent, used in treating osteoporosis due to both anti-resorptive and anabolic mechanisms of action. Designing bone scaffolds with a higher capability of promoting bone regeneration is a topical research subject. In this study, we developed composite multi-layer three-dimensional (3D) scaffolds for bone tissue engineering based on nano-hydroxyapatite (HA), Sr-containing nano-hydroxyapatite (SrHA), and poly-ε-caprolactone (PCL) through the material extrusion fabrication technique. Previously obtained HA and SrHA with various Sr content were used for the composite material. The chemical, morphological, and biocompatibility properties of the 3D-printed scaffolds obtained using HA/SrHA and PCL were investigated. The 3D composite scaffolds showed good cytocompatibility and osteogenic potential, which is specifically recommended in applications when faster mineralization is needed, such as osteoporosis treatment.",
+        "journal": "Polymers",
+        "date": "2024-May",
+        "mesh": [],
+        "keywords": [
+          "3D printing",
+          "bioactivity",
+          "co-precipitation",
+          "hydrothermal",
+          "hydroxyapatite nano-powder",
+          "poly-ε-caprolactone",
+          "strontium"
+        ],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "29178773",
+        "doi": null,
+        "title": "Comparison of nanofluoridated hydroxyapatite of varying fluoride content for dentin tubule occlusion.",
+        "abstract": "PURPOSE: To evaluate the viability of a series of nano-fluoridated hydroxyapatite (nano-FHA) formulations of varying fluoride content for the occlusion of exposed dentin tubules, in comparison to nano-hydroxyapatite (nano-HA). METHODS: Nano-FHA powders with varying levels of fluoride ion were synthesized to substitute hydroxyl ions (⁻OH) present in hydroxyapatite (HA). Nano-FHA were defined as 2nFHA,4nFHA,6nFHA, 8nFHA and 10nFHA, with the molar ratio of F(⁻ to Ca243; of 0.002,0.004,0.006,0.008 and 0.01, respectively. The powders were synthesized using a wet chemistry route, and characterized by transmission electron microscopy, X-ray diffraction, and Fourier transform infrared spectroscopy. The methylthiazol tetrazolium (MTT) assay was used to assess cell viability toward nano-FHA. According to the content of F⁻, the nano-nFHA and nano-HA powders were divided into six groups, with the artificial saliva as control. They were spread over the dentin surface for 1 minute and repeated three times per day for 7 consecutive days. After washing and brushing with distilled water for an additional 7 days, scanning electron microscopy was used to evaluate the in vitro plugging rate of the tubules and penetrating depth. RESULTS: The 2nFHA, 4nFHA, 6nFHA, 8nFHA and 10nFHA powders were prepared and characterized. The 8nFHA had less crystallinity compared to 2nFHA,4nFHA, and 6nFHA.The MTT assay (from 12 to 120 hours) showed that the cell viability of the L-929 fibroblasts in the 2nFHA, 4nFHA, 6nFHA, 8nFHA, 10nFHA, and nano-HA groups ranged from 80.54± 3.35% to 112.9± 4.8%. Most of the nano-FHA powders successfully occluded dentin tubules. The plugging rate of 8nFHA was significantly higher than that of the 2nFHA, 4nFHA, 6nFHA and nano-HA groups. The penetrating depth of the 8nFHA group into the tubules was also significantly higher than that of the other nano-FHA and nano-HA group. CLINICAL SIGNIFICANCE: The nano-FHA formulation 8nFHA showed higher plugging rate and penetrating depth into the tubules. It has the potential to be used as a desensitizing agent in treating dentin hypersensitivity with better long-term durability and efficacy of dentin tubule occlusion.",
+        "journal": "American journal of dentistry",
+        "date": "2017-Apr",
+        "mesh": [
+          "Animals",
+          "Dentin Desensitizing Agents",
+          "Dentin Sensitivity",
+          "Durapatite",
+          "Fluorides",
+          "In Vitro Techniques",
+          "Materials Testing",
+          "Mice",
+          "Microscopy, Electron, Scanning",
+          "Microscopy, Electron, Transmission"
+        ],
+        "keywords": [],
+        "relevance_score": 1
+      },
+      {
+        "pmid": "41898656",
+        "doi": "10.3390/ijms27062796",
+        "title": "A Qualitative In Vitro SEM Study on the Protective Effects of a Self-Antibacterial Nano-Hydroxyapatite Toothpaste Against Acid-Induced Enamel Surface Erosion.",
+        "abstract": "This study evaluated the potential protective effect of a synthesized self-antibacterial nano-hydroxyapatite (nano-HA) toothpaste against erosive changes in the enamel surface induced by a cola-based soft drink, based on a qualitative scanning electron microscopy (SEM) study, in comparison with conventional fluoride toothpaste. Thirty extracted human premolars were sectioned to obtain enamel specimens and randomly assigned into a control group and experimental groups in which fluoride or synthesized nano-HA toothpaste was applied either before or after cola exposure (n = 5 per group). Enamel surface morphology was qualitatively assessed using SEM, and surface roughness (Ra) was estimated using a semi-quantitative approach based on SEM image analysis using ImageJ software. Antibacterial activity was evaluated using the agar diffusion method to explore the potential additional benefits of the synthesized self-antibacterial nano-HA formulation. SEM observations showed that, after cola exposure, specimens treated with nano-HA exhibited less surface erosion than fluoride-treated groups. Post-treatment with nano-HA results in a denser and more uniform surface layer with fewer structural defects. Similarly, enamel treated with nano-HA after cola exposure showed a statistically significant reduction in surface roughness compared with the fluoride group (p < 0.05). These findings suggest that nano-HA provides greater protective effects against acid-induced enamel surface erosion. Furthermore, nano-HA indicated potential antibacterial activity against S. aureus and E. coli. Overall, nano-HA toothpaste provided enhanced protection against acid-induced enamel erosion with additional antibacterial effects.",
+        "journal": "International journal of molecular sciences",
+        "date": "2026-Mar",
+        "mesh": [
+          "Toothpastes",
+          "Durapatite",
+          "Humans",
+          "Anti-Bacterial Agents",
+          "Dental Enamel",
+          "Tooth Erosion",
+          "Microscopy, Electron, Scanning",
+          "Surface Properties",
+          "Fluorides"
+        ],
+        "keywords": [
+          "antibacterial activity",
+          "demineralization",
+          "enamel",
+          "nano-hydroxyapatite",
+          "remineralization"
+        ],
+        "relevance_score": 1
+      }
+    ]
+  },
+  "pubchem": {
+    "cid": null,
+    "molecular_formula": null,
+    "molecular_weight": null,
+    "xlogp": null,
+    "tpsa": null,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": []
+  },
+  "cosing": {
+    "inci_name": "HYDROXYAPATITE (NANO",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "ingredient": "Final Scientific Advice on Benzophenone",
+  "cas": "131-55-5",
+  "ec": "205-028-9",
+  "inci_name": "FINAL SCIENTIFIC ADVICE ON BENZOPHENONE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1679/25",
+        "date_avis": "2025-06-26",
+        "type_rapport": "Scientific Advice",
+        "verdict": null,
+        "concentration_max": "5% | 1.2 mg/L | 10.1% in urinary samples from young Chinese adults",
+        "categorie": "Colorant",
+        "conclusion": "The SCCS concludes the following: In light of technical and scientific progress, available scientific literature, relevant in silico tools and the SCCS’ expert judgement and taking under consideration in particular the concerns related to potential endocrine disrupting properties, the SCCS is requested: 1.",
+        "abstract": "The SCCS concludes the following: In light of technical and scientific progress, available scientific literature, relevant in silico tools and the SCCS’ expert judgement and taking under consideration in particular the concerns related to potential endocrine disrupting properties, the SCCS is requested: 1. to identify and justify whether there are specific concerns regarding the use of Benzophenone-2 and Benzophenone-5 in cosmetic products. Benzophenone 2 (BP-2) Having considered all the available data, and the concerns relating to potential endocrine disrupting properties, the SCCS cannot conclude on the safety of Benzophenone-2 because genotoxicity potential cannot be excluded. The data on repeated dose toxicity and reproductive toxicity of Benzophenone-2 are also either limited or not available. The available evidence shows that BP-2 is an endocrine-active substance, due to a clear demonstration of estrogenic activity both in vitro and in vivo. Benzophenone 5 (BP-5) Due to the scarcity of information for Benzophenone-5, the SCCS has considered that data from a close analogue BP-4 can be used for read-across for the safety assessment of BP-5. Thus, considering the toxicological data on Benzophenone-4, including the potential endocrine disrupting properties, the SCCS is of the",
+        "pdf_url": "https://health.ec.europa.eu/document/download/abb0eaac-a20b-43b1-8226-fb73d7167c6c_en?filename=sccs_o_301.pdf"
+      }
+    ],
+    "dernier_verdict": null,
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 8571,
+    "molecular_formula": "C13H10O5",
+    "molecular_weight": "246.21",
+    "xlogp": 2.4,
+    "tpsa": 98,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "2,2',4,4'-Tetrahydroxybenzophenone",
+      "131-55-5",
+      "Bis(2,4-dihydroxyphenyl)methanone",
+      "Benzophenone-2",
+      "Methanone, bis(2,4-dihydroxyphenyl)-",
+      "Uvinol D-50",
+      "Uvinul D-50",
+      "2,4,2',4'-Tetrahydroxybenzophenone",
+      "DTXSID5041306",
+      "2,2',4,4'-hydroxybenophenone"
+    ]
+  },
+  "cosing": {
+    "inci_name": "FINAL SCIENTIFIC ADVICE ON BENZOPHENONE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

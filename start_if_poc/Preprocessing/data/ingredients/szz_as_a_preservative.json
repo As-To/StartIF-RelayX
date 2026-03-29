@@ -1,0 +1,59 @@
+{
+  "ingredient": "SZZ as a preservative",
+  "cas": "130328-20-0",
+  "ec": "603-404-0",
+  "inci_name": "SZZ AS A PRESERVATIVE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1650/23",
+        "date_avis": "2023-12-21",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "1%",
+        "categorie": "Colorant",
+        "conclusion": "Alternatively, what is, according to the SCCS, the maximum concentration considered safe for use of Silver Zinc Zeolite as a preservative in cosmetic products? / 3.",
+        "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the classification as Toxic for reproduction Cat. 2, does the SCCS consider Silver Zinc Zeolite safe when used as a preservative in cosmetic products according to the specifications and concentration limits provided in the dossier submission? The SCCS considers that Silver Zinc Zeolite (CAS No. 130328-20-0) incorporating a maximum silver content of 2.5% is safe in spray deodorant and powder foundation when used at the proposed concentration of 1%. 2. Alternatively, what is, according to the SCCS, the maximum concentration considered safe for use of Silver Zinc Zeolite as a preservative in cosmetic products? / 3. Does the SCCS have any further scientific concerns with regard to the use of Silver Zinc Zeolite in cosmetic products? / Keywords: SCCS, scientific",
+        "pdf_url": "https://health.ec.europa.eu/document/download/374b5f39-20a0-441f-a9da-b1bc47b86371_en?filename=sccs_o_270.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": null,
+    "molecular_formula": null,
+    "molecular_weight": null,
+    "xlogp": null,
+    "tpsa": null,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": []
+  },
+  "cosing": {
+    "inci_name": "SZZ AS A PRESERVATIVE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}
