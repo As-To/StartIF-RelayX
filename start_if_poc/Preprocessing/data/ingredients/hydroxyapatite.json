@@ -1,8 +1,8 @@
 {
-  "ingredient": "Preliminary Opinion open for comments on Hydroxyapatite",
+  "ingredient": "Hydroxyapatite",
   "cas": null,
   "ec": "215-145-7",
-  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON HYDROXYAPATITE",
+  "inci_name": "HYDROXYAPATITE",
   "sccs": {
     "nb_avis": 2,
     "avis": [
@@ -61,7 +61,7 @@
     "synonyms": []
   },
   "cosing": {
-    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON HYDROXYAPATITE",
+    "inci_name": "HYDROXYAPATITE",
     "function": null,
     "restriction": null,
     "has_sccs_opinion": false,

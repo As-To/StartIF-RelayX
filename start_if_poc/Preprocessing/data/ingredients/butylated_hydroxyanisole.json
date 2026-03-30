@@ -1,0 +1,70 @@
+{
+  "ingredient": "Butylated Hydroxyanisole",
+  "cas": "25013-16-5",
+  "ec": "246-563-8",
+  "inci_name": "BUTYLATED HYDROXYANISOLE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1682/25",
+        "date_avis": "2021-09-27",
+        "type_rapport": "Scientific Advice",
+        "verdict": "Conditionally Safe",
+        "concentration_max": "0.125% | 1% | 2%",
+        "categorie": "Colorant",
+        "conclusion": "ABSTRACT 3 4 The SCCS concludes the following: 5 6 In light of technical and scientific progress, available scientific literature, relevant in silico 7 tools and the SCCS’ expert judgement and taking under consideration in particular the 8 concerns related to potential endocrine disrupting properties, the SCCS is requested: 9 10 1.",
+        "abstract": "available 54 55 Pregnant Sprague-Dawley rats received by oral gavage BHA dissolved in corn oil from GD 7- 56 17 at doses of 250, 500, 750 or 1000 mg/kg bw/d. In dams, a dose-dependent increase in 57 relative liver and stomach weights was observed (no further details). BHA did not lead to any 23 SCCS/1682/25 Preliminary version Scientific advice on the safety of Butylated Hydroxyanisole (BHA) as a substance with potential endocrine disrupting properties in cosmetic products _________________________________________________________________________________ 1 anomalies; however, skeletal examination revealed division of the thoracic vertebrae of the 2 fetuses at the highest dose. 3 Ref.: Han et al., quoted from MAK, 2012. 4 5 Diets containing 0 and 0.5% BHA (equivalent to approximately 0 and 750 mg/kg bw/day) 6 were given to mated pairs of Swiss Webster. The litters obtained from the mated pairs were 7 culled to 8 pups at birth and weaned at 21 days of age. The young were then continued on 8 a diet that was similar to that of their mothers. When the pups were 6 weeks old, 9 behavioural testing was initiated. A number of behavioural changes were observed including 10 decreased orientation reflex, decreased sleeping, decreased grooming of self, slow learning 11 and increased exploration. 12 Ref.: Stokes and Scudder, 1974, quoted from EFSA, 2011 13 14 Doses of 0, 50, 200 or 400 mg BHA/kg bw/day were given orally by gavage to groups of 15 pregnant New Zealand white rabbits from day 7 … [truncated: raw table dump detected – use LLM extraction]",
+        "pdf_url": "https://health.ec.europa.eu/document/download/502956f3-471d-4e2d-899f-08aa4511bb90_en?filename=sccs_o_306.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 8456,
+    "molecular_formula": "C11H16O2",
+    "molecular_weight": "180.24",
+    "xlogp": 3.2,
+    "tpsa": 29.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "25013-16-5",
+      "Phenol, (1,1-dimethylethyl)-4-methoxy-",
+      "tert-Butyl-4-hydroxyanisole",
+      "2(3)-tert-Butyl-4-hydroxyanisole",
+      "Antrancine 12",
+      "Nipantiox 1-F",
+      "Tenox BHA",
+      "Butylohydroksyanizol",
+      "Butyl hydroxyanisole",
+      "BOA (antioxidant)"
+    ]
+  },
+  "cosing": {
+    "inci_name": "BUTYLATED HYDROXYANISOLE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

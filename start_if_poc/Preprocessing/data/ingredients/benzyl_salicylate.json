@@ -1,0 +1,70 @@
+{
+  "ingredient": "Benzyl salicylate",
+  "cas": "118-58-1",
+  "ec": "204-262-9",
+  "inci_name": "BENZYL SALICYLATE",
+  "sccs": {
+    "nb_avis": 1,
+    "avis": [
+      {
+        "sccs_number": "SCCS/1656/23",
+        "date_avis": "2023-10-26",
+        "type_rapport": "Final Opinion",
+        "verdict": "Conditionally Safe",
+        "concentration_max": null,
+        "categorie": "UV Filter",
+        "conclusion": "The SCCS concludes the following: (1) In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Benzyl Salicylate, does the SCCS consider Benzyl Salicylate safe when used up to the maximum concentrations provided in the dossier submission by the Benzyl Salicylate Consortium?",
+        "abstract": "The SCCS concludes the following: (1) In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of Benzyl Salicylate, does the SCCS consider Benzyl Salicylate safe when used up to the maximum concentrations provided in the dossier submission by the Benzyl Salicylate Consortium? Based on the assessment of data provided and taking under consideration the concerns related to potential endocrine disrupting properties, the SCCS considers Benzyl Salicylate safe when used up to the maximum concentrations as provided in Table 1 of this",
+        "pdf_url": "https://health.ec.europa.eu/document/download/c0c99946-c65a-40c7-af03-705da2c95a50_en?filename=sccs_o_277.pdf"
+      }
+    ],
+    "dernier_verdict": "Conditionally Safe",
+    "certitude": null
+  },
+  "eurlex": {
+    "in_annex_II": false,
+    "in_annex_III": false,
+    "annex_III_details": null
+  },
+  "echa": {
+    "is_svhc": false,
+    "svhc_date": null,
+    "classification_clp": null,
+    "uses": null,
+    "tonnage": null
+  },
+  "pubmed": {
+    "nb_articles_total": 0,
+    "nb_articles_12mois": 0,
+    "articles": []
+  },
+  "pubchem": {
+    "cid": 8363,
+    "molecular_formula": "C14H12O3",
+    "molecular_weight": "228.24",
+    "xlogp": 3.2,
+    "tpsa": 46.5,
+    "ghs_hazards": null,
+    "signal_word": null,
+    "uses": null,
+    "synonyms": [
+      "BENZYL SALICYLATE",
+      "118-58-1",
+      "Benzyl 2-hydroxybenzoate",
+      "Benzyl o-hydroxybenzoate",
+      "Salicylic Acid Benzyl Ester",
+      "Salicylic acid, benzyl ester",
+      "Phenylmethyl 2-hydroxybenzoate",
+      "Benzoic acid, 2-hydroxy-, phenylmethyl ester",
+      "Salicylsaeurebenzylester",
+      "Salicyclic acid, benzyl ester"
+    ]
+  },
+  "cosing": {
+    "inci_name": "BENZYL SALICYLATE",
+    "function": null,
+    "restriction": null,
+    "has_sccs_opinion": false,
+    "sccs_opinion_url": null
+  }
+}

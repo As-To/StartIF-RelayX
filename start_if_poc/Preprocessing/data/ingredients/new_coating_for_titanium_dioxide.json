@@ -1,8 +1,8 @@
 {
-  "ingredient": "Preliminary Opinion open for comments on new coating for Titanium Dioxide",
+  "ingredient": "new coating for Titanium Dioxide",
   "cas": "30364-51-3",
   "ec": "250-151-3",
-  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON NEW COATING FOR TITANIUM DIOXIDE",
+  "inci_name": "NEW COATING FOR TITANIUM DIOXIDE",
   "sccs": {
     "nb_avis": 1,
     "avis": [
@@ -61,7 +61,7 @@
     ]
   },
   "cosing": {
-    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON NEW COATING FOR TITANIUM DIOXIDE",
+    "inci_name": "NEW COATING FOR TITANIUM DIOXIDE",
     "function": null,
     "restriction": null,
     "has_sccs_opinion": false,

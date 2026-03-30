@@ -21,6 +21,133 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 
+# ---------------------------------------------------------------------------
+# Correction 1 – Strip SCCS page-title prefixes from ingredient names
+# ---------------------------------------------------------------------------
+
+# Order matters: longer/more specific patterns first.
+_SCCS_TITLE_PREFIXES = re.compile(
+    r"^"
+    r"(?:Final\s+)?"
+    r"(?:Preliminary\s+)?"
+    r"(?:"
+        r"Scientific\s+(?:Advice|Opinion)"
+        r"|Opinion"
+        r"|Advice"
+    r")"
+    r"(?:\s+open\s+for\s+comments)?"
+    r"(?:\s+on\s+(?:children\s+exposure\s+on\s+)?)?"
+    r"(?:\s+new\s+coating\s+for\s+)?"
+    r"(?:\s+on\s+)?",
+    flags=re.IGNORECASE,
+)
+
+# Extra noisy fragments that sometimes leak into the Ingredient field
+_NOISE_FRAGMENTS = re.compile(
+    r"\b("
+    r"require\s+a\s+clear\s+well"
+    r"|will\s+require\s+"
+    r"|genotoxicity\s+data\s+was\s+provided\s+by\s+the\s+applicant"
+    r"|the\s+pgas\s+are\s+given\s+in\s+the\s+section\s+\d+"
+    r"|these\s+(?:materials|values)\s+(?:for\s+use|in\s+preference)"
+    r")",
+    flags=re.IGNORECASE,
+)
+
+# Partial-name suffixes that indicate a truncated/environmental-scope name
+_TRUNCATION_SUFFIXES = re.compile(
+    r"\s+(?:for\s+the\s+environment|as\s+a\s+preservative)\s*$",
+    flags=re.IGNORECASE,
+)
+
+# Names that are clearly PDF sentence fragments (too many words, starts lowercase,
+# or contains explicit sentence-level words)
+_SENTENCE_FRAGMENT_RE = re.compile(
+    r"^(?:the|these|this|those|a|an)\s+"
+    r"|\b(?:are\s+given|for\s+use|in\s+preference|data\s+was\s+provided)\b",
+    flags=re.IGNORECASE,
+)
+
+def clean_ingredient_name(raw: Optional[str]) -> Optional[str]:
+    """
+    Remove SCCS title prefixes (e.g. 'Final Opinion on ', 'Scientific Advice on ')
+    and other noise fragments from the scraped Ingredient field.
+
+    Returns None if the result is empty or clearly not an ingredient name.
+    """
+    if not raw:
+        return None
+    name = raw.strip()
+
+    # Reject obvious sentence fragments before any other processing
+    if _SENTENCE_FRAGMENT_RE.search(name) or _NOISE_FRAGMENTS.search(name):
+        return None
+
+    # Strip SCCS page-title prefixes
+    cleaned = _SCCS_TITLE_PREFIXES.sub("", name).strip()
+
+    # If the prefix strip left us with something, validate it
+    if cleaned and cleaned != name:
+        # Still check the result is not a sentence fragment
+        if _SENTENCE_FRAGMENT_RE.search(cleaned) or _NOISE_FRAGMENTS.search(cleaned):
+            return None
+        if len(cleaned) >= 3:
+            return cleaned
+        return None
+
+    # Strip environmental/scope suffixes (e.g. "TTO for the environment")
+    cleaned2 = _TRUNCATION_SUFFIXES.sub("", name).strip()
+    if cleaned2 and cleaned2 != name and len(cleaned2) >= 3:
+        return cleaned2
+
+    # Nothing wrong detected – return as-is
+    return name if len(name) >= 3 else None
+
+
+# ---------------------------------------------------------------------------
+# Correction 3 – Category: do NOT default to a fake value
+# ---------------------------------------------------------------------------
+
+# Map known Categorie values that are clearly wrong for specific ingredient names
+# Back-fill from the raw SCCS Categorie field but validate it first.
+_VALID_CATEGORIES = {
+    "Colorant", "UV Filter", "Preservative", "Fragrance",
+    "Antioxidant", "Surfactant", "Humectant", "Skin conditioning",
+    "Emollient", "Emulsifier", "Chelating agent",
+}
+
+
+def validated_category(raw_category: Optional[str], ingredient_name: Optional[str]) -> Optional[str]:
+    """
+    Return the category only when it is plausible for the ingredient.
+    Falls back to None rather than spreading a wrong default value.
+    """
+    if not raw_category:
+        return None
+    cat = raw_category.strip()
+    if cat not in _VALID_CATEGORIES:
+        return None
+    # Do not blindly propagate "Colorant" for non-colour ingredients
+    # when the name clearly suggests otherwise (e.g. UV filters, preservatives)
+    if cat == "Colorant" and ingredient_name:
+        lower = ingredient_name.lower()
+        uv_hints = ["camphor", "cinnamate", "benzophenone", "salicylate",
+                    "methoxycinnamate", "tinosorb", "mexoryl", "uvinul",
+                    "drometrizole", "bisoctrizole", "avobenzone"]
+        pres_hints = ["paraben", "phenoxyethanol", "sorbic", "benzoic",
+                      "dehydroacetic", "triclosan", "triclocarban", "thiomersal",
+                      "chlorhexidine", "formaldehyde"]
+        if any(h in lower for h in uv_hints):
+            return "UV Filter"
+        if any(h in lower for h in pres_hints):
+            return "Preservative"
+    return cat
+
+
+# ---------------------------------------------------------------------------
+# Generic utilities
+# ---------------------------------------------------------------------------
+
 def normalize_text(value: Optional[str]) -> str:
     if value is None:
         return ""
@@ -57,14 +184,12 @@ def parse_date(date_value: Optional[str]) -> Optional[datetime]:
     if not txt:
         return None
 
-    # Try strict ISO date first
     for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%Y-%m", "%Y/%m", "%Y"):
         try:
             return datetime.strptime(txt, fmt).replace(tzinfo=timezone.utc)
         except ValueError:
             pass
 
-    # Flexible fallback: extract year/month/day if present
     m = re.search(r"(20\d{2}|19\d{2})(?:[-/](\d{1,2}))?(?:[-/](\d{1,2}))?", txt)
     if m:
         year = int(m.group(1))
@@ -118,9 +243,22 @@ def load_json(path: Path) -> Any:
         return json.load(f)
 
 
+# ---------------------------------------------------------------------------
+# Canonical-name selection – runs AFTER per-row cleaning
+# ---------------------------------------------------------------------------
+
 def choose_canonical_name(sccs_rows: List[Dict[str, Any]]) -> str:
-    names = [safe_strip(r.get("Ingredient")) for r in sccs_rows]
-    names = [n for n in names if n]
+    """
+    Pick the best ingredient name from a group of SCCS rows.
+    Prefers cleaned, non-title-prefix names.
+    """
+    names = []
+    for r in sccs_rows:
+        raw = safe_strip(r.get("Ingredient"))
+        cleaned = clean_ingredient_name(raw)
+        if cleaned:
+            names.append(cleaned)
+
     if not names:
         return "Unknown ingredient"
 
@@ -133,6 +271,10 @@ def choose_canonical_name(sccs_rows: List[Dict[str, Any]]) -> str:
     best_candidates.sort(key=lambda x: (len(x), x))
     return best_candidates[0]
 
+
+# ---------------------------------------------------------------------------
+# SCCS block builder
+# ---------------------------------------------------------------------------
 
 def extract_sccs_group(sccs_rows: List[Dict[str, Any]]) -> Dict[str, Any]:
     by_number: Dict[str, Dict[str, Any]] = {}
@@ -148,15 +290,24 @@ def extract_sccs_group(sccs_rows: List[Dict[str, Any]]) -> Dict[str, Any]:
     certitudes: List[str] = []
 
     for row in by_number.values():
+        raw_ingr = safe_strip(row.get("Ingredient"))
+        cleaned_ingr = clean_ingredient_name(raw_ingr)
+        raw_cat = safe_strip(row.get("Categorie"))
+        cat = validated_category(raw_cat, cleaned_ingr)
+
+        # Correction 4 – Truncate noisy PDF-table abstracts
+        abstract_raw = safe_strip(row.get("Abstract_all_text"))
+        abstract = _truncate_noisy_abstract(abstract_raw)
+
         avis_item = {
             "sccs_number": safe_strip(row.get("SCCS_Number")),
             "date_avis": to_iso_date(row.get("Date_Avis")),
             "type_rapport": safe_strip(row.get("Type_Rapport")),
             "verdict": safe_strip(row.get("Verdict")),
             "concentration_max": safe_strip(row.get("Concentration_Max")),
-            "categorie": safe_strip(row.get("Categorie")),
+            "categorie": cat,
             "conclusion": safe_strip(row.get("_conclusion")),
-            "abstract": safe_strip(row.get("Abstract_all_text")),
+            "abstract": abstract,
             "pdf_url": safe_strip(row.get("_pdf_url")),
         }
         avis.append(avis_item)
@@ -165,7 +316,7 @@ def extract_sccs_group(sccs_rows: List[Dict[str, Any]]) -> Dict[str, Any]:
         if cert:
             certitudes.append(cert)
 
-    # Sort by date desc (unknown dates at end)
+    # Sort by date desc
     avis.sort(
         key=lambda a: parse_date(a.get("date_avis")) or datetime.min.replace(tzinfo=timezone.utc),
         reverse=True,
@@ -187,6 +338,56 @@ def extract_sccs_group(sccs_rows: List[Dict[str, Any]]) -> Dict[str, Any]:
     }
 
 
+# ---------------------------------------------------------------------------
+# Correction 4 – Truncate abstracts that are clearly raw PDF table dumps
+# ---------------------------------------------------------------------------
+
+_TABLE_NOISE_SIGNALS = [
+    r"\b(Positive|Negative)\s+\d\s+(Low|High|Limited|Reliable)",
+    r"comet\s+assay\s+.{0,60}\bSigma",
+    r"Tail\s+moment\s+values?",
+    r"MTT\s*-\s*24h\s+exposure",
+    r"DMSO\s+\(Sigma",
+    r"(?:male|female)\s+(?:donor|Chinese\s+hamster)",
+]
+_TABLE_NOISE_RE = re.compile("|".join(_TABLE_NOISE_SIGNALS), flags=re.IGNORECASE)
+
+# Max chars before we consider an abstract "clean" (tables tend to be very long)
+_ABSTRACT_MAX_CLEAN_CHARS = 4000
+
+
+def _truncate_noisy_abstract(abstract: Optional[str]) -> Optional[str]:
+    """
+    If the abstract looks like a raw PDF table dump, truncate it to the first
+    clean paragraph (up to ~1 500 chars) and append a warning tag.
+    Returns the abstract unchanged if it looks normal.
+    """
+    if not abstract:
+        return abstract
+
+    if len(abstract) < _ABSTRACT_MAX_CLEAN_CHARS and not _TABLE_NOISE_RE.search(abstract):
+        return abstract
+
+    # Try to salvage the first real paragraph (before the tables start)
+    paragraphs = re.split(r"\n{2,}|\r\n{2,}", abstract)
+    clean_parts = []
+    for para in paragraphs:
+        if _TABLE_NOISE_RE.search(para):
+            break
+        clean_parts.append(para.strip())
+
+    salvaged = " ".join(clean_parts).strip()
+    if len(salvaged) >= 100:
+        return salvaged + " [abstract truncated – remainder contained raw table data]"
+
+    # Nothing salvageable – return first 1 500 chars with warning
+    return abstract[:1500].strip() + " … [truncated: raw table dump detected – use LLM extraction]"
+
+
+# ---------------------------------------------------------------------------
+# Source-matching helpers
+# ---------------------------------------------------------------------------
+
 def collect_source_matches(
     source_map: Dict[str, Any],
     ingredient_name: str,
@@ -195,7 +396,7 @@ def collect_source_matches(
     """
     Match source entries using:
     1) CAS equality (if available)
-    2) ingredient name (normalized)
+    2) ingredient name (normalized) – uses the CLEANED ingredient name
     """
     target_name = normalize_text(ingredient_name)
     target_cas = normalize_text(cas)
@@ -219,6 +420,10 @@ def collect_source_matches(
 
     return matches
 
+
+# ---------------------------------------------------------------------------
+# Block builders
+# ---------------------------------------------------------------------------
 
 def build_eurlex_block(eurlex_match: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     eurlex_match = eurlex_match or {}
@@ -307,7 +512,15 @@ def build_pubmed_block(pubmed_match: Any, now_utc: datetime) -> Dict[str, Any]:
 def build_cosing_block(cosing_match: Optional[Dict[str, Any]], fallback_inci: str) -> Dict[str, Any]:
     cosing_match = cosing_match or {}
 
-    inci_name = first_non_empty(cosing_match.get("INCI_Name"), fallback_inci)
+    raw_inci = first_non_empty(cosing_match.get("INCI_Name"))
+    # Fix Correction 1 for inci_name: don't use a polluted fallback
+    if raw_inci:
+        inci_name = raw_inci
+    else:
+        # Use the cleaned ingredient name uppercased as fallback
+        cleaned_fallback = clean_ingredient_name(fallback_inci)
+        inci_name = (cleaned_fallback or fallback_inci).upper() if fallback_inci else None
+
     function = first_non_empty(cosing_match.get("Function"))
     restriction = first_non_empty(cosing_match.get("Restriction"))
     sccs_url = first_non_empty(cosing_match.get("SCCS_Opinion"), cosing_match.get("Source_URL"))
@@ -333,6 +546,10 @@ def build_echa_block(echa_match: Optional[Dict[str, Any]]) -> Dict[str, Any]:
         "tonnage": first_non_empty(echa_match.get("tonnage")),
     }
 
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Normalize SCCS profile data into one JSON per ingredient")
@@ -370,6 +587,14 @@ def main() -> None:
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # Remove stale ingredient files from previous runs so renamed/removed ingredients
+    # don't accumulate as ghost files.
+    stale = list(output_dir.glob("*.json"))
+    if stale:
+        for f in stale:
+            f.unlink()
+        print(f"🧹 Removed {len(stale)} stale ingredient files.")
+
     sccs_rows = load_json(input_sccs)
     aggregate = load_json(input_aggregate)
 
@@ -378,12 +603,18 @@ def main() -> None:
     if not isinstance(aggregate, dict):
         raise ValueError("aggregate_sccs_results.json must be a dictionary")
 
-    # Group SCCS rows by pivot key: CAS first, otherwise normalized ingredient name.
+    # Group SCCS rows by pivot key: CAS first, otherwise normalized CLEANED ingredient name.
     grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for row in sccs_rows:
-        ingredient = safe_strip(row.get("Ingredient"))
+        raw_ingr = safe_strip(row.get("Ingredient"))
+        cleaned_ingr = clean_ingredient_name(raw_ingr)
         cas, _ec = parse_cas_ec(row.get("CAS_EC"))
-        pivot_key = f"cas::{cas}" if cas else f"name::{normalize_text(ingredient)}"
+
+        if not cleaned_ingr and not cas:
+            # Skip rows that have neither a usable name nor a CAS
+            continue
+
+        pivot_key = f"cas::{cas}" if cas else f"name::{normalize_text(cleaned_ingr)}"
         grouped[pivot_key].append(row)
 
     cosing_map = aggregate.get("cosing", {}) if isinstance(aggregate.get("cosing"), dict) else {}
@@ -395,14 +626,19 @@ def main() -> None:
     now_utc = datetime.now(timezone.utc)
 
     generated = 0
+    skipped = 0
     for _pivot, rows in grouped.items():
         canonical_name = choose_canonical_name(rows)
+
+        if canonical_name == "Unknown ingredient":
+            skipped += 1
+            continue
 
         # Prefer first row for main identity fields
         base = rows[0]
         cas, ec = parse_cas_ec(base.get("CAS_EC"))
 
-        # Try to enrich CAS/EC from matched pubchem/cosing if missing
+        # --- Cross-source lookups use the CLEANED canonical name ---
         pubchem_matches = collect_source_matches(pubchem_map, canonical_name, cas)
         cosing_matches = collect_source_matches(cosing_map, canonical_name, cas)
 
@@ -420,6 +656,7 @@ def main() -> None:
                 cosing_match.get("EC") if isinstance(cosing_match, dict) else None,
             )
 
+        # inci_name: preferably from CosIng; fallback = cleaned canonical name (uppercased)
         inci_name = first_non_empty(
             cosing_match.get("INCI_Name") if isinstance(cosing_match, dict) else None,
             canonical_name.upper(),
@@ -441,7 +678,7 @@ def main() -> None:
         pubmed_block = build_pubmed_block(pubmed_match, now_utc)
 
         pubchem_block = build_pubchem_block(pubchem_match)
-        cosing_block = build_cosing_block(cosing_match, fallback_inci=inci_name)
+        cosing_block = build_cosing_block(cosing_match, fallback_inci=canonical_name)
 
         out_obj = {
             "ingredient": canonical_name,
@@ -464,6 +701,8 @@ def main() -> None:
         generated += 1
 
     print(f"✅ Done. {generated} ingredient files generated in: {output_dir}")
+    if skipped:
+        print(f"⚠️  {skipped} groups skipped (no usable ingredient name after cleaning).")
 
 
 if __name__ == "__main__":

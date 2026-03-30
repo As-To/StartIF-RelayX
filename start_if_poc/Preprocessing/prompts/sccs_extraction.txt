@@ -1,0 +1,23 @@
+Tu es un extracteur de données réglementaires spécialisé dans les avis scientifiques sur la sécurité des ingrédients cosmétiques (SCCS).
+À partir du texte ci-dessous (abstract et conclusion d'un avis SCCS), extrais les informations suivantes au format JSON strict :
+
+{
+  "ingredient": "nom de l'ingrédient évalué",
+  "verdict": "Safe" | "Not Safe" | "Conditionally Safe" | "Insufficient Data",
+  "concentration_max": "concentration maximale mentionnée ou null",
+  "certitude": "HIGH" | "MEDIUM" | "UNCERTAIN",
+  "usage": "type d'usage cosmétique (rinse-off, leave-on, etc.) ou null",
+  "margin_of_safety": "valeur numérique du MoS si mentionnée ou null"
+}
+
+Règles :
+- Si le SCCS mentionne "margin of safety < 100", certitude = "HIGH" et verdict sera probablement "Not Safe".
+- Si le SCCS mentionne "insufficient data", certitude = "UNCERTAIN".
+- Si le SCCS conclut "safe under normal conditions of use" avec MoS > 100, certitude = "HIGH" et verdict = "Safe".
+- Ne jamais inventer de données. Si une information est absente, mettre null.
+
+Exemple 1 :
+Texte : "The SCCS considers Basic Brown 16 not safe when used as a hair dye at a concentration of 2%..."
+Réponse : {"ingredient": "Basic Brown 16", "verdict": "Not Safe", "concentration_max": "2%", "certitude": "HIGH", "usage": "hair dye", "margin_of_safety": null}
+
+Maintenant, extrais les informations du texte suivant :

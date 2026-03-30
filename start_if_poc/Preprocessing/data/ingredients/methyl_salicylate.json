@@ -1,8 +1,8 @@
 {
-  "ingredient": "Methyl Salicylate for the environment",
+  "ingredient": "Methyl Salicylate",
   "cas": "119-36-8",
   "ec": "204-317-7",
-  "inci_name": "METHYL SALICYLATE FOR THE ENVIRONMENT",
+  "inci_name": "METHYL SALICYLATE",
   "sccs": {
     "nb_avis": 2,
     "avis": [
@@ -45,21 +45,9 @@
     "tonnage": null
   },
   "pubmed": {
-    "nb_articles_total": 1,
+    "nb_articles_total": 0,
     "nb_articles_12mois": 0,
-    "articles": [
-      {
-        "pmid": "39396699",
-        "doi": "10.1016/j.fct.2024.115047",
-        "title": "RIFM fragrance ingredient safety assessment, methyl salicylate, CAS registry number 119-36-8.",
-        "abstract": null,
-        "journal": "Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association",
-        "date": "2024-Dec",
-        "mesh": [],
-        "keywords": [],
-        "relevance_score": 0
-      }
-    ]
+    "articles": []
   },
   "pubchem": {
     "cid": 4133,
@@ -84,7 +72,7 @@
     ]
   },
   "cosing": {
-    "inci_name": "METHYL SALICYLATE FOR THE ENVIRONMENT",
+    "inci_name": "METHYL SALICYLATE",
     "function": null,
     "restriction": null,
     "has_sccs_opinion": false,

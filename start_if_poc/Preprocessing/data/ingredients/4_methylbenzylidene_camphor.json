@@ -1,8 +1,8 @@
 {
-  "ingredient": "Final Opinion on 4-Methylbenzylidene camphor",
+  "ingredient": "4-Methylbenzylidene camphor",
   "cas": "36861-47-9",
   "ec": "253-242-6",
-  "inci_name": "FINAL OPINION ON 4-METHYLBENZYLIDENE CAMPHOR",
+  "inci_name": "4-METHYLBENZYLIDENE CAMPHOR",
   "sccs": {
     "nb_avis": 1,
     "avis": [
@@ -12,7 +12,7 @@
         "type_rapport": "Final Opinion",
         "verdict": "Conditionally Safe",
         "concentration_max": "4%",
-        "categorie": "Colorant",
+        "categorie": "UV Filter",
         "conclusion": "In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of 4-Methylbenzylidene camphor (4-MBC), does the SCCS consider 4-MBC safe when used as a UV-filter in cosmetic products up to a maximum concentration of 4%? The SCCS cannot conclude on the safety of 4-MBC, because the information provided is insufficient to fully evaluate potential genotoxicity.",
         "abstract": "The SCCS concludes the following: 1. In light of the data provided and taking under consideration the concerns related to potential endocrine disrupting properties of 4-Methylbenzylidene camphor (4-MBC), does the SCCS consider 4-MBC safe when used as a UV-filter in cosmetic products up to a maximum concentration of 4%? The SCCS cannot conclude on the safety of 4-MBC, because the information provided is insufficient to fully evaluate potential genotoxicity. Moreover, there is sufficient evidence that 4-MBC may act as an endocrine disruptor and has effects on both the thyroid and estrogen systems. Effects on the androgen system are not so evident, as only in vitro evidence is available. Even if the genotoxic potential was excluded, the current re-evaluation of 4-MBC established a higher exposure level than in the previous",
         "pdf_url": "https://health.ec.europa.eu/document/download/bc7fc1c9-9a5e-4f7c-a67f-a03b4dea312b_en?filename=sccs_o_262.pdf"
@@ -61,7 +61,7 @@
     ]
   },
   "cosing": {
-    "inci_name": "FINAL OPINION ON 4-METHYLBENZYLIDENE CAMPHOR",
+    "inci_name": "4-METHYLBENZYLIDENE CAMPHOR",
     "function": null,
     "restriction": null,
     "has_sccs_opinion": false,

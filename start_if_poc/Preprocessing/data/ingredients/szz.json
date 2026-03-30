@@ -1,8 +1,8 @@
 {
-  "ingredient": "SZZ as a preservative",
+  "ingredient": "SZZ",
   "cas": "130328-20-0",
   "ec": "603-404-0",
-  "inci_name": "SZZ AS A PRESERVATIVE",
+  "inci_name": "SZZ",
   "sccs": {
     "nb_avis": 1,
     "avis": [
@@ -50,7 +50,7 @@
     "synonyms": []
   },
   "cosing": {
-    "inci_name": "SZZ AS A PRESERVATIVE",
+    "inci_name": "SZZ",
     "function": null,
     "restriction": null,
     "has_sccs_opinion": false,

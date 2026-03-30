@@ -1,8 +1,8 @@
 {
-  "ingredient": "Preliminary Opinion open for comments on Triphenyl phosphate",
+  "ingredient": "Triphenyl phosphate",
   "cas": "115-86-6",
   "ec": "204-112-2",
-  "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON TRIPHENYL PHOSPHATE",
+  "inci_name": "TRIPHENYL PHOSPHATE",
   "sccs": {
     "nb_avis": 1,
     "avis": [
@@ -61,7 +61,7 @@
     ]
   },
   "cosing": {
-    "inci_name": "PRELIMINARY OPINION OPEN FOR COMMENTS ON TRIPHENYL PHOSPHATE",
+    "inci_name": "TRIPHENYL PHOSPHATE",
     "function": null,
     "restriction": null,
     "has_sccs_opinion": false,

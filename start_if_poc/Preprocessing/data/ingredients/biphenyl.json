@@ -1,8 +1,8 @@
 {
-  "ingredient": "Scientific Opinion open for comments on Biphenyl",
+  "ingredient": "Biphenyl",
   "cas": "90-43-7",
   "ec": "201-993-5",
-  "inci_name": "SCIENTIFIC OPINION OPEN FOR COMMENTS ON BIPHENYL",
+  "inci_name": "BIPHENYL",
   "sccs": {
     "nb_avis": 1,
     "avis": [
@@ -34,42 +34,9 @@
     "tonnage": null
   },
   "pubmed": {
-    "nb_articles_total": 1,
+    "nb_articles_total": 0,
     "nb_articles_12mois": 0,
-    "articles": [
-      {
-        "pmid": "26946408",
-        "doi": "10.1016/j.yrtph.2016.02.020",
-        "title": "Opinion of the Scientific Committee on Consumer Safety (SCCS) - Revision of the opinion on o-Phenylphenol, Sodium o-phenylphenate and Potassium o-phenylphenate (OPP), in cosmetic products.",
-        "abstract": "o-Phenylphenol, Sodium o-phenylphenate, Potassium o-phenylphenate, CAS n. 90-43-7, 132-27-4, 13707-65-8 as preservatives are regulated in Annex V/7 of the Cosmetics Regulation (EC) n. 1223/2009 at a maximum concentration of 0.2% (as phenol). In February 2013, the Commission received a risk assessment submitted by the French Agency ANSM (Agence nationale de sécurité des médicaments et des produits de santé) which rose concerns about the use of o-Phenylphenol as preservatives in cosmetic products. In the context of the ANSM report (Evaluation du risque lié à l'utilisation de l'orthophénylphénol CAS n. 90-43-7 dans les produits cosmétiques) o-Phenylphenol has been identified as likely to be an endocrine disruptor. The report concludes that the maximum authorised concentration (currently of 0.2%) of o-Phenylphenol for use as a preservative should be revised due to low margin of safety. In January 2014, in response to a call for data on o-Phenylphenol by the Commission, Industry submitted a safety dossier in order to defend the current use of o-Phenylphenol, Sodium o-phenylphenate, Potassium o-phenylphenate, CAS n. 90-43-7, 132-27-4, 13707- 65-8 as preservatives in cosmetic formulations at a maximum concentration of 0.2% (as phenol). o-Phenylphenol as preservative with a maximum concentration of 0.2% in leave-on cosmetic products is not safe. Also, in view of further exposures including noncosmetic uses (see Anses, 2014), the maximum concentration of o-Phenylphenol in leave-on cosmetic products should be lowered. However, the proposed maximum use concentration of up to 0.15% by the applicant can be considered safe. The use of o-Phenylphenol as preservative with a maximum concentration of 0.2% in rinse-off cosmetic products is considered safe. Based on the information provided, no conclusions of safe use can be drawn for Sodium o-phenylphenate and Potassium o-phenylphenate. In vitro data indicate an absent or very weak binding affinity of OPP to the oestrogen receptor, in line with limited stimulation of proliferation in oestrogen responsive cells. No information is available on androgenic and anti-androgenic effects of OPP in vitro. Agonistic or antagonistic effects on thyroid hormones were not observed with OPP. There might be a potential of injury to the vision system attributable to OPP. Aggregate exposure to OPP should be considered.",
-        "journal": "Regulatory toxicology and pharmacology : RTP",
-        "date": "2016-Aug",
-        "mesh": [
-          "Animals",
-          "Biphenyl Compounds",
-          "Consumer Product Safety",
-          "Cosmetics",
-          "Dose-Response Relationship, Drug",
-          "Humans",
-          "Preservatives, Pharmaceutical",
-          "Risk Assessment",
-          "Toxicity Tests"
-        ],
-        "keywords": [
-          "132-27-4",
-          "13707-65-8",
-          "205-055-6",
-          "237-243-9",
-          "CAS 90-43-7",
-          "EC 201-993-5",
-          "Potassium ophenylphenate",
-          "Regulation 1223/2009",
-          "SCCS",
-          "Scientific opinion"
-        ],
-        "relevance_score": 24
-      }
-    ]
+    "articles": []
   },
   "pubchem": {
     "cid": 7017,
@@ -94,7 +61,7 @@
     ]
   },
   "cosing": {
-    "inci_name": "SCIENTIFIC OPINION OPEN FOR COMMENTS ON BIPHENYL",
+    "inci_name": "BIPHENYL",
     "function": null,
     "restriction": null,
     "has_sccs_opinion": false,

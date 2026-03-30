@@ -1,0 +1,449 @@
+{
+  "total_rows": 70,
+  "keys": [
+    "Ingredient",
+    "CAS_EC",
+    "SCCS_Number",
+    "Date_Avis",
+    "Verdict",
+    "Concentration_Max",
+    "Lien_Source",
+    "Type_Rapport",
+    "Categorie",
+    "_pdf_url",
+    "_conclusion",
+    "Conclusion_all_text",
+    "Abstract_all_text"
+  ],
+  "distinct_categories": [
+    "Antioxidant",
+    "Fragrance",
+    "Surfactant",
+    "UV Filter",
+    "Colorant",
+    "Preservative",
+    null
+  ],
+  "rows": [
+    {
+      "Ingredient": "Basic Brown 16",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Basic blue 99",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Thiomersal",
+      "Categorie": "Preservative",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Silver",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Thiomersal",
+      "Categorie": "Preservative",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Genotoxicity Data was provided by the Applicant",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Scientific advice open for comments on Butylated Hydroxyanisole",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Basic Blue 99 will require a clear well",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Hydroxyapatite (nano",
+      "Categorie": "Surfactant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Hydroxyapatite (nano",
+      "Categorie": "Surfactant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Final Scientific Advice on Benzophenone",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Ethylhexyl Methoxycinnamate (EHMC",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "the PGAs are given in the section 8",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "TTO for the environment",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Benzophenone",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Hydroxyapatite",
+      "Categorie": "Surfactant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Benzophenone",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Red No",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Methyl Salicylate for the environment",
+      "Categorie": "Fragrance",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Hexyl Salicylate",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Addendum",
+      "Verdict": "Safe"
+    },
+    {
+      "Ingredient": "Red No",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "EHMC for the environment",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Benzophenone",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Citral",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Scientific Opinion open for comments on Biphenyl",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Yellow No",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Silver",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on new coating for Titanium Dioxide",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": null,
+      "Categorie": null,
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Silver",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Not Safe"
+    },
+    {
+      "Ingredient": "Benzophenone",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "aluminium",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Citral",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Triphenyl phosphate",
+      "Categorie": "Preservative",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Hexyl Salicylate",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Hydroxypropyl p",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "these values in preference to those by the other authors",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": null,
+      "Categorie": null,
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Benzophenone",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "aluminium",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Methylparaben",
+      "Categorie": "Preservative",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": null,
+      "Categorie": null,
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Hexyl Salicylate for the environment",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "these materials for use",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "water",
+      "Categorie": "Antioxidant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Benzyl salicylate",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Salicylic acid",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Butylparaben",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on children exposure on Methyl salicylate",
+      "Categorie": "Fragrance",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Safe"
+    },
+    {
+      "Ingredient": "these materials for use",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "SZZ as a preservative",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Sodium bromothymol blue",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "aluminium",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "alpha",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Hydroxyapatite",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": null,
+      "Categorie": null,
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "triclocarban",
+      "Categorie": "Preservative",
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on Sodium bromothymol blue",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "vitamin A",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Genistein and Daidzein",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "aluminium",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Final Opinion on 4-Methylbenzylidene camphor",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Kojic acid",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": null,
+      "Categorie": null,
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on 4-Methylbenzylidene camphor",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": "Conditionally Safe"
+    },
+    {
+      "Ingredient": "Preliminary Opinion open for comments on",
+      "Categorie": "UV Filter",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": "Butylated Hydroxytoluene (BHT",
+      "Categorie": "Colorant",
+      "Type_Rapport": "Final Opinion",
+      "Verdict": null
+    },
+    {
+      "Ingredient": null,
+      "Categorie": null,
+      "Type_Rapport": "Scientific Advice",
+      "Verdict": null
+    }
+  ]
+}
