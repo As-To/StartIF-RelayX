@@ -61,7 +61,7 @@ MÉTHODE DE RAISONNEMENT (obligatoire, dans cet ordre) :
 
 6. CONCLUSION (format strict, toujours présent) :
 
-   PROBABILITÉ : [0.0 à 1.0]
+   PROBABILITÉ : [0.0 à 1.0]. Une seule valeur. Pas d'intervalle possible.
    HORIZON : [en mois, ex : "12 à 24 mois"]. Calcule l'horizon à partir de la date du jour en tenant compte de l'ancienneté des données fournies. Si le délai habituel est déjà dépassé sans action, ajuste la probabilité à la baisse ou l'horizon à la hausse
    NATURE : interdiction (Annexe II) / restriction (Annexe III) /
             durcissement des conditions / réévaluation probable
